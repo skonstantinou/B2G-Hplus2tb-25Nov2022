@@ -1,0 +1,502 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./talk.tex
+LaTeX2e <2018-12-01>
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamer.cls
+Document Class: beamer 2018/12/02 v3.55 A class for typesetting presentations
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbasedecode.sty))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifvtex.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/size10.clo)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+(/usr/local/texlive/2019/texmf-dist/tex/latex/ms/everyshi.sty))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/pgf.revision.tex)))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def)))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex)) (/usr/local/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/dvipsnam.def))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex))) (/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty)
+ (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds.sty))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/url/url.sty)
+
+Package hyperref Message: Stopped early.
+
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbaserequires.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbasecompatibility.st
+y) (/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbasefont.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/filehook/filehook.sty)))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/translator/translator.sty))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbasemisc.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbasetitle.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbasesection.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbaseframe.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.
+sty) (/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbasecolor.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbasenotes.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbasetoc.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty)))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.s
+ty (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/enumerate.sty))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amscls/amsthm.sty))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerbasethemes.sty))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerthemedefault.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamercolorthemedefault.st
+y)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.st
+y)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerouterthemedefault.st
+y))) (./tex/Packages.tex
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/t1enc.def))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/babel.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/switch.def)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/babel-greek/greek.ldf
+(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/babel.def
+(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/txtbabel.def))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/greek-fontenc/lgrenc.def
+(/usr/local/texlive/2019/texmf-dist/tex/latex/greek-inputenc/lgrenc.dfu)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def))
+) (/usr/local/texlive/2019/texmf-dist/tex/generic/babel-english/english.ldf))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/acronym/acronym.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/bigfoot/suffix.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/xstring/xstring.tex)))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/pifont.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/upzd.fd)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/upsy.fd))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/tabularx.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/array.sty))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tabu/tabu.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/varwidth/varwidth.sty))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/float/float.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/subfloat/subfloat.sty
+Package `subfloat', Version 2.14 of 2003/08/21.)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/lmodern.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/fancybox/fancybox.sty
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/subfig/subfig.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/ltcaption.sty)))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/xspace.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/textcomp.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1enc.def
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1enc.dfu)))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/was/gensymb.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/epsfig.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/grffile.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/cancel/cancel.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/marginnote/marginnote.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/environ/environ.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/trimspaces/trimspaces.sty))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tensor/tensor.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/carlisle/slashed.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/makecell/makecell.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/lscape.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/rotating.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/alltt.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/bm.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/verbatim.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/setspace/setspace.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/natbib/bibentry.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/lineno/lineno.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/marvosym/marvosym.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/eso-pic/eso-pic.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pdfpages/pppdftex.def))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/utilities/pgfpages.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/units/nicefrac.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/changepage/changepage.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/listings.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/listings.cfg))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/adjustbox/adjcalc.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/collectbox/collectbox.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/adjustbox/tc-pdftex.def))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/multicol.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerthemesplit.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerouterthemesplit.sty)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerfontthemestructurebo
+ld.sty)) (/usr/local/texlive/2019/texmf-dist/tex/latex/base/latexsym.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/ifsym/ifsym.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/textpos/textpos.sty
+Package: textpos 2019/04/15 1.9.1, absolute positioning of text on the page
+Grid set 16 x 16 = 22.7622pt x 17.07166pt
+TextBlockOrigin set to 0pt x 0pt
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/etex-pkg/etex.sty
+
+Package etex Warning: Extended allocation already in use.
+(etex)                etex.sty code will not be used.
+(etex)                To force etex package to load, add
+(etex)                \RequirePackage{etex}
+(etex)                at the start of the document.
+
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/colortbl/colortbl.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/multimedia.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/datetime/datetime.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/fmtcount/fcnumparser.sty))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/fmtcount/fc-english.def))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/datetime/datetime-defaults.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/datetime/dt-greek.def))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex)))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/animate/animate.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/ifdraft.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/zref-abspage.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/zref-base.sty))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/media9/pdfbase.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3-code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/l3pdfmode.def))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/ocgx2/ocgbase.sty))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/media9/media9.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathreplacing.code.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.code.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
+s.code.tex))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathreplacing.code.tex))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.code.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.geometric.code.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.geometric.code.tex))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.misc.code.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.misc.code.tex))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.symbols.code.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.symbols.code.tex))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.arrows.code.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.arrows.code.tex))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.callouts.code.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.callouts.code.tex))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.multipart.code.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.multipart.code.tex)))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypositioning.code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/ulem/ulem.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/soul/soul.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/forest/forest.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryfit.code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarycalc.code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/libraries/pgflibraryinterse
+ctions.code.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.cod
+e.tex)) (/usr/local/texlive/2019/texmf-dist/tex/latex/pgfopts/pgfopts.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/elocalloc/elocalloc.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/inlinedef/inlinedef.sty))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/forest/forest-lib-edges.sty)
+(./heppennames2x.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hepparticles/hepparticles.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/subdepth/subdepth.sty))))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/xifthen/xifthen.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty))
+(./tex/BeamerCommands.tex) (./tex/LatexCommands.tex) (./ptdr-definitions.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerthemeDresden.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerouterthememiniframes
+.sty))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamercolorthemestructure.
+sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.st
+y) (./talk.aux)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmss.fd)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+ABD: EveryShipout initializing macros (./talk.out) (./talk.out)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/translator/translator-basic-dicti
+onary-English.dict)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/translator/translator-bibliograph
+y-dictionary-English.dict)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/translator/translator-environment
+-dictionary-English.dict)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/translator/translator-months-dict
+ionary-English.dict)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/translator/translator-numbers-dic
+tionary-English.dict)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/translator/translator-theorem-dic
+tionary-English.dict)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/pdflscape.sty)
+(./talk.nav) (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ot1lmss.fd)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omllmm.fd)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omslmsy.fd)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omxlmex.fd)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ot1lmr.fd)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ulasy.fd)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ts1lmss.fd) (./tex/Cover.tex)
+(./tex/Acronyms.tex)
+
+Package hyperref Warning: Option `pdfauthor' has already been used,
+(hyperref)                setting the option has no effect on input line 138.
+
+[1{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./fig
+ures/logos/logo_cern2.pdf> <./figures/logos/logo_cms4.pdf> <./figures/logos/log
+o_ucy2.pdf>] (./tex/Sections.tex (./tables/2HDM_Models_v5Alt.tex) [2] [3 <./fig
+ures/LHCHXSWG_v1/LowTanBetaM50to200/mh125_brs_tanb0p5.pdf, page is rotated 90 d
+egrees> <./figures/LHCHXSWG_v1/LowTanBetaM90to1000/mh125_br_tb.pdf, page is rot
+ated 90 degrees>] [4 <./figures/paper/feynman/hplus_4FS.pdf> <./figures/paper/f
+eynman/hplus_5FS.pdf> <./figures/paper/feynman/hplus_sChannel.pdf> <./figures/t
+ikz/pdf/HPlus4FS_HToTB_FH.pdf>]
+(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmr.fd) [5 <./figures/tikz/p
+df/h2tb_ResolvedTop.pdf> <./figures/tikz/pdf/h2tb_BoostedW.pdf> <./figures/tikz
+/pdf/h2tb_BoostedTop.pdf> <./figures/tikz/pdf/h2tb_Boostedhiggs.pdf> <./figures
+/tikz/pdf/h2tb_BoostedhiggsLargePt.pdf>]
+Overfull \vbox (3.46295pt too high) detected at line 224
+[6 <./figures/CMS-HIG-18-015/Figure_003-a.pdf> <./figures/CMS-HIG-18-015/Figure
+_005-b.pdf>] [7 <./figures/tikz/pdf/h2tb_HIG-18-015_t0b_2bjets.pdf> <./figures/
+tikz/pdf/h2tb_HIG-18-015_t1b_2bjets.pdf> <./figures/tikz/pdf/h2tb_HIG-18-015_Wb
+b_2bjets.pdf> <./figures/tikz/pdf/h2tb_HIG-18-015_Wbj_2bjets.pdf> <./figures/CM
+S-HIG-18-015/Figure_005-a.pdf>] [8 <./figures/limit_assoc_HIG18015.pdf, page is
+ rotated 90 degrees> <./figures/CMS-HIG-18-015/Figure_006-b.pdf, page is rotate
+d 90 degrees> <./figures/CMS-HIG-18-015/Boosted_Figure-aux_001-b.pdf, page is r
+otated 90 degrees>] [9 <./figures/tikz/pdf/HPlus4FS_HToTB_ResolvedTop_InvMass.p
+df>]
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 506.
+
+
+Overfull \vbox (7.48567pt too high) detected at line 506
+[10 <./figures/top-training/top_matched.pdf> <./figures/top-training/top_unmatc
+hed1b.pdf> <./figures/CMS-HIG-21-010_Figure_003.pdf, page is rotated 90 degrees
+> <./figures/topTagging/trijetMass_3WPs.pdf, page is rotated 90 degrees>]
+(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd) [11 <./figures/inve
+rtAssocTopDiagram.pdf>]) (./tex/Backup.tex [12]) (./talk.aux) )
+(see the transcript file for additional information)pdfTeX warning (dest): name
+{NAVIGATION12} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{NAVIGATION9} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{NAVIGATION6} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/loca
+l/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2019
+/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2019/texmf-dis
+t/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2019/texmf-dist/fonts/en
+c/dvips/lm/lm-rm.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbsy10.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbsy7.pfb></usr/local
+/texlive/2019/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2
+019/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2019/texmf-
+dist/fonts/type1/public/lm/lmmi5.pfb></usr/local/texlive/2019/texmf-dist/fonts/
+type1/public/lm/lmmi6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/publi
+c/lm/lmmi7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi8.
+pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi9.pfb></usr/l
+ocal/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmib10.pfb></usr/local/texl
+ive/2019/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2019/te
+xmf-dist/fonts/type1/public/lm/lmr5.pfb></usr/local/texlive/2019/texmf-dist/fon
+ts/type1/public/lm/lmr6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/pub
+lic/lm/lmr7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr9.
+pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/
+local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texl
+ive/2019/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2019/te
+xmf-dist/fonts/type1/public/lm/lmss9.pfb></usr/local/texlive/2019/texmf-dist/fo
+nts/type1/public/lm/lmssbo10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type
+1/public/lm/lmssbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public
+/lm/lmsso10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsso
+12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsso8.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsso9.pfb></usr/local/t
+exlive/2019/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/201
+9/texmf-dist/fonts/type1/public/lm/lmsy5.pfb></usr/local/texlive/2019/texmf-dis
+t/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2019/texmf-dist/fonts/typ
+e1/public/lm/lmsy7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/l
+m/lmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy9.pfb
+></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmtt8.pfb></usr/loca
+l/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/
+local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on talk.pdf (12 pages, 1563021 bytes).
+Transcript written on talk.log.

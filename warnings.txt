@@ -1,0 +1,6 @@
+Package etex Warning: Extended allocation already in use.
+Package hyperref Warning: Option `pdfauthor' has already been used,
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 506.
+(see the transcript file for additional information)pdfTeX warning (dest): name
+pdfTeX warning (dest): name{NAVIGATION9} has been referenced but does not exist
+pdfTeX warning (dest): name{NAVIGATION6} has been referenced but does not exist

@@ -1,0 +1,6 @@
+\babel@toc {english}{}
+\beamer@sectionintoc {1}{Previous results}{6}{0}{1}
+\beamer@sectionintoc {2}{Resolved}{9}{0}{2}
+\beamer@subsectionintoc {2}{1}{Event Selection}{9}{0}{2}
+\beamer@subsectionintoc {2}{2}{top tagging}{10}{0}{2}
+\beamer@subsectionintoc {2}{3}{background}{11}{0}{2}

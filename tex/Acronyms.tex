@@ -1,0 +1,215 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Author ........ : Alexandros X. Attikis
+%% Institute ..... : University of Cyprus (UCY)
+%% e-Mail ........ : attikis@cern.ch
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% To load the package
+%% add \usepackage{acronym} after the documentclass and before \begin{document}.
+%%
+%%%% Defining thex acronyms
+%% You can define acronyms with \acrodef{label}[acronym]{written out
+%% form}, for example \acrodef{etacar}[$\eta$ Car]{Eta Carinae}, with
+%% the restriction that the label should be simple ASCII. If label and
+%% acronym are the same, just use \acronym{SN}{supernova}. 
+%%
+%%%% Using the acronyms
+%% The standard command to use an acronym is \ac{label}. The first time
+%% you use this, the acronym will be written in full with the acronym in
+%% parentheses: supernova (SN). At later times it will just print the
+%% acronym: SN. 
+%%
+%%%% Other commands
+%% \acresetall - resets all acronyms to not used. Useful after the abstract to redefine all acronyms in the introduction.
+%% \acf{label} - written out form with acronym in parentheses, irrespective of previous use
+%% \acs{label} - acronym form, irrespective of previous use
+%% \acl{label} - written out form without following acronym
+%% \acp{label} - plural form of acronym by adding an s. \acfp. \acsp, \aclp work as well.
+%%
+%%%% Note1: Will only be listed if used in the main text
+%%
+%%% Note2: Do NOT include acronyms in figures as it will mess up the
+%%% reference order and you might end up not having the acronym
+%%% explanation in the text not even once (not EVEN in the figure itself)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\listofacronyms
+%%% Alphabetics sorting in emacs: 1. Highlight text 2. Press Esc, then X  and then type "sort-lines"
+\begin{acronym}
+  %\acro{VR}[VR]{verification region}
+  \acro{2HDM}[2HDM]{two-Higgs-doublet model}
+  \acro{HTM}[HTM]{Higgs triplet model}
+  \acro{ALEPH}[ALEPH]{Apparatus for LEP Physics}
+  \acro{ALICE}[ALICE]{A Large Ion Collider Experiment}
+  \acro{AN}[AN]{analysis note}
+  \acro{AOD}[AOD]{analysis object data}
+  \acro{ARC}[ARC]{analysis review committee}
+  \acro{ASIC}[ASIC]{application specific integrated circuit}
+  \acro{ATLAS}[ATLAS]{A Toroidal LHC Apparatus}
+  \acro{AliceIP}[IP2]{interaction point 2}
+  \acro{AtlasIP}[IP1]{interaction point 1}
+  \acro{AR}[AR]{application region}
+  \acro{BDTG}[BDTG]{boosted Decision tree with gradient boost}
+  \acro{BDT}[BDT]{boosted decision tree}
+  \acro{BR}[BR]{branching ratio}
+  \acro{BSM}[BSM]{beyond the standard model}
+  \acro{CADI}[CADI]{CMS analysis database interface}
+  \acro{CSV}[CSV]{combined secondary vertex}
+  \acro{CDFTeV}[CDF]{collider detector at Fermilab }
+  \acro{CERN}[CERN]{European Organisation for Nuclear Research}
+  \acro{CKM}[CKM]{Cabibbo-Kobayashi-Maskawa}
+  \acro{CCLE}[CCLE]{CMS certified language editor}
+  \acro{CL}[CL]{confidence level}
+  \acro{CMS}[CMS]{Compact Muon Solenoid}
+  \acro{CRAB}[CRAB]{CMS remote analysis builder}
+  \acro{CR}[CR]{control region}
+  \acro{VR}[VR]{validation region}
+  %\acro{VR}[VR]{verification region}  
+  \acro{CmsIP}[IP5]{interaction point 5}
+  \acro{DAQ}[DAQ]{data acquisition}
+  \acro{DIS}[DIS]{deep inelastic scattering}
+  \acro{DQM}[DQM]{data quality monitoring}
+  \acro{DT}[DT]{drift tube}
+  \acro{DM}[DM]{decay mode}
+  \acro{NN}[NN]{neural network}
+  \acro{NP}[NP]{nuisance parameter}
+  \acro{DNN}[DNN]{deep neural network}
+  \acro{EB}[EB]{\acs{ECAL} barrel}
+  \acro{ReLu}[ReLu]{rectified linear unit}
+  \acro{ECAL}[ECAL]{electromagnetic calorimeter}
+  \acro{EE}[EE]{\acs{ECAL} endcap}
+  \acro{EM}[EM]{electromagnetic}
+  \acro{ES}[ES]{endcap preshower}
+  \acro{EW}[EW]{Electroweak}
+  \acro{FH}[FH]{fully hadronic}
+  \acro{SL}[SL]{semi-leptonic}
+  \acro{FCNC}[FCNC]{flavour-changing neutral current}
+  \acro{FPGA}[FPGA]{field-programmable gate array}
+  \acro{FSR}[FSR]{final state radiation}
+  \acro{FS}[FS]{flavour scheme}
+  \acro{FR}[FR]{fake rate}
+  \acro{FWHM}[FWHM]{full width at half maximum}
+  \acro{GM}[GM]{Georgi-Machacek}
+  \acro{GSF}[GSF]{Gaussian Sum Filter}
+  \acro{GTFE}[GTFE]{Global Trigger Front-End}
+  \acro{GTL}[GTL]{Global Trigger Logic}
+  \acro{GT}[GT]{Global Trigger}
+  \acro{GUTs}[GUTs]{Grand Unified Theories}
+  \acro{HB}[HB]{HCAL Barrel}
+  \acro{HCAL}[HCAL]{Hadronic Calorimeter}
+  \acro{HD}[HD]{Higgs Doublet}
+  \acro{HD}[HD]{Higgs-doublet}
+  \acro{HEP}[HEP]{High-Energy Physics}
+  \acro{HE}[HE]{HCAL Endcap}
+  \acro{HF}[HF]{HCAL Forward}
+  \acro{HIP}[HIP]{Helsinki Institute of Physics}
+  \acro{HIP}[HIP]{Helsinki Institute of Physics}
+  \acro{HL-LHC}[HL-LHC]{High-Luminosity LHC}
+  \acro{HLT}[HLT]{High-Level Trigger}
+  \acro{HO}[HO]{HCAL outer}
+  \acro{OS}[OS]{opposite sign}
+  \acro{PS}[PS]{parton shower}
+  \acro{POI}[POI]{parameter of interest}
+  \acro{HPS}[HPS]{Hadron plus Strips}
+  \acro{IBS}[IBS]{Intra-Beam Scattering}
+  \acro{IEF}[IEF]{Intra-European Fellowships}
+  \acro{IP}[IP]{Interaction Point}
+  \acro{ISO}[ISO]{Isolation}
+  \acro{ISR}[ISR]{Initial State Radiation}
+  \acro{InteractionPoint}[IP]{Interaction Point}
+  \acro{JHEP}[JHEP]{Journal of High Energy Physics}
+  \acro{JSE}[JSE]{Journal Submission Expert}
+  \acro{JER}[JER]{Jet Energy Resolution}
+  \acro{JES}[JES]{Jet Energy Scale}
+  \acro{JSON}[JSON]{Java Script Object Notation}
+  \acro{LEE}[LEE]{look elsewhere effect}
+  \acro{L1}[L1]{Level-1}
+  \acro{L25}[L2.5]{Level-2.5}
+  \acro{L2}[L2]{Level-2}
+  \acro{L3}[L3]{Level-3}
+  \acro{LCT}[LCT]{Local Charged Track}
+  \acro{LEIR}[LEIR]{Low Energy Ion Ring}
+  \acro{LEP}[LEP]{Large Electron-Positron Collider}
+  \acro{LHC}[LHC]{Large Hadron Collider}
+  \acro{LINAC}[LINAC]{LINear ACcelerator}
+  \acro{LO}[LO]{Leading Order}
+  \acro{LPT}[LPT]{Local Phase Transformation}
+  \acro{LSP}[LSP]{Lighest Supersymmetric Particle}
+  \acro{LS}[LS]{Long Shutdown}
+  \acro{LT}[LT]{Lorentz Transformation}
+  \acro{LandS}[LandS]{Limits and Signifcance}
+  \acro{LevelOneAccept}[L1A]{Level-1 Accept}
+  \acro{LhcbIP}[IP8]{Interaction Point 8}
+  \acro{MB}[MB]{Muon Barrel}
+  \acro{MCS}[MCS]{Multiple Coulomb Scattering}
+  \acro{MC}[MC]{Monte-Carlo}
+  \acro{ME}[ME]{Muon Endcap}
+  \acro{MIPs}[MIP]{Minimum Ionising Particles}
+  \acro{MIP}[MIP]{Minimum Ionising Particle}
+  \acro{MIT}[MIT]{Massachusetts Institute of Technology}
+  \acro{ML}[ML]{Maximum Likelihood}
+  \acro{MPI}[MPI]{Multiple Parton Interactions}
+  \acro{MSSM}[MSSM]{Minimal Supersymmetric Standard Model}
+  \acro{MT}[MT]{Muon Trigger}
+  \acro{MVA}[MVA]{multivariate analysis}
+  \acro{NLO}[NLO]{Next-to-Leading Order}
+  \acro{NNLL}[NNLL]{next-to-next-to-leading logarithm}
+  \acro{NNLO}[NNLO]{next-to-next-to-leading order}
+  \acro{PAG}[PAG]{physics analysis group}
+  \acro{PDF}[PDF]{parton distribution function}
+  \acro{PD}[PD]{primary dataset}
+  \acro{PF}[PF]{particle flow}
+  \acro{PMT}[PMT]{photomultiplier tube}
+  \acro{POCA}[POCA]{point Of closest approach}
+  \acro{POG}[POG]{physics object group}
+  \acro{PSB}[PSB]{Proton Synchrotron Booster}
+  \acro{PS}[PS]{Proton Synchrotron}
+  \acro{PU}[PU]{pileup}
+  \acro{PV}[PV]{primary vertex}
+  \acro{ProbDF}[PDF]{probability density function}
+  \acro{QCD}[QCD]{quantum chromodynamics}
+  \acro{QED}[QED]{quantum electrodynamics}
+  \acro{QFT}[QFT]{quantum field theory}
+  \acro{RECO}[RECO]{reconstructed}
+  \acro{RPF}[RPF]{Research Promotion Foundation}
+  \acro{RIF}[RIF]{Research \& Innovation Foundation}
+  \acro{SFOS}[SFOS]{same-flavour opposite-sign}
+  \acro{SFOS}[SFOS]{same-flavour opposite-sign}
+  \acro{SFSS}[SFSS]{same-flavour same-sign}
+  \acro{OFSS}[SFOS]{opposite-flavour opposite-sign}
+  \acro{OFSS}[SFSS]{opposite-flavour same-sign}
+  \acro{SF}[SF]{scale factor}
+  \acro{SM}[SM]{standard model}
+  \acro{SPS}[SPS]{Super Proton Synchrotron}
+  \acro{SR}[SR]{signal region}
+  \acro{SSB}[SSB]{spontaneous symmetry breaking}
+  \acro{SUSY}[SUSY]{supersymmetry}
+  \acro{SV}[SV]{secondary vertex}
+  \acro{TMVA}[TMVA]{toolkit for multivariate data analysis}
+  \acro{TOTEM}[TOTEM]{ToTal Elastic and diffractive cross-section Measurement}
+  \acro{UCY}[UCY]{University of Cyprus}
+  \acro{UE}[UE]{underlying event}
+  \acro{VBF}[VBF]{vector boson fusion}
+  \acro{VEV}[VEV]{vacuum expectation value}
+  \acro{IR}[IR]{inverted region}
+  \acro{NR}[NR]{normalisation region}
+  \acro{WIMP}[WIMP]{weakly interacting massive particle}
+  \acro{WLCG}[WLCG]{worldwide LHC computing grid}
+  \acro{WP}[WP]{working point}
+  \acro{pQCD}[$p$QCD]{perturbative quantum chromodynamics}
+  \acro{CWR}[CWR]{collaboration-wide review}
+  \acro{ECFA}[ECFA]{European Committe For Future Accelerators} %https://ecfa.web.cern.ch/content/terms-reference
+  \acro{RECFA}[RECFA]{Restricted \ac{ECFA}}
+  \acro{DY}[DY]{Drell-Yan}
+  \acro{AP}[AP]{associated production}
+  \acro{PP}[PP]{pair production}
+  \acro{KF}[KF]{kinematic fit}
+  \acro{NN}[NN]{neural network}
+  \acro{GOF}[GOF]{goodness-of-fit}
+  \acro{KS}[KS]{Kolmogorov-Smirnov}
+  \acro{AD}[AD]{Anderson-Darling}
+  \acro{UCY}[UCY]{University of Cyprus}  
+\end{acronym}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+

@@ -1,0 +1,639 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Author ........ : Alexandros X. Attikis
+%% Institute ..... : University of Cyprus (UCY)
+%% e-Mail ........ : attikis@cern.ch
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Implicit math mode columns
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcolumntype{L}{>{$}l<{$}}
+\newcolumntype{C}{>{$}c<{$}}
+\newcolumntype{R}{>{$}r<{$}}
+\newdateformat{mydate}{\THEDAY\xspace \monthname[\THEMONTH]\xspace \THEYEAR}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Environments
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newenvironment{TypewriterFont}{\ttfamily}{\par} %\texttt{}
+
+%%% Re-Define name for Table Of Contents (default is "Contents")
+\renewcommand{\contentsname}{Table of Contents}
+
+%%% Define a "make list of acronyms" command, similar to \listoffigures. \listoftables etc..
+\newcommand{\listofacronymsname}{List of Acronyms}{}
+\newcommand{\listofacronyms}{%
+  \chapter*{\listofacronymsname}%
+  \addcontentsline{toc}{chapter}{\listofacronymsname}%
+  \label{sec:acronyms}%
+}
+
+%%% Define new environment where the margin values are customarily redefined
+\newenvironment{changemargin}[3]{
+  \begin{list}{}{
+      %\setlength{\topsep}{#1}
+      \setlength{\topmargin}{#1}
+      \setlength{\leftmargin}{#2}
+      \setlength{\rightmargin}{#3}
+      \setlength{\listparindent}{\parindent}
+      \setlength{\itemindent}{\parindent}
+      \setlength{\parsep}{\parskip}
+    }
+  \item[]}{\end{list}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Reference and Citations Shortcuts
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Reference
+\newcommand{\refchap}[1]{Chapter~\ref{chap:#1}\xspace}
+\newcommand{\refapp}[1]{Appendix~\ref{app:#1}\xspace}
+\newcommand{\refdiapp}[2]{Appendices~\ref{app:#1} and~\ref{app:#2}\xspace}
+\newcommand{\reffig}[1]{Fig.~\ref{fig:#1}\xspace}
+\newcommand{\reffigplural}{Figures}
+\newcommand{\reftrifig}[3]{\reffigplural~\ref{fig:#1}, \ref{fig:#2}, and~\ref{fig:#3}\xspace}
+\newcommand{\reffigbegin}[1]{Fig.~\ref{fig:#1}\xspace}
+\newcommand{\refdifigbegin}[2]{Figs.~\ref{fig:#1} and~\ref{fig:#2}\xspace}
+\newcommand{\reftrifigbegin}[3]{Figs.~\ref{fig:#1}, \ref{fig:#2}, and~\ref{fig:#3}\xspace}
+\newcommand{\refsixfigbegin}[6]{Figs.~\ref{fig:#1}, \ref{fig:#2}, \ref{fig:#3}, \ref{fig:#4}, \ref{fig:#5}, and~\ref{fig:#6}\xspace}
+\newcommand{\refsevenfigbegin}[7]{Figs.~\ref{fig:#1}, \ref{fig:#2}, \ref{fig:#3}, \ref{fig:#4}, \ref{fig:#5}, \ref{fig:#6}, and~\ref{fig:#7}\xspace}
+\newcommand{\refditab}[2]{Tables~\ref{tab:#1} and~\ref{tab:#2}\xspace}
+\newcommand{\reftrieq}[3]{Eq.~\eqref{eq:#1}, \eqref{eq:#2} and \eqref{eq:#3}\xspace}
+\newcommand{\refeqrange}[2]{Eqs.~\eqref{eq:#1}-\eqref{eq:#2}}
+\newcommand{\reffigrange}[2]{Figs.~\ref{fig:#1}-\ref{fig:#2}}
+%%% Citations
+\newcommand{\refdicite}[2]{Refs.~\cite{#1} and \cite{#2}\xspace}
+\newcommand{\reftricite}[3]{Refs.~\cite{#1},~\cite{#2} and \cite{#3}\xspace}
+\newcommand{\refquadcite}[4]{Refs.~\cite{#1},~\cite{#2},~\cite{#3} and \cite{#4}\xspace}
+\newcommand{\refquadsec}[4]{Sections~\ref{sec:#1},~\ref{sec:#2},~\ref{sec:#3} and ~\ref{sec:#4}\xspace}
+\newcommand{\refsecAndPage}[1]{Section~\ref{sec:#1} on page \pageref{sec:#1}\xspace}
+\newcommand{\refappAndPage}[1]{Appendix~\ref{app:#1} on page \pageref{app:#1}\xspace} 
+\newcommand{\reffigAndPage}[1]{Fig.~\ref{fig:#1} on page \pageref{fig:#1}\xspace}
+\newcommand{\reftabAndPage}[1]{Table~\ref{tab:#1} on page \pageref{tab:#1}\xspace}
+\newcommand{\reftritab}[3]{Tables~\ref{tab:#1},~\ref{tab:#2} and~\ref{tab:#3}\xspace}
+\newcommand{\refciteAndPage}[1]{Ref.~\cite{#1} on page \pageref{#1} \xspace}
+\newcommand{\refeqAndPage}[1]{Eq.~\eqref{eq:#1} on page \pageref{eq:#1} \xspace}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Acronyms
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\ATLAS}{\ac{ATLAS}\xspace}
+\newcommand{\IEF}{\ac{IEF}\xspace}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% PDF and Functions
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\newcommand{\fCrystalBall}[5]{\ensuremath{%
+    #1 \cdot \begin{cases} \exp(- \frac{(x - #2)^2}{2 #3^2}), & \mbox{for }\frac{x - #2}{#3} > -#4 \\
+      A \cdot (B - \frac{x - #2}{#2})^{-#5}, & \mbox{for
+      }\frac{x-#2}{#3} \leqslant - #4 \end{cases}\xspace}}
+
+\newcommand{\fExpo}[1]{\ensuremath{e^{#1\cdot x}\xspace}}
+\newcommand{\fGaus}[2]{\ensuremath{e^{-\frac{(x-#1)^{2}}{2 {#2}^{2}}}\xspace}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%% General symbols
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\makeatletter
+\newcommand{\romanNumber}[1]{\fontfamily{roman}\selectfont\romannumeral#1\normalfont}
+\newcommand{\RomanNumber}[1]{\fontfamily{roman}\selectfont\expandafter\@slowromancap\romannumeral#1@\normalfont}
+\newcommand{\Tan}[1]{\ensuremath{\tan\left(#1\right)}\xspace}
+\newcommand{\Cos}[1]{\ensuremath{\tan\left(#1\right)}\xspace}
+\newcommand{\Sin}[1]{\ensuremath{\tan\left(#1\right)}\xspace}
+\makeatother
+\newcommand{\sOrder}[1]{\ensuremath{\mathcal{O}\left(#1\right)}\xspace}
+\newcommand{\sOrderOf}[1]{\sOrder{#1}}
+\newcommand{\sign}[1]{\ensuremath{\mathrm{sgn}\left(#1\right)}\xspace}
+\newcommand{\absoluteValue}[1]{\ensuremath{\lvert#1\rvert}\xspace}
+\newcommand{\Units}[1]{\tag{\ensuremath{#1}} }
+\newcommand{\CTau}[1]{\ensuremath{c\tau}_{#1}\xspace}
+\newcommand{\xSection}[2]{\ensuremath{\sigma_{#1}^{#2}}\xspace}
+\newcommand{\error}[1]{\ensuremath{\sigma_{#1}}\xspace}
+\newcommand{\deltaError}[1]{\ensuremath{\Delta\sigma_{#1}}\xspace}
+\newcommand{\errorPow}[2]{\ensuremath{\sigma_{#1}^{#2}}\xspace}
+
+%%% This Ensures that two itemize environments side by side in a
+%%% two-column environment are actaully top-aligned!
+%%% See: http://tex.stackexchange.com/questions/22916/top-alignment-of-itemize-in-columns-of-beamer
+\makeatletter
+\define@key{beamerframe}{t}[true]{% top
+  \beamer@frametopskip=.2cm plus .5\paperheight\relax%
+  \beamer@framebottomskip=0pt plus 1fill\relax%
+  \beamer@frametopskipautobreak=\beamer@frametopskip\relax%
+  \beamer@framebottomskipautobreak=\beamer@framebottomskip\relax%
+  \def\beamer@initfirstlineunskip{}%
+}
+\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Kinematic Variables
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\mTop}{\mass{\qT}\xspace}
+\newcommand{\softDrop}{\ensuremath{\frac{\min\left(\pTIndex{1}, \pTIndex{2}\right)}{\pTIndex{1} + \pTIndex{2}}\deltaR^{-2}_{j_{1},j_{2}}}\xspace}
+\newcommand{\jetLdg}{\ensuremath{\text{jet}^{ldg}}\xspace}
+\newcommand{\jetSubLdg}{\ensuremath{\text{jet}^{sub-ldg}}\xspace}
+\newcommand{\mjj}[1]{\mass{jj#1}}
+\newcommand{\mjjb}[1]{\mass{jjb#1}}
+\newcommand{\mjjbLdg}{\ensuremath{\mass{jjb}^{ldg}}}
+%\newcommand{\mjjbLdgDef}{\ensuremath{\max\left(\mjjb{1} \,, \mjjb{2}\right)}\xspace}
+\newcommand{\mjjbLdgDef}{\ensuremath{\max\left(\pTIndex{\mjjb{1}} \,, \pTIndex{\mjjb{2}}\right)}\xspace}
+\newcommand{\mjjbSubLdg}{\ensuremath{\mass{jjb}^{sub-ldg}}}
+\newcommand{\mjjbSubLdgDef}{\ensuremath{\min\left(\mjjb{1} \,, \mjjb{2}\right)}\xspace}
+\newcommand{\mjjbb}{\mass{jjbb}}
+\newcommand{\mjjbbDef}{\ensuremath{\mass{}\left(\bJetLdgFree, \mjjbLdg\right)}\xspace}
+%\newcommand{\mjjbbLdg}{\ensuremath{\mass{jjbb}^{ldg}}}
+%\newcommand{\mjjbbLdgDef}{\ensuremath{\mass{}\left(\bJetLdgFree, \mjjbLdg\right)}\xspace}
+\newcommand{\mjjbbSubLdg}{\ensuremath{\mass{jjbb}^{sub-ldg}}}
+\newcommand{\pT}{\ensuremath{p_{\mathrm{T}}}\xspace}
+\newcommand{\pTD}{\ensuremath{p_{\mathrm{T}}D}\xspace}
+\newcommand{\pTIndex}[1]{\ensuremath{p_{\mathrm{T},#1}}\xspace}
+\newcommand{\pThat}{\ensuremath{\hat{p}_{\mathrm{T}}}\xspace}
+\newcommand{\pTLdgTk}{\ensuremath{p_{\mathrm{T}}^{\mathrm{ldg, tk}}}\xspace}
+\newcommand{\Rtau}{\ensuremath{R_{\tau}}\xspace}
+\newcommand{\azimuth}{\ensuremath{\phi}\xspace}
+\newcommand{\polar}{\ensuremath{\theta}\xspace}
+\newcommand{\pseudorap}{\ensuremath{\eta}\xspace}
+\newcommand{\pseudorapAbs}{\ensuremath{\abs{\eta}}\xspace}
+\newcommand{\pseudorapDef}{\ensuremath{\eta=-\ln\left[\tan\left(\frac{\polar}{2}\right)\right]}\xspace}
+\newcommand{\rap}{\ensuremath{\omega}\xspace}
+\newcommand{\rapDef}{\ensuremath{\omega=\frac{1}{2}\ln\left(\frac{E+\pZ}{E-\pZ}\right)}\xspace}
+\newcommand{\SecondFoxWolframMoment}{\ensuremath{H_{2}}\xspace}
+\newcommand{\SecondFoxWolframMomentDef}{\ensuremath{1 - 3 \left(\lambda_1 \lambda_2 + \lambda_1 \lambda_3 + \lambda_2 \lambda_3 \right)}\xspace}
+%\newcommand{\SecondFoxWolframMomentDefFull}{\ensuremath{1 - 3 \left(\lambda_1 \lambda_2 + \lambda_1 \lambda_3 + \lambda_2 \lambda_3 \right) = 1 - C }\xspace}
+\newcommand{\LinearMomentumTensor}{\ensuremath{M\indices{_{\alpha\beta}^{r=1}}}\xspace}
+\newcommand{\LinearMomentumTensorDef}{\ensuremath{\sum\limits_{i}^{\mathrm{jets}}  \frac{p\indices{_{i,\alpha}} p\indices{_{i\beta}}}{\abs{\vec{p} \indices{_{i}}}} / \sum\limits_{i}^{\mathrm{jets}} \abs{\vec{p} \indices{_{i}}}}\xspace}
+\newcommand{\HTDef}{\ensuremath{\sum\limits_{i}^{\text{Selected jets}} \pTIndex{i}}\xspace}
+\newcommand{\pZ}{\ensuremath{p_{\mathrm{z}}}\xspace}
+\newcommand{\eT}{\ensuremath{E_{\mathrm{T}}}\xspace}
+\newcommand{\deltaR}{\ensuremath{\Delta \mathrm{R}}\xspace}
+\newcommand{\deltaRSub}[1]{\ensuremath{\Delta \mathrm{R}_{#1}}\xspace}
+\newcommand{\deltaRDef}{\ensuremath{\deltaR^{2}=\deltaEta^{2} + \deltaPhi^{2}}\xspace}
+\newcommand{\deltaRrap}{\ensuremath{\Delta \mathrm{R}_{\rap}}\xspace}
+\newcommand{\deltaRrapDef}{\ensuremath{\deltaRrap^{2}=\deltaRap^{2} + \deltaPhi^{2}}\xspace}
+\newcommand{\deltaPhi}[1]{\ensuremath{\Delta\phi\left(#1\right)}\xspace}
+\newcommand{\deltaEta}{\ensuremath{\Delta \eta}\xspace}
+\newcommand{\deltaRap}{\ensuremath{\Delta \rap}\xspace}
+
+\newcommand{\deltaPt}{\ensuremath{\Delta \pT}\xspace}
+
+\newcommand{\eTVis}{\ensuremath{E_{\mathrm{T}}^{\mathrm{vis}}}\xspace}
+\newcommand{\eTCorr}{\ensuremath{E_{\mathrm{T,~corr}}}\xspace}
+\newcommand{\eTSub}[1]{\ensuremath{E_{\mathrm{T,~#1}}}\xspace}
+\newcommand{\etaVis}{\ensuremath{\eta^{\mathrm{vis}}}\xspace}
+\newcommand{\etaCorr}{\ensuremath{\eta_{\mathrm{corr}}}\xspace}
+\newcommand{\etaSub}[1]{\ensuremath{\eta_{\mathrm{#1}}}\xspace}
+\newcommand{\thetaCorr}{\ensuremath{\theta_{\mathrm{corr}}}\xspace}
+\newcommand{\pTPow}[1]{\ensuremath{p_{\mathrm{T}}^{\mathrm{#1}}}\xspace}
+\newcommand{\pZPow}[1]{\ensuremath{p_{\mathrm{z}}^{\mathrm{#1}}}\xspace}
+\newcommand{\pTSub}[1]{\ensuremath{p_{\mathrm{T},~\mathrm{#1}}}\xspace}
+\newcommand{\pTSubPow}[2]{\ensuremath{p_{\mathrm{T},~\mathrm{#1}}^{#2}}\xspace}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% TTI WG (HLTaus)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\Pythia}{\text{PYTHIA}{}6\xspace}
+\newcommand{\Tauola}{\text{TAUOLA}\xspace}
+\newcommand{\Geant}{\text{GEANT}{}4\xspace}
+\newcommand{\Madgraph}{\text{MadGraph}\xspace}
+\newcommand{\Powheg}{\text{POWHEG}\xspace}
+%
+\newcommand{\MCTau}{\ensuremath{\mathrm{\tau}_{\mathrm{mc}}}\xspace}
+\newcommand{\McVtx}{\ensuremath{\text{MC Vertex}}\xspace}
+\newcommand{\MCTauVis}{\ensuremath{\mathrm{\tau}_{\mathrm{mc}}^{\mathrm{vis}}}\xspace}
+\newcommand{\LOneTrigger}{\ensuremath{\text{L1 Trigger }}\xspace}
+\newcommand{\LOneTauTrigger}{\ensuremath{\text{L1 Tau Trigger }}\xspace}
+\newcommand{\LOneVtx}{\ensuremath{\text{L1 Vertex}}\xspace}
+\newcommand{\LOneTk}{\ensuremath{\text{L1 Track}}\xspace}
+\newcommand{\LOneTks}{\ensuremath{\text{L1 Tracks}}\xspace}
+\newcommand{\LOnePixTk}{\ensuremath{\text{L1 Pixel Track}}\xspace}
+\newcommand{\LOnePixTks}{\ensuremath{\text{L1 Pixel Tracks}}\xspace}
+%\newcommand{\LOneTkTau}{\ensuremath{\text{L1 } \mathrm{\tau}_{\mathrm{tk}}}\xspace}
+%\newcommand{\LOneTkTaus}{\ensuremath{\text{L1 } \mathrm{\tau}_{\mathrm{tk}}}'s\xspace}
+\newcommand{\LOneTkTau}{\LOneTk--Tau\xspace}
+\newcommand{\LOneTkTaus}{\LOneTk--Taus\xspace}
+\newcommand{\LOneTkCluster}{\ensuremath{\text{L1 Tk Cluster}}\xspace}
+\newcommand{\LOneTkClusters}{\ensuremath{\text{L1 Tk Clusters}}\xspace}
+\newcommand{\LOneLdgTk}{\ensuremath{\text{L1 Tk}^{\mathrm{ldg}}}\xspace}
+\newcommand{\LOneTauLdgTk}{\ensuremath{\text{L1 } \mathrm{\tau}_{\mathrm{tk}}^{\mathrm{ldg}}}\xspace}
+\newcommand{\LOneCaloTau}{\ensuremath{\text{L1 CaloTau}}\xspace}
+\newcommand{\LOneCaloTaus}{\ensuremath{\text{L1 CalosTaus}}\xspace}
+\newcommand{\LOneCaloTauCandidates}{\ensuremath{\mathrm{L1}} \ensuremath{\mathrm{\tau}_{\mathrm{calo}}} candidates\xspace}
+%
+\newcommand{\ldgtk}[1]{\ensuremath{\mathrm{ldg~\tk{{#1}}}}\xspace}
+\newcommand{\Weight}[1]{\ensuremath{\mathcal{W}_{\mathrm{#1}}}\xspace}
+\newcommand{\weight}[1]{\ensuremath{\mathrm{w_{\mathrm{#1}}}}\xspace}
+\newcommand{\tk}[1]{\ensuremath{\mathrm{tk_{\mathrm{#1}}}}\xspace}
+\newcommand{\cluster}{\ensuremath{\mathrm{cluster}}\xspace}
+\newcommand{\mass}[1]{\ensuremath{\mathrm{m}_{#1}}\xspace}
+\newcommand{\calo}{\ensuremath{\mathrm{calo}}\xspace}
+\newcommand{\xPOCA}[1]{\ensuremath{\mathrm{x}_{\mathrm{0}}^{\mathrm{#1}}}\xspace}
+\newcommand{\yPOCA}[1]{\ensuremath{\mathrm{y}_{\mathrm{0}}^{\mathrm{#1}}}\xspace}
+\newcommand{\zPOCA}[1]{\ensuremath{\mathrm{z}_{\mathrm{0}}^{\mathrm{#1}}}\xspace}
+\newcommand{\rPOCAVec}[1]{\ensuremath{\vec{\mathrm{r}}_{\mathrm{0}}^{\mathrm{#1}}}\xspace}
+\newcommand{\dXY}[1]{\ensuremath{\mathrm{d}_{\mathrm{xy}}^{\mathrm{#1}}}\xspace}
+\newcommand{\dZero}[1]{\ensuremath{\mathrm{d}_{\mathrm{0}}^{\mathrm{#1}}}\xspace}
+\newcommand{\dZeroVec}[1]{\ensuremath{\vec{\mathrm{d}}_{\mathrm{0}}^{\mathrm{#1}}}\xspace}
+\newcommand{\dZeroAbs}[1]{\ensuremath{\abs{\mathrm{d}_{\mathrm{0}}^{\mathrm{#1}}}}\xspace}
+\newcommand{\thetaZero}[1]{\ensuremath{\mathrm{\theta}_{\mathrm{0}}^{\mathrm{#1}}}\xspace}
+\newcommand{\phiZero}[1]{\ensuremath{\mathrm{\phi}_{\mathrm{0}}^{\mathrm{#1}}}\xspace}
+\newcommand{\zPOCASub}[1]{\ensuremath{\mathrm{z}_{\mathrm{0,~#1}}}\xspace}
+\newcommand{\zVtx}[1]{\ensuremath{\mathrm{z}_{\mathrm{vtx}}^{\mathrm{#1}}}\xspace}
+\newcommand{\xPV}[1]{\ensuremath{\mathrm{x}_{\mathrm{PV}}^{\mathrm{#1}}}\xspace}
+\newcommand{\yPV}[1]{\ensuremath{\mathrm{y}_{\mathrm{PV}}^{\mathrm{#1}}}\xspace}
+\newcommand{\zPV}[1]{\ensuremath{\mathrm{z}_{\mathrm{PV}}^{\mathrm{#1}}}\xspace}
+\newcommand{\redChiSq}{\ensuremath{\chi^{2}_{N}}\xspace}
+\newcommand{\chiSqTopDef}{\ensuremath{\left(\frac{\mjj{,~1} - \mW}{\error{\bW{\pm}}}\right)^{2}
+    + \left(\frac{\mjj{,~2} - \mW}{\error{\bW{\pm}}}\right)^{2}
+    + \left(\frac{\mjjb{,~1}-\mjjb{,~2}}{\error{\Delta\qT}}\right)^{2}}\xspace}
+\newcommand{\DeltaPhiPseudoCut}{%
+  \ensuremath{\min\left[\deltaPhi{\bJetLdgFree, \mjj{,~\deltaR_{max}}}, 2.5\right] >%
+    3 - \min\left[\deltaPhi{\bJetLdgFree, \mjj{,~\deltaR_{min}}}, 2.5\right]}\xspace}
+\newcommand{\NStubs}{\ensuremath{N_{\mathrm{stubs}}}\xspace}
+\newcommand{\NPsStubs}{\ensuremath{N_{\mathrm{stubs}}^{\mathrm{PS}}}\xspace}
+\newcommand{\SumOver}[2]{\ensuremath{\sum\limits_{\mathrm{#1}}^{\mathrm{#2}}} \xspace}
+\newcommand{\RelIsoEqn}{\ensuremath{\SumOver{i}{iso-tks}\left(\frac{\mathrm{p}_{\mathrm{T}}^{\mathrm{i}}}{\mathrm{p}_{\mathrm{T}}^{\mathrm{ldg}}}\right)}\xspace}
+%\newcommand{\VtxIsoEqn}{\ensuremath{\SumOver{i}{tracks} \left( \abs{\zPOCA{\tk{m}} - \zPOCA{\tk{i}}} \leq X \sCentiMeter \right) = 0}\xspace}
+\newcommand{\VtxIsoEqn}{\ensuremath{\mathrm{N}_{\mathrm{iso-tks}}\left( \abs{\zPOCA{\tk{m}} - \zPOCA{\tk{i}}} \leq X \sCentiMeter \right) = 0}\xspace}
+\newcommand{\VtxIsoEqnAlt}[1]{min\ensuremath{\left(\abs{\zPOCA{\tk{m}} - \zPOCA{\tk{i}}}\right) \geq #1 \sCentiMeter}\xspace}
+\newcommand{\TrigProb}{\ensuremath{\mathrm{p}_{\tau}}\xspace}
+\newcommand{\TrigProbPow}[1]{\ensuremath{\mathrm{p}_{\tau}^{#1}}\xspace}
+\newcommand{\TrigDiProb}{\ensuremath{\mathrm{p}_{\DiTau}}\xspace}
+\newcommand{\TrigDiProbSub}[1]{\ensuremath{\mathrm{p}_{\DiTau,~#1}}\xspace}
+\newcommand{\TrigEff}{\ensuremath{\varepsilon_{\tau}}\xspace}
+\newcommand{\TrigEffSub}[1]{\ensuremath{\varepsilon_{\tau,~#1}}\xspace}
+\newcommand{\TrigEffPow}[1]{\ensuremath{\varepsilon^{#1}_{\tau}}\xspace}
+\newcommand{\TrigDiEff}{\ensuremath{\varepsilon_{\DiTau}}\xspace}
+\newcommand{\TrigDiEffSub}[1]{\ensuremath{\varepsilon_{\DiTau,~#1}}\xspace}
+\newcommand{\TrigDiEffPow}[1]{\ensuremath{\varepsilon^{#1}_{\DiTau}}\xspace}
+
+% Variable initialisation
+\newcommand{\DefineTkTauFromCalo}[8]{
+  \newcommand{\ldgTkPtMin}{#1}
+  \newcommand{\tkCollectionType}{#2}
+  \newcommand{\deltaRMcMatching}{#3}
+  \newcommand{\sigConeDeltaR}{#4}
+  \newcommand{\isoConeDeltaR}{#5}
+  \newcommand{\ldgTkDeltaRCalo}{#6}
+  \newcommand{\invMassMax}{#7}
+  \newcommand{\deltaPOCAzMax}{#8}
+}
+
+% Define Skimming Parameters
+\newcommand{\DefineTreeSkimGeneral}[6]{
+  \newcommand{\CMSSW}{\texttt{#1}\xspace}
+  \newcommand{\MulticrabDir}{\texttt{#2}\xspace}
+  \newcommand{\GitBranch}{\texttt{#3}\xspace}
+  \newcommand{\GitCommit}{\texttt{#4}\xspace}
+  \newcommand{\HLTPaths}{#5\xspace}
+  \newcommand{\VertexCollection}{#6\xspace}
+}
+
+\newcommand{\DefineTreeSkimElectrons}[7]{
+  \newcommand{\ElectronCollection}{#1\xspace}
+  \newcommand{\ElectronID}{#2} %do not use xspace
+  \newcommand{\ElectronRhoSource}{#3\xspace}
+  \newcommand{\ElectronRelIsoEA}{#4\xspace}
+  \newcommand{\ElectronPtCut}{#5\xspace}
+  \newcommand{\ElectronEtaCut}{#6\xspace}
+  \newcommand{\ElectronNCut}{#7\xspace}
+}
+
+\newcommand{\DefineTreeSkimMuons}[6]{
+  \newcommand{\MuonCollection}{#1\xspace}
+  \newcommand{\MuonID}{#2} %do not use xspace
+  \newcommand{\MuonRelIso}{#3\xspace}
+  \newcommand{\MuonPtCut}{#4\xspace}
+  \newcommand{\MuonEtaCut}{#5\xspace}
+  \newcommand{\MuonNCut}{#6\xspace}
+}
+
+\newcommand{\DefineTreeSkimJets}[5]{
+  \newcommand{\JetCollection}{#1\xspace}
+  \newcommand{\JetUserFloats}{#2\xspace}
+  \newcommand{\JetEtCut}{#3\xspace}
+  \newcommand{\JetEtaCut}{#4\xspace}
+  \newcommand{\NJets}{#5\xspace}
+}
+
+\newcommand{\DefineGeneralSelection}[7]{
+  \newcommand{\vertexCollection}{\VertexCollection}
+  \newcommand{\trigger}{#1}
+  \newcommand{\metFilterA}{#2}
+  \newcommand{\metFilterB}{#3}
+  \newcommand{\metFilterC}{#4}
+  \newcommand{\metFilterD}{#5}
+  \newcommand{\metFilterE}{#6}
+  \newcommand{\metFilterF}{#7}
+}
+
+\newcommand{\DefineElectronSelection}[5]{
+  \newcommand{\electronCollection}{\ElectronCollection} % carried-over from skim
+  \newcommand{\electronPtCut}{#1\xspace}
+  \newcommand{\electronEtaCut}{#2\xspace}
+  \newcommand{\electronID}{#3\xspace}
+  \newcommand{\electronIsolation}{#4\xspace}
+  \newcommand{\electronIsolationValue}{#5\xspace}
+}
+
+\newcommand{\DefineMuonSelection}[5]{
+  \newcommand{\muonCollection}{\MuonCollection} % carried-over from skim
+  \newcommand{\muonPtCut}{#1\xspace}
+  \newcommand{\muonEtaCut}{#2\xspace}
+  \newcommand{\muonID}{#3\xspace}
+  \newcommand{\muonIsolation}{#4\xspace}
+  \newcommand{\muonIsolationValue}{#5\xspace}
+}
+
+
+\newcommand{\DefineTauSelection}[8]{
+\newcommand{\tauPtCut}{#1\xspace}
+\newcommand{\tauEtaCut}{#2\xspace}
+\newcommand{\tauLdgTrkPtCut}{#3\xspace}
+\newcommand{\prongs}{#4\xspace}
+\newcommand{\rtau}{#5\xspace}
+\newcommand{\againstElectronDiscr}{#6\xspace}
+\newcommand{\againstMuonDiscr}{#7\xspace}
+\newcommand{\isolationDiscr}{#8\xspace}
+}
+
+\newcommand{\DefineJetSelection}[7]{
+\newcommand{\jetType}{#1\xspace}
+\newcommand{\jetPtCut}{#2\xspace}
+\newcommand{\jetEtaCut}{#3\xspace}
+\newcommand{\numberOfJetsCutValue}{#4\xspace}
+\newcommand{\numberOfJetsCutDirection}{#5\xspace}
+\newcommand{\jetIDDiscr}{#6\xspace}
+\newcommand{\jetPUIDDiscr}{#7\xspace}
+}
+
+\newcommand{\DefineBJetSelection}[6]{
+\newcommand{\bjetPtCut}{#1\xspace}
+\newcommand{\bjetEtaCut}{#2\xspace}
+\newcommand{\bjetDiscr}{#3\xspace}
+\newcommand{\bjetDiscrWorkingPoint}{#4\xspace}
+\newcommand{\numberOfBJetsCutValue}{#5\xspace}
+\newcommand{\numberOfBJetsCutDirection}{#6\xspace}
+}
+
+\newcommand{\DefineTopologySelections}[4]{
+  \newcommand{\jetHTCutDirection}{#1\xspace}
+  \newcommand{\jetHTCutValue}{#2\xspace}
+  \newcommand{\secondFoxWolframMomentCutDirection}{#3\xspace}
+  \newcommand{\secondFoxWolframMomentCutValue}{#4\xspace}
+}
+
+\newcommand{\DefineTopSelections}[2]{
+  \newcommand{\chiSquareCutDirection}{#1\xspace}
+  \newcommand{\chiSquareCutValue}{#2\xspace}
+}
+
+\newcommand{\DefineFakeBSelections}[9]{
+  \newcommand{\numberOfBJetsCutDirectionInv}{#1\xspace}
+  \newcommand{\numberOfBJetsCutValueInv}{#2\xspace}
+  \newcommand{\numberOfInvertedBJetsCutDirection}{#3\xspace}
+  \newcommand{\numberOfInvertedBJetsCutValue}{#4\xspace}
+  \newcommand{\invertedBJetDiscr}{#5\xspace}
+  \newcommand{\invertedBJetWorkingPoint}{#6\xspace}
+  \newcommand{\maxNumberOfBJetsInTopFit}{#7\xspace}
+  \newcommand{\bjetOnePtCut}{#8\xspace}
+  \newcommand{\bjetTwoPtCut}{#9\xspace}
+}
+
+%%% Full Cuts
+\newcommand{\jetsCut}{$N_{\text{jets}}$\numberOfJetsCutDirection\numberOfJetsCutValue}
+\newcommand{\bjetsCut}{$N_{\bJets}$\numberOfBJetsCutDirection\numberOfBJetsCutValue}
+\newcommand{\bjetsCutInv}{$N_{\bJets}$\numberOfBJetsCutDirectionInv\numberOfBJetsCutValueInv}
+\newcommand{\chiSquareCut}{\chiSq \chiSquareCutDirection \chiSquareCutValue}
+\newcommand{\SecondFoxWolframMomentCut}{\SecondFoxWolframMoment \secondFoxWolframMomentCutDirection  \secondFoxWolframMomentCutValue}
+\newcommand{\HTCut}{\HT \jetHTCutDirection \jetHTCutValue \GeV}
+\newcommand{\HTDefCut}{\HT = \HTDef \jetHTCutDirection \jetHTCutValue \GeV}
+
+%%% FakeB/QCD Measurement
+\newcommand{\QCDNormFactor}{\ensuremath{R^{\text{QCD}}}\xspace}
+\newcommand{\EWKNormFactor}{\ensuremath{R^{\text{EWK}}}\xspace}
+\newcommand{\DataBaseline}{\ensuremath{N^{\text{Data}}_{\text{Baseline}}}\xspace}
+\newcommand{\QCDBaselineFit}{\ensuremath{N^{\text{QCD},\,fit}_{\text{Baseline}}}\xspace}
+\newcommand{\QCDBaseline}{\ensuremath{N^{\text{QCD}}_{\text{Baseline}}}\xspace}
+\newcommand{\QCDInverted}{\ensuremath{N^{\text{QCD}}_{\text{Inverted}}}\xspace}
+%
+\newcommand{\EWKBaselineFit}{\ensuremath{N^{\text{EWK},~fit}_{\text{Baseline}}}\xspace}
+\newcommand{\EWKBaseline}{\ensuremath{N^{\text{EWK}}_{\text{Baseline}}}\xspace}
+\newcommand{\EWKInverted}{\ensuremath{N^{\text{EWK}}_{\text{Inverted}}}\xspace}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%% SUSY
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\newcommand{\TanBeta}{\ensuremath{\tan\beta}\xspace}
+\newcommand{\TanBetaDef}{\ensuremath{\TanBeta = \frac{v2}{v1} \qquad 0 \leq \beta \leq \frac{\pi}{2}}\xspace}
+\newcommand{\CP}{\ensuremath{\mathcal{CP}}\xspace}
+% \mHPlus
+\newcommand{\HPlusMassTreeDef}{\ensuremath{\mA^{2} + \mW^{2}}\xspace}
+% \mh
+\newcommand{\hZeroMassTreeDef}{\ensuremath{%
+    \frac{1}{2} \left( \mA^{2} + \mZ^{2}  -
+    \sqrt{\left( \mA^{2} + \mZ^{2} \right)^{2} -
+      4\mA^{2} \mZ^{2}\cos^{2}2\beta}\right)}\xspace}
+% \mH
+\newcommand{\HZeroMassTreeDef}{\ensuremath{%
+    \frac{1}{2} \left( \mA^{2} + \mZ^{2}  +
+    \sqrt{\left( \mA^{2} + \mZ^{2} \right)^{2} -
+      4\mA^{2}\mZ^{2}\cos^{2}2\beta}\right)}\xspace}
+%
+\newcommand{\HPlusLight}{\ensuremath{\sMass{\bH{\pm}} < \sMass{\qT}-\sMass{\qB}}\xspace}
+\newcommand{\HPlusHeavy}{\ensuremath{\sMass{\bH{\pm}} > \sMass{\qT}}\xspace}
+\newcommand{\BoostedTop}{\emph{Boosted}-top\xspace}
+\newcommand{\ResolvedTop}{\emph{Resolved}-top\xspace}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%% Tables
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\newcommand{\HLine}{\hline}
+
+% ================================================================================================
+% Theory
+% ================================================================================================
+\newcommand{\Type}[1]{\text{type #1}\xspace}
+\DeclareRobustCommand{\Phz}{{\HepParticle{h}{}{0}}\xspace}
+
+% ================================================================================================
+% HIG-21-010
+% ================================================================================================
+\providecommand{\cmsLeft}{left\xspace}
+\providecommand{\cmsMiddle}{middle\xspace}
+\providecommand{\cmsRight}{right\xspace}
+\providecommand{\cmsTable}[1]{\resizebox{\textwidth}{!}{#1}}
+
+\newlength\cmsTabSkip\setlength{\cmsTabSkip}{2ex} % FIXME - REMOVE?
+\newcommand{\orderOf}[1]{\ensuremath{\mathcal{O}(#1)}}
+\newcommand{\fixMe}[1]{\textcolor{red}{#1}}
+\newcommand{\todo}[1]{\textcolor{black}{#1}}
+%\newcommand{\todo}[1]{\textcolor{red}{#1}}
+\newcommand{\mc}[1]{\multicolumn{1}{c}{#1}}
+\newcommand{\intLumi}{138\fbinv}
+\newcommand{\massLow}{300}  %0.3}
+\newcommand{\massHigh}{700} %0.7}
+\newcommand{\mSignalLow}{\ensuremath{\mHpm=\massLow\GeV}}
+\newcommand{\mSignal}{\ensuremath{\mHpm=500\GeV}}
+\newcommand{\mSignalHigh}{\ensuremath{\mHpm=\massHigh\GeV}}
+\newcommand{\abseta}{\ensuremath{|\eta|}}
+% https://dev.to/latexteada/latex-macros-macros-with-optional-arguments-1he
+\newcommand{\ptCut}[2][]{\ensuremath{\pt^{#1} > #2 \GeV}}
+\newcommand{\absetaCut}[2][]{\ensuremath{|\eta^{#1}| < #2}}
+\newcommand{\mtop}{\ensuremath{m_{\cPqt}}\xspace}
+\newcommand{\mresTop}{\ensuremath{m_{\rTop}}\xspace}
+\newcommand{\mbottom}{\ensuremath{m_{\cPqb}}\xspace}
+\newcommand{\mInv}[1][]{\ensuremath{m_{\text{inv}}^{#1}}\xspace}
+\newcommand{\mSD}[1][]{\ensuremath{m_{\text{SD}}^{#1}}\xspace}
+\newcommand{\subjettiness}[2][]{\ensuremath{\tau_{#2}^{#1}}\xspace}
+\newcommand{\mh}{\ensuremath{m_{\Ph}}\xspace}
+\newcommand{\mH}{\ensuremath{m_{\PH}}\xspace}
+\newcommand{\mW}{\ensuremath{m_{\PW}}\xspace}
+%\newcommand{\ptHpm}{\ensuremath{\pt^{\PHpm}}\xspace}
+\newcommand{\ptHpm}{\ensuremath{p_{\mathrm{T,\PHpm}}}\xspace}
+\newcommand{\mHpm}{\ensuremath{m_{\PHpm}}\xspace}
+\newcommand{\mHpmReco}{\ensuremath{m_{\cPqt\PQb}}}
+\newcommand{\mHpmRecoRES}{\ensuremath{m_{\rTop\PQb}}}
+\newcommand{\mHpmRecoBST}{\ensuremath{m_{\bTop\PQb}}}
+\newcommand{\mA}{\ensuremath{m_{\PSA}}\xspace}
+\newcommand{\mHpmLight}{\ensuremath{\smash[b]{\mHpm<\mtop-\mbottom}}\xspace}
+%\newcommand{\mHpmIntermediate}{\ensuremath{\smash[b]{\mHpm\sim\mtop}}\xspace}
+\newcommand{\mHpmIntermediate}{\ensuremath{\smash[b]{\mHpm\approx\mtop}}\xspace}
+\newcommand{\mHpmHeavy}{\ensuremath{\smash[b]{\mHpm>\mtop-\mbottom}}\xspace}
+\newcommand{\massRange}{\massLow\ to \massHigh\GeV}
+\newcommand{\ppToHtb}{\ensuremath{\Pp\Pp \to\cPqt (\cPqb) \PHpm}\xspace}
+\newcommand{\ppToHplustb}{\ensuremath{\Pp\Pp \to \cPqt (\cPqb) \PH^{+}}\xspace}
+\newcommand{\WpmToLepton}{\ensuremath{\PWpm \to \ell^{\pm} \nu_{\ell}}\xspace}
+\newcommand{\HToTT}{\ensuremath{\PH\to\PGt\PGt}\xspace}
+\newcommand{\HpmToTauNu}{\ensuremath{\PHpm \to \Pgt^{\pm} \Pgngt}\xspace}
+\newcommand{\HpmToCS}{\ensuremath{\PHpm \to \cPqc \cPqs}\xspace}
+\newcommand{\HpmToCB}{\ensuremath{\PHpm \to \cPqc \cPqb}\xspace}
+\newcommand{\HpmToTB}{\ensuremath{\PHpm \to \cPqt \cPqb}\xspace}
+\newcommand{\HpmTohW}{\ensuremath{\PHpm \to \Ph \PWpm}\xspace}
+\newcommand{\HpmToHW}{\ensuremath{\PHpm \to \PH \PWpm}\xspace}
+\newcommand{\HpToHW}{\ensuremath{\PH^{+} \to \PH \PW^{+}}\xspace}
+\newcommand{\HpmToWZ}{\ensuremath{\PHpm \to \PWpm \PZ}\xspace}
+\newcommand{\HpmToWA}{\ensuremath{\PHpm \to \PWpm \PSA}\xspace}
+\newcommand{\hmssm}{hMSSM}
+%\newcommand{\mhOneTwoFive}{\ensuremath{M_{\Ph}^{125}}\xspace}
+\newcommand{\mhOneTwoFive}{\ensuremath{M_{\Ph}^{125}}\xspace}
+\newcommand{\BToSGamma}{\ensuremath{\PQb\to\PQs\gamma}\xspace}
+\newcommand{\xsDef}{\ensuremath{\sigma_{\PHpm}\BRto{\HpmToHW, \HToTT}}}
+\newcommand{\xsLow}{0.080}  % 0.08008 
+\newcommand{\xsHigh}{0.013} % 0.01270
+\newcommand{\xsLimit}{\xsLow\unit{pb} at \massLow\GeV to \xsHigh\unit{pb} at \massHigh\GeV}
+\newcommand{\refeq}[1]{Eq.~\ref{eq:#1}\xspace}
+\newcommand{\refdieq}[2]{Eqs.~\ref{eq:#1} and \ref{eq:#2}\xspace}
+\newcommand{\refsec}[1]{Section~\ref{sec:#1}\xspace}
+\newcommand{\refdisec}[2]{Sections~\ref{sec:#1} and \ref{sec:#2}\xspace}
+\newcommand{\reftrisec}[3]{Sections~\ref{sec:#1}, \ref{sec:#2}, and \ref{sec:#3}\xspace}
+\newcommand{\refdifig}[2]{\reffigplural~\ref{fig:#1} and~\ref{fig:#2}\xspace}
+\newcommand{\reftab}[1]{Table~\ref{tab:#1}\xspace}
+\newcommand{\refcite}[1]{Ref.~\cite{#1}\xspace}
+\newcommand{\refcites}[1]{Refs.~\cite{#1}\xspace}
+\newcommand{\bquark}{\PQb\ quark}
+\newcommand{\btagged}{\PQb\ tagged}
+\newcommand{\fatjet}{AK8 jet} % fat jet % large-radius jet
+\newcommand{\jet}{AK4 jet} % small-radius jet  
+\newcommand{\bjet}{\PQb\ jet}
+\newcommand{\bjets}{\PQb\ jets}
+\newcommand{\resolvedTop}{resolved \PQt}
+\newcommand{\boostedTopHpm}{boosted \PHpm}
+\newcommand{\boostedTopW}{boosted \PW/\PQt}
+\newcommand{\boostedW}{boosted \PW}
+\newcommand{\boostedTop}{boosted \PQt}
+\newcommand{\bW}{\ensuremath{\PW^{\text{bst}}}}
+\newcommand{\bHpm}{\ensuremath{\PH^{\pm\text{bst}}}}
+\newcommand{\bTop}{\ensuremath{\PQt^{\text{bst}}}}
+\newcommand{\rTop}{\ensuremath{\PQt^{\text{res}}}}
+\newcommand{\rIso}[1]{\ensuremath{i_{\text{rel}}^{#1}}\xspace}
+\newcommand{\mIso}[1]{\ensuremath{i_{\text{mini}}^{#1}}\xspace}
+\newcommand{\absSIP}{\ensuremath{|\SIP|}}
+\newcommand{\SIP}{\ensuremath{\frac{\text{IP}^{3d}}{\sigma^{3d}_{\text{IP}}}}}
+%\newcommand{\SIP}{\ensuremath{\frac{\text{IP}^{#1}}{\sigma^{3d}_{\text{IP}}}}}
+\newcommand{\etaphi}{$\eta$-$\phi$}
+\newcommand{\tauFR}{\ensuremath{\mathcal{R}_{\JetToTauh}}}
+\newcommand{\tauFRindex}[1]{\ensuremath{\mathcal{R}_{\JetToTauh,~#1}}}
+\newcommand{\tauFRindexPow}[2]{\ensuremath{\mathcal{R}_{\JetToTauhIndex{#2},~#1}}}
+\newcommand{\sumBins}[1]{\ensuremath{\sum\limits_{#1}}} %^{\pT,\, \eta,\, \text{\nProng}}}}
+\newcommand{\yDeepTau}[1]{\ensuremath{y}_{#1}}
+\newcommand{\yDeepTauDef}{\ensuremath{\yDeepTau{\alpha}}}
+\newcommand{\dDeepTau}[2][]{\ensuremath{D_{#2}^{\text{#1}}}}
+%\newcommand{\dR}[1]{\ensuremath{\Delta R_{#1}}}
+\newcommand{\dR}[2]{\ensuremath{\Delta R(#1, #2)}}
+\newcommand{\dPhi}[2]{\ensuremath{\Delta \phi(#1, #2)}}
+%\newcommand{\alphaDeepTauDef}{\ensuremath{\alpha=\Pe\,,\Pgm\,,\Pgt,\,\text{jet}}}
+\newcommand{\alphaDeepTauDef}{\ensuremath{\alpha=\Pe\,,\Pgm\,,\Pgt,\,j}}
+\newcommand{\charge}[1]{\ensuremath{Q_{#1}}}
+\newcommand{\etau}{\ensuremath{\Pe\tauh}}
+\newcommand{\mtau}{\ensuremath{\Pgm\tauh}}
+\newcommand{\tauhtauh}{\ensuremath{\PGt_\mathrm{h}\PGt_\mathrm{h}}\xspace}
+%\newcommand{\ltauhORtauhtauh}{\ensuremath{\dagger\PGt_\mathrm{h}}\xspace}
+\newcommand{\ellDef}{\ensuremath{\ell=\Pe,\,\Pgm}}
+\newcommand{\ellDefAlt}{\ensuremath{\ell=\Pe,\,\Pgm,\,\PGt}}
+\newcommand{\ltauhORtauhtauh}{\ensuremath{\star\PGt_\mathrm{h}}\xspace}
+\newcommand{\ltauh}{\ensuremath{\ell\PGt_\mathrm{h}}\xspace}
+\newcommand{\etautau}{\ensuremath{\Pe\tauh\tauh}}
+\newcommand{\mtautau}{\ensuremath{\Pgm\tauh\tauh}}
+\newcommand{\myFS}{\etau, \mtau, \etautau, and \mtautau}
+\newcommand{\genuineTauh}{genuine \tauh}
+\newcommand{\LToTauh}{\ensuremath{\ell \to \tauh}\xspace}
+\newcommand{\EToTauh}{\ensuremath{\Pe \to \tauh}\xspace}
+\newcommand{\MToTauh}{\ensuremath{\Pgm \to \tauh}\xspace}
+\newcommand{\JetToTauh}{\ensuremath{j \to \tauh}\xspace}
+\newcommand{\JetToTauhIndex}[1]{\ensuremath{j \to \tauh^{#1}}\xspace}
+\newcommand{\fakeTauh}{misidentified \tauh}
+\newcommand{\emuToTau}{\ensuremath{\Pe/\Pgm \to \tauh}\xspace}
+\newcommand{\lt}{\ensuremath{\ell\tauh}}
+\newcommand{\ltt}{\ensuremath{\ell\tauh\tauh}}%\xspace}
+\newcommand{\DY}{\ensuremath{\PZ/\PGg^{*}}} %\PZ/\gamma^{*}}}
+\newcommand{\SingleTop}{single \PQt}
+\newcommand{\DibosonS}{$\PW\PZ$, $\PZ\PZ$, $\PW\PW$}%, $\PV\PH$}
+\newcommand{\Vjets}{\PV{+}jets}
+\newcommand{\VjetsDef}{$\PV=\PZ$\ or $\PW$}
+\newcommand{\Wjets}{\PW{+}jets}
+\newcommand{\DYjets}{\DY{+}jets}
+\newcommand{\ttX}{\ensuremath{\PQt\PAQt\PX}}
+\newcommand{\ttXdef}{\PW, \PZ, \PH, or \ttbar}
+\newcommand{\typeOne}{type I}
+\newcommand{\typeTwo}{type II}
+\newcommand{\typeX}{Type X} % aka Type IV aka "Lepton-specific"
+\newcommand{\typeY}{type Y} % aka Type II aka "Flipped"
+\newcommand{\BSM}{beyond-the-\SM}
+\newcommand{\cotbeta}{\ensuremath{\cot\beta}\xspace}
+\newcommand{\tanbeta}{\ensuremath{\tan\beta}\xspace}
+\newcommand{\tanbetaDef}{\ensuremath{\tan\beta\equiv\tfrac{v_{2}}{v_{1}}}}
+\newcommand{\sinba}{\ensuremath{\sinBetaMinusAlpha}}
+\newcommand{\sinBetaMinusAlpha}{\ensuremath{\sin(\beta-\mixingAngle)}\xspace}
+\newcommand{\alignmentLimitAlt}{\ensuremath{\cos(\beta-\mixingAngle)=0}\xspace}
+\newcommand{\alignmentLimit}{\ensuremath{\sin(\beta-\mixingAngle)=1}\xspace}
+\newcommand{\massMatrixDiagonal}{\ensuremath{m_{12}}} % diagonal term of the mass matrix of the Higgs doublets
+\newcommand{\mixingAngle}{\ensuremath{\alpha}} % CP-even mixing angle alpha
+\newcommand{\BR}{\ensuremath{\mathcal{B}}}
+\newcommand{\BRto}[1]{\ensuremath{\mathcal{B}(#1)}\xspace}
+\newcommand{\LT}{\ensuremath{L_{\mathrm{T}}}\xspace}
+\newcommand{\ST}{\ensuremath{S_{\mathrm{T}}}\xspace}
+\newcommand{\SumTwoJetOverHT}{\ensuremath{\frac{\pt^{j_{1}j_{2}}}{\HT}}}
+\newcommand{\SumTwoJetOverHTInline}{\ensuremath{\pt^{j_{1}j_{2}}/\HT}}
+\newcommand{\PtjjPtHAsym}{\ensuremath{\frac{\pt^{j_{1}j_{2}} - \pt^{\PHpm}}{\pt^{j_{1}j_{2}} + \pt^{\PHpm}}}}
+\newcommand{\ThirdJetOverHToneline}{\ensuremath{{\pt^{j_{3}}/{\HT}}}}
+\newcommand{\ThirdJetOverHT}{\ensuremath{\frac{\pt^{j_{3}}}{\HT}}}
+\newcommand{\SumTwoJetAndLTOverHT}{\ensuremath{\frac{\pt^{j_{1}j_{2}} + \LT}{\HT}}}
+\newcommand{\UES}{unclustered energy scale}
+\newcommand{\TES}{\tauh energy scale}
+\newcommand{\JES}{jet energy scale}
+\newcommand{\JER}{jet energy resolution}
+\newcommand{\mtTauWMET}{\ensuremath{\mT(\tauVis{1}, \tauVis{2}, \WVis, \ptmiss)\xspace}}
+\newcommand{\mtMuTau}{\ensuremath{\mT(\Pgm, \tauh, j_{1}, j_{2}, \ptvecmiss)\xspace}}
+\newcommand{\mtETau}{\ensuremath{\mT(\Pe, \tauh, j_{1}, j_{2}, \ptvecmiss)\xspace}}
+\newcommand{\mtLtau}{\ensuremath{\mT(\ell, \tauh, j_{1}, j_{2}, \ptvecmiss)\xspace}}
+\newcommand{\mtLtautau}{\ensuremath{\mT(\ell, \tauh^{1}, \tauh^{2}, \ptvecmiss)\xspace}}
+\newcommand{\invMass}[2]{\ensuremath{m(#1,\, #2)}\xspace}
+\newcommand{\rank}[1]{\ensuremath{R_{\text{#1}}}\xspace}
+\newcommand{\UE}{underlying event}
+\newcommand{\chiPow}[1]{\ensuremath{\chi^{#1}}\xspace}
+\newcommand{\chiPowSub}[2]{\ensuremath{\chi^{#1}_{#2}}\xspace}
+\newcommand{\chiSq}{\chiPow{2}}
+\newcommand{\chiSqSub}[1]{\chiPowSub{2}{#1}}
+\newcommand{\tauVis}[1]{\ensuremath{\tau_{\text{vis}}^{#1}}}
+\newcommand{\WVis}{\ensuremath{\PW_{\text{vis}}}}
+

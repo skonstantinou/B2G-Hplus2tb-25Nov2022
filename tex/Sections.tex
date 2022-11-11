@@ -1,0 +1,580 @@
+\Slide{t}{
+Many BSM theories need to enlarge their Higgs sector to two Higgs doublets
+\begin{itemize}%1
+  % https://arxiv.org/pdf/1706.07414.pdf (page 11)
+\item The minimal \acp{2HDM} predict 5 physical states:
+  \begin{itemize}%2
+    \item two neutral, \CP-even particles \Ph\ and \PH\ ( $\mh \leq \mH$)
+    \item one neutral, \CP-odd particle \PSAz
+    \item two charged Higgs bosons \PHpm
+  \end{itemize}%2
+\end{itemize}%1
+
+\vspace{0.35cm}
+
+\acs{SM} fermion coupling to 2HDs (no \acsp{FCNC}):
+\twoColumnsAsymAlt
+    {
+      \small
+      \begin{itemize}
+      \item[\alertA{I}] \alertA{All quarks \& leptons couple to $\Phi_{2}$}
+        \vspace{-0.08cm}
+      \item[\alertB{II}] \alertB{All $u$-type to $\Phi_{2}$ and all $d$-type \& $\ell$ to $\Phi_{1}$} %\NeutralTag{MSSM-like}
+        \vspace{-0.08cm}
+      \item[\alertC{X}] \alertC{Both $u$ \& $d$ types couple to $\Phi_{2}$, all $\ell$ to $\Phi_{1}$}
+        \vspace{-0.08cm}
+      \item[\alertD{Y}] \alertD{Roles of two doublets reversed wrt \Type{II}}
+      \end{itemize}
+    }
+    {
+      \vspace{-0.25cm}
+      
+      \resizebox{0.87\linewidth}{!}{
+        \input{tables/2HDM_Models_v5Alt}
+      }
+    }
+
+\vspace{0.45cm}
+    
+For each \acsp{2HDM} type there are 7 free parameters (incl. \mh, \mH, \mA, \mHpm):
+\begin{enumerate}
+  \setcounter{enumi}{4}
+\item \tanbetaDef, the ratio of the Higgs doublet \acsp{VEV}
+\item \sinba, \mixingAngle: the mixing angle of the \CP-even states
+\item \massMatrixDiagonal, diagonal term of the mass matrix of the Higgs doublets
+
+\end{enumerate}
+}
+
+\Slide{t}{
+Three mass categories are commonly defined in \PHpm\ searches:
+\begin{itemize}
+\item \alertA{Light $\mHpm < \mtop - \mbottom$ },
+  \alertB{intermediate\tikzmark{f0} $\mHpm \sim \mtop$},
+  \alertC{heavy $\mHpm > \mtop + \mbottom$}
+\end{itemize}
+
+\vspace{0.2cm}               
+Decay \acsp{BR} model-dependent $\Rightarrow$ different searches constrain different scenarios.
+
+% https://arxiv.org/pdf/2005.08900.pdf
+\twoFigColumns
+{LHCHXSWG_v1/LowTanBetaM50to200/mh125_brs_tanb0p5}{$M_{h}^{125}$,
+  \tanbeta = 0.5}
+{LHCHXSWG_v1/LowTanBetaM90to1000/mh125_br_tb}{ $M_{h}^{125}$, \PHpm $\rightarrow$ tb}
+{0.8}
+
+\vspace{0.2cm}
+
+\textbf{\acsp{BR} of \textcolor{kGreen}{\PHpm $\rightarrow$ tb}
+  dominanates at high $\mHpm$, for wide range of \tanbeta}
+}
+
+\Slide{t}{
+
+  \vspace{0.1cm}
+  
+This analysis searches for a heavy \PHpm
+
+\vspace{-0.1cm}
+
+\threeFigColumnsCustomSize
+    {paper/feynman/hplus_4FS}{4FS}
+    {paper/feynman/hplus_5FS}{5FS}
+    {paper/feynman/hplus_sChannel}{s-channel}
+    {0.85}
+
+    \vspace{0.5cm}
+    
+    \textbf{\textcolor{kBlue}{Fully-hadronic} final state of associated production characterised by}:
+
+  \twoColumns
+      {
+
+        \vspace{0.25cm}
+        
+        \begin{itemize}
+          \small
+        \item High jet \& \bjet\ multiplicities 
+        \item[\Good] Large branching ratio $\BR\simeq46\%$
+        %\item Absence of neutrinos $\Rightarrow$ low \ptmiss
+        \item[\Good] Invariant mass reconstruction of \PHpm
+        \item[\Bad] QCD multijet \& \ttbar background % irreducible
+        \item[\Bad] Combinatorial (self-)background
+        \end{itemize}
+      }
+      {        
+        \vspace{-0.25cm}
+        {\oneFig{tikz/pdf/HPlus4FS_HToTB_FH}{0.9}}
+      }
+}
+
+\Slide{t}{
+       Various $\mathrm{m_{H^\pm}}$ reconstruction techniques
+       available due to signal process kinematics:
+
+       \vspace{0.1cm}       
+
+    \begin{itemize}
+      \small
+    \item\textcolor{kDarkGreen}{\textbf{Resolved \PQt}:} At moderate
+      \mHpm\ \& \ptHpm the decay products of \PHpm are well separated
+    \item \textcolor{kBlue}{\textbf{Boosted \PW/\PQt\tikzmark{bW1}}:}
+      As $\mathrm{m_{H^\pm}}$ increases the \PHpm\ decay products
+      become boosted
+    \item \textcolor{kOrange}{\textbf{Boosted \Hpm}:} As \ptHpm
+      increases its decay products become collinear \tikzmark{bH1}      
+    %\item As the $\mathrm{p_{T,H^{\pm}}}$ increases, its decay
+      %products become collinear
+    \end{itemize}
+
+    \vspace{0.1cm}
+    
+  \begin{columns}[T]
+      \begin{column}{0.20\textwidth}
+        \begin{tcolorbox}[transparentStyle, title=\tColorBoxTitle{\tikzmark{rTop2}\vspace{-0.15cm}\resolvedTop}]
+          \oneFig{tikz/pdf/h2tb_ResolvedTop}{1.0}
+        \end{tcolorbox}
+      \end{column}
+      \begin{column}{0.20\textwidth}
+        \begin{tcolorbox}[transparentStyle, title=\tColorBoxTitle{\tikzmark{bW2}\vspace{-0.15cm}\boostedW}]
+        \oneFig{tikz/pdf/h2tb_BoostedW}{1.0}
+        \end{tcolorbox}
+      \end{column}
+      \begin{column}{0.20\textwidth}
+        \begin{tcolorbox}[transparentStyle,  opacitytext=1.0, title=\tColorBoxTitle{\tikzmark{bTop}\vspace{-0.15cm}\boostedTop}]
+        \oneFig{tikz/pdf/h2tb_BoostedTop}{1.0}
+        \end{tcolorbox}
+      \end{column}
+       \begin{column}{0.20\textwidth}
+         \begin{tcolorbox}[transparentStyle, title=\tColorBoxTitle{boosted \PHpm}\vspace{-0.15cm}\tikzmark{bH2}]
+         \oneFig{tikz/pdf/h2tb_Boostedhiggs}{1.0}
+          \end{tcolorbox}
+      \end{column}
+      \begin{column}{0.20\textwidth}
+        \begin{tcolorbox}[transparentStyle, title=\tikzmark{bH3}\tColorBoxTitle{\vspace{-0.15cm}boosted \PHpm}]
+          \oneFig{tikz/pdf/h2tb_BoostedhiggsLargePt}{1.0} 
+        \end{tcolorbox}
+      \end{column}
+  \end{columns}
+
+  \vspace{0.35cm}
+  
+  \twoColumns
+      {
+        \small
+        \hspace{1.5cm} \textbf{Previous results}
+        \vspace{0.1cm}
+        \CustomiseLineSpacing{0.95}
+        \begin{itemize}
+        \item \textcolor{kDarkGreen}{\textbf{Resolved \PQt}},
+          \textcolor{kBlue}{\textbf{Boosted \PW/\PQt}}\newline studied separately by dedicated analyses
+        \item 2016 ReReco data
+        \item CADI \href{https://cms.cern.ch/iCMS/analysisadmin/cadilines?line=HIG-18-015}{\textcolor{kBlue}{HIG-18-015}}
+        \end{itemize}
+      }
+      {
+        \small
+        \hspace{2cm}  \textbf{This work}
+        \vspace{0.1cm}
+        \CustomiseLineSpacing{0.95}
+        \begin{itemize}          
+          \item \textcolor{kDarkGreen}{\textbf{Resolved \PQt}}, \textcolor{kBlue}{\textbf{Boosted \PQt}}
+          \item Full Run II data
+          \item This talk: status of 2017-2018 data
+            %\item Last progress report in HExtended meeting:
+          \item Last report (HExtended):
+            \href{https://indico.cern.ch/event/1071752/contributions/4578521/attachments/2333742/3977531/HiggsExtended_MKolosova_25Oct2021.pdf}{\textcolor{kBlue}{25
+            Oct 2021}}
+        \end{itemize}        
+      }
+}
+
+\MySection{Previous results}
+\Slide{t}{
+
+  
+  \hspace{4.0cm} \textcolor{kDarkGreen}{\textbf{Resolved}} (UCY, HIP)
+
+  \vspace{0.1cm}
+
+  %\CustomiseLineSpacing{1.1}  
+  \begin{itemize}
+    \small
+  \item Resolved t ($t^{res}$) identification: custom top tagger (BDT)
+  \item Selected events contain $\ge$ 7 jets, $\ge$ 3 b-tagged, 2 $t^{res}$
+  \item \PHpm mass reconstruction ($m_{bt}$): leading \pT $t^{res}$ +
+    leading \pT b jet
+  \item Main background:
+    \begin{itemize}
+      \footnotesize
+    \item Misid. B: From data using CRs (ABCD method)
+    \item Genuine B: from simulation
+    \end{itemize}
+  \item $m_{bt}$ is used to extract the signal in the presence of the SM background.
+  \end{itemize}
+
+  \vspace{-0.2cm}
+  
+  \twoFigColumns
+      {CMS-HIG-18-015/Figure_003-a.pdf}{$t^{res}$ efficiency}
+      %{topEffic_Resolved_HIG18015}{$t^{res}$ efficiency}
+      {CMS-HIG-18-015/Figure_005-b.pdf}{$m_{bt}$ Post-fit}
+      {0.55}
+}
+
+\Slide{t}{
+
+  \hspace{4.0cm} \textcolor{kBlue}{\textbf{Boosted}} (MIT, BUAP)  
+
+  \vspace{0.05cm}  
+
+  \begin{itemize}
+    \small
+  \item Events are split in four main categories
+  \end{itemize}
+
+  \vspace{-0.4cm}
+  
+  \begin{columns}[T]
+      \begin{column}{0.145\textwidth}
+        \begin{tcolorbox}[transparentStyle,
+            title=\tColorBoxTitle{\vspace{-0.15cm} t0b}]
+          \oneFig{tikz/pdf/h2tb_HIG-18-015_t0b_2bjets}{1.0}
+        \end{tcolorbox}
+      \end{column}
+      \begin{column}{0.145\textwidth}
+        \begin{tcolorbox}[transparentStyle,
+            title=\tColorBoxTitle{\vspace{-0.15cm} t1b}]
+        \oneFig{tikz/pdf/h2tb_HIG-18-015_t1b_2bjets}{1.0}
+        \end{tcolorbox}
+      \end{column}
+      \begin{column}{0.145\textwidth}
+        \begin{tcolorbox}[transparentStyle,  opacitytext=1.0,
+            title=\tColorBoxTitle{\vspace{-0.15cm} Wbb}]
+        \oneFig{tikz/pdf/h2tb_HIG-18-015_Wbb_2bjets}{1.0}
+        \end{tcolorbox}
+      \end{column}
+       \begin{column}{0.145\textwidth}
+         \begin{tcolorbox}[transparentStyle,
+             title=\tColorBoxTitle{\vspace{-0.15cm} Wbj}]
+         \oneFig{tikz/pdf/h2tb_HIG-18-015_Wbj_2bjets}{1.0}
+          \end{tcolorbox}
+      \end{column}
+  \end{columns}
+
+  \vspace{-0.2cm}
+  %\oneFigColumns{boosted_categories.png}{}{0.85}
+
+  \begin{itemize}
+    \small
+  \item Boosted $t$/$W$ identification: Based on \mSD[],
+    \subjettiness[]{N}, $N_{b \ \text{subjets}}$
+  \item \PHpm mass reconstruction ($m_{bt}$): $t$ + leading \pT b jet
+  \item Further categorization according to:
+    \begin{itemize}
+      \setlength{\itemindent}{1mm}
+      \footnotesize
+    \item $N_{b}$ $\in [=1, =2, \geq 3]$
+    \item $N_{j}^{extra}$ $\in [< 3, \geq 3]$
+    \item \mHpmReco $\in [\text{below}, \text{in}, \text{above}]$ of FWHM of signal
+    %\item Number of bjets (=1, =2, $\ge$3)
+    %\item Number of jets not used in \PHpm (<3, $\ge$ 3)
+    %\item Below, in and above the $m_{bt}$ window
+    \end{itemize}
+  \end{itemize}
+
+  %\vspace{-0.1cm}
+
+  \twoColumns
+      {
+        \begin{itemize}
+          \small
+        \item Main background
+          \begin{itemize}
+            \footnotesize
+          \item[QCD]: from data using CRs (inverted
+            \subjettiness[]{N}), sidebands with \mHpmReco
+            $\in [\text{below},\text{above}]$)
+          \item[\ttbar]: from sim., normalized in CR with 1
+            $\ell$
+          \end{itemize}
+        \end{itemize}
+      }
+      {
+        
+        \vspace{-2.7cm}
+        \oneFigColumns{CMS-HIG-18-015/Figure_005-a.pdf}{}{0.57}
+      }
+
+      \vspace{-0.1cm}
+      
+      \begin{itemize}
+        \small
+        \item $H_{T}$ is used to extract the signal from SM background inside the $m_{bt}$ window.
+      \end{itemize}
+}
+
+\Slide{t}{
+  
+  %\threeFigColumnsBig
+  %    {CMS-HIG-18-015/Figure_006-a.pdf}{}
+  %    {CMS-HIG-18-015/Figure_006-b.pdf}{}
+  %    {CMS-HIG-18-015/Boosted_Figure-aux_001-b.pdf}{}
+
+  \twoColumns
+      {
+        \vspace{-0.2cm}
+        
+        \oneFigColumns{limit_assoc_HIG18015}{Associated production}{0.7}
+      }
+      {
+        %Results are interpreted to set model independent upper limits on the
+        %$\mathrm{\sigma_{H^{\pm}}}\times\mathcal{B}(\mathrm{H^{\pm}\rightarrow tb})$
+
+        \vspace{0.75cm}
+
+        \textbf{Resolved and Boosted analysis overlayed limits}
+        \begin{itemize}
+          \scriptsize
+        \item Boosted: best sensitivity for $\mathrm{m_{H^\pm}}$ > 0.8 TeV
+        %\item Resolved: most stringent limits at lower masses
+        \item Reported limit at each mass value is determined by
+          the analysis with the best expected sensitivity.
+        \item 21.3 to 0.007 pb for masses 0.2 to 3 TeV
+        \item No excess above the estimated background% is observed
+        \item Interpretation in hMSSM: maximum \tanb = 0.88 is
+          excluded for \mHpm = 0.20-0.55~TeV
+        \end{itemize}
+
+        %The hMSSM benchmark scenario assumes that the discovered Higgs boson is the light
+        %Higgs boson in the 2HDM and that the SUSY particles have masses too large to be directly
+        %observed at the LHC.
+      }
+      
+  \twoColumnsAsymAlt
+      {
+        \twoFigColumns
+            {CMS-HIG-18-015/Figure_006-b.pdf}{s-channel}
+            {CMS-HIG-18-015/Boosted_Figure-aux_001-b.pdf}{Assoc. boosted categories}
+            {1.}
+      }
+      {
+
+        \vspace{0.75cm}
+        
+        \begin{itemize}
+        \item Boosted analysis sets upper limits in the s-channel
+          production
+          \begin{itemize}
+            \scriptsize
+          \item 4.5-0.023 pb for \mHpm 0.8 to 3 TeV
+          \end{itemize}
+        \item Boosted categories
+          \begin{itemize}
+            \scriptsize
+          \item Most sensitive main category is $t1b$
+          \item Least sensitive category is $Wbj$
+          \end{itemize}
+        \end{itemize}
+      }
+  
+}
+
+\MySection{Resolved}
+\MySubSection{Event Selection}
+
+\Slide{t}{
+
+  \textbf{Signal region (SR):}
+  \vspace{-0.2cm}
+  \begin{center}
+    \resizebox{1.0\linewidth}{!}{
+      \begin{tabular}{l l}
+        \hline
+        \cellcolor[gray]{.9}Trigger  & \cellcolor[gray]{.9}$H_{T}$ + multijet + 1 or 2 b jets\\
+        $e$ veto & \pT > 10 GeV, $|\eta|$ < 2.4, Loose miniIso, cutBasedElectronID (veto) \\%\_Fall17\_94X\_V2\_veto \\
+        \cellcolor[gray]{.9}$\mu$ veto & \cellcolor[gray]{.9}\pT > 10 GeV, $|\eta|$ < 2.4, Loose miniIso isCutBasedIDLoose\\
+        $\tau$ veto & \pT > 20 GeV, $|\eta|$ < 2.3, DeepTau \dDeepTau[vloose]{\Pe}, \dDeepTau[medium]{\mu}, \dDeepTau[loose]{j}\\
+        \cellcolor[gray]{.9}$\ge$ 7 jets & \cellcolor[gray]{.9}$p_{T}^{6th}$ > 40 GeV, $p_{T}^{7th}$ > 30 GeV, $|\eta|$ < 2.4, Tight ID, $H_{T}$ > 500 GeV\\
+        $\ge$ 3 b jets & \pT > 40 GeV, DeepJet Medium WP \\
+        \cellcolor[gray]{.9}$\ge$ 1 resolved top ($t^{res}$) & \cellcolor[gray]{.9}custom DNN medium, $130 < m_{\mathrm{t^{res}}} < 210~$GeV\\
+        \hline
+      \end{tabular}
+    }
+  \end{center}
+
+  \vspace{0.75cm}
+  
+  
+  \twoColumnsAsymAlt
+      {
+        \normalsize
+        $\ \ $ \textbf{SR categorization based on $t^{res}$}
+        \begin{itemize}
+          \small
+        \item \textcolor{kDarkGreen}{$1M1L_{t^{res}}$}: medium $t^{res}_{\PHpm}$ \newline
+          \textcolor{white}{$1M1L_{t^{res}}$:} loose-not-medium $t^{res}_{assoc}$
+        \item \textcolor{kDarkGreen}{$2M_{t^{res}}$}: both $t^{res}$ medium tagged
+        \end{itemize}
+
+        \vspace{0.3cm}
+
+        $\ \ $ \textbf{Invariant \PHpm~mass reconstruction}:
+        \begin{itemize}
+          \large
+        \item[] \textcolor{kRed}{\mHpmReco = $t^{res}_{ \ ldg \ p_{T}}$
+          + bjet$^{free}_{ldg \ p_{T}}$}
+        \end{itemize}
+      }
+      {
+        \vspace{-0.4cm}
+        \oneFigColumns{tikz/pdf/HPlus4FS_HToTB_ResolvedTop_InvMass}{}{1.0}%\mHpmReco=\rTop$_{ \ ldg \ p_{T}}$ + bjet$^{free}_{ldg \ p_{T}}$}{0.68}
+      }
+}
+
+\MySubSection{top tagging}
+\Slide{t}{
+  \small
+
+  \vspace{0.1cm}
+
+  A fully connected NN is developed to reconstruct resolved top-quarks
+
+  \begin{itemize}
+  \item Distinguishes trijets from top-quark decays and trijets from combinatorial background.
+  \end{itemize}
+
+    \twoColumns
+        {
+          \small
+
+          \begin{itemize}
+          \item Training on simulated $t\bar{t}$ events
+        \begin{itemize}
+          \small
+        \item \textcolor{kDarkGreen}{Signal:} truth-matched trijets
+        \item \textcolor{kRed}{Background:} non-matched trijets
+        \end{itemize}
+         \end{itemize}
+      }
+      {
+         \vspace{-0.2cm}
+        \twoFigColumns
+            {top-training/top_matched}{ \textcolor{kDarkGreen}{signal}}
+            {top-training/top_unmatched1b}{\textcolor{kRed}{background}}
+            {0.45}
+      }
+
+  Mass decorrelation using sample reweighting:
+
+  \begin{itemize}
+    \small
+  %\item Input variables are uncorrelated to the top-quark mass distribution ($m_{top}$)
+  \item \textcolor{kRed}{Background} is reweighted such that $m_{top}$ matches the \textcolor{kDarkGreen}{signal}.
+  \end{itemize}
+
+  \vspace{0.2cm}
+  
+  SF vs $t^{res}$ \pT measured in a region with 1 isolated $\ell$
+  
+  \vspace{-0.4cm}
+
+  \threeColumns
+      {\oneFigColumns{CMS-HIG-21-010_Figure_003.pdf}{}{0.9}}
+      {\oneFigColumns{topTagging/trijetMass_3WPs}{}{0.9}}
+      {
+        \footnotesize
+        \vspace{1.5cm}
+
+        %\begin{itemize}
+        %  \scriptsize
+        %\item[] In \href{http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-21-010/index.html}{\textcolor{kBlue}{HIG-21-010}}
+        %\item[] Documentation: \href{https://cms.cern.ch/iCMS/user/noteinfo?cmsnoteid=CMS\%20AN-2021/019}{\textcolor{kBlue}{AN 2021/019}}
+        %\item[] Approved by \href{https://indico.cern.ch/event/1042288/contributions/4380251/attachments/2256031/3920589/updated_TopTag_JMAR_06Jul2021.pdf}{\textcolor{kBlue}{JMAR group}}
+        %\end{itemize}
+        \href{http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-21-010/index.html}{\textcolor{kBlue}{HIG-21-010}}
+        Submitted to JHEP\newline
+        \vspace{0.1cm}Documentation: \href{https://cms.cern.ch/iCMS/user/noteinfo?cmsnoteid=CMS\%20AN-2021/019}{\textcolor{kBlue}{AN 2021/019}}\newline
+        \vspace{0.1cm}Approved by \href{https://indico.cern.ch/event/1042288/contributions/4380251/attachments/2256031/3920589/updated_TopTag_JMAR_06Jul2021.pdf}{\textcolor{kBlue}{JMAR group}}
+
+      }
+
+      %\PlaceText{73mm}{65mm}{\scriptsize{\textcolor{kBlue}{loose}}}
+      %\PlaceText{67mm}{72mm}{\tiny{\textbf{Loose WP}}}
+      \PlaceText{67mm}{65mm}{\boxed{\tiny{\textbf{Loose WP}}}}
+}
+  
+\MySubSection{background}
+\Slide{t}{
+
+  \vspace{0.1cm}
+  
+  %\small
+  Main background for the \PHpm $\rightarrow$ tb fully hadronic final
+  state:
+
+  \vspace{0.1cm}
+  
+  \begin{itemize}
+    \small
+  \item QCD multijet \DataDrivenTag
+  \item EWK processes (mainly \ttbar) \SimulationTag
+  \end{itemize}
+
+  \vspace{0.35cm}
+
+  \normalsize
+  \textbf{QCD background measurement}\newline
+  \small
+  %\textbf{Defining 3 orthogonal control regions (CR) for each SR}:\newline
+  %\textbf{Use discriminating variables to define 3 orthogonal control regions (CR) for each SR}:
+
+  \vspace{-0.25cm}
+  
+  Defining 3 orthogonal control regions (CR) for each SR
+
+  \vspace{-0.2cm}
+  \twoColumnsAsymAlt
+      {
+        \begin{itemize}
+        \small
+        \item \textcolor{kRed}{$t^{res}_{assoc}$ mass}: In-mass
+          $\rightarrow$ Off-mass ``sidebands''
+        \item \textcolor{kRed}{$t^{res}_{H^{\pm}}$ mva}: t-tagged (t) $\rightarrow$ non t-tagged (!t)
+        \end{itemize}
+      }
+      {
+      }
+
+  \vspace{0.55cm}
+      
+  ``ABCD'' method
+  
+  \twoColumnsAsymAlt
+      {
+        \begin{equation*}
+          \boxed{\textcolor{black}{N^{SR}_{QCD}} =
+            \sum_{i}^{\mathrm{bins}} \textcolor{black}{N^{CR(off\texttt{-}mass,t)}_{QCD,i}}  \cdot \left(\frac{\textcolor{black}{N^{CR(in\texttt{-}mass,!t)}_{QCD,i}}}{\textcolor{black}{N^{CR(off\texttt{-}mass,!t)}_{QCD,i}}} \right)}
+        \end{equation*}
+
+        \small        
+        \begin{itemize}
+          \footnotesize
+        \item Performed in 3 bins of the $t^{res}_{assoc}$ \pT:
+          \begin{itemize}
+            \footnotesize
+          \item \pT $in$ [0, 100, 300, $\infty$] GeV \FixmeTag
+          \end{itemize}          
+        \end{itemize}        
+      }
+      {
+
+        \vspace{-1.6cm}
+        
+        \oneFigColumns{invertAssocTopDiagram.pdf}{Sidebands}{1.0}
+      }
+
+        %\item Shape:  t-tagged $t^{res}_{H^{\pm}}$, off $t^{res}_{assoc}$ mass
+        %\item Normal.: non-tagged $t^{res}_{H^{\pm}}$, in/off $t^{res}_{assoc}$ mass      
+}

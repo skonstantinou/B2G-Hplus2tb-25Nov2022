@@ -1,0 +1,51 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% bibliography.bib
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Some guide notes:
+% 1. First thing to decide is what type of entry it is. 
+% 2. Database entries of different types have different fields.
+% 3. The fields are divided into three classes:
+%    -Required: omitting the field will produce an error message and may result
+%               in a badly formatted bibliography entry. 
+%    -Optional: the field's info can be omitted without causing any problems. 
+%    -Ignored : the field is ignored. BibTeX ignores any field that is not 
+%                required or optional, so you can include any fields you want 
+%                in a bibliography entry.
+%
+% Also note that BibTeX ignores the case of letters in the entry type.
+%
+% The types of all avaialbe entries are listed below:
+%   * article entry, * book entry, * booklet entry, * conference entry, 
+%   * inbook entry,  * incollection entry,  * inproceedings entry, 
+%   * manual entry,  * mastersthesis entry, * misc entry, * phdthesis entry, 
+%   * proceedings entry, * techreport entry, * unpublished entry, 
+%
+% ------->  NOTE: SEE END OF DOCUMENT FOR HOW TO USE ENTRY TYPES  <-------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@article{PAPER-HIG-11-019,
+      author         = "Chatrchyan, Serguei and others",
+      title          = "{Search for a light charged Higgs boson in top quark
+                        decays in pp collisions at $\sqrt{s}$ = 7 TeV}",
+      collaboration  = "CMS Collaboration",
+      year           = "2012",
+      eprint         = "1205.5736",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CMS-HIG-11-019, CERN-PH-EP-2012-123",
+      SLACcitation   = "%%CITATION = ARXIV:1205.5736;%%",
+}
+
+%%% Higgs Mechanism
+@article{PhysRevLett.19.1264,
+  title = {A Model of Leptons},
+  author = {Weinberg, Steven},
+  journal = {Phys. Rev. Lett.},
+  volume = {19},
+  issue = {21},
+  pages = {1264--1266},
+  year = {1967},
+  month = {Nov},
+  doi = {10.1103/PhysRevLett.19.1264},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.19.1264},
+  publisher = {American Physical Society}
+}
