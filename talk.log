@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.18)  13 NOV 2022 23:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.18)  13 NOV 2022 23:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2400,41 +2400,41 @@ Package: ptdr-definitions  2021/01/12 CMS Additional Macro Definitions v2
 sty)
 (/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.st
 y)
-LaTeX Info: Redefining \HepProcess on input line 135.
+LaTeX Info: Redefining \HepProcess on input line 138.
  (./talk.aux)
 \openout1 = `talk.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 135.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 135.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 138.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 138.
 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 135.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 135.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 138.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 138.
 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 135.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 138.
 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmss.fd
@@ -2506,84 +2506,84 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box168
-Package hyperref Info: Link coloring OFF on input line 135.
-LaTeX Info: Redefining \ref on input line 135.
-LaTeX Info: Redefining \pageref on input line 135.
-LaTeX Info: Redefining \nameref on input line 135.
+Package hyperref Info: Link coloring OFF on input line 138.
+LaTeX Info: Redefining \ref on input line 138.
+LaTeX Info: Redefining \pageref on input line 138.
+LaTeX Info: Redefining \nameref on input line 138.
  (./talk.out) (./talk.out)
 \@outlinefile=\write9
 \openout9 = `talk.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 135.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 138.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/bx/n on input line 135.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/bx/n on input line 138.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 135.
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 138.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 135.
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 138.
 \symnumbers=\mathgroup12
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 135.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 138.
 LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
 (Font)              `pureletters' in the math version `normal' on input line 13
-5.
+8.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  OT1/mathkerncmss/m/sl --> T1/lmss/m/it on input line 13
-5.
+8.
 LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `pureletters' in the math version `bold' on input line 135.
+(Font)              `pureletters' in the math version `bold' on input line 138.
 
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/bx/sl --> T1/lmss/m/it on input line 1
-35.
+38.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 135.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 135.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 135.
+(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 138.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 138.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 135.
+(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 138.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 135.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 135.
+(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 138.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 138.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 135.
+(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 138.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 135.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 135.
+(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 138.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 138.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 135.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 138.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 135.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 138.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 135.
+(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 138.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 135.
+(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 138.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/lmr/bx/n on input line 135.
+(Font)                  OT1/lmss/bx/n --> T1/lmr/bx/n on input line 138.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/lmss/bx/n --> T1/lmss/bx/n on input line 135.
+(Font)                  T1/lmss/bx/n --> T1/lmss/bx/n on input line 138.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 135.
+(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 138.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 135.
+(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 138.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/lmtt/m/n --> T1/lmtt/bx/n on input line 135.
-LaTeX Font Info:    Redeclaring symbol font `boldpureletters' on input line 135
+(Font)                  T1/lmtt/m/n --> T1/lmtt/bx/n on input line 138.
+LaTeX Font Info:    Redeclaring symbol font `boldpureletters' on input line 138
 .
 LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
 (Font)              `boldpureletters' in the math version `normal' on input lin
-e 135.
+e 138.
 LaTeX Font Info:    Overwriting symbol font `boldpureletters' in version `norma
 l'
 (Font)                  OT1/mathkerncmss/bx/sl --> T1/lmss/bx/it on input line 
-135.
+138.
 LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
 (Font)              `boldpureletters' in the math version `bold' on input line 
-135.
+138.
 LaTeX Font Info:    Overwriting symbol font `boldpureletters' in version `bold'
 
 (Font)                  OT1/mathkerncmss/bx/sl --> T1/lmss/bx/it on input line 
-135.
+138.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/translator/translator-basic-dicti
 onary-English.dict
@@ -2616,15 +2616,15 @@ Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \symgns@font=\mathgroup13
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/lmss/m/n --> TS1/lmss/bx/n on input line 135.
-Package gensymb Info: Math companion symbols declared on input line 135.
-LaTeX Info: Redefining \degree on input line 135.
-LaTeX Info: Redefining \celsius on input line 135.
+(Font)                  TS1/lmss/m/n --> TS1/lmss/bx/n on input line 138.
+Package gensymb Info: Math companion symbols declared on input line 138.
+LaTeX Info: Redefining \degree on input line 138.
+LaTeX Info: Redefining \celsius on input line 138.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 135.
-LaTeX Info: Redefining \ohm on input line 135.
-Package gensymb Info: Using \textohm for \ohm on input line 135.
-Package gensymb Info: Using \textmu for \micro on input line 135.
+erthousand on input line 138.
+LaTeX Info: Redefining \ohm on input line 138.
+Package gensymb Info: Using \textohm for \ohm on input line 138.
+Package gensymb Info: Using \textmu for \micro on input line 138.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
@@ -2633,80 +2633,80 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 \c@lstlisting=\count487
 
 (./talk.nav)
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 135
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 138
 .
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 135.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 138.
 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 135
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 138
 .
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 135
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 138
 .
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 135.
+(Font)              <7> on input line 138.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 135.
-LaTeX Font Info:    Try loading font information for U+msa on input line 135.
+(Font)              <5> on input line 138.
+LaTeX Font Info:    Try loading font information for U+msa on input line 138.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 135.
+LaTeX Font Info:    Try loading font information for U+msb on input line 138.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <7> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 135.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 138.
 
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <5> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 135.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 138.
 
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 135.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 138.
 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 135.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 138.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 135.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 138.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 135.
-LaTeX Font Info:    Try loading font information for TS1+lmss on input line 135
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 138.
+LaTeX Font Info:    Try loading font information for TS1+lmss on input line 138
 .
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ts1lmss.fd
 File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 135.
+(Font)              <10> on input line 138.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 135.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 138.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 135.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 138.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 135.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 138.
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <10> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 135.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 138.
 
  (./tex/Cover.tex
 \logoHeight=\skip100
@@ -2714,69 +2714,84 @@ LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <10> not available
 (./tex/Acronyms.tex)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 138.
+(hyperref)                setting the option has no effect on input line 141.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 138.
+(Font)              <12> on input line 141.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 138.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 138.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 138.
-LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <9> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 138.
+(Font)              <8> on input line 141.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 141.
+LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <12> not available
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 141.
+
+LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <8> not available
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 141.
 
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <6> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 138.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 141.
 
-Package acronym Info: Label `acro:UCY' newly defined as it shall be overridden
-although it is yet undefined on input line 138.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 141.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 141.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 141.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 141.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 141.
+LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <9> not available
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 141.
+
 <./figures/logos/logo_cern2.pdf, id=55, 185.69376pt x 183.68625pt>
 File: ./figures/logos/logo_cern2.pdf Graphic file (type pdf)
 <use ./figures/logos/logo_cern2.pdf>
-Package pdftex.def Info: ./figures/logos/logo_cern2.pdf  used on input line 138
+Package pdftex.def Info: ./figures/logos/logo_cern2.pdf  used on input line 141
 .
 (pdftex.def)             Requested size: 43.145pt x 42.67912pt.
 <./figures/logos/logo_cms4.pdf, id=57, 394.75581pt x 395.09105pt>
 File: ./figures/logos/logo_cms4.pdf Graphic file (type pdf)
 <use ./figures/logos/logo_cms4.pdf>
-Package pdftex.def Info: ./figures/logos/logo_cms4.pdf  used on input line 138.
+Package pdftex.def Info: ./figures/logos/logo_cms4.pdf  used on input line 141.
 
 (pdftex.def)             Requested size: 42.64021pt x 42.67912pt.
 <./figures/logos/logo_ucy2.pdf, id=59, 176.46928pt x 176.64825pt>
 File: ./figures/logos/logo_ucy2.pdf Graphic file (type pdf)
 <use ./figures/logos/logo_ucy2.pdf>
-Package pdftex.def Info: ./figures/logos/logo_ucy2.pdf  used on input line 138.
+Package pdftex.def Info: ./figures/logos/logo_ucy2.pdf  used on input line 141.
 
 (pdftex.def)             Requested size: 42.63622pt x 42.67912pt.
-LaTeX Info: Redefining \HepProcess on input line 138.
+<./figures/logos/logo_hip3.pdf, id=61, 494.22827pt x 498.38766pt>
+File: ./figures/logos/logo_hip3.pdf Graphic file (type pdf)
+<use ./figures/logos/logo_hip3.pdf>
+Package pdftex.def Info: ./figures/logos/logo_hip3.pdf  used on input line 141.
+
+(pdftex.def)             Requested size: 42.32181pt x 42.67912pt.
+LaTeX Info: Redefining \HepProcess on input line 141.
 [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figur
 es/logos/logo_cern2.pdf> <./figures/logos/logo_cms4.pdf> <./figures/logos/logo_
-ucy2.pdf>] (./tex/Sections.tex
+ucy2.pdf> <./figures/logos/logo_hip3.pdf>] (./tex/Sections.tex
 Package acronym Info: Label `acro:2HDM' newly defined as it shall be overridden
 
 although it is yet undefined on input line 47.
- (./tables/2HDM_Models_v5Alt.tex)
+
+(./tables/2HDM_Models_v5Alt.tex)
 LaTeX Info: Redefining \HepProcess on input line 47.
  [2
 
 ]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 71.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 71.
-LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <8> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 71.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <14.4> on input line 71.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 71.
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <14.4> not available
 (Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 71.
-<./figures/LHCHXSWG_v1/LowTanBetaM50to200/mh125_brs_tanb0p5.pdf, id=134, 569.12
+<./figures/LHCHXSWG_v1/LowTanBetaM50to200/mh125_brs_tanb0p5.pdf, id=151, 569.12
 625pt x 546.04pt>
 File: ./figures/LHCHXSWG_v1/LowTanBetaM50to200/mh125_brs_tanb0p5.pdf Graphic fi
 le (type pdf)
@@ -2784,7 +2799,7 @@ le (type pdf)
 Package pdftex.def Info: ./figures/LHCHXSWG_v1/LowTanBetaM50to200/mh125_brs_tan
 b0p5.pdf  used on input line 71.
 (pdftex.def)             Requested size: 143.40248pt x 137.58447pt.
-<./figures/LHCHXSWG_v1/LowTanBetaM90to1000/mh125_br_tb.pdf, id=135, 569.12625pt
+<./figures/LHCHXSWG_v1/LowTanBetaM90to1000/mh125_br_tb.pdf, id=152, 569.12625pt
  x 546.04pt>
 File: ./figures/LHCHXSWG_v1/LowTanBetaM90to1000/mh125_br_tb.pdf Graphic file (t
 ype pdf)
@@ -2798,25 +2813,25 @@ LaTeX Info: Redefining \HepProcess on input line 71.
  <./figures/LHCHXSWG_v1/LowTanBetaM50to200/mh125_brs_tanb0p5.pdf, page is rotat
 ed 90 degrees> <./figures/LHCHXSWG_v1/LowTanBetaM90to1000/mh125_br_tb.pdf, page
  is rotated 90 degrees>]
-<./figures/paper/feynman/hplus_4FS.pdf, id=236, 128.60948pt x 85.75839pt>
+<./figures/paper/feynman/hplus_4FS.pdf, id=251, 128.60948pt x 85.75839pt>
 File: ./figures/paper/feynman/hplus_4FS.pdf Graphic file (type pdf)
 <use ./figures/paper/feynman/hplus_4FS.pdf>
 Package pdftex.def Info: ./figures/paper/feynman/hplus_4FS.pdf  used on input l
 ine 110.
 (pdftex.def)             Requested size: 96.64563pt x 64.44818pt.
-<./figures/paper/feynman/hplus_5FS.pdf, id=237, 136.0784pt x 85.75839pt>
+<./figures/paper/feynman/hplus_5FS.pdf, id=252, 136.0784pt x 85.75839pt>
 File: ./figures/paper/feynman/hplus_5FS.pdf Graphic file (type pdf)
 <use ./figures/paper/feynman/hplus_5FS.pdf>
 Package pdftex.def Info: ./figures/paper/feynman/hplus_5FS.pdf  used on input l
 ine 110.
 (pdftex.def)             Requested size: 96.64563pt x 60.9098pt.
-<./figures/paper/feynman/hplus_sChannel.pdf, id=238, 128.46996pt x 85.75839pt>
+<./figures/paper/feynman/hplus_sChannel.pdf, id=253, 128.46996pt x 85.75839pt>
 File: ./figures/paper/feynman/hplus_sChannel.pdf Graphic file (type pdf)
 <use ./figures/paper/feynman/hplus_sChannel.pdf>
 Package pdftex.def Info: ./figures/paper/feynman/hplus_sChannel.pdf  used on in
 put line 110.
 (pdftex.def)             Requested size: 96.64563pt x 64.51491pt.
-<./figures/tikz/pdf/HPlus4FS_HToTB_FH.pdf, id=239, 263.1431pt x 173.1007pt>
+<./figures/tikz/pdf/HPlus4FS_HToTB_FH.pdf, id=254, 263.1431pt x 173.1007pt>
 File: ./figures/tikz/pdf/HPlus4FS_HToTB_FH.pdf Graphic file (type pdf)
 <use ./figures/tikz/pdf/HPlus4FS_HToTB_FH.pdf>
 Package pdftex.def Info: ./figures/tikz/pdf/HPlus4FS_HToTB_FH.pdf  used on inpu
@@ -2835,33 +2850,31 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <9> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 191.
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 191.
-<./figures/tikz/pdf/h2tb_ResolvedTop.pdf, id=296, 205.65935pt x 205.65935pt>
+<./figures/tikz/pdf/h2tb_ResolvedTop.pdf, id=311, 205.65935pt x 205.65935pt>
 File: ./figures/tikz/pdf/h2tb_ResolvedTop.pdf Graphic file (type pdf)
 <use ./figures/tikz/pdf/h2tb_ResolvedTop.pdf>
 Package pdftex.def Info: ./figures/tikz/pdf/h2tb_ResolvedTop.pdf  used on input
  line 191.
 (pdftex.def)             Requested size: 69.9927pt x 69.99228pt.
-<./figures/tikz/pdf/h2tb_BoostedW.pdf, id=297, 205.65935pt x 205.65935pt>
+<./figures/tikz/pdf/h2tb_BoostedW.pdf, id=312, 205.65935pt x 205.65935pt>
 File: ./figures/tikz/pdf/h2tb_BoostedW.pdf Graphic file (type pdf)
 <use ./figures/tikz/pdf/h2tb_BoostedW.pdf>
 Package pdftex.def Info: ./figures/tikz/pdf/h2tb_BoostedW.pdf  used on input li
 ne 191.
 (pdftex.def)             Requested size: 69.9927pt x 69.99228pt.
-<./figures/tikz/pdf/h2tb_BoostedTop.pdf, id=298, 205.65935pt x 205.65935pt>
+<./figures/tikz/pdf/h2tb_BoostedTop.pdf, id=313, 205.65935pt x 205.65935pt>
 File: ./figures/tikz/pdf/h2tb_BoostedTop.pdf Graphic file (type pdf)
 <use ./figures/tikz/pdf/h2tb_BoostedTop.pdf>
 Package pdftex.def Info: ./figures/tikz/pdf/h2tb_BoostedTop.pdf  used on input 
 line 191.
 (pdftex.def)             Requested size: 69.9927pt x 69.99228pt.
-<./figures/tikz/pdf/h2tb_Boostedhiggs.pdf, id=299, 205.65935pt x 205.65935pt>
+<./figures/tikz/pdf/h2tb_Boostedhiggs.pdf, id=314, 205.65935pt x 205.65935pt>
 File: ./figures/tikz/pdf/h2tb_Boostedhiggs.pdf Graphic file (type pdf)
 <use ./figures/tikz/pdf/h2tb_Boostedhiggs.pdf>
 Package pdftex.def Info: ./figures/tikz/pdf/h2tb_Boostedhiggs.pdf  used on inpu
 t line 191.
 (pdftex.def)             Requested size: 69.9927pt x 69.99228pt.
-<./figures/tikz/pdf/h2tb_BoostedhiggsLargePt.pdf, id=300, 205.65935pt x 205.659
+<./figures/tikz/pdf/h2tb_BoostedhiggsLargePt.pdf, id=315, 205.65935pt x 205.659
 35pt>
 File: ./figures/tikz/pdf/h2tb_BoostedhiggsLargePt.pdf Graphic file (type pdf)
 <use ./figures/tikz/pdf/h2tb_BoostedhiggsLargePt.pdf>
@@ -2875,13 +2888,13 @@ LaTeX Info: Redefining \HepProcess on input line 191.
 f> <./figures/tikz/pdf/h2tb_BoostedTop.pdf> <./figures/tikz/pdf/h2tb_Boostedhig
 gs.pdf> <./figures/tikz/pdf/h2tb_BoostedhiggsLargePt.pdf>]
 LaTeX Info: Redefining \HepProcess on input line 193.
-<./figures/CMS-HIG-18-015/Figure_003-a.pdf, id=364, 569.12625pt x 689.57625pt>
+<./figures/CMS-HIG-18-015/Figure_003-a.pdf, id=379, 569.12625pt x 689.57625pt>
 File: ./figures/CMS-HIG-18-015/Figure_003-a.pdf Graphic file (type pdf)
 <use ./figures/CMS-HIG-18-015/Figure_003-a.pdf>
 Package pdftex.def Info: ./figures/CMS-HIG-18-015/Figure_003-a.pdf  used on inp
 ut line 224.
 (pdftex.def)             Requested size: 98.58937pt x 119.44656pt.
-<./figures/CMS-HIG-18-015/Figure_005-b.pdf, id=365, 569.12625pt x 689.57625pt>
+<./figures/CMS-HIG-18-015/Figure_005-b.pdf, id=380, 569.12625pt x 689.57625pt>
 File: ./figures/CMS-HIG-18-015/Figure_005-b.pdf Graphic file (type pdf)
 <use ./figures/CMS-HIG-18-015/Figure_005-b.pdf>
 Package pdftex.def Info: ./figures/CMS-HIG-18-015/Figure_005-b.pdf  used on inp
@@ -2896,7 +2909,7 @@ LaTeX Info: Redefining \HepProcess on input line 224.
 
  <./figures/CMS-HIG-18-015/Figure_003-a.pdf> <./figures/CMS-HIG-18-015/Figure_0
 05-b.pdf>]
-<./figures/tikz/pdf/h2tb_HIG-18-015_t0b_2bjets.pdf, id=462, 205.65935pt x 205.6
+<./figures/tikz/pdf/h2tb_HIG-18-015_t0b_2bjets.pdf, id=477, 205.65935pt x 205.6
 5935pt>
 File: ./figures/tikz/pdf/h2tb_HIG-18-015_t0b_2bjets.pdf Graphic file (type pdf)
 
@@ -2904,7 +2917,7 @@ File: ./figures/tikz/pdf/h2tb_HIG-18-015_t0b_2bjets.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figures/tikz/pdf/h2tb_HIG-18-015_t0b_2bjets.pdf  use
 d on input line 316.
 (pdftex.def)             Requested size: 49.96463pt x 49.96489pt.
-<./figures/tikz/pdf/h2tb_HIG-18-015_t1b_2bjets.pdf, id=463, 205.65935pt x 205.6
+<./figures/tikz/pdf/h2tb_HIG-18-015_t1b_2bjets.pdf, id=478, 205.65935pt x 205.6
 5935pt>
 File: ./figures/tikz/pdf/h2tb_HIG-18-015_t1b_2bjets.pdf Graphic file (type pdf)
 
@@ -2912,7 +2925,7 @@ File: ./figures/tikz/pdf/h2tb_HIG-18-015_t1b_2bjets.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figures/tikz/pdf/h2tb_HIG-18-015_t1b_2bjets.pdf  use
 d on input line 316.
 (pdftex.def)             Requested size: 49.96463pt x 49.96489pt.
-<./figures/tikz/pdf/h2tb_HIG-18-015_Wbb_2bjets.pdf, id=464, 205.65935pt x 205.6
+<./figures/tikz/pdf/h2tb_HIG-18-015_Wbb_2bjets.pdf, id=479, 205.65935pt x 205.6
 5935pt>
 File: ./figures/tikz/pdf/h2tb_HIG-18-015_Wbb_2bjets.pdf Graphic file (type pdf)
 
@@ -2920,7 +2933,7 @@ File: ./figures/tikz/pdf/h2tb_HIG-18-015_Wbb_2bjets.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figures/tikz/pdf/h2tb_HIG-18-015_Wbb_2bjets.pdf  use
 d on input line 316.
 (pdftex.def)             Requested size: 49.96463pt x 49.96489pt.
-<./figures/tikz/pdf/h2tb_HIG-18-015_Wbj_2bjets.pdf, id=465, 205.65935pt x 205.6
+<./figures/tikz/pdf/h2tb_HIG-18-015_Wbj_2bjets.pdf, id=480, 205.65935pt x 205.6
 5935pt>
 File: ./figures/tikz/pdf/h2tb_HIG-18-015_Wbj_2bjets.pdf Graphic file (type pdf)
 
@@ -2928,7 +2941,7 @@ File: ./figures/tikz/pdf/h2tb_HIG-18-015_Wbj_2bjets.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figures/tikz/pdf/h2tb_HIG-18-015_Wbj_2bjets.pdf  use
 d on input line 316.
 (pdftex.def)             Requested size: 49.96463pt x 49.96489pt.
-<./figures/CMS-HIG-18-015/Figure_005-a.pdf, id=466, 569.12625pt x 689.57625pt>
+<./figures/CMS-HIG-18-015/Figure_005-a.pdf, id=481, 569.12625pt x 689.57625pt>
 File: ./figures/CMS-HIG-18-015/Figure_005-a.pdf Graphic file (type pdf)
 <use ./figures/CMS-HIG-18-015/Figure_005-a.pdf>
 Package pdftex.def Info: ./figures/CMS-HIG-18-015/Figure_005-a.pdf  used on inp
@@ -2941,19 +2954,19 @@ LaTeX Info: Redefining \HepProcess on input line 316.
 IG-18-015_t1b_2bjets.pdf> <./figures/tikz/pdf/h2tb_HIG-18-015_Wbb_2bjets.pdf> <
 ./figures/tikz/pdf/h2tb_HIG-18-015_Wbj_2bjets.pdf> <./figures/CMS-HIG-18-015/Fi
 gure_005-a.pdf>]
-<./figures/limit_assoc_HIG18015.pdf, id=572, 569.12625pt x 552.0625pt>
+<./figures/limit_assoc_HIG18015.pdf, id=588, 569.12625pt x 552.0625pt>
 File: ./figures/limit_assoc_HIG18015.pdf Graphic file (type pdf)
 <use ./figures/limit_assoc_HIG18015.pdf>
 Package pdftex.def Info: ./figures/limit_assoc_HIG18015.pdf  used on input line
  382.
 (pdftex.def)             Requested size: 122.0746pt x 118.41313pt.
-<./figures/CMS-HIG-18-015/Figure_006-b.pdf, id=573, 569.12625pt x 552.0625pt>
+<./figures/CMS-HIG-18-015/Figure_006-b.pdf, id=589, 569.12625pt x 552.0625pt>
 File: ./figures/CMS-HIG-18-015/Figure_006-b.pdf Graphic file (type pdf)
 <use ./figures/CMS-HIG-18-015/Figure_006-b.pdf>
 Package pdftex.def Info: ./figures/CMS-HIG-18-015/Figure_006-b.pdf  used on inp
 ut line 382.
 (pdftex.def)             Requested size: 97.30902pt x 94.3885pt.
-<./figures/CMS-HIG-18-015/Boosted_Figure-aux_001-b.pdf, id=574, 569.12625pt x 5
+<./figures/CMS-HIG-18-015/Boosted_Figure-aux_001-b.pdf, id=590, 569.12625pt x 5
 52.0625pt>
 File: ./figures/CMS-HIG-18-015/Boosted_Figure-aux_001-b.pdf Graphic file (type 
 pdf)
@@ -2969,14 +2982,9 @@ S-HIG-18-015/Figure_006-b.pdf, page is rotated 90 degrees> <./figures/CMS-HIG-1
 8-015/Boosted_Figure-aux_001-b.pdf, page is rotated 90 degrees>]
 LaTeX Info: Redefining \HepProcess on input line 384.
 LaTeX Info: Redefining \HepProcess on input line 385.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 434.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 434.
-LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <12> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 434.
-
-<./figures/tikz/pdf/HPlus4FS_HToTB_ResolvedTop_InvMass.pdf, id=714, 263.1431pt 
+<./figures/tikz/pdf/HPlus4FS_HToTB_ResolvedTop_InvMass.pdf, id=729, 263.1431pt 
 x 173.1007pt>
 File: ./figures/tikz/pdf/HPlus4FS_HToTB_ResolvedTop_InvMass.pdf Graphic file (t
 ype pdf)
@@ -2989,26 +2997,26 @@ LaTeX Info: Redefining \HepProcess on input line 434.
 
  <./figures/tikz/pdf/HPlus4FS_HToTB_ResolvedTop_InvMass.pdf>]
 LaTeX Info: Redefining \HepProcess on input line 436.
-<./figures/top-training/top_matched.pdf, id=744, 109.79018pt x 138.50746pt>
+<./figures/top-training/top_matched.pdf, id=759, 109.79018pt x 138.50746pt>
 File: ./figures/top-training/top_matched.pdf Graphic file (type pdf)
 <use ./figures/top-training/top_matched.pdf>
 Package pdftex.def Info: ./figures/top-training/top_matched.pdf  used on input 
 line 506.
 (pdftex.def)             Requested size: 38.87234pt x 49.03839pt.
-<./figures/top-training/top_unmatched1b.pdf, id=745, 109.79018pt x 138.50746pt>
+<./figures/top-training/top_unmatched1b.pdf, id=760, 109.79018pt x 138.50746pt>
 
 File: ./figures/top-training/top_unmatched1b.pdf Graphic file (type pdf)
 <use ./figures/top-training/top_unmatched1b.pdf>
 Package pdftex.def Info: ./figures/top-training/top_unmatched1b.pdf  used on in
 put line 506.
 (pdftex.def)             Requested size: 38.87234pt x 49.03839pt.
-<./figures/CMS-HIG-21-010_Figure_003.pdf, id=746, 569.12625pt x 547.04375pt>
+<./figures/CMS-HIG-21-010_Figure_003.pdf, id=761, 569.12625pt x 547.04375pt>
 File: ./figures/CMS-HIG-21-010_Figure_003.pdf Graphic file (type pdf)
 <use ./figures/CMS-HIG-21-010_Figure_003.pdf>
 Package pdftex.def Info: ./figures/CMS-HIG-21-010_Figure_003.pdf  used on input
  line 506.
 (pdftex.def)             Requested size: 106.40094pt x 102.26994pt.
-<./figures/topTagging/trijetMass_3WPs.pdf, id=747, 569.12625pt x 546.04pt>
+<./figures/topTagging/trijetMass_3WPs.pdf, id=762, 569.12625pt x 546.04pt>
 File: ./figures/topTagging/trijetMass_3WPs.pdf Graphic file (type pdf)
 <use ./figures/topTagging/trijetMass_3WPs.pdf>
 Package pdftex.def Info: ./figures/topTagging/trijetMass_3WPs.pdf  used on inpu
@@ -3035,7 +3043,7 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 580.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<./figures/invertAssocTopDiagram.pdf, id=860, 449.33934pt x 335.2018pt>
+<./figures/invertAssocTopDiagram.pdf, id=875, 449.33934pt x 335.2018pt>
 File: ./figures/invertAssocTopDiagram.pdf Graphic file (type pdf)
 <use ./figures/invertAssocTopDiagram.pdf>
 Package pdftex.def Info: ./figures/invertAssocTopDiagram.pdf  used on input lin
@@ -3046,7 +3054,7 @@ LaTeX Info: Redefining \HepProcess on input line 580.
 
  <./figures/invertAssocTopDiagram.pdf>]
 LaTeX Info: Redefining \HepProcess on input line 582.
-<./figures/parameterizedDNN.png, id=874, 591.20876pt x 283.0575pt>
+<./figures/parameterizedDNN.png, id=889, 591.20876pt x 283.0575pt>
 File: ./figures/parameterizedDNN.png Graphic file (type png)
 <use ./figures/parameterizedDNN.png>
 Package pdftex.def Info: ./figures/parameterizedDNN.png  used on input line 643
@@ -3062,7 +3070,7 @@ LaTeX Info: Redefining \HepProcess on input line 643.
  <./figures/parameterizedDNN.png>]
 LaTeX Info: Redefining \HepProcess on input line 645.
 LaTeX Info: Redefining \HepProcess on input line 646.
-<./figures/tikz/pdf/HPlus4FS_HToTB_BoostedTop_InvMass.pdf, id=885, 263.1431pt x
+<./figures/tikz/pdf/HPlus4FS_HToTB_BoostedTop_InvMass.pdf, id=900, 263.1431pt x
  173.1007pt>
 File: ./figures/tikz/pdf/HPlus4FS_HToTB_BoostedTop_InvMass.pdf Graphic file (ty
 pe pdf)
@@ -3074,7 +3082,7 @@ LaTeX Info: Redefining \HepProcess on input line 713.
  [13
 
  <./figures/tikz/pdf/HPlus4FS_HToTB_BoostedTop_InvMass.pdf>])
-LaTeX Info: Redefining \HepProcess on input line 143.
+LaTeX Info: Redefining \HepProcess on input line 146.
  (./tex/Backup.tex
 LaTeX Info: Redefining \HepProcess on input line 11.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -3110,20 +3118,20 @@ LaTeX Info: Redefining \HepProcess on input line 16.
 \tf@snm=\write12
 \openout12 = `talk.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 144.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 144.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 147.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 147.
  (./talk.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 144.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 144.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 147.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 147.
 Package rerunfilecheck Info: File `talk.out' has not changed.
 (rerunfilecheck)             Checksum: 6CAABAB09E4042F7AD70EB1BDD59523E;525.
  ) 
 Here is how much of TeX's memory you used:
- 58185 strings out of 492616
- 1186470 string characters out of 6129480
- 1364050 words of memory out of 5000000
- 60993 multiletter control sequences out of 15000+600000
- 795055 words of font info for 212 fonts, out of 8000000 for 9000
+ 58192 strings out of 492616
+ 1186696 string characters out of 6129480
+ 1364433 words of memory out of 5000000
+ 61001 multiletter control sequences out of 15000+600000
+ 801343 words of font info for 217 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,20n,84p,1607b,1526s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{NAVIGATION14} has been referenced but does not ex
@@ -3180,10 +3188,10 @@ m/lmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy9.pfb
 l/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/
 local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></u
 sr/local/texlive/2019/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on talk.pdf (14 pages, 1644182 bytes).
+Output written on talk.pdf (14 pages, 1761147 bytes).
 PDF statistics:
- 1064 PDF objects out of 1200 (max. 8388607)
- 660 compressed objects within 7 object streams
- 50 named destinations out of 1000 (max. 500000)
- 305 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1079 PDF objects out of 1200 (max. 8388607)
+ 671 compressed objects within 7 object streams
+ 49 named destinations out of 1000 (max. 500000)
+ 310 words of extra memory for PDF output out of 10000 (max. 10000000)
 

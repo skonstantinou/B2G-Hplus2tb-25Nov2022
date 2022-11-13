@@ -413,16 +413,16 @@ tionary-English.dict)
 (./tex/Acronyms.tex)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 138.
+(hyperref)                setting the option has no effect on input line 141.
 
 [1{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./fig
 ures/logos/logo_cern2.pdf> <./figures/logos/logo_cms4.pdf> <./figures/logos/log
-o_ucy2.pdf>] (./tex/Sections.tex (./tables/2HDM_Models_v5Alt.tex) [2] [3 <./fig
-ures/LHCHXSWG_v1/LowTanBetaM50to200/mh125_brs_tanb0p5.pdf, page is rotated 90 d
-egrees> <./figures/LHCHXSWG_v1/LowTanBetaM90to1000/mh125_br_tb.pdf, page is rot
-ated 90 degrees>] [4 <./figures/paper/feynman/hplus_4FS.pdf> <./figures/paper/f
-eynman/hplus_5FS.pdf> <./figures/paper/feynman/hplus_sChannel.pdf> <./figures/t
-ikz/pdf/HPlus4FS_HToTB_FH.pdf>]
+o_ucy2.pdf> <./figures/logos/logo_hip3.pdf>] (./tex/Sections.tex
+(./tables/2HDM_Models_v5Alt.tex) [2] [3 <./figures/LHCHXSWG_v1/LowTanBetaM50to2
+00/mh125_brs_tanb0p5.pdf, page is rotated 90 degrees> <./figures/LHCHXSWG_v1/Lo
+wTanBetaM90to1000/mh125_br_tb.pdf, page is rotated 90 degrees>] [4 <./figures/p
+aper/feynman/hplus_4FS.pdf> <./figures/paper/feynman/hplus_5FS.pdf> <./figures/
+paper/feynman/hplus_sChannel.pdf> <./figures/tikz/pdf/HPlus4FS_HToTB_FH.pdf>]
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmr.fd) [5 <./figures/tikz/p
 df/h2tb_ResolvedTop.pdf> <./figures/tikz/pdf/h2tb_BoostedW.pdf> <./figures/tikz
 /pdf/h2tb_BoostedTop.pdf> <./figures/tikz/pdf/h2tb_Boostedhiggs.pdf> <./figures
@@ -504,5 +504,5 @@ m/lmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy9.pfb
 l/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/
 local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></u
 sr/local/texlive/2019/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on talk.pdf (14 pages, 1644182 bytes).
+Output written on talk.pdf (14 pages, 1761147 bytes).
 Transcript written on talk.log.
