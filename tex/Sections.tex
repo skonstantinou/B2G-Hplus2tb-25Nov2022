@@ -382,7 +382,7 @@ This analysis searches for a heavy \PHpm
 }
 
 \MySection{Resolved}
-\MySubSection{Event Selection}
+\MySubSection{event selection}
 
 \Slide{t}{
 
@@ -564,7 +564,7 @@ This analysis searches for a heavy \PHpm
         \item Performed in 3 bins of the $t^{res}_{assoc}$ \pT:
           \begin{itemize}
             \footnotesize
-          \item \pT $in$ [0, 100, 300, $\infty$] GeV \FixmeTag
+          \item \pT $\in$ [0, 100, 300, $\infty$] GeV \FixmeTag
           \end{itemize}          
         \end{itemize}        
       }
@@ -577,4 +577,137 @@ This analysis searches for a heavy \PHpm
 
         %\item Shape:  t-tagged $t^{res}_{H^{\pm}}$, off $t^{res}_{assoc}$ mass
         %\item Normal.: non-tagged $t^{res}_{H^{\pm}}$, in/off $t^{res}_{assoc}$ mass      
+}
+
+\MySubSection{signal extraction}
+\Slide{t}{
+
+  A parameterized DNN is developed to extract signal from SM background
+  \begin{itemize}
+    \small
+  \item \textcolor{blue}{Signal}: $H^{\pm} \rightarrow$ tb for different mass hypotheses
+  \item \textcolor{red}{Background}: \ttbar $\rightarrow$ SR,
+    Combinatorial $\rightarrow$ CR$^{(off\texttt{-}mass,t)}$ \TTMCTag
+    %\begin{itemize}
+    %  \footnotesize
+    %\item \ttbar from SR
+    %\item Combinatorial from CR$^{(off\texttt{-}mass,t)}$ %\textcolor{kGreen}{0 matched-$t_{res}$}
+    %\end{itemize}
+  %\item Training (test) is done using \ttbar MC of 2017 (2018) data era \OrthogonalityTag
+  \end{itemize}
+
+  \twoColumnsAsymOp
+  {
+    \small
+    %\begin{tcolorbox}[colback=white]
+    \center{\textbf{\textcolor{oxfordblue}{Input variables}}}
+    \vspace{0.1cm}
+
+    \begin{tcolorbox}[colback=white]
+    \begin{itemize}
+      \CustomiseLineSpacing{0.75}
+      \scriptsize
+    \item[1] $\Delta \theta$($t_{H+}, b_{H+}$) in $H^{\pm}$ CM
+    \item[2] $H_{T,3b}$% = pt($b_{t^{res}_{assoc}}$) + pt($b_{t^{res}_{H^{\pm}}}$) + pt($b_{H^{\pm}}$)
+    \item[3] $p_{T}$(bb$_{dRmin}$)
+    \item[4] m(bb$_{maxPt}$)
+    \item[5] y23 = $p^{2}_{T,j3}/(p_{T,j1}+p_{T,j2})^{2}$%$\frac{p^{2}_{T,j3}}{(p_{T,j1}+p_{T,j2})^{2}}$
+    \item[6] $p_{T,b({\PHpm})}$/$H_{T,3b}$%$\frac{p_{T,b_{H+}}}{HTb}$
+    \item[7] $m_{H^{\pm}}$
+    \item[8] $p_{T}^{Asym}$(\PHpm, b$_{\PHpm}$)
+    %\item[8] $\frac{|p_{T,H+} - p_{T,b_{H+}}|}{p_{T,H+} + p_{T,b_{H+}}}$
+    \item[9] Circularity
+    \item[10] Sphericity
+    \item[11] Aplanarity
+    \item[12] Number of medium tops
+    \item[13] \textcolor{red}{True mass}
+      \vspace{-0.15cm}
+    \item[]
+  \end{itemize}
+    \end{tcolorbox}
+  }
+  {
+    \vspace{0.05cm}
+    
+    \oneFigColumns{parameterizedDNN.png}{\textbf{Parameterized DNN}}{1.0}
+
+    \vspace{0.3cm}
+
+    \begin{itemize}
+      \footnotesize
+    \item \textcolor{red}{True mass} is the \textcolor{red}{$\theta$} parameter
+    \item In background events, the true mass is randomly assigned to the same values used for signal
+    \item Training (test) is done using 2017 (2018) data %\OrthogonalityTag
+    \end{itemize}
+  }    
+}
+
+\MySection{Boosted}
+\MySubSection{event selection}
+
+\Slide{t}{
+
+  \textbf{Signal region (SR):}  \FixmeTag
+  \vspace{-0.2cm}
+  %\begin{center}
+  %  \resizebox{1.0\linewidth}{!}{
+  %    \begin{tabular}{l l}
+  %      \hline
+  %      \cellcolor[gray]{.9}Trigger  &
+  %      \cellcolor[gray]{.9}\begin{tabular}{@{}c@{}} $H_{T}$ +
+  %        multijet + 1 or 2 b jets\\  $H_{T}$ + AK8 jet + trim mass
+  %        $ \ \ $ \end{tabular}\\
+  %      $e$ veto & \pT > 10 GeV, $|\eta|$ < 2.4, Loose miniIso, cutBasedElectronID (veto) \\%\_Fall17\_94X\_V2\_veto \\
+  %      \cellcolor[gray]{.9}$\mu$ veto & \cellcolor[gray]{.9}\pT > 10 GeV, $|\eta|$ < 2.4, Loose miniIso isCutBasedIDLoose\\
+  %      $\tau$ veto & \pT > 20 GeV, $|\eta|$ < 2.3, DeepTau \dDeepTau[vloose]{\Pe}, \dDeepTau[medium]{\mu}, \dDeepTau[loose]{j}\\
+  %      \cellcolor[gray]{.9}$=$ 1 boosted top ($t^{bst}$) &  \cellcolor[gray]{.9}loose ID, \pT > 400 GeV, $|\eta|$ < 2.4, \mSD[] $\in$ [105,210] GeV, \subjettiness[]{32} < 0.67, $N_{b \ \text{subjets}}$ $\ge$ 1\\        
+  %      $\ge$ 4 jets & \pT > 40 GeV, $|\eta|$ < 2.4, tight ID, $H_{T}$ > 500 GeV\\
+  %      \cellcolor[gray]{.9}$\ge$ 2 b jets & \cellcolor[gray]{.9}\pT > 40 GeV, DeepJet Medium WP \\
+  %      $\ge$ 1 $t^{res}$ & custom DNN medium, $130 < m_{\mathrm{t^{res}}} < 210~$GeV\\
+  %      \cellcolor[gray]{.9}Kinematic requirements & \cellcolor[gray]{.9}$\Delta R$($t^{bst}$, $b^{ldg}$) > 1.0, $\max$($m_{bb}$) > 200 GeV\\
+  %      \hline
+  %    \end{tabular}
+  %  }
+  %\end{center}
+
+  \begin{center}
+    \resizebox{1.0\linewidth}{!}{
+      \begin{tabular}{l l}
+        \hline
+        \cellcolor[gray]{.9}Trigger & \cellcolor[gray]{.9}\begin{tabular}{@{}c@{}} $H_{T}$ + multijet + 1 or 2 b jets\\  $H_{T}$ + AK8 jet + trim mass $ \ \ $ \end{tabular}\\
+        $\ell$ veto & same as resolved\\
+        \cellcolor[gray]{.9}$=$ 1 boosted top ($t^{bst}$) &  \cellcolor[gray]{.9}loose ID, \pT > 400 GeV, $|\eta|$ < 2.4, \mSD[] $\in$ [105,210] GeV, \subjettiness[]{32} < 0.67, $N_{b \ \text{subjets}}$ $\ge$ 1\\        
+        $\ge$ 4 jets & \pT > 40 GeV, $|\eta|$ < 2.4, tight ID, $H_{T}$ > 500 GeV\\
+        \cellcolor[gray]{.9}$\ge$ 2 b jets & \cellcolor[gray]{.9}\pT > 40 GeV, DeepJet Medium WP \\
+        $\ge$ 1 $t^{res}$ & same as resolved\\
+        \cellcolor[gray]{.9}Kinematic requirements & \cellcolor[gray]{.9}\begin{tabular}{@{}c@{}}$\Delta R$($t^{bst}$, $b^{ldg}$) > 1.0\\ $\max$($m_{bb}$) > 200 GeV \end{tabular}\\
+        \hline
+      \end{tabular}
+    }
+  \end{center}
+  
+  \vspace{0.75cm}
+  
+  
+  \twoColumnsAsymAlt
+      {
+        \normalsize
+        $\ \ $ \textbf{SR categorization} \FixmeTag
+        \begin{itemize}
+          \small
+        \item 
+        \end{itemize}
+
+        \vspace{0.3cm}
+
+        $\ \ $ \textbf{Invariant \PHpm~mass reconstruction}:
+        \begin{itemize}
+          \large
+        \item[] \textcolor{kRed}{\mHpmReco = $t^{bst}$ + bjet$^{ldg \ p_{T}}$}
+        \end{itemize}
+      }
+      {
+        \vspace{-0.4cm}
+        \oneFigColumns{tikz/pdf/HPlus4FS_HToTB_BoostedTop_InvMass}{}{1.0}%\mHpmReco=\rTop$_{ \ ldg \ p_{T}}$ + bjet$^{free}_{ldg \ p_{T}}$}{0.68}
+      }
 }

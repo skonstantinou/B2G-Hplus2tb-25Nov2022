@@ -1090,6 +1090,21 @@
 }
 
 %%% 1x2
+\newcommand{\twoColumnsAsymOp}[2]{
+\begin{columns}[T] %For stable vertical alignment of columns
+  \begin{column}{0.31\textwidth}
+    \scriptsize{#1}
+    %\tiny{#1}
+  \end{column}
+  \begin{column}{0.1\textwidth} \end{column}
+  \begin{column}{0.59\textwidth}
+    \scriptsize{#2}
+    %\tiny{#2}
+  \end{column}
+\end{columns}
+}
+
+%%% 1x2
 \newcommand{\twoColumnsAsymAlt}[2]{
 \begin{columns}[T] %For stable vertical alignment of columns
   \begin{column}{0.55\textwidth}
@@ -1307,7 +1322,8 @@
 \newcommand{\FromMCTag}{\Note[180]{kHLTausBlue}{From MC}{rectangle callout}}
 \newcommand{\TodoListTag}{\Note[180]{kHLTausBlue}{To-Do
     List}{rectangle callout}}
-\newcommand{\OrthogonalityTag}{\Note[180]{kHLTausBlue}{Orthogonality}{rectangle callout}}
+\newcommand{\OrthogonalityTag}{\Note[180]{kGreen}{Orthogonality}{rectangle callout}}
+\newcommand{\TTMCTag}{\Note[180]{kDarkGreen}{\normalsize \lowercase{$t\bar{t}$} MC}{rectangle callout}}
 \newcommand{\TodoTag}{\Note[180]{kHLTausBlue}{To-Do}{rectangle callout}}
 \newcommand{\RequestedTag}{\Note[180]{kDarkGreen}{Requested}{rectangle
     callout}}

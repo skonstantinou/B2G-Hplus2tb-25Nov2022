@@ -446,9 +446,15 @@ Overfull \vbox (7.48567pt too high) detected at line 506
 hed1b.pdf> <./figures/CMS-HIG-21-010_Figure_003.pdf, page is rotated 90 degrees
 > <./figures/topTagging/trijetMass_3WPs.pdf, page is rotated 90 degrees>]
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd) [11 <./figures/inve
-rtAssocTopDiagram.pdf>]) (./tex/Backup.tex [12]) (./talk.aux) )
+rtAssocTopDiagram.pdf>]
+Overfull \vbox (7.56535pt too high) detected at line 643
+[12 <./figures/parameterizedDNN.png>] [13 <./figures/tikz/pdf/HPlus4FS_HToTB_Bo
+ostedTop_InvMass.pdf>]) (./tex/Backup.tex [14]) (./talk.aux) )
 (see the transcript file for additional information)pdfTeX warning (dest): name
-{NAVIGATION12} has been referenced but does not exist, replaced by a fixed one
+{NAVIGATION14} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{NAVIGATION13} has been referenced but does not exis
+t, replaced by a fixed one
 
 pdfTeX warning (dest): name{NAVIGATION9} has been referenced but does not exist
 , replaced by a fixed one
@@ -498,5 +504,5 @@ m/lmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy9.pfb
 l/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/
 local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></u
 sr/local/texlive/2019/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on talk.pdf (12 pages, 1563021 bytes).
+Output written on talk.pdf (14 pages, 1644182 bytes).
 Transcript written on talk.log.
