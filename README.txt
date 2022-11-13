@@ -1,1 +1,2 @@
-rm -rf figures/FakeBMeasurement/ && rsync -r --partial --progress  --ignore-existing  aattikis@cmslpc-sl6.fnal.gov:/publicweb/a/aattikis/FakeBMeasurement figures/.
+Slides are written in tex/Section.tex
+All figures can be found under figures directory
