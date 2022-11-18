@@ -1,3 +1,5 @@
+\MySection{Introduction}
+\MySubSection{extended Higgs sector}
 \Slide{t}{
 Many BSM theories need to enlarge their Higgs sector to two Higgs doublets
 \begin{itemize}%1
@@ -46,6 +48,7 @@ For each \acsp{2HDM} type there are 7 free parameters (incl. \mh, \mH, \mA, \mHp
 \end{enumerate}
 }
 
+\MySubSection{production $\&$ decay}
 \Slide{t}{
 Three mass categories are commonly defined in \PHpm\ searches:
 \begin{itemize}
@@ -70,6 +73,7 @@ Decay \acsp{BR} model-dependent $\Rightarrow$ different searches constrain diffe
   dominanates at high $\mHpm$, for wide range of \tanbeta}
 }
 
+\MySubSection{final state}
 \Slide{t}{
 
   \vspace{0.1cm}
@@ -109,6 +113,7 @@ This analysis searches for a heavy \PHpm
       }
 }
 
+\MySubSection{topology}
 \Slide{t}{
        Various $\mathrm{m_{H^\pm}}$ reconstruction techniques
        available due to signal process kinematics:
@@ -191,6 +196,7 @@ This analysis searches for a heavy \PHpm
 }
 
 \MySection{Previous results}
+\MySubSection{review}
 \Slide{t}{
 
   
@@ -258,7 +264,7 @@ This analysis searches for a heavy \PHpm
        \begin{column}{0.145\textwidth}
          \begin{tcolorbox}[transparentStyle,
              title=\tColorBoxTitle{\vspace{-0.15cm} Wbj}]
-         \oneFig{tikz/pdf/h2tb_HIG-18-015_Wbj_2bjets}{1.0}
+         \oneFig{tikz/pdf/h2tb_HIG-18-015_Wbj_1bjets.pdf}{1.0}
           \end{tcolorbox}
       \end{column}
   \end{columns}
@@ -332,57 +338,60 @@ This analysis searches for a heavy \PHpm
         %Results are interpreted to set model independent upper limits on the
         %$\mathrm{\sigma_{H^{\pm}}}\times\mathcal{B}(\mathrm{H^{\pm}\rightarrow tb})$
 
-        \vspace{0.75cm}
-
+        \vspace{0.1cm}
+        \footnotesize
         \textbf{Resolved and Boosted analysis overlayed limits}
         \begin{itemize}
-          \scriptsize
-        \item Boosted: best sensitivity for $\mathrm{m_{H^\pm}}$ > 0.8 TeV
-        %\item Resolved: most stringent limits at lower masses
-        \item Reported limit at each mass value is determined by
-          the analysis with the best expected sensitivity.
-        \item 21.3 to 0.007 pb for masses 0.2 to 3 TeV
+          \footnotesize
+        %\item Boosted: best sensitivity for $\mathrm{m_{H^\pm}}$ > 0.8 TeV
+        \item Resolved: most stringent limits at $\mathrm{m_{H^\pm}}$~$\le$~0.8~TeV
+        %\item Reported limit at each \mHpm: determined by
+          %  the analysis with the best expected sensitivity.
+        \item Reported limit at each \mHpm: analysis with best expected sensitivity.
+        %\item 21.3 to 0.007 pb for masses 0.2 to 3 TeV
         \item No excess above the estimated background% is observed
-        \item Interpretation in hMSSM: maximum \tanb = 0.88 is
-          excluded for \mHpm = 0.20-0.55~TeV
+        \item Interpretation in hMSSM:
+          \vspace{-0.08cm}
+        \item[] maximum \tanb = 0.88 is excluded for \mHpm~=~0.20-0.55~TeV
         \end{itemize}
 
         %The hMSSM benchmark scenario assumes that the discovered Higgs boson is the light
         %Higgs boson in the 2HDM and that the SUSY particles have masses too large to be directly
         %observed at the LHC.
       }
+
+      \vspace{0.1cm}
       
   \twoColumnsAsymAlt
       {
         \twoFigColumns
             {CMS-HIG-18-015/Figure_006-b.pdf}{s-channel}
-            {CMS-HIG-18-015/Boosted_Figure-aux_001-b.pdf}{Assoc. boosted categories}
+            {CMS-HIG-18-015/Boosted_Figure-aux_001-b.pdf}{Boosted categories\vspace{0.05cm}}
             {1.}
       }
       {
 
         \vspace{0.75cm}
+
+        \footnotesize
+        Boosted analysis:
         
         \begin{itemize}
-        \item Boosted analysis sets upper limits in the s-channel
-          production
-          \begin{itemize}
-            \scriptsize
-          \item 4.5-0.023 pb for \mHpm 0.8 to 3 TeV
-          \end{itemize}
-        \item Boosted categories
-          \begin{itemize}
-            \scriptsize
-          \item Most sensitive main category is $t1b$
-          \item Least sensitive category is $Wbj$
-          \end{itemize}
+        \item Upper limits in the s-channel
+          production for \mHpm 0.8 to 3 TeV
+          %\begin{itemize}
+          %  \scriptsize
+          %\item 4.5-0.023 pb for \mHpm 0.8 to 3 TeV
+          %\end{itemize}
+        \item Most sensitive main category is $t1b$
+        \item Least sensitive category is $Wbj$
         \end{itemize}
       }
-  
+      \PlaceText{41mm}{60.5mm}{\scriptsize{\textcolor{oxfordblue}{{Associated production}}}}
 }
 
 \MySection{Resolved}
-\MySubSection{event selection}
+\MySubSection{strategy}
 
 \Slide{t}{
 
@@ -423,7 +432,7 @@ This analysis searches for a heavy \PHpm
         $\ \ $ \textbf{Invariant \PHpm~mass reconstruction}:
         \begin{itemize}
           \large
-        \item[] \textcolor{kRed}{\mHpmReco = $t^{res}_{ \ ldg \ p_{T}}$
+        \item[] \textcolor{kOrange}{\mHpmReco = $t^{res}_{ \ ldg \ p_{T}}$
           + bjet$^{free}_{ldg \ p_{T}}$}
         \end{itemize}
       }
@@ -561,10 +570,11 @@ This analysis searches for a heavy \PHpm
         \small        
         \begin{itemize}
           \footnotesize
-        \item Performed in 3 bins of the $t^{res}_{assoc}$ \pT:
+        \item Performed in bins of the $t^{res}_{assoc}$ \pT:
           \begin{itemize}
             \footnotesize
-          \item \pT $\in$ [0, 100, 300, $\infty$] GeV \FixmeTag
+          \item $2M_{t^{res}}$ \pT $\in$ [0, 100, 300, $\infty$] GeV
+          \item $1M1L_{t^{res}}$ \pT $\in$ [0, 175, $\infty$] GeV 
           \end{itemize}          
         \end{itemize}        
       }
@@ -574,9 +584,52 @@ This analysis searches for a heavy \PHpm
         
         \oneFigColumns{invertAssocTopDiagram.pdf}{Sidebands}{1.0}
       }
+}
 
-        %\item Shape:  t-tagged $t^{res}_{H^{\pm}}$, off $t^{res}_{assoc}$ mass
-        %\item Normal.: non-tagged $t^{res}_{H^{\pm}}$, in/off $t^{res}_{assoc}$ mass      
+\Slide{t}{
+
+  \normalsize
+  \textbf{Two validation regions (VRs) for each SR}
+
+  \begin{itemize}    
+    \footnotesize
+  \item \ttbar enriched: $ \ \ \ \ ==$ 2 b jets, $m_{t^{res}_{H^{\pm}}} \in$ [145, 195] GeV, $\Delta R_{min}(bb)$ > 1.2
+  \item  QCD enriched: $==$ 2 b jets, $m_{t^{res}_{H^{\pm}}} \notin$ [145, 195] GeV, $\Delta R_{min}(bb)$ < 0.9
+  \end{itemize}
+
+  \begin{columns}[T]
+    \begin{column}{0.01\textwidth}
+    \end{column}
+    \begin{column}{0.099\textwidth}
+
+      \vspace{1.25cm}
+      \tikz{\overlaynode<indianred,{oxfordblue,rotate=3}>at(0,5)[draw]{$1M1L_{t^{res}}$};}
+
+      \vspace{2.75cm}
+      \tikz{\hspace{0.3cm}\overlaynode<indianred,{oxfordblue,rotate=3}>at(0,5)[draw]{$2M_{t^{res}}$};}
+
+    \end{column}
+    \begin{column}{0.9\textwidth}
+
+      \vspace{-0.1cm}
+      
+      \threeFigColumnsCustomSize
+          {QCDDataDriven_SR_1T_TopMass50to260_PtBins175_15Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass.pdf}{SR}
+          {QCDDataDriven_VRQCD_1T_TopMass50to230_PtBins175_15Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass.pdf}{$VR_{QCD}$}
+          {QCDDataDriven_VRTT_1T_TopMass50to260_PtBins175_15Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass.pdf}{$VR_{\ttbar}$}
+          {0.76}
+
+          \vspace{-0.55cm}
+          
+      \threeFigColumnsCustomSize      
+          {QCDDataDriven_SR_2T_TopMass50to260_PtBins100to300_17Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass.pdf}{}
+          {QCDDataDriven_VRQCD_2T_TopMass50to260_PtBins100to300_15Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass.pdf}{}
+          {QCDDataDriven_VRTT_2T_TopMass50to260_PtBins100to300_15Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass.pdf}{}
+          {0.76}
+    \end{column}
+  \end{columns}
+
+      %\PlaceText{17mm}{65mm}{\boxed{\tiny{\textbf{Loose WP}}}}
 }
 
 \MySubSection{signal extraction}
@@ -642,72 +695,126 @@ This analysis searches for a heavy \PHpm
   }    
 }
 
-\MySection{Boosted}
-\MySubSection{event selection}
+\MySubSection{signal region}
+\Slide{t}{
+
+  \vspace{-0.25cm}
+  \threeColumns{}{
+  \tikz{\hspace{1.5cm}\overlaynode<indianred,{oxfordblue,rotate=3}>at(0,5)[draw]{$1M1L_{t^{res}}$};}
+  }{} 
+  %\center{1M1L$_{t}$}
+
+  \threeFigColumnsCustomSize
+      {datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_m200to3000_3B1T_Created20221110_112420/controlPlots/DataDrivenCtrlPlot_M220_MVAOutput_M220_AfterSelections.pdf}{DNN($m_{H^{\pm}}$ = 220 GeV)}
+      {datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_m200to3000_3B1T_Created20221110_112420/controlPlots/DataDrivenCtrlPlot_M300_MVAOutput_M300_AfterSelections.pdf}{DNN($m_{H^{\pm}}$ = 300 GeV)}
+      {datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_m200to3000_3B1T_Created20221110_112420/controlPlots/DataDrivenCtrlPlot_M400_MVAOutput_M400_AfterSelections.pdf}{DNN($m_{H^{\pm}}$ = 400 GeV)}
+      {0.72}
+
+  \threeFigColumnsCustomSize
+      {datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_m200to3000_3B1T_Created20221110_112420/controlPlots/DataDrivenCtrlPlot_M600_MVAOutput_M600_AfterSelections.pdf}{DNN($m_{H^{\pm}}$ = 600 GeV)}
+      {datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_m200to3000_3B1T_Created20221110_112420/controlPlots/DataDrivenCtrlPlot_M800_MVAOutput_M800_AfterSelections.pdf}{DNN($m_{H^{\pm}}$ = 800 GeV)}
+      {datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_m200to3000_3B1T_Created20221110_112420/controlPlots/DataDrivenCtrlPlot_M1250_MVAOutput_M1250_AfterSelections.pdf}{DNN($m_{H^{\pm}}$ = 1250 GeV)}
+      {0.72}
+  }
+
 
 \Slide{t}{
 
-  \textbf{Signal region (SR):}  \FixmeTag
-  \vspace{-0.2cm}
-  %\begin{center}
-  %  \resizebox{1.0\linewidth}{!}{
-  %    \begin{tabular}{l l}
-  %      \hline
-  %      \cellcolor[gray]{.9}Trigger  &
-  %      \cellcolor[gray]{.9}\begin{tabular}{@{}c@{}} $H_{T}$ +
-  %        multijet + 1 or 2 b jets\\  $H_{T}$ + AK8 jet + trim mass
-  %        $ \ \ $ \end{tabular}\\
-  %      $e$ veto & \pT > 10 GeV, $|\eta|$ < 2.4, Loose miniIso, cutBasedElectronID (veto) \\%\_Fall17\_94X\_V2\_veto \\
-  %      \cellcolor[gray]{.9}$\mu$ veto & \cellcolor[gray]{.9}\pT > 10 GeV, $|\eta|$ < 2.4, Loose miniIso isCutBasedIDLoose\\
-  %      $\tau$ veto & \pT > 20 GeV, $|\eta|$ < 2.3, DeepTau \dDeepTau[vloose]{\Pe}, \dDeepTau[medium]{\mu}, \dDeepTau[loose]{j}\\
-  %      \cellcolor[gray]{.9}$=$ 1 boosted top ($t^{bst}$) &  \cellcolor[gray]{.9}loose ID, \pT > 400 GeV, $|\eta|$ < 2.4, \mSD[] $\in$ [105,210] GeV, \subjettiness[]{32} < 0.67, $N_{b \ \text{subjets}}$ $\ge$ 1\\        
-  %      $\ge$ 4 jets & \pT > 40 GeV, $|\eta|$ < 2.4, tight ID, $H_{T}$ > 500 GeV\\
-  %      \cellcolor[gray]{.9}$\ge$ 2 b jets & \cellcolor[gray]{.9}\pT > 40 GeV, DeepJet Medium WP \\
-  %      $\ge$ 1 $t^{res}$ & custom DNN medium, $130 < m_{\mathrm{t^{res}}} < 210~$GeV\\
-  %      \cellcolor[gray]{.9}Kinematic requirements & \cellcolor[gray]{.9}$\Delta R$($t^{bst}$, $b^{ldg}$) > 1.0, $\max$($m_{bb}$) > 200 GeV\\
-  %      \hline
-  %    \end{tabular}
-  %  }
-  %\end{center}
+  \vspace{-0.25cm}
+  \threeColumns{}{
+  \tikz{\hspace{1.5cm}\overlaynode<indianred,{oxfordblue,rotate=3}>at(0,5)[draw]{$2M_{t^{res}}$};}
+  }{}
+  %\center{2M$_{t}$}
 
+  \threeFigColumnsCustomSize
+      {datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_m200to3000_3B2T_Created20221110_112420/controlPlots/DataDrivenCtrlPlot_M220_MVAOutput_M220_AfterSelections.pdf}{DNN($m_{H^{\pm}}$ = 220 GeV)}
+      {datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_m200to3000_3B2T_Created20221110_112420/controlPlots/DataDrivenCtrlPlot_M300_MVAOutput_M300_AfterSelections.pdf}{DNN($m_{H^{\pm}}$ = 300 GeV)}
+      {datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_m200to3000_3B2T_Created20221110_112420/controlPlots/DataDrivenCtrlPlot_M400_MVAOutput_M400_AfterSelections.pdf}{DNN($m_{H^{\pm}}$ = 400 GeV)}
+      {0.72}
+
+  \threeFigColumnsCustomSize
+      {datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_m200to3000_3B2T_Created20221110_112420/controlPlots/DataDrivenCtrlPlot_M600_MVAOutput_M600_AfterSelections.pdf}{DNN($m_{H^{\pm}}$ = 600 GeV)}
+      {datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_m200to3000_3B2T_Created20221110_112420/controlPlots/DataDrivenCtrlPlot_M800_MVAOutput_M800_AfterSelections.pdf}{DNN($m_{H^{\pm}}$ = 800 GeV)}
+      {datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_m200to3000_3B2T_Created20221110_112420/controlPlots/DataDrivenCtrlPlot_M1250_MVAOutput_M1250_AfterSelections.pdf}{DNN($m_{H^{\pm}}$ = 1250 GeV)}
+      {0.72}
+  }
+
+
+\MySection{Boosted}
+\MySubSection{strategy}
+
+\Slide{t}{
+
+  \vspace{-0.1cm}
+  
+  \twoColumns
+  {
+    \small
+    \textcolor{white}{xx} \textbf{Two SRs based on the number of} \newline 
+    \textcolor{white}{xx} \textbf{boosted tops ($t^{bst}$):} 
+
+    \begin{itemize}
+      \small
+    \item[]% \textbf{Two SRs based on the number of boosted tops ($t^{bst}$):}    
+      \vspace{0.2cm}
+      \begin{itemize}
+        \footnotesize
+      \item[\textbf{SR1}]: N$_{t^{bst}}$ == 1
+      \item[\textbf{SR2}]: N$_{t^{bst}}$ == 2
+      \end{itemize}
+    \end{itemize}
+  }
+  {
+
+    \vspace{-0.2cm}
+    
+    \twoFigColumns
+        {boostedSR1}{SR1}
+        {boostedSR2}{SR2}
+        {0.8}
+  }
+
+
+  \vspace{0.1cm}
+  
   \begin{center}
-    \resizebox{1.0\linewidth}{!}{
-      \begin{tabular}{l l}
+    \resizebox{0.95\linewidth}{!}{
+      \begin{tabular}{l l l}
+        %$\ \ \ \ $ \textbf{\textcolor{oxfordblue}{SR1}} &
+        %$\ \ \ \ $ \textbf{\textcolor{oxfordblue}{SR2}} & \\
+        %\includegraphics[width=0.2\textwidth]{./figures/boostedSR1} &
+        %\includegraphics[width=0.2\textwidth]{./figures/boostedSR2}
+        %& \\
         \hline
-        \cellcolor[gray]{.9}Trigger & \cellcolor[gray]{.9}\begin{tabular}{@{}c@{}} $H_{T}$ + multijet + 1 or 2 b jets\\  $H_{T}$ + AK8 jet + trim mass $ \ \ $ \end{tabular}\\
-        $\ell$ veto & same as resolved\\
-        \cellcolor[gray]{.9}$=$ 1 boosted top ($t^{bst}$) &  \cellcolor[gray]{.9}loose ID, \pT > 400 GeV, $|\eta|$ < 2.4, \mSD[] $\in$ [105,210] GeV, \subjettiness[]{32} < 0.67, $N_{b \ \text{subjets}}$ $\ge$ 1\\        
-        $\ge$ 4 jets & \pT > 40 GeV, $|\eta|$ < 2.4, tight ID, $H_{T}$ > 500 GeV\\
-        \cellcolor[gray]{.9}$\ge$ 2 b jets & \cellcolor[gray]{.9}\pT > 40 GeV, DeepJet Medium WP \\
-        $\ge$ 1 $t^{res}$ & same as resolved\\
-        \cellcolor[gray]{.9}Kinematic requirements & \cellcolor[gray]{.9}\begin{tabular}{@{}c@{}}$\Delta R$($t^{bst}$, $b^{ldg}$) > 1.0\\ $\max$($m_{bb}$) > 200 GeV \end{tabular}\\
+        \textbf{SR1} & \textbf{SR2} & \\
+        \hline
+        \cellcolor[gray]{.9}Trigger & \cellcolor[gray]{.9}Trigger & \cellcolor[gray]{.9}\begin{tabular}{@{}c@{}} $H_{T}$ + multijet + 1 or 2 b jets\\  $H_{T}$ + AK8 jet + trim mass $ \ \ $ \end{tabular}\\
+        $\ell$ veto & $\ell$ veto & same as resolved\\
+        \cellcolor[gray]{.9}$=$ 1 $t^{bst}$ &\cellcolor[gray]{.9}$=$ 2 $t^{bst}$ &  \cellcolor[gray]{.9}\pT > 400 GeV, $|\eta|$ < 2.4, \texttt{ParticleNet\_TvsQCD} Medium WP\\
+        $\ge$ 4 jets & $\ge$ 2 jets & \pT > 40 GeV, $|\eta|$ < 2.4, tight ID, $H_{T}$ > 500 GeV\\
+        \cellcolor[gray]{.9}$\ge$ 2 b jets & \cellcolor[gray]{.9}$\ge$ 1 b jets & \cellcolor[gray]{.9}DeepJet Medium WP \\
+        $\le$ 2 $t^{res}$ & $\ge$ 0 $t^{res}$ & custom DNN loose, $130 < m_{\mathrm{t^{res}}} < 210~$GeV\\
+        %\cellcolor[gray]{.9}Kinematic requirements & \cellcolor[gray]{.9}Kinematic requirements & \cellcolor[gray]{.9}\begin{tabular}{@{}c@{}}$\Delta R$($t^{bst}$, $b^{ldg}$) > 1.0\\ $\max$($m_{bb}$) > 200 GeV \end{tabular}\\         
+        \cellcolor[gray]{.9}$\Delta R$($t^{bst}$, $b^{ldg}$) > 1.2 & \cellcolor[gray]{.9}$\Delta R$($t^{bst}$, $b^{ldg}$) > 0.0 & \cellcolor[gray]{.9}\\
+        $\max$($m_{bb}$) > 200 GeV & $\max$($m_{bb}$) > 0 GeV & \\
         \hline
       \end{tabular}
     }
   \end{center}
   
-  \vspace{0.75cm}
-  
-  
   \twoColumnsAsymAlt
       {
-        \normalsize
-        $\ \ $ \textbf{SR categorization} \FixmeTag
-        \begin{itemize}
-          \small
-        \item 
-        \end{itemize}
-
-        \vspace{0.3cm}
-
+        \small
+        \vspace{1.0cm}
+        
         $\ \ $ \textbf{Invariant \PHpm~mass reconstruction}:
         \begin{itemize}
-          \large
-        \item[] \textcolor{kRed}{\mHpmReco = $t^{bst}$ + bjet$^{ldg \ p_{T}}$}
+          \normalsize
+        \item[] \textcolor{kOrange}{\mHpmReco = $t^{bst}$ + bjet$^{ldg \ p_{T}}$}
         \end{itemize}
       }
       {
-        \vspace{-0.4cm}
-        \oneFigColumns{tikz/pdf/HPlus4FS_HToTB_BoostedTop_InvMass}{}{1.0}%\mHpmReco=\rTop$_{ \ ldg \ p_{T}}$ + bjet$^{free}_{ldg \ p_{T}}$}{0.68}
+        \vspace{-0.25cm}
+        \oneFigColumns{tikz/pdf/HPlus4FS_HToTB_BoostedTop_InvMass}{}{0.83}%\mHpmReco=\rTop$_{ \ ldg \ p_{T}}$ + bjet$^{free}_{ldg \ p_{T}}$}{0.68}
       }
 }
