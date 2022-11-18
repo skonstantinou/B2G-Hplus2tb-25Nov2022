@@ -1,0 +1,94 @@
+diff --git a/NtupleAnalysis/src/LimitCalc/python/ControlPlotMakerHToTB.py b/NtupleAnalysis/src/LimitCalc/python/ControlPlotMakerHToTB.py
+index 2fbc204..3e34ca9 100644
+--- a/NtupleAnalysis/src/LimitCalc/python/ControlPlotMakerHToTB.py
++++ b/NtupleAnalysis/src/LimitCalc/python/ControlPlotMakerHToTB.py
+@@ -193,7 +193,7 @@ class ControlPlotMaker:
+ 
+                 # Stack all the histograms
+                 if hFakeB != None:
+-                    myHisto = histograms.Histo(hFakeB, "FakeB", legendLabel=_legendLabelFakeB)
++                    myHisto = histograms.Histo(hFakeB, "QCD", legendLabel=_legendLabelFakeB)
+                     myHisto.setIsDataMC(isData=False, isMC=True)
+                     myStackList.insert(0, myHisto)
+                 elif hQCDMC != None:
+@@ -231,7 +231,7 @@ class ControlPlotMaker:
+                 myStackPlot.setDefaultStyles(paperStyle=self._config.OptionPaper)
+                 if self._config.OptionPaper:
+                     myStackPlot.setLegendHeader("Associated production")
+-            
++                    
+                 # Tweak paramaters
+                 if not "unit" in myParams.keys():
+                     myParams["unit"] = ""
+@@ -252,6 +252,8 @@ class ControlPlotMaker:
+                 if not "opts2" in myParams.keys():
+                     myParams["opts2"] = {"ymin": 0.3, "ymax": 1.7}
+ 
++                myParams["createLegend"] = {"x1": 0.2, "y1": 0.75, "x2": 0.87, "y2": 0.92}
++                myParams["moveLegend"]   = {"dx": 0.0, "dy": 0.0, "dh": 0.0}
+                 # Make sure BR is indicated if anyting else but BR=1.0
+                 if m > 0 and self._config.OptionBr != 1.0:
+                     myStackPlot.histoMgr.setHistoLegendLabelMany({
+@@ -359,6 +361,7 @@ class ControlPlotMaker:
+         return
+ 
+     def _setLegendPosition(self, myParams):
++        myParams["nColumnsLegend"] = 2
+         if "legendPosition" in myParams.keys():
+             self.Verbose("Setting the legend position to \"%s\"" % ( myParams["legendPosition"] ) )
+             dh = 0.14
+@@ -665,7 +668,8 @@ class SelectionFlowPlotMaker:
+             if self._expectedLabelList[i] == "QCD":
+                 myHisto = histograms.Histo(myRHWU, self._expectedLabelList[i], legendLabel=_legendLabelQCD)
+             elif self._expectedLabelList[i] == "FakeB":
+-                myHisto = histograms.Histo(myRHWU, self._expectedLabelList[i], legendLabel=_legendLabelFakeB)
++                #myHisto = histograms.Histo(myRHWU, self._expectedLabelList[i], legendLabel=_legendLabelFakeB)
++                myHisto = histograms.Histo(myRHWU, "QCD", legendLabel=_legendLabelFakeB)
+             elif self._expectedLabelList[i] == "EWKfakes":
+                 myHisto = histograms.Histo(myRHWU, self._expectedLabelList[i], legendLabel=_legendLabelEWKFakes)
+             else:
+diff --git a/NtupleAnalysis/src/LimitCalc/work/datacards/datacard_HToTBWithParametrisedDNN_3B1T_2017.py b/NtupleAnalysis/src/LimitCalc/work/datacards/datacard_HToTBWithParametrisedDNN_3B1T_2017.py
+index fac9c14..49d4d6b 100644
+--- a/NtupleAnalysis/src/LimitCalc/work/datacards/datacard_HToTBWithParametrisedDNN_3B1T_2017.py
++++ b/NtupleAnalysis/src/LimitCalc/work/datacards/datacard_HToTBWithParametrisedDNN_3B1T_2017.py
+@@ -107,7 +107,7 @@ OptionParametrised                     = True
+ OptionPlotNamePrefix                   = None
+ OptionDoControlPlots                   = True
+ OptionMoreHistos                       = False   
+-OptionPaper                            = False#True  # changes figure style to paper style)
++OptionPaper                            = True  # changes figure style to paper style)
+ OptionGenuineBBackgroundSource         = "MC"  # options: "MC"
+ OptionFakeBMeasurementSource           = "DataDriven" # options: "DataDriven", "MC"
+ OptionIncludeSystematics               = False  # [default: True]   (Shape systematics; Requires pseudo-multicrab produced with doSystematics=True) 
+@@ -365,7 +365,7 @@ for mass in MassPoints:
+                       "divideByBinWidth"   : divideByBinWidth,
+                       "unit"               : "",
+                       "log"                : True,
+-                      "legendPosition"     : "NE",
++                      "legendPosition"     : "NW",
+                       "ratioLegendPosition": "right",
+                       "opts"               : {"xmin": 0.0, "xmax": 1.0, "ymin": 5e-1, "ymaxfactor": 20},
+                   },
+diff --git a/NtupleAnalysis/src/LimitCalc/work/datacards/datacard_HToTBWithParametrisedDNN_3B2T_2017.py b/NtupleAnalysis/src/LimitCalc/work/datacards/datacard_HToTBWithParametrisedDNN_3B2T_2017.py
+index dba6042..3a3eccb 100644
+--- a/NtupleAnalysis/src/LimitCalc/work/datacards/datacard_HToTBWithParametrisedDNN_3B2T_2017.py
++++ b/NtupleAnalysis/src/LimitCalc/work/datacards/datacard_HToTBWithParametrisedDNN_3B2T_2017.py
+@@ -107,7 +107,7 @@ OptionParametrised                     = True
+ OptionPlotNamePrefix                   = None
+ OptionDoControlPlots                   = True
+ OptionMoreHistos                       = False   
+-OptionPaper                            = False#True  # changes figure style to paper style)
++OptionPaper                            = True  # changes figure style to paper style)
+ OptionGenuineBBackgroundSource         = "MC"  # options: "MC"
+ OptionFakeBMeasurementSource           = "DataDriven" # options: "DataDriven", "MC"
+ OptionIncludeSystematics               = False  # [default: True]   (Shape systematics; Requires pseudo-multicrab produced with doSystematics=True) 
+@@ -365,7 +365,7 @@ for mass in MassPoints:
+                       "divideByBinWidth"   : divideByBinWidth,
+                       "unit"               : "",
+                       "log"                : True,
+-                      "legendPosition"     : "NE",
++                      "legendPosition"     : "NW",
+                       "ratioLegendPosition": "right",
+                       "opts"               : {"xmin": 0.0, "xmax": 1.0, "ymin": 5e-1, "ymaxfactor": 20},
+                   },
+

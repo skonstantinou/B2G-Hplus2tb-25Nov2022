@@ -1,0 +1,115 @@
+Description: Combine datacard (auto generated) mass=2500, luminosity=59817.406866 1/pb, HToTB_UL2018_13TeV/EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH2500to2500_StatOnly
+Date: Thu Nov 10 11:48:33 2022
+----------------------------------------------------------
+imax     1     number of channels
+jmax     *     number of backgrounds
+kmax    *     number of parameters
+----------------------------------------------------------
+shapes * * combine_histograms_hplushadronic_m2500.root $PROCESS $PROCESS_$SYSTEMATIC
+----------------------------------------------------------
+bin            HToTB
+observation    -1
+----------------------------------------------------------
+bin                    HToTB     HToTB    HToTB    HToTB  
+process                Hp2500    FakeB    TT       tEWttX 
+process                0         1        2        4      
+----------------------------------------------------------
+rate                   69.203801 4881.565 2545.892 209.100
+----------------------------------------------------------
+----------------------------------------------------------
+Hp2500_statBin1  shape 1         -        -        -      
+Hp2500_statBin2  shape 1         -        -        -      
+Hp2500_statBin3  shape 1         -        -        -      
+Hp2500_statBin4  shape 1         -        -        -      
+Hp2500_statBin5  shape 1         -        -        -      
+Hp2500_statBin6  shape 1         -        -        -      
+Hp2500_statBin7  shape 1         -        -        -      
+Hp2500_statBin8  shape 1         -        -        -      
+Hp2500_statBin9  shape 1         -        -        -      
+Hp2500_statBin10 shape 1         -        -        -      
+Hp2500_statBin11 shape 1         -        -        -      
+Hp2500_statBin12 shape 1         -        -        -      
+Hp2500_statBin13 shape 1         -        -        -      
+Hp2500_statBin14 shape 1         -        -        -      
+Hp2500_statBin15 shape 1         -        -        -      
+Hp2500_statBin16 shape 1         -        -        -      
+Hp2500_statBin17 shape 1         -        -        -      
+Hp2500_statBin18 shape 1         -        -        -      
+Hp2500_statBin19 shape 1         -        -        -      
+Hp2500_statBin20 shape 1         -        -        -      
+Hp2500_statBin21 shape 1         -        -        -      
+Hp2500_statBin22 shape 1         -        -        -      
+Hp2500_statBin23 shape 1         -        -        -      
+Hp2500_statBin24 shape 1         -        -        -      
+FakeB_statBin1   shape -         1        -        -      
+FakeB_statBin2   shape -         1        -        -      
+FakeB_statBin3   shape -         1        -        -      
+FakeB_statBin4   shape -         1        -        -      
+FakeB_statBin5   shape -         1        -        -      
+FakeB_statBin6   shape -         1        -        -      
+FakeB_statBin7   shape -         1        -        -      
+FakeB_statBin8   shape -         1        -        -      
+FakeB_statBin9   shape -         1        -        -      
+FakeB_statBin10  shape -         1        -        -      
+FakeB_statBin11  shape -         1        -        -      
+FakeB_statBin12  shape -         1        -        -      
+FakeB_statBin13  shape -         1        -        -      
+FakeB_statBin14  shape -         1        -        -      
+FakeB_statBin15  shape -         1        -        -      
+FakeB_statBin16  shape -         1        -        -      
+FakeB_statBin17  shape -         1        -        -      
+FakeB_statBin18  shape -         1        -        -      
+FakeB_statBin19  shape -         1        -        -      
+FakeB_statBin20  shape -         1        -        -      
+FakeB_statBin21  shape -         1        -        -      
+FakeB_statBin22  shape -         1        -        -      
+FakeB_statBin23  shape -         1        -        -      
+FakeB_statBin24  shape -         1        -        -      
+TT_statBin1      shape -         -        1        -      
+TT_statBin2      shape -         -        1        -      
+TT_statBin3      shape -         -        1        -      
+TT_statBin4      shape -         -        1        -      
+TT_statBin5      shape -         -        1        -      
+TT_statBin6      shape -         -        1        -      
+TT_statBin7      shape -         -        1        -      
+TT_statBin8      shape -         -        1        -      
+TT_statBin9      shape -         -        1        -      
+TT_statBin10     shape -         -        1        -      
+TT_statBin11     shape -         -        1        -      
+TT_statBin12     shape -         -        1        -      
+TT_statBin13     shape -         -        1        -      
+TT_statBin14     shape -         -        1        -      
+TT_statBin15     shape -         -        1        -      
+TT_statBin16     shape -         -        1        -      
+TT_statBin17     shape -         -        1        -      
+TT_statBin18     shape -         -        1        -      
+TT_statBin19     shape -         -        1        -      
+TT_statBin20     shape -         -        1        -      
+TT_statBin21     shape -         -        1        -      
+TT_statBin22     shape -         -        1        -      
+TT_statBin23     shape -         -        1        -      
+TT_statBin24     shape -         -        1        -      
+tEWttX_statBin1  shape -         -        -        1      
+tEWttX_statBin2  shape -         -        -        1      
+tEWttX_statBin3  shape -         -        -        1      
+tEWttX_statBin4  shape -         -        -        1      
+tEWttX_statBin5  shape -         -        -        1      
+tEWttX_statBin6  shape -         -        -        1      
+tEWttX_statBin7  shape -         -        -        1      
+tEWttX_statBin8  shape -         -        -        1      
+tEWttX_statBin9  shape -         -        -        1      
+tEWttX_statBin10 shape -         -        -        1      
+tEWttX_statBin11 shape -         -        -        1      
+tEWttX_statBin12 shape -         -        -        1      
+tEWttX_statBin13 shape -         -        -        1      
+tEWttX_statBin14 shape -         -        -        1      
+tEWttX_statBin15 shape -         -        -        1      
+tEWttX_statBin16 shape -         -        -        1      
+tEWttX_statBin17 shape -         -        -        1      
+tEWttX_statBin18 shape -         -        -        1      
+tEWttX_statBin19 shape -         -        -        1      
+tEWttX_statBin20 shape -         -        -        1      
+tEWttX_statBin21 shape -         -        -        1      
+tEWttX_statBin22 shape -         -        -        1      
+tEWttX_statBin23 shape -         -        -        1      
+tEWttX_statBin24 shape -         -        -        1      

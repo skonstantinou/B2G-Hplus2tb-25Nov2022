@@ -1,0 +1,1056 @@
+void DataDrivenCtrlPlot_HPlusTopPt_AfterSelections()
+{
+//=========Macro generated from canvas: datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections/datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections
+//=========  (Thu Nov 10 11:44:49 2022) by ROOT version 6.20/02
+   TCanvas *datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections = new TCanvas("datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections", "datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections",0,0,600,750);
+   gStyle->SetOptFit(1);
+   gStyle->SetOptStat(0);
+   gStyle->SetOptTitle(0);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections->SetHighLightColor(2);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections->Range(0,0,1,1);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections->SetFillColor(0);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections->SetBorderMode(0);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections->SetBorderSize(2);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections->SetTickx(1);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections->SetTicky(1);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections->SetLeftMargin(0.16);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections->SetRightMargin(0.05);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections->SetTopMargin(0.06);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections->SetBottomMargin(0.13);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections->SetFrameFillStyle(0);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections->SetFrameBorderMode(0);
+  
+// ------------>Primitives in pad: datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_2
+   TPad *datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_2 = new TPad("datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_2", "datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_2",0,0,1,0.304);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_2->Draw();
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_2->cd();
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_2->Range(-162.0253,-0.428,850.6329,1.7);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_2->SetFillColor(0);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_2->SetFillStyle(4000);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_2->SetBorderMode(0);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_2->SetBorderSize(2);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_2->SetTickx(1);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_2->SetTicky(1);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_2->SetLeftMargin(0.16);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_2->SetRightMargin(0.05);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_2->SetTopMargin(0);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_2->SetBottomMargin(0.3421053);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_2->SetFrameFillStyle(0);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_2->SetFrameBorderMode(0);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_2->SetFrameFillStyle(0);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_2->SetFrameBorderMode(0);
+   
+   TH1F *hframe__426 = new TH1F("hframe__426","",1000,0,800);
+   hframe__426->SetMinimum(0.3);
+   hframe__426->SetMaximum(1.7);
+   hframe__426->SetDirectory(0);
+   hframe__426->SetStats(0);
+   hframe__426->SetLineStyle(0);
+   hframe__426->SetMarkerStyle(20);
+   hframe__426->GetXaxis()->SetTitle("p_{T} (GeV)");
+   hframe__426->GetXaxis()->SetLabelFont(43);
+   hframe__426->GetXaxis()->SetLabelOffset(0.007);
+   hframe__426->GetXaxis()->SetLabelSize(27);
+   hframe__426->GetXaxis()->SetTitleSize(33);
+   hframe__426->GetXaxis()->SetTitleOffset(2.960526);
+   hframe__426->GetXaxis()->SetTitleFont(43);
+   hframe__426->GetYaxis()->SetTitle("Data / Bkg  ");
+   hframe__426->GetYaxis()->SetNdivisions(505);
+   hframe__426->GetYaxis()->SetLabelFont(43);
+   hframe__426->GetYaxis()->SetLabelOffset(0.007);
+   hframe__426->GetYaxis()->SetLabelSize(21);
+   hframe__426->GetYaxis()->SetTitleSize(33);
+   hframe__426->GetYaxis()->SetTitleOffset(1.5625);
+   hframe__426->GetYaxis()->SetTitleFont(43);
+   hframe__426->GetZaxis()->SetLabelFont(43);
+   hframe__426->GetZaxis()->SetLabelOffset(0.007);
+   hframe__426->GetZaxis()->SetLabelSize(27);
+   hframe__426->GetZaxis()->SetTitleSize(33);
+   hframe__426->GetZaxis()->SetTitleOffset(1);
+   hframe__426->GetZaxis()->SetTitleFont(43);
+   hframe__426->Draw(" ");
+   
+   Double_t BackgroundStatSystError_fx3257[11] = {
+   25,
+   75,
+   125,
+   175,
+   225,
+   275,
+   325,
+   375,
+   450,
+   550,
+   700};
+   Double_t BackgroundStatSystError_fy3257[11] = {
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1};
+   Double_t BackgroundStatSystError_felx3257[11] = {
+   25,
+   25,
+   25,
+   25,
+   25,
+   25,
+   25,
+   25,
+   50,
+   50,
+   100};
+   Double_t BackgroundStatSystError_fely3257[11] = {
+   0.8568248,
+   0.1245527,
+   0.03901231,
+   0.02387177,
+   0.0226039,
+   0.02769399,
+   0.03563633,
+   0.04921602,
+   0.05479148,
+   0.1077449,
+   0.2470908};
+   Double_t BackgroundStatSystError_fehx3257[11] = {
+   25,
+   25,
+   25,
+   25,
+   25,
+   25,
+   25,
+   25,
+   50,
+   50,
+   100};
+   Double_t BackgroundStatSystError_fehy3257[11] = {
+   0.8568248,
+   0.1245527,
+   0.03901231,
+   0.02387177,
+   0.0226039,
+   0.02769399,
+   0.03563633,
+   0.04921602,
+   0.05479148,
+   0.1077449,
+   0.2470908};
+   TGraphAsymmErrors *grae = new TGraphAsymmErrors(11,BackgroundStatSystError_fx3257,BackgroundStatSystError_fy3257,BackgroundStatSystError_felx3257,BackgroundStatSystError_fehx3257,BackgroundStatSystError_fely3257,BackgroundStatSystError_fehy3257);
+   grae->SetName("BackgroundStatSystError");
+   grae->SetTitle("Graph");
+
+   Int_t ci;      // for color index setting
+   TColor *color; // for color definition with alpha
+   ci = 1339;
+   color = new TColor(ci, 0.6, 0.6, 0.6, " ", 0.4);
+   grae->SetFillColor(ci);
+   grae->SetLineColor(0);
+   grae->SetLineStyle(0);
+   grae->SetLineWidth(0);
+   grae->SetMarkerStyle(0);
+   
+   TH1F *Graph_BackgroundStatSystError3257 = new TH1F("Graph_BackgroundStatSystError3257","Graph",100,0,880);
+   Graph_BackgroundStatSystError3257->SetMinimum(0.1288577);
+   Graph_BackgroundStatSystError3257->SetMaximum(2.02819);
+   Graph_BackgroundStatSystError3257->SetDirectory(0);
+   Graph_BackgroundStatSystError3257->SetStats(0);
+   Graph_BackgroundStatSystError3257->SetLineStyle(0);
+   Graph_BackgroundStatSystError3257->SetMarkerStyle(20);
+   Graph_BackgroundStatSystError3257->GetXaxis()->SetLabelFont(43);
+   Graph_BackgroundStatSystError3257->GetXaxis()->SetLabelOffset(0.007);
+   Graph_BackgroundStatSystError3257->GetXaxis()->SetLabelSize(27);
+   Graph_BackgroundStatSystError3257->GetXaxis()->SetTitleSize(33);
+   Graph_BackgroundStatSystError3257->GetXaxis()->SetTitleOffset(0.9);
+   Graph_BackgroundStatSystError3257->GetXaxis()->SetTitleFont(43);
+   Graph_BackgroundStatSystError3257->GetYaxis()->SetTitle("Data/MC");
+   Graph_BackgroundStatSystError3257->GetYaxis()->SetLabelFont(43);
+   Graph_BackgroundStatSystError3257->GetYaxis()->SetLabelOffset(0.007);
+   Graph_BackgroundStatSystError3257->GetYaxis()->SetLabelSize(27);
+   Graph_BackgroundStatSystError3257->GetYaxis()->SetTitleSize(33);
+   Graph_BackgroundStatSystError3257->GetYaxis()->SetTitleOffset(1.25);
+   Graph_BackgroundStatSystError3257->GetYaxis()->SetTitleFont(43);
+   Graph_BackgroundStatSystError3257->GetZaxis()->SetLabelFont(43);
+   Graph_BackgroundStatSystError3257->GetZaxis()->SetLabelOffset(0.007);
+   Graph_BackgroundStatSystError3257->GetZaxis()->SetLabelSize(27);
+   Graph_BackgroundStatSystError3257->GetZaxis()->SetTitleSize(33);
+   Graph_BackgroundStatSystError3257->GetZaxis()->SetTitleOffset(1);
+   Graph_BackgroundStatSystError3257->GetZaxis()->SetTitleFont(43);
+   grae->SetHistogram(Graph_BackgroundStatSystError3257);
+   
+   grae->Draw("ep ");
+   
+   Double_t BackgroundStatError_fx3258[11] = {
+   25,
+   75,
+   125,
+   175,
+   225,
+   275,
+   325,
+   375,
+   450,
+   550,
+   700};
+   Double_t BackgroundStatError_fy3258[11] = {
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1};
+   Double_t BackgroundStatError_felx3258[11] = {
+   25,
+   25,
+   25,
+   25,
+   25,
+   25,
+   25,
+   25,
+   50,
+   50,
+   100};
+   Double_t BackgroundStatError_fely3258[11] = {
+   0.8568248,
+   0.1245527,
+   0.03901231,
+   0.02387177,
+   0.0226039,
+   0.02769399,
+   0.03563633,
+   0.04921602,
+   0.05479148,
+   0.1077449,
+   0.2470908};
+   Double_t BackgroundStatError_fehx3258[11] = {
+   25,
+   25,
+   25,
+   25,
+   25,
+   25,
+   25,
+   25,
+   50,
+   50,
+   100};
+   Double_t BackgroundStatError_fehy3258[11] = {
+   0.8568248,
+   0.1245527,
+   0.03901231,
+   0.02387177,
+   0.0226039,
+   0.02769399,
+   0.03563633,
+   0.04921602,
+   0.05479148,
+   0.1077449,
+   0.2470908};
+   grae = new TGraphAsymmErrors(11,BackgroundStatError_fx3258,BackgroundStatError_fy3258,BackgroundStatError_felx3258,BackgroundStatError_fehx3258,BackgroundStatError_fely3258,BackgroundStatError_fehy3258);
+   grae->SetName("BackgroundStatError");
+   grae->SetTitle("Graph");
+
+   ci = 1338;
+   color = new TColor(ci, 0.6, 0.6, 0.6, " ", 0.4);
+   grae->SetFillColor(ci);
+   grae->SetLineColor(0);
+   grae->SetLineStyle(0);
+   grae->SetLineWidth(0);
+   grae->SetMarkerStyle(0);
+   
+   TH1F *Graph_BackgroundStatError3258 = new TH1F("Graph_BackgroundStatError3258","Graph",100,0,880);
+   Graph_BackgroundStatError3258->SetMinimum(0.1288577);
+   Graph_BackgroundStatError3258->SetMaximum(2.02819);
+   Graph_BackgroundStatError3258->SetDirectory(0);
+   Graph_BackgroundStatError3258->SetStats(0);
+   Graph_BackgroundStatError3258->SetLineStyle(0);
+   Graph_BackgroundStatError3258->SetMarkerStyle(20);
+   Graph_BackgroundStatError3258->GetXaxis()->SetLabelFont(43);
+   Graph_BackgroundStatError3258->GetXaxis()->SetLabelOffset(0.007);
+   Graph_BackgroundStatError3258->GetXaxis()->SetLabelSize(27);
+   Graph_BackgroundStatError3258->GetXaxis()->SetTitleSize(33);
+   Graph_BackgroundStatError3258->GetXaxis()->SetTitleOffset(0.9);
+   Graph_BackgroundStatError3258->GetXaxis()->SetTitleFont(43);
+   Graph_BackgroundStatError3258->GetYaxis()->SetTitle("Data/MC");
+   Graph_BackgroundStatError3258->GetYaxis()->SetLabelFont(43);
+   Graph_BackgroundStatError3258->GetYaxis()->SetLabelOffset(0.007);
+   Graph_BackgroundStatError3258->GetYaxis()->SetLabelSize(27);
+   Graph_BackgroundStatError3258->GetYaxis()->SetTitleSize(33);
+   Graph_BackgroundStatError3258->GetYaxis()->SetTitleOffset(1.25);
+   Graph_BackgroundStatError3258->GetYaxis()->SetTitleFont(43);
+   Graph_BackgroundStatError3258->GetZaxis()->SetLabelFont(43);
+   Graph_BackgroundStatError3258->GetZaxis()->SetLabelOffset(0.007);
+   Graph_BackgroundStatError3258->GetZaxis()->SetLabelSize(27);
+   Graph_BackgroundStatError3258->GetZaxis()->SetTitleSize(33);
+   Graph_BackgroundStatError3258->GetZaxis()->SetTitleOffset(1);
+   Graph_BackgroundStatError3258->GetZaxis()->SetTitleFont(43);
+   grae->SetHistogram(Graph_BackgroundStatError3258);
+   
+   grae->Draw("ep ");
+   
+   Double_t Graph0_fx65[2] = {
+   0,
+   800};
+   Double_t Graph0_fy65[2] = {
+   1,
+   1};
+   TGraph *graph = new TGraph(2,Graph0_fx65,Graph0_fy65);
+   graph->SetName("Graph0");
+   graph->SetTitle("Graph");
+   graph->SetFillStyle(1000);
+
+   ci = TColor::GetColor("#ff0000");
+   graph->SetLineColor(ci);
+   graph->SetLineStyle(3);
+   graph->SetLineWidth(2);
+   graph->SetMarkerStyle(20);
+   
+   TH1F *Graph_Graph065 = new TH1F("Graph_Graph065","Graph",100,0,880);
+   Graph_Graph065->SetMinimum(0.9);
+   Graph_Graph065->SetMaximum(2.1);
+   Graph_Graph065->SetDirectory(0);
+   Graph_Graph065->SetStats(0);
+   Graph_Graph065->SetLineStyle(0);
+   Graph_Graph065->SetMarkerStyle(20);
+   Graph_Graph065->GetXaxis()->SetLabelFont(43);
+   Graph_Graph065->GetXaxis()->SetLabelOffset(0.007);
+   Graph_Graph065->GetXaxis()->SetLabelSize(27);
+   Graph_Graph065->GetXaxis()->SetTitleSize(33);
+   Graph_Graph065->GetXaxis()->SetTitleOffset(0.9);
+   Graph_Graph065->GetXaxis()->SetTitleFont(43);
+   Graph_Graph065->GetYaxis()->SetLabelFont(43);
+   Graph_Graph065->GetYaxis()->SetLabelOffset(0.007);
+   Graph_Graph065->GetYaxis()->SetLabelSize(27);
+   Graph_Graph065->GetYaxis()->SetTitleSize(33);
+   Graph_Graph065->GetYaxis()->SetTitleOffset(1.25);
+   Graph_Graph065->GetYaxis()->SetTitleFont(43);
+   Graph_Graph065->GetZaxis()->SetLabelFont(43);
+   Graph_Graph065->GetZaxis()->SetLabelOffset(0.007);
+   Graph_Graph065->GetZaxis()->SetLabelSize(27);
+   Graph_Graph065->GetZaxis()->SetTitleSize(33);
+   Graph_Graph065->GetZaxis()->SetTitleOffset(1);
+   Graph_Graph065->GetZaxis()->SetTitleFont(43);
+   graph->SetHistogram(Graph_Graph065);
+   
+   graph->Draw("l");
+   
+   Double_t Graph1_fx3259[11] = {
+   25,
+   75,
+   125,
+   175,
+   225,
+   275,
+   325,
+   375,
+   450,
+   550,
+   700};
+   Double_t Graph1_fy3259[11] = {
+   -0.4600417,
+   -0.01091241,
+   -0.001230001,
+   -0.0005207727,
+   -0.000505798,
+   -0.0007932494,
+   -0.001327845,
+   -0.00251562,
+   -0.003115711,
+   -0.01171199,
+   -0.0673333};
+   Double_t Graph1_felx3259[11] = {
+   25,
+   25,
+   25,
+   25,
+   25,
+   25,
+   25,
+   25,
+   50,
+   50,
+   100};
+   Double_t Graph1_fely3259[11] = {
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0};
+   Double_t Graph1_fehx3259[11] = {
+   25,
+   25,
+   25,
+   25,
+   25,
+   25,
+   25,
+   25,
+   50,
+   50,
+   100};
+   Double_t Graph1_fehy3259[11] = {
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0};
+   grae = new TGraphAsymmErrors(11,Graph1_fx3259,Graph1_fy3259,Graph1_felx3259,Graph1_fehx3259,Graph1_fely3259,Graph1_fehy3259);
+   grae->SetName("Graph1");
+   grae->SetTitle("Graph");
+   grae->SetFillStyle(3001);
+   grae->SetLineWidth(2);
+   grae->SetMarkerStyle(20);
+   grae->SetMarkerSize(1.2);
+   
+   TH1F *Graph_Graph13259 = new TH1F("Graph_Graph13259","Graph",100,0,880);
+   Graph_Graph13259->SetMinimum(-0.5059953);
+   Graph_Graph13259->SetMaximum(0.04544779);
+   Graph_Graph13259->SetDirectory(0);
+   Graph_Graph13259->SetStats(0);
+   Graph_Graph13259->SetLineStyle(0);
+   Graph_Graph13259->SetMarkerStyle(20);
+   Graph_Graph13259->GetXaxis()->SetLabelFont(43);
+   Graph_Graph13259->GetXaxis()->SetLabelOffset(0.007);
+   Graph_Graph13259->GetXaxis()->SetLabelSize(27);
+   Graph_Graph13259->GetXaxis()->SetTitleSize(33);
+   Graph_Graph13259->GetXaxis()->SetTitleOffset(0.9);
+   Graph_Graph13259->GetXaxis()->SetTitleFont(43);
+   Graph_Graph13259->GetYaxis()->SetTitle("Data/MC");
+   Graph_Graph13259->GetYaxis()->SetLabelFont(43);
+   Graph_Graph13259->GetYaxis()->SetLabelOffset(0.007);
+   Graph_Graph13259->GetYaxis()->SetLabelSize(27);
+   Graph_Graph13259->GetYaxis()->SetTitleSize(33);
+   Graph_Graph13259->GetYaxis()->SetTitleOffset(1.25);
+   Graph_Graph13259->GetYaxis()->SetTitleFont(43);
+   Graph_Graph13259->GetZaxis()->SetLabelFont(43);
+   Graph_Graph13259->GetZaxis()->SetLabelOffset(0.007);
+   Graph_Graph13259->GetZaxis()->SetLabelSize(27);
+   Graph_Graph13259->GetZaxis()->SetTitleSize(33);
+   Graph_Graph13259->GetZaxis()->SetTitleOffset(1);
+   Graph_Graph13259->GetZaxis()->SetTitleFont(43);
+   grae->SetHistogram(Graph_Graph13259);
+   
+   grae->Draw("ep ");
+   
+   TLegend *leg = new TLegend(0.69,0.85,0.92,0.98,NULL,"brNDC");
+   leg->SetBorderSize(0);
+   leg->SetTextFont(62);
+   leg->SetTextSize(0.07);
+   leg->SetLineColor(1);
+   leg->SetLineStyle(1);
+   leg->SetLineWidth(1);
+   leg->SetFillColor(0);
+   leg->SetFillStyle(4000);
+   leg->Draw();
+   TLatex *   tex = new TLatex(0.55,0.38,"Data blinded: 0-800 GeV");
+tex->SetNDC();
+   tex->SetTextAlign(21);
+   tex->SetTextFont(63);
+   tex->SetTextSize(27);
+   tex->SetLineWidth(2);
+   tex->Draw();
+   
+   TH1F *hframe_copy__427 = new TH1F("hframe_copy__427","",1000,0,800);
+   hframe_copy__427->SetMinimum(0.3);
+   hframe_copy__427->SetMaximum(1.7);
+   hframe_copy__427->SetDirectory(0);
+   hframe_copy__427->SetStats(0);
+   hframe_copy__427->SetLineStyle(0);
+   hframe_copy__427->SetMarkerStyle(20);
+   hframe_copy__427->GetXaxis()->SetTitle("p_{T} (GeV)");
+   hframe_copy__427->GetXaxis()->SetLabelFont(43);
+   hframe_copy__427->GetXaxis()->SetLabelOffset(0.007);
+   hframe_copy__427->GetXaxis()->SetLabelSize(27);
+   hframe_copy__427->GetXaxis()->SetTitleSize(33);
+   hframe_copy__427->GetXaxis()->SetTitleOffset(2.960526);
+   hframe_copy__427->GetXaxis()->SetTitleFont(43);
+   hframe_copy__427->GetYaxis()->SetTitle("Data / Bkg  ");
+   hframe_copy__427->GetYaxis()->SetNdivisions(505);
+   hframe_copy__427->GetYaxis()->SetLabelFont(43);
+   hframe_copy__427->GetYaxis()->SetLabelOffset(0.007);
+   hframe_copy__427->GetYaxis()->SetLabelSize(21);
+   hframe_copy__427->GetYaxis()->SetTitleSize(33);
+   hframe_copy__427->GetYaxis()->SetTitleOffset(1.5625);
+   hframe_copy__427->GetYaxis()->SetTitleFont(43);
+   hframe_copy__427->GetZaxis()->SetLabelFont(43);
+   hframe_copy__427->GetZaxis()->SetLabelOffset(0.007);
+   hframe_copy__427->GetZaxis()->SetLabelSize(27);
+   hframe_copy__427->GetZaxis()->SetTitleSize(33);
+   hframe_copy__427->GetZaxis()->SetTitleOffset(1);
+   hframe_copy__427->GetZaxis()->SetTitleFont(43);
+   hframe_copy__427->Draw("sameaxis");
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_2->Modified();
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections->cd();
+  
+// ------------>Primitives in pad: coverpad
+   TPad *coverpad = new TPad("coverpad", "coverpad",0.065,0.285,0.158,0.33);
+   coverpad->Draw();
+   coverpad->cd();
+   coverpad->Range(0,0,1,1);
+   coverpad->SetFillColor(0);
+   coverpad->SetBorderMode(0);
+   coverpad->SetBorderSize(2);
+   coverpad->SetTickx(1);
+   coverpad->SetTicky(1);
+   coverpad->SetLeftMargin(0.16);
+   coverpad->SetRightMargin(0.05);
+   coverpad->SetTopMargin(0.06);
+   coverpad->SetBottomMargin(0.13);
+   coverpad->SetFrameFillStyle(0);
+   coverpad->SetFrameBorderMode(0);
+   coverpad->Modified();
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections->cd();
+  
+// ------------>Primitives in pad: datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_1
+   TPad *datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_1 = new TPad("datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_1", "datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_1",0,0.2897959,1,1);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_1->Draw();
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_1->cd();
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_1->Range(-162.0253,-0.3642428,850.6329,2.796399);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_1->SetFillColor(0);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_1->SetFillStyle(4000);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_1->SetBorderMode(0);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_1->SetBorderSize(2);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_1->SetLogy();
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_1->SetTickx(1);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_1->SetTicky(1);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_1->SetLeftMargin(0.16);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_1->SetRightMargin(0.05);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_1->SetTopMargin(0.06);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_1->SetBottomMargin(0.02);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_1->SetFrameFillStyle(0);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_1->SetFrameBorderMode(0);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_1->SetFrameFillStyle(0);
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_1->SetFrameBorderMode(0);
+   
+   TH1F *hframe__428 = new TH1F("hframe__428","",1000,0,800);
+   hframe__428->SetMinimum(0.5);
+   hframe__428->SetMaximum(404.3527);
+   hframe__428->SetDirectory(0);
+   hframe__428->SetStats(0);
+   hframe__428->SetLineStyle(0);
+   hframe__428->SetMarkerStyle(20);
+   hframe__428->GetXaxis()->SetLabelFont(43);
+   hframe__428->GetXaxis()->SetLabelOffset(0.007);
+   hframe__428->GetXaxis()->SetLabelSize(0);
+   hframe__428->GetXaxis()->SetTitleSize(0);
+   hframe__428->GetXaxis()->SetTitleOffset(0.9);
+   hframe__428->GetXaxis()->SetTitleFont(43);
+   hframe__428->GetYaxis()->SetTitle("< Events / GeV >");
+   hframe__428->GetYaxis()->SetLabelFont(43);
+   hframe__428->GetYaxis()->SetLabelOffset(0.007);
+   hframe__428->GetYaxis()->SetLabelSize(27);
+   hframe__428->GetYaxis()->SetTitleSize(33);
+   hframe__428->GetYaxis()->SetTitleOffset(1.5625);
+   hframe__428->GetYaxis()->SetTitleFont(43);
+   hframe__428->GetZaxis()->SetLabelFont(43);
+   hframe__428->GetZaxis()->SetLabelOffset(0.007);
+   hframe__428->GetZaxis()->SetLabelSize(27);
+   hframe__428->GetZaxis()->SetTitleSize(33);
+   hframe__428->GetZaxis()->SetTitleOffset(1);
+   hframe__428->GetZaxis()->SetTitleFont(43);
+   hframe__428->Draw(" ");
+   
+   THStack *StackedMCstackHist = new THStack();
+   StackedMCstackHist->SetName("StackedMCstackHist");
+   StackedMCstackHist->SetTitle("StackedMCstackHist");
+   Double_t xAxis344[12] = {0, 50, 100, 150, 200, 250, 300, 350, 400, 500, 600, 800}; 
+   
+   TH1F *StackedMCstackHist_stack_65 = new TH1F("StackedMCstackHist_stack_65","StackedMCstackHist",11, xAxis344);
+   StackedMCstackHist_stack_65->SetMinimum(0.01581659);
+   StackedMCstackHist_stack_65->SetMaximum(63.26636);
+   StackedMCstackHist_stack_65->SetDirectory(0);
+   StackedMCstackHist_stack_65->SetStats(0);
+   StackedMCstackHist_stack_65->SetLineStyle(0);
+   StackedMCstackHist_stack_65->SetMarkerStyle(20);
+   StackedMCstackHist_stack_65->GetXaxis()->SetLabelFont(43);
+   StackedMCstackHist_stack_65->GetXaxis()->SetLabelOffset(0.007);
+   StackedMCstackHist_stack_65->GetXaxis()->SetLabelSize(27);
+   StackedMCstackHist_stack_65->GetXaxis()->SetTitleSize(33);
+   StackedMCstackHist_stack_65->GetXaxis()->SetTitleOffset(0.9);
+   StackedMCstackHist_stack_65->GetXaxis()->SetTitleFont(43);
+   StackedMCstackHist_stack_65->GetYaxis()->SetLabelFont(43);
+   StackedMCstackHist_stack_65->GetYaxis()->SetLabelOffset(0.007);
+   StackedMCstackHist_stack_65->GetYaxis()->SetLabelSize(27);
+   StackedMCstackHist_stack_65->GetYaxis()->SetTitleSize(33);
+   StackedMCstackHist_stack_65->GetYaxis()->SetTitleOffset(1.25);
+   StackedMCstackHist_stack_65->GetYaxis()->SetTitleFont(43);
+   StackedMCstackHist_stack_65->GetZaxis()->SetLabelFont(43);
+   StackedMCstackHist_stack_65->GetZaxis()->SetLabelOffset(0.007);
+   StackedMCstackHist_stack_65->GetZaxis()->SetLabelSize(27);
+   StackedMCstackHist_stack_65->GetZaxis()->SetTitleSize(33);
+   StackedMCstackHist_stack_65->GetZaxis()->SetTitleOffset(1);
+   StackedMCstackHist_stack_65->GetZaxis()->SetTitleFont(43);
+   StackedMCstackHist->SetHistogram(StackedMCstackHist_stack_65);
+   
+   Double_t xAxis345[12] = {0, 50, 100, 150, 200, 250, 300, 350, 400, 500, 600, 800}; 
+   
+   TH1F *h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1 = new TH1F("h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1","H^{#pm} top p_{T} (GeV)",11, xAxis345);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->SetBinContent(1,0.0006542589);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->SetBinContent(2,0.01894391);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->SetBinContent(3,0.3336765);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->SetBinContent(4,0.8750129);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->SetBinContent(5,0.9196044);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->SetBinContent(6,0.7903102);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->SetBinContent(7,0.5333648);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->SetBinContent(8,0.3502884);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->SetBinContent(9,0.1420835);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->SetBinContent(10,0.03357686);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->SetBinContent(11,0.002206309);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->SetBinError(1,0.000226201);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->SetBinError(2,0.004212657);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->SetBinError(3,0.03119032);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->SetBinError(4,0.05389958);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->SetBinError(5,0.04973137);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->SetBinError(6,0.04688527);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->SetBinError(7,0.04027662);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->SetBinError(8,0.03523909);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->SetBinError(9,0.01355066);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->SetBinError(10,0.00582358);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->SetBinError(11,0.001920771);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->SetEntries(1372.91);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->SetDirectory(0);
+
+   ci = TColor::GetColor("#4c7eff");
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->SetFillColor(ci);
+
+   ci = TColor::GetColor("#4c7eff");
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->SetLineColor(ci);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->SetLineWidth(2);
+
+   ci = TColor::GetColor("#4c7eff");
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->SetMarkerColor(ci);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->SetMarkerStyle(25);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->SetMarkerSize(1.2);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->GetXaxis()->SetRange(1,160);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->GetXaxis()->SetLabelFont(42);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->GetXaxis()->SetTitleOffset(1);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->GetXaxis()->SetTitleFont(42);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->GetYaxis()->SetLabelFont(42);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->GetYaxis()->SetTitleFont(42);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->GetZaxis()->SetLabelFont(42);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->GetZaxis()->SetTitleOffset(1);
+   h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1->GetZaxis()->SetTitleFont(42);
+   StackedMCstackHist->Add(h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_stack_1,"");
+   Double_t xAxis346[12] = {0, 50, 100, 150, 200, 250, 300, 350, 400, 500, 600, 800}; 
+   
+   TH1F *h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2 = new TH1F("h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2","H^{#pm} top p_{T} (GeV)",11, xAxis346);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->SetBinContent(1,0.02700193);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->SetBinContent(2,0.4835223);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->SetBinContent(3,4.477487);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->SetBinContent(4,11.75179);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->SetBinContent(5,13.28205);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->SetBinContent(6,9.10356);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->SetBinContent(7,5.331798);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->SetBinContent(8,3.047014);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->SetBinContent(9,1.316125);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->SetBinContent(10,0.3201047);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->SetBinContent(11,0.03528784);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->SetBinError(1,0.005281168);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->SetBinError(2,0.02317386);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->SetBinError(3,0.07522504);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->SetBinError(4,0.1225632);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->SetBinError(5,0.1304944);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->SetBinError(6,0.1081554);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->SetBinError(7,0.08204979);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->SetBinError(8,0.0620401);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->SetBinError(9,0.02882674);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->SetBinError(10,0.01415747);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->SetBinError(11,0.003221574);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->SetEntries(39260.7);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->SetDirectory(0);
+
+   ci = TColor::GetColor("#993399");
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->SetFillColor(ci);
+
+   ci = TColor::GetColor("#993399");
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->SetLineColor(ci);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->SetLineWidth(2);
+
+   ci = TColor::GetColor("#993399");
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->SetMarkerColor(ci);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->SetMarkerStyle(21);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->SetMarkerSize(1.2);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->GetXaxis()->SetRange(1,160);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->GetXaxis()->SetLabelFont(42);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->GetXaxis()->SetTitleOffset(1);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->GetXaxis()->SetTitleFont(42);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->GetYaxis()->SetLabelFont(42);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->GetYaxis()->SetTitleFont(42);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->GetZaxis()->SetLabelFont(42);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->GetZaxis()->SetTitleOffset(1);
+   h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2->GetZaxis()->SetTitleFont(42);
+   StackedMCstackHist->Add(h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_stack_2,"");
+   Double_t xAxis347[12] = {0, 50, 100, 150, 200, 250, 300, 350, 400, 500, 600, 800}; 
+   
+   TH1F *h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3 = new TH1F("h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3","ForDataDrivenCtrlPlots/h3B1T_HPlusTopPt_AfterSelections",11, xAxis347);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->SetBinContent(1,0.01581813);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->SetBinContent(2,1.330309);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->SetBinContent(3,11.44898);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->SetBinContent(4,25.77767);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->SetBinContent(5,25.33982);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->SetBinContent(6,15.31888);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->SetBinContent(7,9.196831);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->SetBinContent(8,4.553025);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->SetBinContent(9,1.751332);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->SetBinContent(10,0.5001439);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->SetBinContent(11,0.03676331);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->SetBinError(1,0.03687291);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->SetBinError(2,0.2270588);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->SetBinError(3,0.629097);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->SetBinError(4,0.9069529);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->SetBinError(5,0.8828146);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->SetBinError(6,0.6882192);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->SetBinError(7,0.5289146);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->SetBinError(8,0.3847233);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->SetBinError(9,0.1729467);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->SetBinError(10,0.09071272);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->SetBinError(11,0.01796089);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->SetEntries(3035.068);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->SetDirectory(0);
+
+   ci = TColor::GetColor("#ffcd4c");
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->SetFillColor(ci);
+
+   ci = TColor::GetColor("#ffcd4c");
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->SetLineColor(ci);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->SetLineWidth(2);
+
+   ci = TColor::GetColor("#ffcd4c");
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->SetMarkerColor(ci);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->SetMarkerStyle(22);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->SetMarkerSize(1.2);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->GetXaxis()->SetTitle("H^{#pm} top p_{T} (GeV)");
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->GetXaxis()->SetRange(1,160);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->GetXaxis()->SetLabelFont(42);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->GetXaxis()->SetTitleOffset(1);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->GetXaxis()->SetTitleFont(42);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->GetYaxis()->SetLabelFont(42);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->GetYaxis()->SetTitleFont(42);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->GetZaxis()->SetLabelFont(42);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->GetZaxis()->SetTitleOffset(1);
+   h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3->GetZaxis()->SetTitleFont(42);
+   StackedMCstackHist->Add(h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_stack_3,"");
+   StackedMCstackHist->Draw("hist same");
+   
+   Double_t h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors_fx3260[11] = {
+   25,
+   75,
+   125,
+   175,
+   225,
+   275,
+   325,
+   375,
+   450,
+   550,
+   700};
+   Double_t h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors_fy3260[11] = {
+   0.04347432,
+   1.832775,
+   16.26014,
+   38.40447,
+   39.54147,
+   25.21275,
+   15.06199,
+   7.950327,
+   3.209541,
+   0.8538256,
+   0.07425746};
+   Double_t h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors_felx3260[11] = {
+   25,
+   25,
+   25,
+   25,
+   25,
+   25,
+   25,
+   25,
+   50,
+   50,
+   100};
+   Double_t h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors_fely3260[11] = {
+   0.03724987,
+   0.2282771,
+   0.6343458,
+   0.9167827,
+   0.8937917,
+   0.6982417,
+   0.5367542,
+   0.3912835,
+   0.1758555,
+   0.09199536,
+   0.01834834};
+   Double_t h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors_fehx3260[11] = {
+   25,
+   25,
+   25,
+   25,
+   25,
+   25,
+   25,
+   25,
+   50,
+   50,
+   100};
+   Double_t h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors_fehy3260[11] = {
+   0.03724987,
+   0.2282771,
+   0.6343458,
+   0.9167827,
+   0.8937917,
+   0.6982417,
+   0.5367542,
+   0.3912835,
+   0.1758555,
+   0.09199536,
+   0.01834834};
+   grae = new TGraphAsymmErrors(11,h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors_fx3260,h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors_fy3260,h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors_felx3260,h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors_fehx3260,h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors_fely3260,h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors_fehy3260);
+   grae->SetName("h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors");
+   grae->SetTitle("Graph");
+   grae->SetFillColor(1);
+   grae->SetFillStyle(3345);
+   grae->SetLineWidth(3);
+   grae->SetMarkerStyle(0);
+   
+   TH1F *Graph_h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors3260 = new TH1F("Graph_h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors3260","Graph",100,0,880);
+   Graph_h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors3260->SetMinimum(0.005601999);
+   Graph_h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors3260->SetMaximum(44.47817);
+   Graph_h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors3260->SetDirectory(0);
+   Graph_h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors3260->SetStats(0);
+   Graph_h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors3260->SetLineStyle(0);
+   Graph_h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors3260->SetMarkerStyle(20);
+   Graph_h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors3260->GetXaxis()->SetLabelFont(43);
+   Graph_h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors3260->GetXaxis()->SetLabelOffset(0.007);
+   Graph_h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors3260->GetXaxis()->SetLabelSize(27);
+   Graph_h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors3260->GetXaxis()->SetTitleSize(33);
+   Graph_h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors3260->GetXaxis()->SetTitleOffset(0.9);
+   Graph_h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors3260->GetXaxis()->SetTitleFont(43);
+   Graph_h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors3260->GetYaxis()->SetLabelFont(43);
+   Graph_h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors3260->GetYaxis()->SetLabelOffset(0.007);
+   Graph_h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors3260->GetYaxis()->SetLabelSize(27);
+   Graph_h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors3260->GetYaxis()->SetTitleSize(33);
+   Graph_h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors3260->GetYaxis()->SetTitleOffset(1.25);
+   Graph_h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors3260->GetYaxis()->SetTitleFont(43);
+   Graph_h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors3260->GetZaxis()->SetLabelFont(43);
+   Graph_h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors3260->GetZaxis()->SetLabelOffset(0.007);
+   Graph_h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors3260->GetZaxis()->SetLabelSize(27);
+   Graph_h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors3260->GetZaxis()->SetTitleSize(33);
+   Graph_h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors3260->GetZaxis()->SetTitleOffset(1);
+   Graph_h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors3260->GetZaxis()->SetTitleFont(43);
+   grae->SetHistogram(Graph_h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors3260);
+   
+   grae->Draw("e2 ");
+   Double_t xAxis348[12] = {0, 50, 100, 150, 200, 250, 300, 350, 400, 500, 600, 800}; 
+   
+   TH1F *h3B1T_HPlusTopPt_AfterSelections_JetHT_Run2018A_UL2018_MiniAODv2_v1_315257_316995_cloned__429 = new TH1F("h3B1T_HPlusTopPt_AfterSelections_JetHT_Run2018A_UL2018_MiniAODv2_v1_315257_316995_cloned__429","H^{#pm} top p_{T} (GeV)",11, xAxis348);
+   h3B1T_HPlusTopPt_AfterSelections_JetHT_Run2018A_UL2018_MiniAODv2_v1_315257_316995_cloned__429->SetBinContent(1,-0.02);
+   h3B1T_HPlusTopPt_AfterSelections_JetHT_Run2018A_UL2018_MiniAODv2_v1_315257_316995_cloned__429->SetBinContent(2,-0.02);
+   h3B1T_HPlusTopPt_AfterSelections_JetHT_Run2018A_UL2018_MiniAODv2_v1_315257_316995_cloned__429->SetBinContent(3,-0.02);
+   h3B1T_HPlusTopPt_AfterSelections_JetHT_Run2018A_UL2018_MiniAODv2_v1_315257_316995_cloned__429->SetBinContent(4,-0.02);
+   h3B1T_HPlusTopPt_AfterSelections_JetHT_Run2018A_UL2018_MiniAODv2_v1_315257_316995_cloned__429->SetBinContent(5,-0.02);
+   h3B1T_HPlusTopPt_AfterSelections_JetHT_Run2018A_UL2018_MiniAODv2_v1_315257_316995_cloned__429->SetBinContent(6,-0.02);
+   h3B1T_HPlusTopPt_AfterSelections_JetHT_Run2018A_UL2018_MiniAODv2_v1_315257_316995_cloned__429->SetBinContent(7,-0.02);
+   h3B1T_HPlusTopPt_AfterSelections_JetHT_Run2018A_UL2018_MiniAODv2_v1_315257_316995_cloned__429->SetBinContent(8,-0.02);
+   h3B1T_HPlusTopPt_AfterSelections_JetHT_Run2018A_UL2018_MiniAODv2_v1_315257_316995_cloned__429->SetBinContent(9,-0.01);
+   h3B1T_HPlusTopPt_AfterSelections_JetHT_Run2018A_UL2018_MiniAODv2_v1_315257_316995_cloned__429->SetBinContent(10,-0.01);
+   h3B1T_HPlusTopPt_AfterSelections_JetHT_Run2018A_UL2018_MiniAODv2_v1_315257_316995_cloned__429->SetBinContent(11,-0.005);
+   h3B1T_HPlusTopPt_AfterSelections_JetHT_Run2018A_UL2018_MiniAODv2_v1_315257_316995_cloned__429->SetEntries(0.185);
+   h3B1T_HPlusTopPt_AfterSelections_JetHT_Run2018A_UL2018_MiniAODv2_v1_315257_316995_cloned__429->SetDirectory(0);
+   h3B1T_HPlusTopPt_AfterSelections_JetHT_Run2018A_UL2018_MiniAODv2_v1_315257_316995_cloned__429->SetFillStyle(3001);
+   h3B1T_HPlusTopPt_AfterSelections_JetHT_Run2018A_UL2018_MiniAODv2_v1_315257_316995_cloned__429->SetLineWidth(2);
+   h3B1T_HPlusTopPt_AfterSelections_JetHT_Run2018A_UL2018_MiniAODv2_v1_315257_316995_cloned__429->SetMarkerStyle(20);
+   h3B1T_HPlusTopPt_AfterSelections_JetHT_Run2018A_UL2018_MiniAODv2_v1_315257_316995_cloned__429->SetMarkerSize(1.2);
+   h3B1T_HPlusTopPt_AfterSelections_JetHT_Run2018A_UL2018_MiniAODv2_v1_315257_316995_cloned__429->GetXaxis()->SetRange(1,160);
+   h3B1T_HPlusTopPt_AfterSelections_JetHT_Run2018A_UL2018_MiniAODv2_v1_315257_316995_cloned__429->GetXaxis()->SetLabelFont(42);
+   h3B1T_HPlusTopPt_AfterSelections_JetHT_Run2018A_UL2018_MiniAODv2_v1_315257_316995_cloned__429->GetXaxis()->SetTitleOffset(1);
+   h3B1T_HPlusTopPt_AfterSelections_JetHT_Run2018A_UL2018_MiniAODv2_v1_315257_316995_cloned__429->GetXaxis()->SetTitleFont(42);
+   h3B1T_HPlusTopPt_AfterSelections_JetHT_Run2018A_UL2018_MiniAODv2_v1_315257_316995_cloned__429->GetYaxis()->SetLabelFont(42);
+   h3B1T_HPlusTopPt_AfterSelections_JetHT_Run2018A_UL2018_MiniAODv2_v1_315257_316995_cloned__429->GetYaxis()->SetTitleFont(42);
+   h3B1T_HPlusTopPt_AfterSelections_JetHT_Run2018A_UL2018_MiniAODv2_v1_315257_316995_cloned__429->GetZaxis()->SetLabelFont(42);
+   h3B1T_HPlusTopPt_AfterSelections_JetHT_Run2018A_UL2018_MiniAODv2_v1_315257_316995_cloned__429->GetZaxis()->SetTitleOffset(1);
+   h3B1T_HPlusTopPt_AfterSelections_JetHT_Run2018A_UL2018_MiniAODv2_v1_315257_316995_cloned__429->GetZaxis()->SetTitleFont(42);
+   h3B1T_HPlusTopPt_AfterSelections_JetHT_Run2018A_UL2018_MiniAODv2_v1_315257_316995_cloned__429->Draw("EP same");
+   
+   leg = new TLegend(0.2,0.75,0.87,0.92,NULL,"brNDC");
+   leg->SetBorderSize(0);
+   leg->SetTextFont(62);
+   leg->SetTextSize(0.035);
+   leg->SetLineColor(1);
+   leg->SetLineStyle(1);
+   leg->SetLineWidth(1);
+   leg->SetFillColor(0);
+   leg->SetFillStyle(4000);
+   TLegendEntry *entry=leg->AddEntry("NULL","Associated production","h");
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(62);
+   entry=leg->AddEntry("h3B1T_HPlusTopPt_AfterSelections_JetHT_Run2018A_UL2018_MiniAODv2_v1_315257_316995_cloned","Data","peL");
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(2);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(20);
+   entry->SetMarkerSize(1.2);
+   entry->SetTextFont(62);
+   entry=leg->AddEntry("h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_forLegend","QCD multijet","F");
+
+   ci = TColor::GetColor("#ffcd4c");
+   entry->SetFillColor(ci);
+   entry->SetFillStyle(1001);
+
+   ci = TColor::GetColor("#ffcd4c");
+   entry->SetLineColor(ci);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(62);
+   entry=leg->AddEntry("h3B1T_HPlusTopPt_AfterSelections_TTTo2L2Nu_cloned_forLegend","t#bar{t}","F");
+
+   ci = TColor::GetColor("#993399");
+   entry->SetFillColor(ci);
+   entry->SetFillStyle(1001);
+
+   ci = TColor::GetColor("#993399");
+   entry->SetLineColor(ci);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(62);
+   entry=leg->AddEntry("h3B1T_HPlusTopPt_AfterSelections_ST_tW_antitop_5f_inclusiveDecays_cloned_forLegend","t, t#bar{t} + X, EW","F");
+
+   ci = TColor::GetColor("#4c7eff");
+   entry->SetFillColor(ci);
+   entry->SetFillStyle(1001);
+
+   ci = TColor::GetColor("#4c7eff");
+   entry->SetLineColor(ci);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(62);
+   entry=leg->AddEntry("h3B1T_HPlusTopPt_AfterSelections_QCDDataDriven_cloned_sum_errors_forLegend","Stat #oplus syst unc","F");
+   entry->SetFillColor(1);
+   entry->SetFillStyle(3345);
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(62);
+   leg->Draw();
+   
+   TH1F *hframe_copy__430 = new TH1F("hframe_copy__430","",1000,0,800);
+   hframe_copy__430->SetMinimum(0.5);
+   hframe_copy__430->SetMaximum(404.3527);
+   hframe_copy__430->SetDirectory(0);
+   hframe_copy__430->SetStats(0);
+   hframe_copy__430->SetLineStyle(0);
+   hframe_copy__430->SetMarkerStyle(20);
+   hframe_copy__430->GetXaxis()->SetLabelFont(43);
+   hframe_copy__430->GetXaxis()->SetLabelOffset(0.007);
+   hframe_copy__430->GetXaxis()->SetLabelSize(0);
+   hframe_copy__430->GetXaxis()->SetTitleSize(0);
+   hframe_copy__430->GetXaxis()->SetTitleOffset(0.9);
+   hframe_copy__430->GetXaxis()->SetTitleFont(43);
+   hframe_copy__430->GetYaxis()->SetTitle("< Events / GeV >");
+   hframe_copy__430->GetYaxis()->SetLabelFont(43);
+   hframe_copy__430->GetYaxis()->SetLabelOffset(0.007);
+   hframe_copy__430->GetYaxis()->SetLabelSize(27);
+   hframe_copy__430->GetYaxis()->SetTitleSize(33);
+   hframe_copy__430->GetYaxis()->SetTitleOffset(1.5625);
+   hframe_copy__430->GetYaxis()->SetTitleFont(43);
+   hframe_copy__430->GetZaxis()->SetLabelFont(43);
+   hframe_copy__430->GetZaxis()->SetLabelOffset(0.007);
+   hframe_copy__430->GetZaxis()->SetLabelSize(27);
+   hframe_copy__430->GetZaxis()->SetTitleSize(33);
+   hframe_copy__430->GetZaxis()->SetTitleOffset(1);
+   hframe_copy__430->GetZaxis()->SetTitleFont(43);
+   hframe_copy__430->Draw("sameaxis");
+   
+   TH1F *hframe_copy__431 = new TH1F("hframe_copy__431","",1000,0,800);
+   hframe_copy__431->SetMinimum(0.5);
+   hframe_copy__431->SetMaximum(404.3527);
+   hframe_copy__431->SetDirectory(0);
+   hframe_copy__431->SetStats(0);
+   hframe_copy__431->SetLineStyle(0);
+   hframe_copy__431->SetMarkerStyle(20);
+   hframe_copy__431->GetXaxis()->SetLabelFont(43);
+   hframe_copy__431->GetXaxis()->SetLabelOffset(0.007);
+   hframe_copy__431->GetXaxis()->SetLabelSize(0);
+   hframe_copy__431->GetXaxis()->SetTitleSize(0);
+   hframe_copy__431->GetXaxis()->SetTitleOffset(0.9);
+   hframe_copy__431->GetXaxis()->SetTitleFont(43);
+   hframe_copy__431->GetYaxis()->SetTitle("< Events / GeV >");
+   hframe_copy__431->GetYaxis()->SetLabelFont(43);
+   hframe_copy__431->GetYaxis()->SetLabelOffset(0.007);
+   hframe_copy__431->GetYaxis()->SetLabelSize(27);
+   hframe_copy__431->GetYaxis()->SetTitleSize(33);
+   hframe_copy__431->GetYaxis()->SetTitleOffset(1.5625);
+   hframe_copy__431->GetYaxis()->SetTitleFont(43);
+   hframe_copy__431->GetZaxis()->SetLabelFont(43);
+   hframe_copy__431->GetZaxis()->SetLabelOffset(0.007);
+   hframe_copy__431->GetZaxis()->SetLabelSize(27);
+   hframe_copy__431->GetZaxis()->SetTitleSize(33);
+   hframe_copy__431->GetZaxis()->SetTitleOffset(1);
+   hframe_copy__431->GetZaxis()->SetTitleFont(43);
+   hframe_copy__431->Draw("sameaxis");
+      tex = new TLatex(0.95,0.952,"59.8 fb^{-1} (13 TeV)");
+tex->SetNDC();
+   tex->SetTextAlign(31);
+   tex->SetTextFont(43);
+   tex->SetTextSize(24);
+   tex->SetLineWidth(2);
+   tex->Draw();
+      tex = new TLatex(0.16,0.952,"CMS");
+tex->SetNDC();
+   tex->SetTextFont(63);
+   tex->SetTextSize(30);
+   tex->SetLineWidth(2);
+   tex->Draw();
+      tex = new TLatex(0.2706,0.952,"Preliminary");
+tex->SetNDC();
+   tex->SetTextFont(53);
+   tex->SetTextSize(22.8);
+   tex->SetLineWidth(2);
+   tex->Draw();
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections_1->Modified();
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections->cd();
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections->Modified();
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections->cd();
+   datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections->SetSelected(datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly_3B1T_20221110_112420_Created10Nov2022/controlPlots/DataDrivenCtrlPlot_HPlusTopPt_AfterSelections);
+}

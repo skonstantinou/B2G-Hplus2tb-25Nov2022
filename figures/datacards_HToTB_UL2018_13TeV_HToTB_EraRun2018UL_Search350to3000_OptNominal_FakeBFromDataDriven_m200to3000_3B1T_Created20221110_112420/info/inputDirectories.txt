@@ -1,0 +1,6 @@
+Input directories:
+[0;0mThe dataset [0;35mSignal Analysis[0;0m was found in directory [0;35mlimits2021/Hplus2tbAnalysis_SR_TopMass50to260_26Oct2022[0;0m
+[0;0mThe dataset [0;35mEWK Genuine-b[0;0m was found in directory [0;35mlimits2021/Hplus2tbAnalysis_SR_TopMass50to260_26Oct2022[0;0m
+- The background [0;35mEWK Genuine-b[0;0m will be estimated from multicrab directory [1;34mHplus2tbAnalysis_SR_TopMass50to260_26Oct2022[0;0m
+[0;0mThe dataset [0;35mFake-b[0;0m was found in directory [0;35mlimits2021/QCDDataDriven_TopMass50to260_PtBins100_EtaBins1p8_26Oct2022/QCDDataDriven[0;0m
+- The background [0;35mFake-b[0;0m will be estimated from multicrab directory [1;34mQCDDataDriven[0;0m

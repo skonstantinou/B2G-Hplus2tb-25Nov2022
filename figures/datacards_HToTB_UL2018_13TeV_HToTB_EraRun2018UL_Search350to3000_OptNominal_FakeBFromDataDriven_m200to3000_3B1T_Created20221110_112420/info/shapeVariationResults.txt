@@ -1,0 +1,104 @@
+*** Shape nuisance variation summary ***
+Description: Combine datacard (auto generated) mass=800, luminosity=59817.406866 1/pb, HToTB_UL2018_13TeV/EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH800to800_StatOnly
+Date: Thu Nov 10 11:44:51 2022
+-----------------------------------------------------------------------------------------------------------------
+bin                                       HToTB HToTB HToTB HToTB 
+process                                   Hp800 FakeB TT    tEWttX
+process                                   1     2     3     5     
+-----------------------------------------------------------------------------------------------------------------
+CMS_pileup_2018_ShapeDown                 -     -     -     -      Pileup                                        
+CMS_pileup_2018_ShapeUp                   -     -     -     -      Pileup                                        
+CMS_scale_j_ShapeDown                     -     -     -     -      Jet energy scale (JES)                        
+CMS_scale_j_ShapeUp                       -     -     -     -      Jet energy scale (JES)                        
+CMS_res_j_2018_ShapeDown                  -     -     -     -      Jet energy resolution (JER)                   
+CMS_res_j_2018_ShapeUp                    -     -     -     -      Jet energy resolution (JER)                   
+CMS_eff_trg_jets_2018_ShapeDown           -     -     -     -      Multijet trigger MC efficiency                
+CMS_eff_trg_jets_2018_ShapeUp             -     -     -     -      Multijet trigger MC efficiency                
+CMS_eff_b_2018_ShapeDown                  -     -     -     -      b tagging scale factor (SF)                   
+CMS_eff_b_2018_ShapeUp                    -     -     -     -      b tagging scale factor (SF)                   
+CMS_eff_b_mis_2018_ShapeDown              -     -     -     -      b mistag scale factor (SF)                    
+CMS_eff_b_mis_2018_ShapeUp                -     -     -     -      b mistag scale factor (SF)                    
+CMS_eff_top_2018_ShapeDown                -     -     -     -      Top tagging scale factor (SF)                 
+CMS_eff_top_2018_ShapeUp                  -     -     -     -      Top tagging scale factor (SF)                 
+CMS_eff_top_mis_2018_ShapeDown            -     -     -     -      Top mistag scale factor (SF)                  
+CMS_eff_top_mis_2018_ShapeUp              -     -     -     -      Top mistag scale factor (SF)                  
+CMS_fake_b_statistical_0_2018_ShapeDown   -     -     -     -      fake-b transfer factor statistical for bin #0 
+CMS_fake_b_statistical_0_2018_ShapeUp     -     -     -     -      fake-b transfer factor statistical for bin #0 
+CMS_fake_b_statistical_1_2018_ShapeDown   -     -     -     -      fake-b transfer factor statistical for bin #1 
+CMS_fake_b_statistical_1_2018_ShapeUp     -     -     -     -      fake-b transfer factor statistical for bin #1 
+CMS_fake_b_statistical_2_2018_ShapeDown   -     -     -     -      fake-b transfer factor statistical for bin #2 
+CMS_fake_b_statistical_2_2018_ShapeUp     -     -     -     -      fake-b transfer factor statistical for bin #2 
+CMS_fake_b_statistical_3_2018_ShapeDown   -     -     -     -      fake-b transfer factor statistical for bin #3 
+CMS_fake_b_statistical_3_2018_ShapeUp     -     -     -     -      fake-b transfer factor statistical for bin #3 
+CMS_fake_b_statistical_4_2018_ShapeDown   -     -     -     -      fake-b transfer factor statistical for bin #4 
+CMS_fake_b_statistical_4_2018_ShapeUp     -     -     -     -      fake-b transfer factor statistical for bin #4 
+CMS_fake_b_statistical_5_2018_ShapeDown   -     -     -     -      fake-b transfer factor statistical for bin #5 
+CMS_fake_b_statistical_5_2018_ShapeUp     -     -     -     -      fake-b transfer factor statistical for bin #5 
+CMS_fake_b_statistical_6_2018_ShapeDown   -     -     -     -      fake-b transfer factor statistical for bin #6 
+CMS_fake_b_statistical_6_2018_ShapeUp     -     -     -     -      fake-b transfer factor statistical for bin #6 
+CMS_fake_b_statistical_7_2018_ShapeDown   -     -     -     -      fake-b transfer factor statistical for bin #7 
+CMS_fake_b_statistical_7_2018_ShapeUp     -     -     -     -      fake-b transfer factor statistical for bin #7 
+CMS_fake_b_statistical_8_2018_ShapeDown   -     -     -     -      fake-b transfer factor statistical for bin #8 
+CMS_fake_b_statistical_8_2018_ShapeUp     -     -     -     -      fake-b transfer factor statistical for bin #8 
+CMS_fake_b_statistical_9_2018_ShapeDown   -     -     -     -      fake-b transfer factor statistical for bin #9 
+CMS_fake_b_statistical_9_2018_ShapeUp     -     -     -     -      fake-b transfer factor statistical for bin #9 
+CMS_fake_b_statistical_10_2018_ShapeDown  -     -     -     -      fake-b transfer factor statistical for bin #10
+CMS_fake_b_statistical_10_2018_ShapeUp    -     -     -     -      fake-b transfer factor statistical for bin #10
+CMS_fake_b_statistical_11_2018_ShapeDown  -     -     -     -      fake-b transfer factor statistical for bin #11
+CMS_fake_b_statistical_11_2018_ShapeUp    -     -     -     -      fake-b transfer factor statistical for bin #11
+CMS_fake_b_statistical_12_2018_ShapeDown  -     -     -     -      fake-b transfer factor statistical for bin #12
+CMS_fake_b_statistical_12_2018_ShapeUp    -     -     -     -      fake-b transfer factor statistical for bin #12
+CMS_fake_b_statistical_13_2018_ShapeDown  -     -     -     -      fake-b transfer factor statistical for bin #13
+CMS_fake_b_statistical_13_2018_ShapeUp    -     -     -     -      fake-b transfer factor statistical for bin #13
+CMS_fake_b_statistical_14_2018_ShapeDown  -     -     -     -      fake-b transfer factor statistical for bin #14
+CMS_fake_b_statistical_14_2018_ShapeUp    -     -     -     -      fake-b transfer factor statistical for bin #14
+CMS_fake_b_statistical_15_2018_ShapeDown  -     -     -     -      fake-b transfer factor statistical for bin #15
+CMS_fake_b_statistical_15_2018_ShapeUp    -     -     -     -      fake-b transfer factor statistical for bin #15
+CMS_fake_b_statistical_16_2018_ShapeDown  -     -     -     -      fake-b transfer factor statistical for bin #16
+CMS_fake_b_statistical_16_2018_ShapeUp    -     -     -     -      fake-b transfer factor statistical for bin #16
+CMS_fake_b_statistical_17_2018_ShapeDown  -     -     -     -      fake-b transfer factor statistical for bin #17
+CMS_fake_b_statistical_17_2018_ShapeUp    -     -     -     -      fake-b transfer factor statistical for bin #17
+CMS_fake_b_statistical_18_2018_ShapeDown  -     -     -     -      fake-b transfer factor statistical for bin #18
+CMS_fake_b_statistical_18_2018_ShapeUp    -     -     -     -      fake-b transfer factor statistical for bin #18
+CMS_fake_b_statistical_19_2018_ShapeDown  -     -     -     -      fake-b transfer factor statistical for bin #19
+CMS_fake_b_statistical_19_2018_ShapeUp    -     -     -     -      fake-b transfer factor statistical for bin #19
+CMS_fake_b_statistical_20_2018_ShapeDown  -     -     -     -      fake-b transfer factor statistical for bin #20
+CMS_fake_b_statistical_20_2018_ShapeUp    -     -     -     -      fake-b transfer factor statistical for bin #20
+CMS_fake_b_statistical_21_2018_ShapeDown  -     -     -     -      fake-b transfer factor statistical for bin #21
+CMS_fake_b_statistical_21_2018_ShapeUp    -     -     -     -      fake-b transfer factor statistical for bin #21
+CMS_fake_b_statistical_22_2018_ShapeDown  -     -     -     -      fake-b transfer factor statistical for bin #22
+CMS_fake_b_statistical_22_2018_ShapeUp    -     -     -     -      fake-b transfer factor statistical for bin #22
+CMS_fake_b_statistical_23_2018_ShapeDown  -     -     -     -      fake-b transfer factor statistical for bin #23
+CMS_fake_b_statistical_23_2018_ShapeUp    -     -     -     -      fake-b transfer factor statistical for bin #23
+CMS_fake_b_statistical_24_2018_ShapeDown  -     -     -     -      fake-b transfer factor statistical for bin #24
+CMS_fake_b_statistical_24_2018_ShapeUp    -     -     -     -      fake-b transfer factor statistical for bin #24
+CMS_fake_b_statistical_25_2018_ShapeDown  -     -     -     -      fake-b transfer factor statistical for bin #25
+CMS_fake_b_statistical_25_2018_ShapeUp    -     -     -     -      fake-b transfer factor statistical for bin #25
+CMS_fake_b_statistical_26_2018_ShapeDown  -     -     -     -      fake-b transfer factor statistical for bin #26
+CMS_fake_b_statistical_26_2018_ShapeUp    -     -     -     -      fake-b transfer factor statistical for bin #26
+CMS_fake_b_statistical_27_2018_ShapeDown  -     -     -     -      fake-b transfer factor statistical for bin #27
+CMS_fake_b_statistical_27_2018_ShapeUp    -     -     -     -      fake-b transfer factor statistical for bin #27
+CMS_fake_b_statistical_28_2018_ShapeDown  -     -     -     -      fake-b transfer factor statistical for bin #28
+CMS_fake_b_statistical_28_2018_ShapeUp    -     -     -     -      fake-b transfer factor statistical for bin #28
+CMS_fake_b_statistical_29_2018_ShapeDown  -     -     -     -      fake-b transfer factor statistical for bin #29
+CMS_fake_b_statistical_29_2018_ShapeUp    -     -     -     -      fake-b transfer factor statistical for bin #29
+CMS_fake_b_statistical_30_2018_ShapeDown  -     -     -     -      fake-b transfer factor statistical for bin #30
+CMS_fake_b_statistical_30_2018_ShapeUp    -     -     -     -      fake-b transfer factor statistical for bin #30
+CMS_fake_b_statistical_31_2018_ShapeDown  -     -     -     -      fake-b transfer factor statistical for bin #31
+CMS_fake_b_statistical_31_2018_ShapeUp    -     -     -     -      fake-b transfer factor statistical for bin #31
+CMS_fake_b_statistical_32_2018_ShapeDown  -     -     -     -      fake-b transfer factor statistical for bin #32
+CMS_fake_b_statistical_32_2018_ShapeUp    -     -     -     -      fake-b transfer factor statistical for bin #32
+CMS_fake_b_statistical_33_2018_ShapeDown  -     -     -     -      fake-b transfer factor statistical for bin #33
+CMS_fake_b_statistical_33_2018_ShapeUp    -     -     -     -      fake-b transfer factor statistical for bin #33
+CMS_fake_b_statistical_34_2018_ShapeDown  -     -     -     -      fake-b transfer factor statistical for bin #34
+CMS_fake_b_statistical_34_2018_ShapeUp    -     -     -     -      fake-b transfer factor statistical for bin #34
+CMS_fake_b_topmass_2018_ShapeDown         -     -     -     -      fake-b TF syst. (top-mass window)             
+CMS_fake_b_topmass_2018_ShapeUp           -     -     -     -      fake-b TF syst. (top-mass window)             
+CMS_fake_b_invertedtop_2018_ShapeDown     -     -     -     -      fake-b TF syst. (invert different top)        
+CMS_fake_b_invertedtop_2018_ShapeUp       -     -     -     -      fake-b TF syst. (invert different top)        
+CMS_fake_b_fakebcomp_2018_ShapeDown       -     -     -     -      fake-b TF syst. (fake-b composition)          
+CMS_fake_b_fakebcomp_2018_ShapeUp         -     -     -     -      fake-b TF syst. (fake-b composition)          
+CMS_fake_b_crdef_2018_ShapeDown           -     -     -     -      fake-b TF syst. (CR definition)               
+CMS_fake_b_crdef_2018_ShapeUp             -     -     -     -      fake-b TF syst. (CR definition)               
+
+Note: Linear sum is used to obtain the values, i.e. cancellations might occur. Bin-by-bin uncertainties could be larger.

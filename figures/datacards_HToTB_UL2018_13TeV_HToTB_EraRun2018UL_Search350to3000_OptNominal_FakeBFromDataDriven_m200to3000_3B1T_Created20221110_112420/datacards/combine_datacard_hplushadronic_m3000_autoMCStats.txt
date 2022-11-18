@@ -1,0 +1,22 @@
+Description: Combine datacard (auto generated) mass=3000, luminosity=59817.406866 1/pb, HToTB_UL2018_13TeV/EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH3000to3000_StatOnly
+Date: Thu Nov 10 11:49:11 2022
+----------------------------------------------------------
+imax     1     number of channels
+jmax     *     number of backgrounds
+kmax     *     number of parameters
+----------------------------------------------------------
+shapes * * combine_histograms_hplushadronic_m3000.root $PROCESS $PROCESS_$SYSTEMATIC
+----------------------------------------------------------
+bin            HToTB
+observation    -1
+----------------------------------------------------------
+bin                    HToTB     HToTB    HToTB    HToTB  
+process                Hp3000    FakeB    TT       tEWttX 
+process                0         1        2        4      
+----------------------------------------------------------
+rate                   56.773263 4881.566 2545.890 209.100
+----------------------------------------------------------
+----------------------------------------------------------
+
+
+* autoMCStats 0
