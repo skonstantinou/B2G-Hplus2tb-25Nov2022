@@ -413,7 +413,7 @@ tionary-English.dict)
 (./tex/Acronyms.tex)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 141.
+(hyperref)                setting the option has no effect on input line 142.
 
 [1{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./fig
 ures/logos/logo_cern2.pdf> <./figures/logos/logo_cms4.pdf> <./figures/logos/log
@@ -575,5 +575,5 @@ texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2019/texmf-dist
 019/texmf-dist/fonts/type1/public/lm/lmtt8.pfb></usr/local/texlive/2019/texmf-d
 ist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2019/tex
 mf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on talk.pdf (17 pages, 2459153 bytes).
+Output written on talk.pdf (17 pages, 2459149 bytes).
 Transcript written on talk.log.
