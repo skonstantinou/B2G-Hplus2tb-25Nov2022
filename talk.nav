@@ -32,46 +32,77 @@
 \headcommand {\beamer@framepages {8}{8}}
 \headcommand {\beamer@sectionpages {6}{8}}
 \headcommand {\beamer@subsectionpages {6}{8}}
-\headcommand {\sectionentry {3}{Resolved}{9}{Resolved}{0}}
+\headcommand {\sectionentry {3}{This work}{9}{This work}{0}}
 \headcommand {\beamer@subsectionpages {9}{8}}
 \headcommand {\beamer@subsectionentry {0}{3}{1}{9}{strategy}}
 \headcommand {\slideentry {3}{1}{1}{9/9}{strategy}{0}}
 \headcommand {\beamer@framepages {9}{9}}
+\headcommand {\beamer@sectionpages {9}{9}}
 \headcommand {\beamer@subsectionpages {9}{9}}
-\headcommand {\beamer@subsectionentry {0}{3}{2}{10}{top tagging}}
-\headcommand {\slideentry {3}{2}{1}{10/10}{top tagging}{0}}
+\headcommand {\sectionentry {4}{Resolved}{10}{Resolved}{0}}
+\headcommand {\beamer@subsectionpages {10}{9}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{10}{strategy}}
+\headcommand {\slideentry {4}{1}{1}{10/10}{strategy}{0}}
 \headcommand {\beamer@framepages {10}{10}}
 \headcommand {\beamer@subsectionpages {10}{10}}
-\headcommand {\beamer@subsectionentry {0}{3}{3}{11}{background}}
-\headcommand {\slideentry {3}{3}{1}{11/11}{background}{0}}
+\headcommand {\beamer@subsectionentry {0}{4}{2}{11}{top tagging}}
+\headcommand {\slideentry {4}{2}{1}{11/11}{top tagging}{0}}
 \headcommand {\beamer@framepages {11}{11}}
-\headcommand {\slideentry {3}{3}{2}{12/12}{background}{0}}
+\headcommand {\beamer@subsectionpages {11}{11}}
+\headcommand {\beamer@subsectionentry {0}{4}{3}{12}{background}}
+\headcommand {\slideentry {4}{3}{1}{12/12}{background}{0}}
 \headcommand {\beamer@framepages {12}{12}}
-\headcommand {\beamer@subsectionpages {11}{12}}
-\headcommand {\beamer@subsectionentry {0}{3}{4}{13}{signal extraction}}
-\headcommand {\slideentry {3}{4}{1}{13/13}{signal extraction}{0}}
+\headcommand {\slideentry {4}{3}{2}{13/13}{background}{0}}
 \headcommand {\beamer@framepages {13}{13}}
-\headcommand {\beamer@subsectionpages {13}{13}}
-\headcommand {\beamer@subsectionentry {0}{3}{5}{14}{signal region}}
-\headcommand {\slideentry {3}{5}{1}{14/14}{signal region}{0}}
+\headcommand {\beamer@subsectionpages {12}{13}}
+\headcommand {\beamer@subsectionentry {0}{4}{4}{14}{signal extraction}}
+\headcommand {\slideentry {4}{4}{1}{14/14}{signal extraction}{0}}
 \headcommand {\beamer@framepages {14}{14}}
-\headcommand {\slideentry {3}{5}{2}{15/15}{signal region}{0}}
+\headcommand {\beamer@subsectionpages {14}{14}}
+\headcommand {\beamer@subsectionentry {0}{4}{5}{15}{parameterized DNN}}
+\headcommand {\slideentry {4}{5}{1}{15/15}{parameterized DNN}{0}}
 \headcommand {\beamer@framepages {15}{15}}
-\headcommand {\beamer@sectionpages {9}{15}}
-\headcommand {\beamer@subsectionpages {14}{15}}
-\headcommand {\sectionentry {4}{Boosted}{16}{Boosted}{0}}
-\headcommand {\beamer@subsectionpages {16}{15}}
-\headcommand {\beamer@subsectionentry {0}{4}{1}{16}{strategy}}
-\headcommand {\slideentry {4}{1}{1}{16/16}{strategy}{0}}
+\headcommand {\beamer@subsectionpages {15}{15}}
+\headcommand {\beamer@subsectionentry {0}{4}{6}{16}{signal region}}
+\headcommand {\slideentry {4}{6}{1}{16/16}{signal region}{0}}
 \headcommand {\beamer@framepages {16}{16}}
-\headcommand {\beamer@sectionpages {16}{16}}
 \headcommand {\beamer@subsectionpages {16}{16}}
-\headcommand {\beamer@sectionpages {17}{16}}
-\headcommand {\beamer@subsectionpages {17}{16}}
-\headcommand {\slideentry {6}{0}{1}{17/17}{}{0}}
+\headcommand {\beamer@subsectionentry {0}{4}{7}{17}{limits}}
+\headcommand {\slideentry {4}{7}{1}{17/17}{limits}{0}}
 \headcommand {\beamer@framepages {17}{17}}
-\headcommand {\beamer@partpages {1}{17}}
+\headcommand {\beamer@sectionpages {10}{17}}
 \headcommand {\beamer@subsectionpages {17}{17}}
-\headcommand {\beamer@sectionpages {17}{17}}
-\headcommand {\beamer@documentpages {17}}
-\headcommand {\gdef \inserttotalframenumber {16}}
+\headcommand {\sectionentry {5}{Boosted}{18}{Boosted}{0}}
+\headcommand {\beamer@subsectionpages {18}{17}}
+\headcommand {\beamer@subsectionentry {0}{5}{1}{18}{strategy}}
+\headcommand {\slideentry {5}{1}{1}{18/18}{strategy}{0}}
+\headcommand {\beamer@framepages {18}{18}}
+\headcommand {\beamer@subsectionpages {18}{18}}
+\headcommand {\beamer@subsectionentry {0}{5}{2}{19}{top tagging}}
+\headcommand {\slideentry {5}{2}{1}{19/19}{top tagging}{0}}
+\headcommand {\beamer@framepages {19}{19}}
+\headcommand {\beamer@subsectionpages {19}{19}}
+\headcommand {\beamer@subsectionentry {0}{5}{3}{20}{background}}
+\headcommand {\slideentry {5}{3}{1}{20/20}{background}{0}}
+\headcommand {\beamer@framepages {20}{20}}
+\headcommand {\beamer@sectionpages {18}{20}}
+\headcommand {\beamer@subsectionpages {20}{20}}
+\headcommand {\sectionentry {6}{Summary}{21}{Summary}{0}}
+\headcommand {\slideentry {6}{0}{1}{21/21}{}{0}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\beamer@sectionpages {21}{21}}
+\headcommand {\beamer@subsectionpages {21}{21}}
+\headcommand {\sectionentry {7}{Future work}{22}{Future work}{0}}
+\headcommand {\slideentry {7}{0}{1}{22/22}{}{0}}
+\headcommand {\beamer@framepages {22}{22}}
+\headcommand {\beamer@sectionpages {22}{22}}
+\headcommand {\beamer@subsectionpages {22}{22}}
+\headcommand {\beamer@sectionpages {23}{22}}
+\headcommand {\beamer@subsectionpages {23}{22}}
+\headcommand {\slideentry {9}{0}{1}{23/23}{}{0}}
+\headcommand {\beamer@framepages {23}{23}}
+\headcommand {\beamer@partpages {1}{23}}
+\headcommand {\beamer@subsectionpages {23}{23}}
+\headcommand {\beamer@sectionpages {23}{23}}
+\headcommand {\beamer@documentpages {23}}
+\headcommand {\gdef \inserttotalframenumber {22}}

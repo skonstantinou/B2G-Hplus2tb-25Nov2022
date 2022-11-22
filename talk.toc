@@ -6,11 +6,19 @@
 \beamer@subsectionintoc {1}{4}{topology}{5}{0}{1}
 \beamer@sectionintoc {2}{Previous results}{6}{0}{2}
 \beamer@subsectionintoc {2}{1}{review}{6}{0}{2}
-\beamer@sectionintoc {3}{Resolved}{9}{0}{3}
+\beamer@sectionintoc {3}{This work}{9}{0}{3}
 \beamer@subsectionintoc {3}{1}{strategy}{9}{0}{3}
-\beamer@subsectionintoc {3}{2}{top tagging}{10}{0}{3}
-\beamer@subsectionintoc {3}{3}{background}{11}{0}{3}
-\beamer@subsectionintoc {3}{4}{signal extraction}{13}{0}{3}
-\beamer@subsectionintoc {3}{5}{signal region}{14}{0}{3}
-\beamer@sectionintoc {4}{Boosted}{16}{0}{4}
-\beamer@subsectionintoc {4}{1}{strategy}{16}{0}{4}
+\beamer@sectionintoc {4}{Resolved}{10}{0}{4}
+\beamer@subsectionintoc {4}{1}{strategy}{10}{0}{4}
+\beamer@subsectionintoc {4}{2}{top tagging}{11}{0}{4}
+\beamer@subsectionintoc {4}{3}{background}{12}{0}{4}
+\beamer@subsectionintoc {4}{4}{signal extraction}{14}{0}{4}
+\beamer@subsectionintoc {4}{5}{parameterized DNN}{15}{0}{4}
+\beamer@subsectionintoc {4}{6}{signal region}{16}{0}{4}
+\beamer@subsectionintoc {4}{7}{limits}{17}{0}{4}
+\beamer@sectionintoc {5}{Boosted}{18}{0}{5}
+\beamer@subsectionintoc {5}{1}{strategy}{18}{0}{5}
+\beamer@subsectionintoc {5}{2}{top tagging}{19}{0}{5}
+\beamer@subsectionintoc {5}{3}{background}{20}{0}{5}
+\beamer@sectionintoc {6}{Summary}{21}{0}{6}
+\beamer@sectionintoc {7}{Future work}{22}{0}{7}
