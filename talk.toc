@@ -8,17 +8,16 @@
 \beamer@subsectionintoc {2}{1}{review}{6}{0}{2}
 \beamer@sectionintoc {3}{This work}{9}{0}{3}
 \beamer@subsectionintoc {3}{1}{strategy}{9}{0}{3}
-\beamer@sectionintoc {4}{Resolved}{10}{0}{4}
-\beamer@subsectionintoc {4}{1}{strategy}{10}{0}{4}
-\beamer@subsectionintoc {4}{2}{top tagging}{11}{0}{4}
-\beamer@subsectionintoc {4}{3}{background}{12}{0}{4}
-\beamer@subsectionintoc {4}{4}{signal extraction}{14}{0}{4}
-\beamer@subsectionintoc {4}{5}{parameterized DNN}{15}{0}{4}
-\beamer@subsectionintoc {4}{6}{signal region}{16}{0}{4}
-\beamer@subsectionintoc {4}{7}{limits}{17}{0}{4}
-\beamer@sectionintoc {5}{Boosted}{18}{0}{5}
-\beamer@subsectionintoc {5}{1}{strategy}{18}{0}{5}
-\beamer@subsectionintoc {5}{2}{top tagging}{19}{0}{5}
-\beamer@subsectionintoc {5}{3}{background}{20}{0}{5}
-\beamer@sectionintoc {6}{Summary}{21}{0}{6}
-\beamer@sectionintoc {7}{Future work}{22}{0}{7}
+\beamer@sectionintoc {5}{Strategy}{11}{0}{4}
+\beamer@sectionintoc {6}{Top tagging}{12}{0}{5}
+\beamer@sectionintoc {7}{Background}{13}{0}{6}
+\beamer@subsectionintoc {7}{1}{Validation}{14}{0}{6}
+\beamer@sectionintoc {8}{Signal extraction}{15}{0}{7}
+\beamer@subsectionintoc {8}{1}{Parameterized DNN}{16}{0}{7}
+\beamer@sectionintoc {9}{Signal region}{17}{0}{8}
+\beamer@subsectionintoc {9}{1}{Limits}{18}{0}{8}
+\beamer@sectionintoc {11}{Strategy}{20}{0}{9}
+\beamer@sectionintoc {12}{Top tagging}{21}{0}{10}
+\beamer@sectionintoc {13}{Background}{22}{0}{11}
+\beamer@sectionintoc {15}{Summary}{24}{0}{12}
+\beamer@sectionintoc {16}{Future work}{25}{0}{13}

@@ -323,72 +323,36 @@ This analysis searches for a heavy \PHpm
 }
 
 \Slide{t}{
-  
-  %\threeFigColumnsBig
-  %    {CMS-HIG-18-015/Figure_006-a.pdf}{}
-  %    {CMS-HIG-18-015/Figure_006-b.pdf}{}
-  %    {CMS-HIG-18-015/Boosted_Figure-aux_001-b.pdf}{}
 
+  Upper limits on $\sigma_{\mathrm{H}^{\pm}t(b)}\times\mathcal{B}(\mathrm{H}^{\pm} \to \mathrm{tb})$
+
+  \vspace{-0.5cm}
+  
+  \twoFigColumns
+      {limit_assoc_HIG18015}{}
+      {CMS-HIG-18-015/Boosted_Figure-aux_001-b.pdf}{}
+      {0.9}
+
+  \vspace{0.4cm}
+      
   \twoColumns
       {
-        \vspace{-0.2cm}
-        
-        \oneFigColumns{limit_assoc_HIG18015}{Associated production}{0.7}
-      }
-      {
-        %Results are interpreted to set model independent upper limits on the
-        %$\mathrm{\sigma_{H^{\pm}}}\times\mathcal{B}(\mathrm{H^{\pm}\rightarrow tb})$
-
-        \vspace{0.1cm}
-        \footnotesize
-        \textbf{Resolved and Boosted analysis overlayed limits}
         \begin{itemize}
           \footnotesize
-        %\item Boosted: best sensitivity for $\mathrm{m_{H^\pm}}$ > 0.8 TeV
-        \item Resolved: $\mathrm{m_{H^\pm}}$~$\le$~0.8~TeV
-          %\item Reported limit at each \mHpm: determined by
-          %  the analysis with the best expected sensitivity.
-        %\item Reported limit at each \mHpm: analysis with best expected sensitivity.
-        %\item 21.3 to 0.007 pb for masses 0.2 to 3 TeV
-        \item No excess above the estimated background% is observed
+        \item Resolved and Boosted overlayed limits
+        \item No excess above the estimated background
         \item Interpretation in hMSSM:
-          \vspace{-0.08cm}
-        \item[] maximum \tanb = 0.88 excluded for \mHpm~=~0.20-0.55~TeV
+          max. \tanb = 0.88 excluded for \mHpm~=~0.20-0.55~TeV
         \end{itemize}
-
-        %The hMSSM benchmark scenario assumes that the discovered Higgs boson is the light
-        %Higgs boson in the 2HDM and that the SUSY particles have masses too large to be directly
-        %observed at the LHC.
       }
-
-      \vspace{0.1cm}
-      
-  \twoColumnsAsymAlt
-      {
-        \twoFigColumns
-            {CMS-HIG-18-015/Figure_006-b.pdf}{s-channel}
-            {CMS-HIG-18-015/Boosted_Figure-aux_001-b.pdf}{Boosted categories\vspace{0.05cm}}
-            {1.}
-      }
-      {
-
-        \vspace{0.75cm}
-
-        \footnotesize
-        Boosted analysis:
-        
+      {        
         \begin{itemize}
-        \item Upper limits in the s-channel
-          production for \mHpm 0.8 to 3 TeV
-          %\begin{itemize}
-          %  \scriptsize
-          %\item 4.5-0.023 pb for \mHpm 0.8 to 3 TeV
-          %\end{itemize}
-        \item Most sensitive main category is $t1b$
+          \footnotesize
+        \item Boosted analysis categories
+        \item Most sensitive category is $t1b$
         \item Least sensitive category is $Wbj$
         \end{itemize}
       }
-      \PlaceText{41mm}{60.5mm}{\scriptsize{\textcolor{oxfordblue}{{Associated production}}}}
 }
 
 \MySection{This work}
@@ -399,9 +363,9 @@ This analysis searches for a heavy \PHpm
 
   \begin{enumerate}
     \small
-  \item Both top candidates are resolved \ResolvedTag
-  \item Associated top is resolved, top from $H^{\pm}$ is boosted \BoostedTag
-  \item Both top candidates are boosted \BoostedTag
+  \item 2 resolved tops
+  \item 1 resolved $\&$ 1 boosted top
+  \item 2 boosted tops
   \end{enumerate}
 
   \vspace{0.3cm}
@@ -451,24 +415,35 @@ This analysis searches for a heavy \PHpm
       }
 }
 
-\MySection{Resolved}
-\MySubSection{strategy}
+%\MySection{Resolved}
+\MySection{ }
+\begin{frame}[noframenumbering]{}
+  \begin{center}
+    \huge \textbf{Resolved analysis}
+  \end{center}
+\end{frame}
+
+\MySection{Strategy}
 
 \Slide{t}{
 
   \textbf{Signal region (SR):}
-  \vspace{-0.2cm}
+  \vspace{+0.2cm}
   \begin{center}
-    \resizebox{1.0\linewidth}{!}{
+    \resizebox{0.8\linewidth}{!}{
       \begin{tabular}{l l}
         \hline
         \cellcolor[gray]{.9}Trigger  & \cellcolor[gray]{.9}$H_{T}$ + multijet + 1 or 2 b jets\\
-        $e$ veto & \pT > 10 GeV, $|\eta|$ < 2.4, Loose miniIso, cutBasedElectronID (veto) \\%\_Fall17\_94X\_V2\_veto \\
-        \cellcolor[gray]{.9}$\mu$ veto & \cellcolor[gray]{.9}\pT > 10 GeV, $|\eta|$ < 2.4, Loose miniIso isCutBasedIDLoose\\
-        $\tau$ veto & \pT > 20 GeV, $|\eta|$ < 2.3, DeepTau \dDeepTau[vloose]{\Pe}, \dDeepTau[medium]{\mu}, \dDeepTau[loose]{j}\\
-        \cellcolor[gray]{.9}$\ge$ 7 jets & \cellcolor[gray]{.9}$p_{T}^{6th}$ > 40 GeV, $p_{T}^{7th}$ > 30 GeV, $|\eta|$ < 2.4, Tight ID, $H_{T}$ > 500 GeV\\
-        $\ge$ 3 b jets & \pT > 40 GeV, DeepJet Medium WP \\
-        \cellcolor[gray]{.9}$\ge$ 1 resolved top ($t^{res}$) & \cellcolor[gray]{.9}custom DNN medium, $130 < m_{\mathrm{t^{res}}} < 210~$GeV\\
+        $\ell(\tau_{h})$ veto & \pT > 10(20) GeV, $|\eta|$ < 2.4(2.3)\\
+        %$e$ veto & \pT > 10 GeV, $|\eta|$ < 2.4, Loose miniIso, cutBasedElectronID (veto) \\%\_Fall17\_94X\_V2\_veto \\
+        %\cellcolor[gray]{.9}$\mu$ veto & \cellcolor[gray]{.9}\pT > 10 GeV, $|\eta|$ < 2.4, Loose miniIso isCutBasedIDLoose\\
+        %$\tau$ veto & \pT > 20 GeV, $|\eta|$ < 2.3, DeepTau \dDeepTau[vloose]{\Pe}, \dDeepTau[medium]{\mu}, \dDeepTau[loose]{j}\\
+        \cellcolor[gray]{.9}$\ge$ 7 jets & \cellcolor[gray]{.9}$p_{T}^{6th}$ > 40 GeV, $p_{T}^{7th}$ > 30 GeV, $|\eta|$ < 2.4, Tight ID\\
+        $H_{T}$ > 500 GeV & \\
+        \cellcolor[gray]{.9}$\ge$ 3 b jets & \cellcolor[gray]{.9}\pT > 40 GeV, DeepJet Medium WP \\
+        $\ge$ 2 resolved top ($t^{res}$)
+        &  \begin{tabular}{@{}l@{}}$130 < m_{\mathrm{t^{res}}} <
+             210~$GeV\\ medium (loose) WP: 5(10)$\%$ misID rate\end{tabular}\\
         \hline
       \end{tabular}
     }
@@ -483,8 +458,10 @@ This analysis searches for a heavy \PHpm
         $\ \ $ \textbf{SR categorization based on $t^{res}$}
         \begin{itemize}
           \small
-        \item \textcolor{kDarkGreen}{$1M1L_{t^{res}}$}: medium $t^{res}_{\PHpm}$ \newline
-          \textcolor{white}{$1M1L_{t^{res}}$:} loose-not-medium $t^{res}_{assoc}$
+        \item \textcolor{kDarkGreen}{$1M1L_{t^{res}}$}: medium
+          $t^{res}_{p_{T,1}}$ \newline
+          \textcolor{white}{$1M1L_{t^{res}}$:} loose-not-medium
+          $t^{res}_{p_{T,2}}$
         \item \textcolor{kDarkGreen}{$2M_{t^{res}}$}: both $t^{res}$ medium tagged
         \end{itemize}
 
@@ -493,8 +470,8 @@ This analysis searches for a heavy \PHpm
         $\ \ $ \textbf{Invariant \PHpm~mass reconstruction}:
         \begin{itemize}
           \large
-        \item[] \textcolor{kOrange}{\mHpmReco = $t^{res}_{ \ ldg \ p_{T}}$
-          + bjet$^{free}_{ldg \ p_{T}}$}
+        \item[] \textcolor{kOrange}{\mHpmReco = $t^{res}_{p_{T,1}}$
+          + b$_{p_{T,1}}$}
         \end{itemize}
       }
       {
@@ -503,7 +480,7 @@ This analysis searches for a heavy \PHpm
       }
 }
 
-\MySubSection{top tagging}
+\MySection{Top tagging}
 \Slide{t}{
   \small
 
@@ -552,20 +529,20 @@ This analysis searches for a heavy \PHpm
   \item \textcolor{kRed}{Background} is reweighted such that $m_{top}$ matches the \textcolor{kDarkGreen}{signal}.
   \end{itemize}
 
-  \vspace{0.15cm}
-
-  \footnotesize
-  SF vs $t^{res}$ \pT measured in a region with 1 isolated $\ell$
-  
-  \vspace{-0.45cm}
+  \vspace{-0.3cm}
 
   \threeColumns
-      {\oneFigColumns{CMS-HIG-21-010_Figure_003.pdf}{}{0.9}}
-      {\oneFigColumns{topTagging/trijetMass_3WPs}{}{0.9}}
+      {\oneFigColumns{CMS-HIG-21-010_Figure_003.pdf}{}{1.0}}
+      {\oneFigColumns{topTagging/trijetMass_3WPs}{}{1.0}}
       {
+          
         \footnotesize
-        \vspace{1.5cm}
+        \vspace{1.3cm}
 
+        Calibration performed
+
+        \vspace{0.5cm}
+        
         %\begin{itemize}
         %  \scriptsize
         %\item[] In \href{http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-21-010/index.html}{\textcolor{kBlue}{HIG-21-010}}
@@ -584,7 +561,7 @@ This analysis searches for a heavy \PHpm
       \PlaceText{67mm}{65mm}{\boxed{\tiny{\textbf{Loose WP}}}}
 }
   
-\MySubSection{background}
+\MySection{Background}
 \Slide{t}{
 
   \vspace{0.1cm}
@@ -656,6 +633,7 @@ This analysis searches for a heavy \PHpm
       }
 }
 
+\MySubSection{Validation}
 \Slide{t}{
 
   \normalsize
@@ -702,7 +680,7 @@ This analysis searches for a heavy \PHpm
       %\PlaceText{17mm}{65mm}{\boxed{\tiny{\textbf{Loose WP}}}}
 }
 
-\MySubSection{signal extraction}
+\MySection{Signal extraction}
 \Slide{t}{
 
   A parameterized DNN is developed to extract signal from SM background
@@ -765,7 +743,7 @@ This analysis searches for a heavy \PHpm
   }    
 }
 
-\MySubSection{parameterized DNN}
+\MySubSection{Parameterized DNN}
 \Slide{t}{
 
   \small
@@ -774,8 +752,8 @@ This analysis searches for a heavy \PHpm
 
   \begin{itemize}
     \small
-  \item Training masses = [220, 350, 600, 1000, 1500, 2500] GeV
-  \item Performance compared to DNNs with fixed \mHpm
+  \item Training masses = [220, 350, 600, 1000, 1500, 2500] GeV \SolidLineTag
+  \item Performance compared to DNNs with fixed \mHpm \DashedLineTag
   \end{itemize}
 
   \twoColumns
@@ -794,7 +772,7 @@ This analysis searches for a heavy \PHpm
       }      
 }
 
-\MySubSection{signal region}
+\MySection{Signal region}
 \Slide{t}{
 
   \begin{columns}[T]
@@ -833,7 +811,7 @@ This analysis searches for a heavy \PHpm
   }
 
 %%%%
-\MySubSection{limits}
+\MySubSection{Limits}
 \Slide{t}{
 
   Expected limits on $\sigma_{\mathrm{H}^{\pm}t(b)}\times\mathcal{B}(\mathrm{H}^{\pm} \to \mathrm{tb})$
@@ -854,8 +832,14 @@ This analysis searches for a heavy \PHpm
       \end{itemize}
 }
 
-\MySection{Boosted}
-\MySubSection{strategy}
+\MySection{ }
+\begin{frame}[noframenumbering]{}
+  \begin{center}
+    \huge \textbf{Boosted analysis}
+  \end{center}
+\end{frame}
+
+\MySection{Strategy}
 
 \Slide{t}{
 
@@ -923,7 +907,7 @@ This analysis searches for a heavy \PHpm
         $\ \ $ \textbf{Invariant \PHpm~mass reconstruction}:
         \begin{itemize}
           \normalsize
-        \item[] \textcolor{kOrange}{\mHpmReco = $t^{bst}$ + bjet$^{ldg \ p_{T}}$}
+        \item[] \textcolor{kOrange}{\mHpmReco = $t^{bst}_{p_{T,1}}$ + b$^{p_{T,1}}$}
         \end{itemize}
       }
       {
@@ -932,7 +916,7 @@ This analysis searches for a heavy \PHpm
       }
 }
 
-\MySubSection{top tagging}
+\MySection{Top tagging}
 \Slide{t}{
 
   Boosted top jets $t^{bst}$ are identified using the \texttt{ParticleNet\_TvsQCD} discriminant \newline
@@ -975,25 +959,44 @@ This analysis searches for a heavy \PHpm
 %      {0.8}
 }
 
-\MySubSection{background}
+\MySection{Background}
 \Slide{t}{
 
 
   \vspace{0.1cm}
   
   %\small
-  Main background: QCD multijet, \ttbar
+  Main background:
 
+  \begin{itemize}
+    \small
+  \item \ttbar (merged-t, merged-W, non-merged)
+  \item QCD multijet
+  \item other (minor)
+  \end{itemize}
+  
   \vspace{0.1cm}
   
   \begin{itemize}
     \small
   \item 2D (\mSD[t], \mHpmReco) templates derived from MC simulation
-  \item Normalization: from sidebands on \mHpmReco or CRs with
-    inverted requirements \FixmeTag
-  \item ...
+  \item Signal extraction: Signal, background simultaneous fit of (\mSD[t], \mHpmReco) 
   \end{itemize}
+
+  \threeFigColumnsCustomSize
+      {fatjet_softdropMass_BeforeDDT.png}{\mSD[t] Before TvsQCD}
+      {fatjet_softdropMass.png}{\mSD[t] After TvsQCD}
+      {HPlusMass_Selections.png}{\mHpmReco}
+      {1.0}
 }
+
+%\MySection{Resolved}
+\MySection{ }
+\begin{frame}[noframenumbering]{}
+  \begin{center}
+    \huge \textbf{Summary}
+  \end{center}
+\end{frame}
 
 
 \MySection{Summary}
