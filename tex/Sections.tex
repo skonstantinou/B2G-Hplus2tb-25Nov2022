@@ -180,11 +180,12 @@ This analysis searches for a heavy \PHpm
       }
       {
         \small
-        \hspace{2cm}  \textbf{This talk}
+        \hspace{2cm}  \textbf{This work}
         \vspace{0.1cm}
         \CustomiseLineSpacing{0.95}
         \begin{itemize}          
-          \item \textcolor{kDarkGreen}{\textbf{Resolved \PQt}}, \textcolor{kBlue}{\textbf{Boosted \PQt}}
+          \item \textcolor{kDarkGreen}{\textbf{Resolved \PQt}},
+            \textcolor{kBlue}{\textbf{Boosted \PQt}},  \textcolor{kBlue}{\textbf{Boosted W}}
           \item Full Run II data
           \item This talk: status of 2018 data
             %\item Last progress report in HExtended meeting:
@@ -344,15 +345,15 @@ This analysis searches for a heavy \PHpm
         \begin{itemize}
           \footnotesize
         %\item Boosted: best sensitivity for $\mathrm{m_{H^\pm}}$ > 0.8 TeV
-        \item Resolved: most stringent limits at $\mathrm{m_{H^\pm}}$~$\le$~0.8~TeV
-        %\item Reported limit at each \mHpm: determined by
+        \item Resolved: $\mathrm{m_{H^\pm}}$~$\le$~0.8~TeV
+          %\item Reported limit at each \mHpm: determined by
           %  the analysis with the best expected sensitivity.
-        \item Reported limit at each \mHpm: analysis with best expected sensitivity.
+        %\item Reported limit at each \mHpm: analysis with best expected sensitivity.
         %\item 21.3 to 0.007 pb for masses 0.2 to 3 TeV
         \item No excess above the estimated background% is observed
         \item Interpretation in hMSSM:
           \vspace{-0.08cm}
-        \item[] maximum \tanb = 0.88 is excluded for \mHpm~=~0.20-0.55~TeV
+        \item[] maximum \tanb = 0.88 excluded for \mHpm~=~0.20-0.55~TeV
         \end{itemize}
 
         %The hMSSM benchmark scenario assumes that the discovered Higgs boson is the light
@@ -402,22 +403,13 @@ This analysis searches for a heavy \PHpm
   \item Associated top is resolved, top from $H^{\pm}$ is boosted \BoostedTag
   \item Both top candidates are boosted \BoostedTag
   \end{enumerate}
-  \begin{itemize}
-    \small
-  \item Further categorization:
-    \begin{itemize}
-      \footnotesize
-    \item top tagging rate (high/low purity)
-    \item Number of extra b jets \ProgressTag
-    \end{itemize}
-  \end{itemize}
 
   \vspace{0.3cm}
 
   \begin{itemize}
     \small
   \item This analysis targets full Run II data
-  \item This talk presents the status of 2018 data (RunIISummer20UL18)
+  \item This talk presents a study using 2018 data (RunIISummer20UL18)
   \end{itemize}
 
   \begin{center}
@@ -536,7 +528,7 @@ This analysis searches for a heavy \PHpm
            \small
          \item \textcolor{kDarkGreen}{Signal:} truth-matched trijets
          \item \textcolor{kRed}{Background:} non-matched trijets
-         \item[] \footnotesize{\textcolor{white}{Background:} ($\ge$ 1 non-matched q from t)}
+         \item[] \footnotesize{\textcolor{white}{Background:} ($\ge$ 1 non-matched jet)}
         \end{itemize}
        \end{itemize}
      \end{column}
@@ -797,8 +789,7 @@ This analysis searches for a heavy \PHpm
         \item Each curve is evaluated at the \newline true mass
           DNN(\textbf{x},\mHpm)
         \item Comparable results!
-        \item Good prediction even for mass values that were not seen
-          during the training
+        \item Good prediction even for masses not given in the training
         \end{itemize}        
       }      
 }
@@ -945,6 +936,9 @@ This analysis searches for a heavy \PHpm
 \Slide{t}{
 
   Boosted top jets $t^{bst}$ are identified using the \texttt{ParticleNet\_TvsQCD} discriminant \newline
+
+  \vspace{-0.3cm}
+  
   \small
   \textbf{Designed decorrelated tagger (DDT)}
 
@@ -956,34 +950,29 @@ This analysis searches for a heavy \PHpm
   \end{itemize}
 
 
-  %\vspace{-0.2cm}
+  \twoFigColumns
+      {DDT_particleNet_TvsQCD_0sigma.pdf}{before smearing}
+      {DDT_particleNet_TvsQCD_5sigma.pdf}{5$\sigma$ Gaussian smear}
+      {0.75}
 
+      \vspace{0.1cm}
+      
+      \begin{itemize}
+        \footnotesize
+      \item Calculated with simulation QCD multijet events
+      \item For each (\pT, $\rho$) bin: estimate the WP that corresponds to  $\%y$  mID rate: $X({y\%})$
+      \item Transformed score: $X(DDT)$ = $X$ - $X(y\%)$ \PtRhoTag %$\rightarrow$ \textcolor{kGreen}{\pT, $\rho$ dependent}
+      %\item[] $X(DDT)$ = $X$ - $X(y\%)$
+      \item Selection requirment $X(DDT)$ > 0
+      \end{itemize}                
 
-  \begin{columns}[T]
-    %\begin{column}{0.01\textwidth}\end{column}
-    \begin{column}{0.30\textwidth}
-      \oneFigColumns{DDT_particleNet_TvsQCD.pdf}{3D map}{1.0}
-    \end{column}
-    \begin{column}{0.60\textwidth}
-        \vspace{0.5cm}
-        
-        \begin{itemize}
-          \footnotesize
-        \item For each (\pT, $\rho$) bin: estimate the WP that corresponds to  $\%y$  mID rate: $X({y\%})$ \QCDMCTag
-        \item Transformed variable: \PtRhoTag %$\rightarrow$ \textcolor{kGreen}{\pT, $\rho$ dependent}
-        \item[] $X(DDT)$ = $X$ - $X(y\%)$
-        \item Selection requirment $X(DDT)$ > 0
-        \end{itemize}                
-    \end{column}
-  \end{columns}
-
-  \vspace{-0.35cm}
-  \threeFigColumnsCustomSize
-      {particleNet_TvsQCD_Rho-2.25Pt510.0.pdf}{}
-      {particleNet_TvsQCD_Rho-2.15Pt350.0.pdf}{\textcolor{black}{$X(1\%)$ in (\pT,
-        $\rho$) bins:} \vspace{0.1cm}}
-      {particleNet_TvsQCD_Rho-2.25Pt310.0.pdf}{}
-      {0.8}
+%  \vspace{-0.35cm}
+%  \threeFigColumnsCustomSize
+%      {particleNet_TvsQCD_Rho-2.25Pt510.0.pdf}{}
+%      {particleNet_TvsQCD_Rho-2.15Pt350.0.pdf}{\textcolor{black}{$X(1\%)$ in (\pT,
+%        $\rho$) bins:} \vspace{0.1cm}}
+%      {particleNet_TvsQCD_Rho-2.25Pt310.0.pdf}{}
+%      {0.8}
 }
 
 \MySubSection{background}
@@ -1061,6 +1050,7 @@ This analysis searches for a heavy \PHpm
   \item Boosted Analysis:
     \begin{itemize}
       \footnotesize
+    \item \texttt{ParticleNet} W/t re-calibration: Work in progress (L.Paizanos)
     \item Study the boosted W-jet category
     \item Categorization based on the top tagging rate and $N_{bjets}^{extra}$
     \item Extract SD mass templates for QCD and \ttbar (t, W, non-matched)
@@ -1072,8 +1062,8 @@ This analysis searches for a heavy \PHpm
   \item Extend the analysis with entire Run II
   \end{itemize}
 
-  \vspace{1.5cm}
-  \hspace{4.8cm}
-  \large
-  \textcolor{kBlue}{\textbf{Thank you!}}
+  %\vspace{1.5cm}
+  %\hspace{4.8cm}
+  %\large
+  %\textcolor{kBlue}{\textbf{Thank you!}}
 }

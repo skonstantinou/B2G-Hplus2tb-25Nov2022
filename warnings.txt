@@ -3,7 +3,7 @@ Package hyperref Warning: Option `pdfauthor' has already been used,
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 LaTeX Warning: Command \& invalid in math mode on input line 74.
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 593.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 585.
 (see the transcript file for additional information)pdfTeX warning (dest): name
 pdfTeX warning (dest): name{NAVIGATION22} has been referenced but does not exis
 pdfTeX warning (dest): name{NAVIGATION21} has been referenced but does not exis
