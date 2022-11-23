@@ -180,7 +180,7 @@ This analysis searches for a heavy \PHpm
       }
       {
         \small
-        \hspace{2cm}  \textbf{This work}
+        \hspace{2cm}  \textbf{This talk}
         \vspace{0.1cm}
         \CustomiseLineSpacing{0.95}
         \begin{itemize}          
@@ -404,7 +404,12 @@ This analysis searches for a heavy \PHpm
   \end{enumerate}
   \begin{itemize}
     \small
-  \item Further categorization based on the top tagging rate (high/low purity)
+  \item Further categorization:
+    \begin{itemize}
+      \footnotesize
+    \item top tagging rate (high/low purity)
+    \item Number of extra b jets \ProgressTag
+    \end{itemize}
   \end{itemize}
 
   \vspace{0.3cm}
@@ -429,7 +434,7 @@ This analysis searches for a heavy \PHpm
     \end{tabular}}
   \end{center}
 
-  \vspace{0.2cm}
+  \vspace{0.15cm}
 
   \begin{itemize}
     \small
@@ -445,7 +450,7 @@ This analysis searches for a heavy \PHpm
           \item Signal: $\mHpm = 200 - 3000$ GeV (17 points)
           \item QCD (\HT binned)
           \item Top (Single top, \ttbar, \ttbar+X)
-          \item V+jets, Diboson, Triboson
+          \item V+jets, diboson, triboson
           \end{itemize}
       \end{itemize}
       }
@@ -518,27 +523,35 @@ This analysis searches for a heavy \PHpm
   \item Distinguishes trijets from top-quark decays and trijets from combinatorial background.
   \end{itemize}
 
-    \twoColumns
-        {
-          \small
-
-          \begin{itemize}
-          \item Training on simulated $t\bar{t}$ events
-        \begin{itemize}
-          \small
-        \item \textcolor{kDarkGreen}{Signal:} truth-matched trijets
-        \item \textcolor{kRed}{Background:} non-matched trijets
+  \vspace{-0.1cm}
+  
+  \begin{columns}[T]
+    \begin{column}{0.014\textwidth}
+    \end{column}
+     \begin{column}{0.52\textwidth}
+       \small    
+       \begin{itemize}
+       \item Training on simulated $t\bar{t}$ events
+         \begin{itemize}
+           \small
+         \item \textcolor{kDarkGreen}{Signal:} truth-matched trijets
+         \item \textcolor{kRed}{Background:} non-matched trijets
+         \item[] \footnotesize{\textcolor{white}{Background:} ($\ge$ 1 non-matched q from t)}
         \end{itemize}
-         \end{itemize}
-      }
-      {
-         \vspace{-0.2cm}
-        \twoFigColumns
-            {top-training/top_matched}{ \textcolor{kDarkGreen}{signal}}
-            {top-training/top_unmatched1b}{\textcolor{kRed}{background}}
-            {0.45}
-      }
+       \end{itemize}
+     \end{column}
+     \begin{column}{0.47\textwidth}
+       %\vspace{-0.2cm}
+       \twoFigColumns
+           {top-training/top_matched}{ \textcolor{kDarkGreen}{signal}}
+           {top-training/top_unmatched1b}{\textcolor{kRed}{background}}
+           {0.5}
+     \end{column}
+     \begin{column}{0.01\textwidth}\end{column}
+  \end{columns}
 
+  \vspace{-0.05cm}
+  
   Mass decorrelation using sample reweighting:
 
   \begin{itemize}
@@ -547,8 +560,9 @@ This analysis searches for a heavy \PHpm
   \item \textcolor{kRed}{Background} is reweighted such that $m_{top}$ matches the \textcolor{kDarkGreen}{signal}.
   \end{itemize}
 
-  \vspace{0.2cm}
-  
+  \vspace{0.15cm}
+
+  \footnotesize
   SF vs $t^{res}$ \pT measured in a region with 1 isolated $\ell$
   
   \vspace{-0.45cm}
@@ -854,40 +868,39 @@ This analysis searches for a heavy \PHpm
 
 \Slide{t}{
 
-  \vspace{-0.1cm}
-  
-  \twoColumns
-  {
-    \small
-    \textcolor{white}{xx} \textbf{Two SRs based on the number of} \newline 
-    \textcolor{white}{xx} \textbf{boosted tops ($t^{bst}$):} 
-
-    \begin{itemize}
+  \begin{columns}[T]
+    \begin{column}{0.014\textwidth}
+    \end{column}
+    \begin{column}{0.52\textwidth}
       \small
-    \item[]% \textbf{Two SRs based on the number of boosted tops ($t^{bst}$):}    
-      \vspace{0.2cm}
+      \textcolor{white}{xx} \textbf{Two SRs based on the number of} \newline 
+      \textcolor{white}{xx} \textbf{boosted tops ($t^{bst}$):}
       \begin{itemize}
-        \footnotesize
-      \item[\textbf{SR1}]: N$_{t^{bst}}$ == 1
-      \item[\textbf{SR2}]: N$_{t^{bst}}$ == 2
+        \small
+      \item[]% \textbf{Two SRs based on the number of boosted tops ($t^{bst}$):}    
+        \vspace{0.2cm}
+        \begin{itemize}
+          \footnotesize
+        \item[\textbf{SR1}]: N$_{t^{bst}}$ == 1
+        \item[\textbf{SR2}]: N$_{t^{bst}}$ == 2
+        \end{itemize}
       \end{itemize}
-    \end{itemize}
-  }
-  {
+    \end{column}
+    \begin{column}{0.41\textwidth}      
 
-    \vspace{-0.2cm}
-    
     \twoFigColumns
         {boostedSR1}{SR1}
         {boostedSR2}{SR2}
-        {0.8}
-  }
+        {0.9}
+    \end{column}
+    \begin{column}{0.07\textwidth}\end{column}
+  \end{columns}
+      
+  \vspace{-0.15cm}
 
-
-  \vspace{0.1cm}
-  
+  \tikz{\scriptsize \hspace{4.5cm} \overlaynode<indianred,{oxfordblue,rotate=3}>at(0,3)[draw]{ Preliminary};}
   \begin{center}
-    \resizebox{0.95\linewidth}{!}{
+    \resizebox{0.87\linewidth}{!}{
       \begin{tabular}{l l l}
         %$\ \ \ \ $ \textbf{\textcolor{oxfordblue}{SR1}} &
         %$\ \ \ \ $ \textbf{\textcolor{oxfordblue}{SR2}} & \\
@@ -924,7 +937,7 @@ This analysis searches for a heavy \PHpm
       }
       {
         \vspace{-0.25cm}
-        \oneFigColumns{tikz/pdf/HPlus4FS_HToTB_BoostedTop_InvMass}{}{0.83}%\mHpmReco=\rTop$_{ \ ldg \ p_{T}}$ + bjet$^{free}_{ldg \ p_{T}}$}{0.68}
+        \oneFigColumns{tikz/pdf/HPlus4FS_HToTB_BoostedTop_InvMass}{}{0.8}%\mHpmReco=\rTop$_{ \ ldg \ p_{T}}$ + bjet$^{free}_{ldg \ p_{T}}$}{0.68}
       }
 }
 
@@ -959,7 +972,7 @@ This analysis searches for a heavy \PHpm
         \item For each (\pT, $\rho$) bin: estimate the WP that corresponds to  $\%y$  mID rate: $X({y\%})$ \QCDMCTag
         \item Transformed variable: \PtRhoTag %$\rightarrow$ \textcolor{kGreen}{\pT, $\rho$ dependent}
         \item[] $X(DDT)$ = $X$ - $X(y\%)$
-        \item Selection requirment $X(DDT)$ < 0
+        \item Selection requirment $X(DDT)$ > 0
         \end{itemize}                
     \end{column}
   \end{columns}
@@ -1022,7 +1035,8 @@ This analysis searches for a heavy \PHpm
     \begin{itemize}
       \footnotesize
     \item boosted top indentification with \texttt{ParticleNet} (mva-based)
-    \item Designed decorrelated t-tagger eliminates the mass sculpting effect
+    \item Study new category with 1 boosted and 1 resolved top
+    \item Designed decorrelated t-tagger to eliminate the mass sculpting effect
     \item Event categorization based on the number of $t^{bst}$
     \item First results show improved signal sensitivity and
       significance \FixmeTag
@@ -1047,8 +1061,12 @@ This analysis searches for a heavy \PHpm
   \item Boosted Analysis:
     \begin{itemize}
       \footnotesize
-    \item Finalize background data driven method \ProgressTag
-    \item Produce first expected limits
+    \item Study the boosted W-jet category
+    \item Categorization based on the top tagging rate and $N_{bjets}^{extra}$
+    \item Extract SD mass templates for QCD and \ttbar (t, W, non-matched)
+    \item Background data driven method \ProgressTag
+    \item Produce first limits with simultaneous 2D-fit in (\mSD[t], \mHpmReco) plane
+    \item Investigate using the particleNet regressed mass
     \end{itemize}
   \item Finalize and release documentation      
   \item Extend the analysis with entire Run II

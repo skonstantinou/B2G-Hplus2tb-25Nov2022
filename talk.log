@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.18)  22 NOV 2022 22:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.18)  23 NOV 2022 13:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3004,68 +3004,73 @@ S-HIG-18-015/Figure_006-b.pdf, page is rotated 90 degrees> <./figures/CMS-HIG-1
 8-015/Boosted_Figure-aux_001-b.pdf, page is rotated 90 degrees>]
 LaTeX Info: Redefining \HepProcess on input line 393.
 LaTeX Info: Redefining \HepProcess on input line 394.
-LaTeX Info: Redefining \HepProcess on input line 455.
+LaTeX Info: Redefining \HepProcess on input line 460.
  [9
 
 ]
-LaTeX Info: Redefining \HepProcess on input line 457.
-LaTeX Info: Redefining \HepProcess on input line 458.
+LaTeX Info: Redefining \HepProcess on input line 462.
+LaTeX Info: Redefining \HepProcess on input line 463.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 507.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 512.
 <./figures/tikz/pdf/HPlus4FS_HToTB_ResolvedTop_InvMass.pdf, id=822, 263.1431pt 
 x 173.1007pt>
 File: ./figures/tikz/pdf/HPlus4FS_HToTB_ResolvedTop_InvMass.pdf Graphic file (t
 ype pdf)
 <use ./figures/tikz/pdf/HPlus4FS_HToTB_ResolvedTop_InvMass.pdf>
 Package pdftex.def Info: ./figures/tikz/pdf/HPlus4FS_HToTB_ResolvedTop_InvMass.
-pdf  used on input line 507.
+pdf  used on input line 512.
 (pdftex.def)             Requested size: 153.75609pt x 101.14331pt.
-LaTeX Info: Redefining \HepProcess on input line 507.
+LaTeX Info: Redefining \HepProcess on input line 512.
  [10
 
  <./figures/tikz/pdf/HPlus4FS_HToTB_ResolvedTop_InvMass.pdf>]
-LaTeX Info: Redefining \HepProcess on input line 509.
+LaTeX Info: Redefining \HepProcess on input line 514.
 <./figures/top-training/top_matched.pdf, id=853, 109.79018pt x 138.50746pt>
 File: ./figures/top-training/top_matched.pdf Graphic file (type pdf)
 <use ./figures/top-training/top_matched.pdf>
 Package pdftex.def Info: ./figures/top-training/top_matched.pdf  used on input 
-line 579.
-(pdftex.def)             Requested size: 38.87234pt x 49.03839pt.
+line 593.
+(pdftex.def)             Requested size: 41.37044pt x 52.19167pt.
 <./figures/top-training/top_unmatched1b.pdf, id=854, 109.79018pt x 138.50746pt>
 
 File: ./figures/top-training/top_unmatched1b.pdf Graphic file (type pdf)
 <use ./figures/top-training/top_unmatched1b.pdf>
 Package pdftex.def Info: ./figures/top-training/top_unmatched1b.pdf  used on in
-put line 579.
-(pdftex.def)             Requested size: 38.87234pt x 49.03839pt.
+put line 593.
+(pdftex.def)             Requested size: 41.37044pt x 52.19167pt.
+
+Overfull \hbox (5.10146pt too wide) detected at line 593
+[][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][] 
+
+ []
+
 <./figures/CMS-HIG-21-010_Figure_003.pdf, id=855, 569.12625pt x 547.04375pt>
 File: ./figures/CMS-HIG-21-010_Figure_003.pdf Graphic file (type pdf)
 <use ./figures/CMS-HIG-21-010_Figure_003.pdf>
 Package pdftex.def Info: ./figures/CMS-HIG-21-010_Figure_003.pdf  used on input
- line 579.
+ line 593.
 (pdftex.def)             Requested size: 106.40094pt x 102.26994pt.
 <./figures/topTagging/trijetMass_3WPs.pdf, id=856, 569.12625pt x 546.04pt>
 File: ./figures/topTagging/trijetMass_3WPs.pdf Graphic file (type pdf)
 <use ./figures/topTagging/trijetMass_3WPs.pdf>
 Package pdftex.def Info: ./figures/topTagging/trijetMass_3WPs.pdf  used on inpu
-t line 579.
+t line 593.
 (pdftex.def)             Requested size: 106.40094pt x 102.08229pt.
 
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 593.
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 579.
 
-
-Overfull \vbox (6.06294pt too high) detected at line 579
+Overfull \vbox (5.17134pt too high) detected at line 593
  []
 
-LaTeX Info: Redefining \HepProcess on input line 579.
+LaTeX Info: Redefining \HepProcess on input line 593.
 [11
 
  <./figures/top-training/top_matched.pdf> <./figures/top-training/top_unmatched
 1b.pdf> <./figures/CMS-HIG-21-010_Figure_003.pdf, page is rotated 90 degrees> <
 ./figures/topTagging/trijetMass_3WPs.pdf, page is rotated 90 degrees>]
-LaTeX Info: Redefining \HepProcess on input line 581.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 651.
+LaTeX Info: Redefining \HepProcess on input line 595.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 665.
 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd
@@ -3074,13 +3079,13 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 <./figures/qcdSidebands.pdf, id=969, 449.33934pt x 335.2018pt>
 File: ./figures/qcdSidebands.pdf Graphic file (type pdf)
 <use ./figures/qcdSidebands.pdf>
-Package pdftex.def Info: ./figures/qcdSidebands.pdf  used on input line 651.
+Package pdftex.def Info: ./figures/qcdSidebands.pdf  used on input line 665.
 (pdftex.def)             Requested size: 153.75609pt x 114.6985pt.
-LaTeX Info: Redefining \HepProcess on input line 651.
+LaTeX Info: Redefining \HepProcess on input line 665.
  [12
 
  <./figures/qcdSidebands.pdf>]
-Overfull \hbox (7.51291pt too wide) in paragraph at lines 697--697
+Overfull \hbox (7.51291pt too wide) in paragraph at lines 711--711
 [][]  
  []
 
@@ -3091,7 +3096,7 @@ enPlots/TFsFromSR/HPlusMass.pdf Graphic file (type pdf)
 <use ./figures/QCDDataDriven_SR_1T_TopMass50to260_PtBins175_15Nov2022/DataDrive
 nPlots/TFsFromSR/HPlusMass.pdf>
 Package pdftex.def Info: ./figures/QCDDataDriven_SR_1T_TopMass50to260_PtBins175
-_15Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass.pdf  used on input line 697.
+_15Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass.pdf  used on input line 711.
 (pdftex.def)             Requested size: 77.5534pt x 93.95387pt.
 <./figures/QCDDataDriven_VRQCD_1T_TopMass50to230_PtBins175_15Nov2022/DataDriven
 Plots/TFsFromSR/HPlusMass.pdf, id=984, 469.755pt x 569.12625pt>
@@ -3100,7 +3105,7 @@ rivenPlots/TFsFromSR/HPlusMass.pdf Graphic file (type pdf)
 <use ./figures/QCDDataDriven_VRQCD_1T_TopMass50to230_PtBins175_15Nov2022/DataDr
 ivenPlots/TFsFromSR/HPlusMass.pdf>
 Package pdftex.def Info: ./figures/QCDDataDriven_VRQCD_1T_TopMass50to230_PtBins
-175_15Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass.pdf  used on input line 697.
+175_15Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass.pdf  used on input line 711.
 (pdftex.def)             Requested size: 77.5534pt x 93.95387pt.
 <./figures/QCDDataDriven_VRTT_1T_TopMass50to260_PtBins175_15Nov2022/DataDrivenP
 lots/TFsFromSR/HPlusMass.pdf, id=985, 469.755pt x 569.12625pt>
@@ -3109,7 +3114,7 @@ ivenPlots/TFsFromSR/HPlusMass.pdf Graphic file (type pdf)
 <use ./figures/QCDDataDriven_VRTT_1T_TopMass50to260_PtBins175_15Nov2022/DataDri
 venPlots/TFsFromSR/HPlusMass.pdf>
 Package pdftex.def Info: ./figures/QCDDataDriven_VRTT_1T_TopMass50to260_PtBins1
-75_15Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass.pdf  used on input line 697.
+75_15Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass.pdf  used on input line 711.
 (pdftex.def)             Requested size: 77.5534pt x 93.95387pt.
 <./figures/QCDDataDriven_SR_2T_TopMass50to260_PtBins100to300_17Nov2022/DataDriv
 enPlots/TFsFromSR/HPlusMass.pdf, id=986, 469.755pt x 569.12625pt>
@@ -3118,7 +3123,7 @@ aDrivenPlots/TFsFromSR/HPlusMass.pdf Graphic file (type pdf)
 <use ./figures/QCDDataDriven_SR_2T_TopMass50to260_PtBins100to300_17Nov2022/Data
 DrivenPlots/TFsFromSR/HPlusMass.pdf>
 Package pdftex.def Info: ./figures/QCDDataDriven_SR_2T_TopMass50to260_PtBins100
-to300_17Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass.pdf  used on input line 697
+to300_17Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass.pdf  used on input line 711
 .
 (pdftex.def)             Requested size: 77.5534pt x 93.95387pt.
 <./figures/QCDDataDriven_VRQCD_2T_TopMass50to260_PtBins100to300_15Nov2022/DataD
@@ -3129,7 +3134,7 @@ DataDrivenPlots/TFsFromSR/HPlusMass.pdf Graphic file (type pdf)
 ataDrivenPlots/TFsFromSR/HPlusMass.pdf>
 Package pdftex.def Info: ./figures/QCDDataDriven_VRQCD_2T_TopMass50to260_PtBins
 100to300_15Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass.pdf  used on input line 
-697.
+711.
 (pdftex.def)             Requested size: 77.5534pt x 93.95387pt.
 <./figures/QCDDataDriven_VRTT_2T_TopMass50to260_PtBins100to300_15Nov2022/DataDr
 ivenPlots/TFsFromSR/HPlusMass.pdf, id=988, 469.755pt x 569.12625pt>
@@ -3138,19 +3143,19 @@ ataDrivenPlots/TFsFromSR/HPlusMass.pdf Graphic file (type pdf)
 <use ./figures/QCDDataDriven_VRTT_2T_TopMass50to260_PtBins100to300_15Nov2022/Da
 taDrivenPlots/TFsFromSR/HPlusMass.pdf>
 Package pdftex.def Info: ./figures/QCDDataDriven_VRTT_2T_TopMass50to260_PtBins1
-00to300_15Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass.pdf  used on input line 6
-97.
+00to300_15Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass.pdf  used on input line 7
+11.
 (pdftex.def)             Requested size: 77.5534pt x 93.95387pt.
 
-Overfull \hbox (3.27315pt too wide) detected at line 697
+Overfull \hbox (3.27315pt too wide) detected at line 711
 [][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][] 
  []
 
 
-Overfull \vbox (5.12724pt too high) detected at line 697
+Overfull \vbox (5.12724pt too high) detected at line 711
  []
 
-LaTeX Info: Redefining \HepProcess on input line 697.
+LaTeX Info: Redefining \HepProcess on input line 711.
 [13
 
  <./figures/QCDDataDriven_SR_1T_TopMass50to260_PtBins175_15Nov2022/DataDrivenPl
@@ -3162,34 +3167,34 @@ sMass.pdf> <./figures/QCDDataDriven_SR_2T_TopMass50to260_PtBins100to300_17Nov20
 opMass50to260_PtBins100to300_15Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass.pdf>
  <./figures/QCDDataDriven_VRTT_2T_TopMass50to260_PtBins100to300_15Nov2022/DataD
 rivenPlots/TFsFromSR/HPlusMass.pdf>]
-LaTeX Info: Redefining \HepProcess on input line 699.
+LaTeX Info: Redefining \HepProcess on input line 713.
 <./figures/parameterizedDNN.png, id=1257, 591.20876pt x 283.0575pt>
 File: ./figures/parameterizedDNN.png Graphic file (type png)
 <use ./figures/parameterizedDNN.png>
-Package pdftex.def Info: ./figures/parameterizedDNN.png  used on input line 760
+Package pdftex.def Info: ./figures/parameterizedDNN.png  used on input line 774
 .
 (pdftex.def)             Requested size: 212.02867pt x 101.51189pt.
 
-Overfull \vbox (7.56535pt too high) detected at line 760
+Overfull \vbox (7.56535pt too high) detected at line 774
  []
 
-LaTeX Info: Redefining \HepProcess on input line 760.
+LaTeX Info: Redefining \HepProcess on input line 774.
 [14
 
  <./figures/parameterizedDNN.png>]
-LaTeX Info: Redefining \HepProcess on input line 762.
+LaTeX Info: Redefining \HepProcess on input line 776.
 <./figures/ROC.pdf, id=1268, 569.12625pt x 546.04pt>
 File: ./figures/ROC.pdf Graphic file (type pdf)
 <use ./figures/ROC.pdf>
-Package pdftex.def Info: ./figures/ROC.pdf  used on input line 790.
+Package pdftex.def Info: ./figures/ROC.pdf  used on input line 804.
 (pdftex.def)             Requested size: 175.61247pt x 168.48744pt.
-LaTeX Info: Redefining \HepProcess on input line 790.
+LaTeX Info: Redefining \HepProcess on input line 804.
  [15
 
  <./figures/ROC.pdf, page is rotated 90 degrees>]
-LaTeX Info: Redefining \HepProcess on input line 792.
+LaTeX Info: Redefining \HepProcess on input line 806.
 
-Overfull \hbox (7.51291pt too wide) in paragraph at lines 828--828
+Overfull \hbox (7.51291pt too wide) in paragraph at lines 842--842
 [][]  
  []
 
@@ -3207,7 +3212,7 @@ ots/DataDrivenCtrlPlot_M300_MVAOutput_M300_AfterSelections.pdf>
 Package pdftex.def Info: ./figures/datacards_HToTB_UL2018_13TeV_HToTB_EraRun201
 8UL_Search350to3000_OptNominal_FakeBFromDataDriven_m200to3000_3B1T_Created20221
 110_112420/controlPlots/DataDrivenCtrlPlot_M300_MVAOutput_M300_AfterSelections.
-pdf  used on input line 828.
+pdf  used on input line 842.
 (pdftex.def)             Requested size: 91.8396pt x 111.2614pt.
 <./figures/datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptN
 ominal_FakeBFromDataDriven_m200to3000_3B1T_Created20221110_112420/controlPlots/
@@ -3223,7 +3228,7 @@ ots/DataDrivenCtrlPlot_M600_MVAOutput_M600_AfterSelections.pdf>
 Package pdftex.def Info: ./figures/datacards_HToTB_UL2018_13TeV_HToTB_EraRun201
 8UL_Search350to3000_OptNominal_FakeBFromDataDriven_m200to3000_3B1T_Created20221
 110_112420/controlPlots/DataDrivenCtrlPlot_M600_MVAOutput_M600_AfterSelections.
-pdf  used on input line 828.
+pdf  used on input line 842.
 (pdftex.def)             Requested size: 91.8396pt x 111.2614pt.
 <./figures/datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptN
 ominal_FakeBFromDataDriven_m200to3000_3B1T_Created20221110_112420/controlPlots/
@@ -3239,7 +3244,7 @@ ots/DataDrivenCtrlPlot_M1250_MVAOutput_M1250_AfterSelections.pdf>
 Package pdftex.def Info: ./figures/datacards_HToTB_UL2018_13TeV_HToTB_EraRun201
 8UL_Search350to3000_OptNominal_FakeBFromDataDriven_m200to3000_3B1T_Created20221
 110_112420/controlPlots/DataDrivenCtrlPlot_M1250_MVAOutput_M1250_AfterSelection
-s.pdf  used on input line 828.
+s.pdf  used on input line 842.
 (pdftex.def)             Requested size: 91.8396pt x 111.2614pt.
 <./figures/datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptN
 ominal_FakeBFromDataDriven_m200to3000_3B2T_Created20221110_112420/controlPlots/
@@ -3255,7 +3260,7 @@ ots/DataDrivenCtrlPlot_M220_MVAOutput_M220_AfterSelections.pdf>
 Package pdftex.def Info: ./figures/datacards_HToTB_UL2018_13TeV_HToTB_EraRun201
 8UL_Search350to3000_OptNominal_FakeBFromDataDriven_m200to3000_3B2T_Created20221
 110_112420/controlPlots/DataDrivenCtrlPlot_M220_MVAOutput_M220_AfterSelections.
-pdf  used on input line 828.
+pdf  used on input line 842.
 (pdftex.def)             Requested size: 91.8396pt x 111.2614pt.
 <./figures/datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptN
 ominal_FakeBFromDataDriven_m200to3000_3B2T_Created20221110_112420/controlPlots/
@@ -3271,7 +3276,7 @@ ots/DataDrivenCtrlPlot_M600_MVAOutput_M600_AfterSelections.pdf>
 Package pdftex.def Info: ./figures/datacards_HToTB_UL2018_13TeV_HToTB_EraRun201
 8UL_Search350to3000_OptNominal_FakeBFromDataDriven_m200to3000_3B2T_Created20221
 110_112420/controlPlots/DataDrivenCtrlPlot_M600_MVAOutput_M600_AfterSelections.
-pdf  used on input line 828.
+pdf  used on input line 842.
 (pdftex.def)             Requested size: 91.8396pt x 111.2614pt.
 <./figures/datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptN
 ominal_FakeBFromDataDriven_m200to3000_3B2T_Created20221110_112420/controlPlots/
@@ -3287,18 +3292,18 @@ ots/DataDrivenCtrlPlot_M1250_MVAOutput_M1250_AfterSelections.pdf>
 Package pdftex.def Info: ./figures/datacards_HToTB_UL2018_13TeV_HToTB_EraRun201
 8UL_Search350to3000_OptNominal_FakeBFromDataDriven_m200to3000_3B2T_Created20221
 110_112420/controlPlots/DataDrivenCtrlPlot_M1250_MVAOutput_M1250_AfterSelection
-s.pdf  used on input line 828.
+s.pdf  used on input line 842.
 (pdftex.def)             Requested size: 91.8396pt x 111.2614pt.
 
-Overfull \hbox (3.27315pt too wide) detected at line 828
+Overfull \hbox (3.27315pt too wide) detected at line 842
 [][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][] 
  []
 
 
-Overfull \vbox (5.94637pt too high) detected at line 828
+Overfull \vbox (5.94637pt too high) detected at line 842
  []
 
-LaTeX Info: Redefining \HepProcess on input line 828.
+LaTeX Info: Redefining \HepProcess on input line 842.
 [16
 
  <./figures/datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_Opt
@@ -3318,111 +3323,117 @@ Plots/DataDrivenCtrlPlot_M600_MVAOutput_M600_AfterSelections.pdf> <./figures/da
 tacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBF
 romDataDriven_m200to3000_3B2T_Created20221110_112420/controlPlots/DataDrivenCtr
 lPlot_M1250_MVAOutput_M1250_AfterSelections.pdf>]
-LaTeX Info: Redefining \HepProcess on input line 831.
+LaTeX Info: Redefining \HepProcess on input line 845.
 <./figures/limitsBr_logY_1T.pdf, id=1593, 569.12625pt x 546.04pt>
 File: ./figures/limitsBr_logY_1T.pdf Graphic file (type pdf)
 <use ./figures/limitsBr_logY_1T.pdf>
-Package pdftex.def Info: ./figures/limitsBr_logY_1T.pdf  used on input line 850
+Package pdftex.def Info: ./figures/limitsBr_logY_1T.pdf  used on input line 864
 .
 (pdftex.def)             Requested size: 113.69994pt x 109.08109pt.
 <./figures/limitsBr_logY_2T.pdf, id=1594, 569.12625pt x 546.04pt>
 File: ./figures/limitsBr_logY_2T.pdf Graphic file (type pdf)
 <use ./figures/limitsBr_logY_2T.pdf>
-Package pdftex.def Info: ./figures/limitsBr_logY_2T.pdf  used on input line 850
+Package pdftex.def Info: ./figures/limitsBr_logY_2T.pdf  used on input line 864
 .
 (pdftex.def)             Requested size: 113.69994pt x 109.08109pt.
 <./figures/limitsBr_logY.pdf, id=1595, 569.12625pt x 546.04pt>
 File: ./figures/limitsBr_logY.pdf Graphic file (type pdf)
 <use ./figures/limitsBr_logY.pdf>
-Package pdftex.def Info: ./figures/limitsBr_logY.pdf  used on input line 850.
+Package pdftex.def Info: ./figures/limitsBr_logY.pdf  used on input line 864.
 (pdftex.def)             Requested size: 113.69994pt x 109.08109pt.
-LaTeX Info: Redefining \HepProcess on input line 850.
+LaTeX Info: Redefining \HepProcess on input line 864.
  [17
 
  <./figures/limitsBr_logY_1T.pdf, page is rotated 90 degrees> <./figures/limits
 Br_logY_2T.pdf, page is rotated 90 degrees> <./figures/limitsBr_logY.pdf, page 
 is rotated 90 degrees>]
-LaTeX Info: Redefining \HepProcess on input line 852.
-LaTeX Info: Redefining \HepProcess on input line 853.
+LaTeX Info: Redefining \HepProcess on input line 866.
+LaTeX Info: Redefining \HepProcess on input line 867.
 <./figures/boostedSR1.png, id=1734, 1012.78375pt x 695.59875pt>
 File: ./figures/boostedSR1.png Graphic file (type png)
 <use ./figures/boostedSR1.png>
-Package pdftex.def Info: ./figures/boostedSR1.png  used on input line 929.
-(pdftex.def)             Requested size: 69.10715pt x 47.45505pt.
+Package pdftex.def Info: ./figures/boostedSR1.png  used on input line 942.
+(pdftex.def)             Requested size: 64.63347pt x 44.3876pt.
 <./figures/boostedSR2.png, id=1735, 1186.4325pt x 687.56876pt>
 File: ./figures/boostedSR2.png Graphic file (type png)
 <use ./figures/boostedSR2.png>
-Package pdftex.def Info: ./figures/boostedSR2.png  used on input line 929.
-(pdftex.def)             Requested size: 69.10715pt x 40.04582pt.
+Package pdftex.def Info: ./figures/boostedSR2.png  used on input line 942.
+(pdftex.def)             Requested size: 64.63347pt x 37.45444pt.
+
+Overfull \hbox (5.10703pt too wide) detected at line 942
+[][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][] 
+
+ []
+
 <./figures/tikz/pdf/HPlus4FS_HToTB_BoostedTop_InvMass.pdf, id=1736, 263.1431pt 
 x 173.1007pt>
 File: ./figures/tikz/pdf/HPlus4FS_HToTB_BoostedTop_InvMass.pdf Graphic file (ty
 pe pdf)
 <use ./figures/tikz/pdf/HPlus4FS_HToTB_BoostedTop_InvMass.pdf>
 Package pdftex.def Info: ./figures/tikz/pdf/HPlus4FS_HToTB_BoostedTop_InvMass.p
-df  used on input line 929.
-(pdftex.def)             Requested size: 127.13414pt x 83.63148pt.
+df  used on input line 942.
+(pdftex.def)             Requested size: 122.4363pt x 80.54117pt.
 
-Overfull \vbox (13.41255pt too high) detected at line 929
+Overfull \vbox (13.45494pt too high) detected at line 942
  []
 
-LaTeX Info: Redefining \HepProcess on input line 929.
+LaTeX Info: Redefining \HepProcess on input line 942.
 [18
 
  <./figures/boostedSR1.png> <./figures/boostedSR2.png> <./figures/tikz/pdf/HPlu
 s4FS_HToTB_BoostedTop_InvMass.pdf>]
-LaTeX Info: Redefining \HepProcess on input line 931.
+LaTeX Info: Redefining \HepProcess on input line 944.
 <./figures/DDT_particleNet_TvsQCD.pdf, id=1767, 569.12625pt x 483.8075pt>
 File: ./figures/DDT_particleNet_TvsQCD.pdf Graphic file (type pdf)
 <use ./figures/DDT_particleNet_TvsQCD.pdf>
 Package pdftex.def Info: ./figures/DDT_particleNet_TvsQCD.pdf  used on input li
-ne 974.
+ne 987.
 (pdftex.def)             Requested size: 106.41446pt x 90.46268pt.
 <./figures/particleNet_TvsQCD_Rho-2.25Pt510.0.pdf, id=1768, 569.12625pt x 546.0
 4pt>
 File: ./figures/particleNet_TvsQCD_Rho-2.25Pt510.0.pdf Graphic file (type pdf)
 <use ./figures/particleNet_TvsQCD_Rho-2.25Pt510.0.pdf>
 Package pdftex.def Info: ./figures/particleNet_TvsQCD_Rho-2.25Pt510.0.pdf  used
- on input line 974.
+ on input line 987.
 (pdftex.def)             Requested size: 90.96028pt x 87.26819pt.
 <./figures/particleNet_TvsQCD_Rho-2.15Pt350.0.pdf, id=1769, 569.12625pt x 546.0
 4pt>
 File: ./figures/particleNet_TvsQCD_Rho-2.15Pt350.0.pdf Graphic file (type pdf)
 <use ./figures/particleNet_TvsQCD_Rho-2.15Pt350.0.pdf>
 Package pdftex.def Info: ./figures/particleNet_TvsQCD_Rho-2.15Pt350.0.pdf  used
- on input line 974.
+ on input line 987.
 (pdftex.def)             Requested size: 90.96028pt x 87.26819pt.
 <./figures/particleNet_TvsQCD_Rho-2.25Pt310.0.pdf, id=1770, 569.12625pt x 546.0
 4pt>
 File: ./figures/particleNet_TvsQCD_Rho-2.25Pt310.0.pdf Graphic file (type pdf)
 <use ./figures/particleNet_TvsQCD_Rho-2.25Pt310.0.pdf>
 Package pdftex.def Info: ./figures/particleNet_TvsQCD_Rho-2.25Pt310.0.pdf  used
- on input line 974.
+ on input line 987.
 (pdftex.def)             Requested size: 90.96028pt x 87.26819pt.
 
-Overfull \vbox (5.83705pt too high) detected at line 974
+Overfull \vbox (5.83705pt too high) detected at line 987
  []
 
-LaTeX Info: Redefining \HepProcess on input line 974.
+LaTeX Info: Redefining \HepProcess on input line 987.
 [19
 
  <./figures/DDT_particleNet_TvsQCD.pdf, page is rotated 90 degrees> <./figures/
 particleNet_TvsQCD_Rho-2.25Pt510.0.pdf, page is rotated 90 degrees> <./figures/
 particleNet_TvsQCD_Rho-2.15Pt350.0.pdf, page is rotated 90 degrees> <./figures/
 particleNet_TvsQCD_Rho-2.25Pt310.0.pdf, page is rotated 90 degrees>]
-LaTeX Info: Redefining \HepProcess on input line 976.
-LaTeX Info: Redefining \HepProcess on input line 994.
+LaTeX Info: Redefining \HepProcess on input line 989.
+LaTeX Info: Redefining \HepProcess on input line 1007.
 
 [20
 
 ]
-LaTeX Info: Redefining \HepProcess on input line 997.
-LaTeX Info: Redefining \HepProcess on input line 1031.
+LaTeX Info: Redefining \HepProcess on input line 1010.
+LaTeX Info: Redefining \HepProcess on input line 1045.
  [21
 
 ]
-LaTeX Info: Redefining \HepProcess on input line 1033.
-LaTeX Info: Redefining \HepProcess on input line 1061.
+LaTeX Info: Redefining \HepProcess on input line 1047.
+LaTeX Info: Redefining \HepProcess on input line 1079.
  [22
 
 ])
@@ -3471,13 +3482,13 @@ Package rerunfilecheck Info: File `talk.out' has not changed.
 (rerunfilecheck)             Checksum: 1D144C393F8081D455B2782790C8A3C4;1382.
  ) 
 Here is how much of TeX's memory you used:
- 58452 strings out of 492616
- 1198880 string characters out of 6129480
+ 58453 strings out of 492616
+ 1198899 string characters out of 6129480
  1367944 words of memory out of 5000000
- 61214 multiletter control sequences out of 15000+600000
+ 61215 multiletter control sequences out of 15000+600000
  819712 words of font info for 225 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,21n,84p,1607b,1416s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,21n,84p,1607b,1422s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{NAVIGATION23} has been referenced but does not ex
 ist, replaced by a fixed one
 
@@ -3547,7 +3558,7 @@ ist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2019/texmf-dist/fonts/
 type1/public/lm/lmtt8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/publi
 c/amsfonts/symbols/msam10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/u
 rw/zapfding/uzdr.pfb>
-Output written on talk.pdf (23 pages, 2874799 bytes).
+Output written on talk.pdf (23 pages, 2875852 bytes).
 PDF statistics:
  2145 PDF objects out of 2487 (max. 8388607)
  1193 compressed objects within 12 object streams
