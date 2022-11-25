@@ -1,0 +1,31 @@
+{
+  "Combine_tag": "v7.0.1", 
+  "clsConfig": {}, 
+  "clsType": "LHCAsymptotic", 
+  "codeVersion": "36b1e1242da2d41ad52cbdfa64f07f9a7846e23a", 
+  "datacards": [
+    "combine_datacard_hplushadronic_m%s.txt"
+  ], 
+  "masspoints": [
+    "200", 
+    "220", 
+    "250", 
+    "300", 
+    "350", 
+    "400", 
+    "500", 
+    "600", 
+    "700", 
+    "800", 
+    "1000", 
+    "1250", 
+    "1500", 
+    "1750", 
+    "2000", 
+    "2500", 
+    "3000"
+  ], 
+  "rootfiles": [
+    "combine_histograms_hplushadronic_m%s.root"
+  ]
+}

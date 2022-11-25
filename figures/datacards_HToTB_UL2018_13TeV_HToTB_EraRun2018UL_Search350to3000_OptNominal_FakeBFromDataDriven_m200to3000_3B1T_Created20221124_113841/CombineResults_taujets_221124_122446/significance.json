@@ -1,0 +1,4 @@
+{
+  "expectedSignalBrLimit": "0.01", 
+  "expectedSignalSigmaBr": "0.1"
+}

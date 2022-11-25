@@ -1,0 +1,779 @@
+
+>>> random number generator seed is 123456
+Will use a-priori expected background instead of a-posteriori one.
+>>> method used is AsymptoticLimits
+Turning on runtime-define FITTER_NEW_CROSSING_ALGO
+Turning on runtime-define FITTER_NEVER_GIVE_UP
+Turning on runtime-define FITTER_BOUND
+Channel HToTB will use autoMCStats with settings: event-threshold=0, include-signal=0, hist-mode=1
+Creating RooAddPdf pdf_binHToTB with 4 elements
+============================================================
+Analysing bin errors for: prop_binHToTB
+Poisson cut-off: 0
+Processes excluded for sums: Hp500
+============================================================
+Bin        Contents        Error           Notes                         
+0          112.331658      10.602633       total sum                     
+0          112.331658      10.590837       excluding marked processes    
+0          112.000000      10.583005       Unweighted events, alpha=1.002961
+  => Total parameter prop_binHToTB_bin0[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+1          273.032227      16.517693       total sum                     
+1          272.277083      16.515172       excluding marked processes    
+1          272.000000      16.492423       Unweighted events, alpha=1.003795
+  => Total parameter prop_binHToTB_bin1[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+2          430.801105      20.527930       total sum                     
+2          429.106556      20.522727       excluding marked processes    
+2          437.000000      20.904545       Unweighted events, alpha=0.985815
+  => Total parameter prop_binHToTB_bin2[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+3          561.031264      23.356941       total sum                     
+3          558.507017      23.350728       excluding marked processes    
+3          572.000000      23.916521       Unweighted events, alpha=0.980824
+  => Total parameter prop_binHToTB_bin3[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+4          648.318023      24.994222       total sum                     
+4          644.604864      24.986858       excluding marked processes    
+4          666.000000      25.806976       Unweighted events, alpha=0.973450
+  => Total parameter prop_binHToTB_bin4[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+5          591.444023      23.955732       total sum                     
+5          587.129030      23.945725       excluding marked processes    
+5          601.000000      24.515301       Unweighted events, alpha=0.984100
+  => Total parameter prop_binHToTB_bin5[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+6          569.719281      23.357522       total sum                     
+6          563.931545      23.345861       excluding marked processes    
+6          583.000000      24.145393       Unweighted events, alpha=0.977220
+  => Total parameter prop_binHToTB_bin6[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+7          583.942876      23.560808       total sum                     
+7          578.839953      23.548499       excluding marked processes    
+7          604.000000      24.576411       Unweighted events, alpha=0.966793
+  => Total parameter prop_binHToTB_bin7[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+8          492.311405      21.678653       total sum                     
+8          487.578053      21.664794       excluding marked processes    
+8          506.000000      22.494444       Unweighted events, alpha=0.972947
+  => Total parameter prop_binHToTB_bin8[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+9          494.324133      21.546873       total sum                     
+9          488.530298      21.531716       excluding marked processes    
+9          515.000000      22.693611       Unweighted events, alpha=0.959853
+  => Total parameter prop_binHToTB_bin9[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+10         429.243450      20.146496       total sum                     
+10         421.891263      20.130007       excluding marked processes    
+10         439.000000      20.952327       Unweighted events, alpha=0.977776
+  => Total parameter prop_binHToTB_bin10[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+11         410.467422      19.616768       total sum                     
+11         403.481082      19.599263       excluding marked processes    
+11         424.000000      20.591260       Unweighted events, alpha=0.968084
+  => Total parameter prop_binHToTB_bin11[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+12         366.961911      18.486686       total sum                     
+12         359.736803      18.466952       excluding marked processes    
+12         379.000000      19.467922       Unweighted events, alpha=0.968237
+  => Total parameter prop_binHToTB_bin12[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+13         312.332486      17.024317       total sum                     
+13         304.558563      17.001161       excluding marked processes    
+13         321.000000      17.916473       Unweighted events, alpha=0.972998
+  => Total parameter prop_binHToTB_bin13[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+14         288.987309      16.526146       total sum                     
+14         281.800900      16.502026       excluding marked processes    
+14         292.000000      17.088007       Unweighted events, alpha=0.989683
+  => Total parameter prop_binHToTB_bin14[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+15         261.254679      15.594904       total sum                     
+15         254.110197      15.568413       excluding marked processes    
+15         266.000000      16.309506       Unweighted events, alpha=0.982160
+  => Total parameter prop_binHToTB_bin15[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+16         217.125341      14.157617       total sum                     
+16         207.588633      14.124693       excluding marked processes    
+16         216.000000      14.696938       Unweighted events, alpha=1.005210
+  => Total parameter prop_binHToTB_bin16[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+17         211.144218      14.043052       total sum                     
+17         201.114092      14.009931       excluding marked processes    
+17         206.000000      14.352700       Unweighted events, alpha=1.024972
+  => Total parameter prop_binHToTB_bin17[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+18         179.497654      12.821169       total sum                     
+18         169.630501      12.784776       excluding marked processes    
+18         176.000000      13.266499       Unweighted events, alpha=1.019873
+  => Total parameter prop_binHToTB_bin18[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+19         109.848869      9.895380        total sum                     
+19         101.966047      9.856573        excluding marked processes    
+19         107.000000      10.344080       Unweighted events, alpha=1.026625
+  => Total parameter prop_binHToTB_bin19[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+20         62.028182       7.561420        total sum                     
+20         57.921900       7.535817        excluding marked processes    
+20         59.000000       7.681146        Unweighted events, alpha=1.051325
+  => Total parameter prop_binHToTB_bin20[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+21         12.520773       3.416544        total sum                     
+21         11.750827       3.407112        excluding marked processes    
+21         12.000000       3.464102        Unweighted events, alpha=1.043398
+  => Total parameter prop_binHToTB_bin21[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+22         1.021979        1.117122        total sum                     
+22         1.021979        0.998981        excluding marked processes    
+22         1.000000        1.000000        Unweighted events, alpha=1.021979
+  => Total parameter prop_binHToTB_bin22[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+23         0.000083        0.500000        total sum                     
+23         0.000083        0.500000        excluding marked processes    
+23         0.000000        0.000000        Unweighted events, alpha=inf  
+  => Number of weighted events is below poisson threshold
+    Hp500                0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    TT                   0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tEWttX               0.000083        0.000083                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.000083
+      => Parameter prop_binHToTB_bin23_tEWttX[0.00,-7.00,7.00] to be gaussian constrained
+  ----------------------------------------------------------
+    FakeB                0.000000        0.500000                                      
+      => Poisson not viable, prop_binHToTB_bin23_FakeB[0.00,-7.00,7.00] to be gaussian constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+
+RooWorkspace(w) w contents
+
+variables
+---------
+(CMS_channel,CMS_th1x,MH,ONE,ZERO,n_exp_binHToTB_proc_FakeB,n_exp_binHToTB_proc_TT,n_exp_binHToTB_proc_tEWttX,prop_binHToTB_bin0,prop_binHToTB_bin0_In,prop_binHToTB_bin1,prop_binHToTB_bin10,prop_binHToTB_bin10_In,prop_binHToTB_bin11,prop_binHToTB_bin11_In,prop_binHToTB_bin12,prop_binHToTB_bin12_In,prop_binHToTB_bin13,prop_binHToTB_bin13_In,prop_binHToTB_bin14,prop_binHToTB_bin14_In,prop_binHToTB_bin15,prop_binHToTB_bin15_In,prop_binHToTB_bin16,prop_binHToTB_bin16_In,prop_binHToTB_bin17,prop_binHToTB_bin17_In,prop_binHToTB_bin18,prop_binHToTB_bin18_In,prop_binHToTB_bin19,prop_binHToTB_bin19_In,prop_binHToTB_bin1_In,prop_binHToTB_bin2,prop_binHToTB_bin20,prop_binHToTB_bin20_In,prop_binHToTB_bin21,prop_binHToTB_bin21_In,prop_binHToTB_bin22,prop_binHToTB_bin22_In,prop_binHToTB_bin23_FakeB,prop_binHToTB_bin23_FakeB_In,prop_binHToTB_bin23_tEWttX,prop_binHToTB_bin23_tEWttX_In,prop_binHToTB_bin2_In,prop_binHToTB_bin3,prop_binHToTB_bin3_In,prop_binHToTB_bin4,prop_binHToTB_bin4_In,prop_binHToTB_bin5,prop_binHToTB_bin5_In,prop_binHToTB_bin6,prop_binHToTB_bin6_In,prop_binHToTB_bin7,prop_binHToTB_bin7_In,prop_binHToTB_bin8,prop_binHToTB_bin8_In,prop_binHToTB_bin9,prop_binHToTB_bin9_In,r)
+
+p.d.f.s
+-------
+RooSimultaneousOpt::model_b[ indexCat=CMS_channel HToTB=pdf_binHToTB_bonly extraConstraints=() channelMasks=() ] = 8.27063e-05
+  RooProdPdf::pdf_binHToTB_bonly[ pdf_binHToTB_bonly_nuis * pdfbins_binHToTB ] = 8.27063e-05
+    RooRealSumPdf::pdf_binHToTB_bonly_nuis[ ONE * prop_binHToTB_bonly ] = 8.27063e-05
+      CMSHistErrorPropagator::prop_binHToTB_bonly[ x=CMS_th1x funcs=(shapeSig_Hp500_HToTB_rebinPdf,shapeBkg_TT_HToTB_rebinPdf,shapeBkg_tEWttX_HToTB_rebinPdf,shapeBkg_FakeB_HToTB_rebinPdf) coeffs=(ZERO,n_exp_binHToTB_proc_TT,n_exp_binHToTB_proc_tEWttX,n_exp_binHToTB_proc_FakeB) binpars=(prop_binHToTB_bin0,prop_binHToTB_bin1,prop_binHToTB_bin2,prop_binHToTB_bin3,prop_binHToTB_bin4,prop_binHToTB_bin5,prop_binHToTB_bin6,prop_binHToTB_bin7,prop_binHToTB_bin8,prop_binHToTB_bin9,prop_binHToTB_bin10,prop_binHToTB_bin11,prop_binHToTB_bin12,prop_binHToTB_bin13,prop_binHToTB_bin14,prop_binHToTB_bin15,prop_binHToTB_bin16,prop_binHToTB_bin17,prop_binHToTB_bin18,prop_binHToTB_bin19,prop_binHToTB_bin20,prop_binHToTB_bin21,prop_binHToTB_bin22,prop_binHToTB_bin23_tEWttX,prop_binHToTB_bin23_FakeB) ] = 8.27063e-05
+        CMSHistFunc::shapeSig_Hp500_HToTB_rebinPdf[ x=CMS_th1x vmorphs=() hmorphs=() ] = 1e-09
+        CMSHistFunc::shapeBkg_TT_HToTB_rebinPdf[ x=CMS_th1x vmorphs=() hmorphs=() ] = 1e-09
+        CMSHistFunc::shapeBkg_tEWttX_HToTB_rebinPdf[ x=CMS_th1x vmorphs=() hmorphs=() ] = 8.27043e-05
+        CMSHistFunc::shapeBkg_FakeB_HToTB_rebinPdf[ x=CMS_th1x vmorphs=() hmorphs=() ] = 1e-09
+    RooProdPdf::pdfbins_binHToTB[ prop_binHToTB_bin0_Pdf * prop_binHToTB_bin1_Pdf * prop_binHToTB_bin2_Pdf * prop_binHToTB_bin3_Pdf * prop_binHToTB_bin4_Pdf * prop_binHToTB_bin5_Pdf * prop_binHToTB_bin6_Pdf * prop_binHToTB_bin7_Pdf * prop_binHToTB_bin8_Pdf * prop_binHToTB_bin9_Pdf * prop_binHToTB_bin10_Pdf * prop_binHToTB_bin11_Pdf * prop_binHToTB_bin12_Pdf * prop_binHToTB_bin13_Pdf * prop_binHToTB_bin14_Pdf * prop_binHToTB_bin15_Pdf * prop_binHToTB_bin16_Pdf * prop_binHToTB_bin17_Pdf * prop_binHToTB_bin18_Pdf * prop_binHToTB_bin19_Pdf * prop_binHToTB_bin20_Pdf * prop_binHToTB_bin21_Pdf * prop_binHToTB_bin22_Pdf * prop_binHToTB_bin23_tEWttX_Pdf * prop_binHToTB_bin23_FakeB_Pdf ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin0_Pdf[ x=prop_binHToTB_bin0 mean=prop_binHToTB_bin0_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin1_Pdf[ x=prop_binHToTB_bin1 mean=prop_binHToTB_bin1_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin2_Pdf[ x=prop_binHToTB_bin2 mean=prop_binHToTB_bin2_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin3_Pdf[ x=prop_binHToTB_bin3 mean=prop_binHToTB_bin3_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin4_Pdf[ x=prop_binHToTB_bin4 mean=prop_binHToTB_bin4_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin5_Pdf[ x=prop_binHToTB_bin5 mean=prop_binHToTB_bin5_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin6_Pdf[ x=prop_binHToTB_bin6 mean=prop_binHToTB_bin6_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin7_Pdf[ x=prop_binHToTB_bin7 mean=prop_binHToTB_bin7_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin8_Pdf[ x=prop_binHToTB_bin8 mean=prop_binHToTB_bin8_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin9_Pdf[ x=prop_binHToTB_bin9 mean=prop_binHToTB_bin9_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin10_Pdf[ x=prop_binHToTB_bin10 mean=prop_binHToTB_bin10_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin11_Pdf[ x=prop_binHToTB_bin11 mean=prop_binHToTB_bin11_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin12_Pdf[ x=prop_binHToTB_bin12 mean=prop_binHToTB_bin12_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin13_Pdf[ x=prop_binHToTB_bin13 mean=prop_binHToTB_bin13_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin14_Pdf[ x=prop_binHToTB_bin14 mean=prop_binHToTB_bin14_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin15_Pdf[ x=prop_binHToTB_bin15 mean=prop_binHToTB_bin15_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin16_Pdf[ x=prop_binHToTB_bin16 mean=prop_binHToTB_bin16_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin17_Pdf[ x=prop_binHToTB_bin17 mean=prop_binHToTB_bin17_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin18_Pdf[ x=prop_binHToTB_bin18 mean=prop_binHToTB_bin18_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin19_Pdf[ x=prop_binHToTB_bin19 mean=prop_binHToTB_bin19_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin20_Pdf[ x=prop_binHToTB_bin20 mean=prop_binHToTB_bin20_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin21_Pdf[ x=prop_binHToTB_bin21 mean=prop_binHToTB_bin21_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin22_Pdf[ x=prop_binHToTB_bin22 mean=prop_binHToTB_bin22_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin23_tEWttX_Pdf[ x=prop_binHToTB_bin23_tEWttX mean=prop_binHToTB_bin23_tEWttX_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin23_FakeB_Pdf[ x=prop_binHToTB_bin23_FakeB mean=prop_binHToTB_bin23_FakeB_In sigma=1 ] = 1
+RooSimultaneousOpt::model_s[ indexCat=CMS_channel HToTB=pdf_binHToTB extraConstraints=() channelMasks=() ] = 8.27073e-05
+  RooProdPdf::pdf_binHToTB[ pdf_binHToTB_nuis * pdfbins_binHToTB ] = 8.27073e-05
+    RooRealSumPdf::pdf_binHToTB_nuis[ ONE * prop_binHToTB ] = 8.27073e-05
+      CMSHistErrorPropagator::prop_binHToTB[ x=CMS_th1x funcs=(shapeSig_Hp500_HToTB_rebinPdf,shapeBkg_TT_HToTB_rebinPdf,shapeBkg_tEWttX_HToTB_rebinPdf,shapeBkg_FakeB_HToTB_rebinPdf) coeffs=(n_exp_binHToTB_proc_Hp500,n_exp_binHToTB_proc_TT,n_exp_binHToTB_proc_tEWttX,n_exp_binHToTB_proc_FakeB) binpars=(prop_binHToTB_bin0,prop_binHToTB_bin1,prop_binHToTB_bin2,prop_binHToTB_bin3,prop_binHToTB_bin4,prop_binHToTB_bin5,prop_binHToTB_bin6,prop_binHToTB_bin7,prop_binHToTB_bin8,prop_binHToTB_bin9,prop_binHToTB_bin10,prop_binHToTB_bin11,prop_binHToTB_bin12,prop_binHToTB_bin13,prop_binHToTB_bin14,prop_binHToTB_bin15,prop_binHToTB_bin16,prop_binHToTB_bin17,prop_binHToTB_bin18,prop_binHToTB_bin19,prop_binHToTB_bin20,prop_binHToTB_bin21,prop_binHToTB_bin22,prop_binHToTB_bin23_tEWttX,prop_binHToTB_bin23_FakeB) ] = 8.27073e-05
+        CMSHistFunc::shapeSig_Hp500_HToTB_rebinPdf[ x=CMS_th1x vmorphs=() hmorphs=() ] = 1e-09
+        CMSHistFunc::shapeBkg_TT_HToTB_rebinPdf[ x=CMS_th1x vmorphs=() hmorphs=() ] = 1e-09
+        CMSHistFunc::shapeBkg_tEWttX_HToTB_rebinPdf[ x=CMS_th1x vmorphs=() hmorphs=() ] = 8.27043e-05
+        CMSHistFunc::shapeBkg_FakeB_HToTB_rebinPdf[ x=CMS_th1x vmorphs=() hmorphs=() ] = 1e-09
+        ProcessNormalization::n_exp_binHToTB_proc_Hp500[ thetaList=() asymmThetaList=() otherFactorList=(r) ] = 1
+    RooProdPdf::pdfbins_binHToTB[ prop_binHToTB_bin0_Pdf * prop_binHToTB_bin1_Pdf * prop_binHToTB_bin2_Pdf * prop_binHToTB_bin3_Pdf * prop_binHToTB_bin4_Pdf * prop_binHToTB_bin5_Pdf * prop_binHToTB_bin6_Pdf * prop_binHToTB_bin7_Pdf * prop_binHToTB_bin8_Pdf * prop_binHToTB_bin9_Pdf * prop_binHToTB_bin10_Pdf * prop_binHToTB_bin11_Pdf * prop_binHToTB_bin12_Pdf * prop_binHToTB_bin13_Pdf * prop_binHToTB_bin14_Pdf * prop_binHToTB_bin15_Pdf * prop_binHToTB_bin16_Pdf * prop_binHToTB_bin17_Pdf * prop_binHToTB_bin18_Pdf * prop_binHToTB_bin19_Pdf * prop_binHToTB_bin20_Pdf * prop_binHToTB_bin21_Pdf * prop_binHToTB_bin22_Pdf * prop_binHToTB_bin23_tEWttX_Pdf * prop_binHToTB_bin23_FakeB_Pdf ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin0_Pdf[ x=prop_binHToTB_bin0 mean=prop_binHToTB_bin0_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin1_Pdf[ x=prop_binHToTB_bin1 mean=prop_binHToTB_bin1_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin2_Pdf[ x=prop_binHToTB_bin2 mean=prop_binHToTB_bin2_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin3_Pdf[ x=prop_binHToTB_bin3 mean=prop_binHToTB_bin3_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin4_Pdf[ x=prop_binHToTB_bin4 mean=prop_binHToTB_bin4_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin5_Pdf[ x=prop_binHToTB_bin5 mean=prop_binHToTB_bin5_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin6_Pdf[ x=prop_binHToTB_bin6 mean=prop_binHToTB_bin6_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin7_Pdf[ x=prop_binHToTB_bin7 mean=prop_binHToTB_bin7_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin8_Pdf[ x=prop_binHToTB_bin8 mean=prop_binHToTB_bin8_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin9_Pdf[ x=prop_binHToTB_bin9 mean=prop_binHToTB_bin9_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin10_Pdf[ x=prop_binHToTB_bin10 mean=prop_binHToTB_bin10_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin11_Pdf[ x=prop_binHToTB_bin11 mean=prop_binHToTB_bin11_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin12_Pdf[ x=prop_binHToTB_bin12 mean=prop_binHToTB_bin12_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin13_Pdf[ x=prop_binHToTB_bin13 mean=prop_binHToTB_bin13_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin14_Pdf[ x=prop_binHToTB_bin14 mean=prop_binHToTB_bin14_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin15_Pdf[ x=prop_binHToTB_bin15 mean=prop_binHToTB_bin15_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin16_Pdf[ x=prop_binHToTB_bin16 mean=prop_binHToTB_bin16_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin17_Pdf[ x=prop_binHToTB_bin17 mean=prop_binHToTB_bin17_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin18_Pdf[ x=prop_binHToTB_bin18 mean=prop_binHToTB_bin18_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin19_Pdf[ x=prop_binHToTB_bin19 mean=prop_binHToTB_bin19_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin20_Pdf[ x=prop_binHToTB_bin20 mean=prop_binHToTB_bin20_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin21_Pdf[ x=prop_binHToTB_bin21 mean=prop_binHToTB_bin21_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin22_Pdf[ x=prop_binHToTB_bin22 mean=prop_binHToTB_bin22_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin23_tEWttX_Pdf[ x=prop_binHToTB_bin23_tEWttX mean=prop_binHToTB_bin23_tEWttX_In sigma=1 ] = 1
+      SimpleGaussianConstraint::prop_binHToTB_bin23_FakeB_Pdf[ x=prop_binHToTB_bin23_FakeB mean=prop_binHToTB_bin23_FakeB_In sigma=1 ] = 1
+
+functions
+--------
+CMSHistFuncWrapper::shapeBkg_FakeB_HToTB_rebinPdf_wrapper[ x=CMS_th1x func=shapeBkg_FakeB_HToTB_rebinPdf err=prop_binHToTB ] = 1e-09
+  CMSHistFunc::shapeBkg_FakeB_HToTB_rebinPdf[ x=CMS_th1x vmorphs=() hmorphs=() ] = 1e-09
+  CMSHistErrorPropagator::prop_binHToTB[ x=CMS_th1x funcs=(shapeSig_Hp500_HToTB_rebinPdf,shapeBkg_TT_HToTB_rebinPdf,shapeBkg_tEWttX_HToTB_rebinPdf,shapeBkg_FakeB_HToTB_rebinPdf) coeffs=(n_exp_binHToTB_proc_Hp500,n_exp_binHToTB_proc_TT,n_exp_binHToTB_proc_tEWttX,n_exp_binHToTB_proc_FakeB) binpars=(prop_binHToTB_bin0,prop_binHToTB_bin1,prop_binHToTB_bin2,prop_binHToTB_bin3,prop_binHToTB_bin4,prop_binHToTB_bin5,prop_binHToTB_bin6,prop_binHToTB_bin7,prop_binHToTB_bin8,prop_binHToTB_bin9,prop_binHToTB_bin10,prop_binHToTB_bin11,prop_binHToTB_bin12,prop_binHToTB_bin13,prop_binHToTB_bin14,prop_binHToTB_bin15,prop_binHToTB_bin16,prop_binHToTB_bin17,prop_binHToTB_bin18,prop_binHToTB_bin19,prop_binHToTB_bin20,prop_binHToTB_bin21,prop_binHToTB_bin22,prop_binHToTB_bin23_tEWttX,prop_binHToTB_bin23_FakeB) ] = 8.27073e-05
+    CMSHistFunc::shapeSig_Hp500_HToTB_rebinPdf[ x=CMS_th1x vmorphs=() hmorphs=() ] = 1e-09
+    CMSHistFunc::shapeBkg_TT_HToTB_rebinPdf[ x=CMS_th1x vmorphs=() hmorphs=() ] = 1e-09
+    CMSHistFunc::shapeBkg_tEWttX_HToTB_rebinPdf[ x=CMS_th1x vmorphs=() hmorphs=() ] = 8.27043e-05
+    CMSHistFunc::shapeBkg_FakeB_HToTB_rebinPdf[ x=CMS_th1x vmorphs=() hmorphs=() ] = 1e-09
+    ProcessNormalization::n_exp_binHToTB_proc_Hp500[ thetaList=() asymmThetaList=() otherFactorList=(r) ] = 1
+CMSHistFuncWrapper::shapeBkg_TT_HToTB_rebinPdf_wrapper[ x=CMS_th1x func=shapeBkg_TT_HToTB_rebinPdf err=prop_binHToTB ] = 1e-09
+  CMSHistFunc::shapeBkg_TT_HToTB_rebinPdf[ x=CMS_th1x vmorphs=() hmorphs=() ] = 1e-09
+  CMSHistErrorPropagator::prop_binHToTB[ x=CMS_th1x funcs=(shapeSig_Hp500_HToTB_rebinPdf,shapeBkg_TT_HToTB_rebinPdf,shapeBkg_tEWttX_HToTB_rebinPdf,shapeBkg_FakeB_HToTB_rebinPdf) coeffs=(n_exp_binHToTB_proc_Hp500,n_exp_binHToTB_proc_TT,n_exp_binHToTB_proc_tEWttX,n_exp_binHToTB_proc_FakeB) binpars=(prop_binHToTB_bin0,prop_binHToTB_bin1,prop_binHToTB_bin2,prop_binHToTB_bin3,prop_binHToTB_bin4,prop_binHToTB_bin5,prop_binHToTB_bin6,prop_binHToTB_bin7,prop_binHToTB_bin8,prop_binHToTB_bin9,prop_binHToTB_bin10,prop_binHToTB_bin11,prop_binHToTB_bin12,prop_binHToTB_bin13,prop_binHToTB_bin14,prop_binHToTB_bin15,prop_binHToTB_bin16,prop_binHToTB_bin17,prop_binHToTB_bin18,prop_binHToTB_bin19,prop_binHToTB_bin20,prop_binHToTB_bin21,prop_binHToTB_bin22,prop_binHToTB_bin23_tEWttX,prop_binHToTB_bin23_FakeB) ] = 8.27073e-05
+    CMSHistFunc::shapeSig_Hp500_HToTB_rebinPdf[ x=CMS_th1x vmorphs=() hmorphs=() ] = 1e-09
+    CMSHistFunc::shapeBkg_TT_HToTB_rebinPdf[ x=CMS_th1x vmorphs=() hmorphs=() ] = 1e-09
+    CMSHistFunc::shapeBkg_tEWttX_HToTB_rebinPdf[ x=CMS_th1x vmorphs=() hmorphs=() ] = 8.27043e-05
+    CMSHistFunc::shapeBkg_FakeB_HToTB_rebinPdf[ x=CMS_th1x vmorphs=() hmorphs=() ] = 1e-09
+    ProcessNormalization::n_exp_binHToTB_proc_Hp500[ thetaList=() asymmThetaList=() otherFactorList=(r) ] = 1
+CMSHistFuncWrapper::shapeBkg_tEWttX_HToTB_rebinPdf_wrapper[ x=CMS_th1x func=shapeBkg_tEWttX_HToTB_rebinPdf err=prop_binHToTB ] = 8.27043e-05
+  CMSHistFunc::shapeBkg_tEWttX_HToTB_rebinPdf[ x=CMS_th1x vmorphs=() hmorphs=() ] = 8.27043e-05
+  CMSHistErrorPropagator::prop_binHToTB[ x=CMS_th1x funcs=(shapeSig_Hp500_HToTB_rebinPdf,shapeBkg_TT_HToTB_rebinPdf,shapeBkg_tEWttX_HToTB_rebinPdf,shapeBkg_FakeB_HToTB_rebinPdf) coeffs=(n_exp_binHToTB_proc_Hp500,n_exp_binHToTB_proc_TT,n_exp_binHToTB_proc_tEWttX,n_exp_binHToTB_proc_FakeB) binpars=(prop_binHToTB_bin0,prop_binHToTB_bin1,prop_binHToTB_bin2,prop_binHToTB_bin3,prop_binHToTB_bin4,prop_binHToTB_bin5,prop_binHToTB_bin6,prop_binHToTB_bin7,prop_binHToTB_bin8,prop_binHToTB_bin9,prop_binHToTB_bin10,prop_binHToTB_bin11,prop_binHToTB_bin12,prop_binHToTB_bin13,prop_binHToTB_bin14,prop_binHToTB_bin15,prop_binHToTB_bin16,prop_binHToTB_bin17,prop_binHToTB_bin18,prop_binHToTB_bin19,prop_binHToTB_bin20,prop_binHToTB_bin21,prop_binHToTB_bin22,prop_binHToTB_bin23_tEWttX,prop_binHToTB_bin23_FakeB) ] = 8.27073e-05
+    CMSHistFunc::shapeSig_Hp500_HToTB_rebinPdf[ x=CMS_th1x vmorphs=() hmorphs=() ] = 1e-09
+    CMSHistFunc::shapeBkg_TT_HToTB_rebinPdf[ x=CMS_th1x vmorphs=() hmorphs=() ] = 1e-09
+    CMSHistFunc::shapeBkg_tEWttX_HToTB_rebinPdf[ x=CMS_th1x vmorphs=() hmorphs=() ] = 8.27043e-05
+    CMSHistFunc::shapeBkg_FakeB_HToTB_rebinPdf[ x=CMS_th1x vmorphs=() hmorphs=() ] = 1e-09
+    ProcessNormalization::n_exp_binHToTB_proc_Hp500[ thetaList=() asymmThetaList=() otherFactorList=(r) ] = 1
+CMSHistFuncWrapper::shapeSig_Hp500_HToTB_rebinPdf_wrapper[ x=CMS_th1x func=shapeSig_Hp500_HToTB_rebinPdf err=prop_binHToTB ] = 1e-09
+  CMSHistFunc::shapeSig_Hp500_HToTB_rebinPdf[ x=CMS_th1x vmorphs=() hmorphs=() ] = 1e-09
+  CMSHistErrorPropagator::prop_binHToTB[ x=CMS_th1x funcs=(shapeSig_Hp500_HToTB_rebinPdf,shapeBkg_TT_HToTB_rebinPdf,shapeBkg_tEWttX_HToTB_rebinPdf,shapeBkg_FakeB_HToTB_rebinPdf) coeffs=(n_exp_binHToTB_proc_Hp500,n_exp_binHToTB_proc_TT,n_exp_binHToTB_proc_tEWttX,n_exp_binHToTB_proc_FakeB) binpars=(prop_binHToTB_bin0,prop_binHToTB_bin1,prop_binHToTB_bin2,prop_binHToTB_bin3,prop_binHToTB_bin4,prop_binHToTB_bin5,prop_binHToTB_bin6,prop_binHToTB_bin7,prop_binHToTB_bin8,prop_binHToTB_bin9,prop_binHToTB_bin10,prop_binHToTB_bin11,prop_binHToTB_bin12,prop_binHToTB_bin13,prop_binHToTB_bin14,prop_binHToTB_bin15,prop_binHToTB_bin16,prop_binHToTB_bin17,prop_binHToTB_bin18,prop_binHToTB_bin19,prop_binHToTB_bin20,prop_binHToTB_bin21,prop_binHToTB_bin22,prop_binHToTB_bin23_tEWttX,prop_binHToTB_bin23_FakeB) ] = 8.27073e-05
+    CMSHistFunc::shapeSig_Hp500_HToTB_rebinPdf[ x=CMS_th1x vmorphs=() hmorphs=() ] = 1e-09
+    CMSHistFunc::shapeBkg_TT_HToTB_rebinPdf[ x=CMS_th1x vmorphs=() hmorphs=() ] = 1e-09
+    CMSHistFunc::shapeBkg_tEWttX_HToTB_rebinPdf[ x=CMS_th1x vmorphs=() hmorphs=() ] = 8.27043e-05
+    CMSHistFunc::shapeBkg_FakeB_HToTB_rebinPdf[ x=CMS_th1x vmorphs=() hmorphs=() ] = 1e-09
+    ProcessNormalization::n_exp_binHToTB_proc_Hp500[ thetaList=() asymmThetaList=() otherFactorList=(r) ] = 1
+
+datasets
+--------
+RooDataSet::data_obs(CMS_th1x,CMS_channel)
+
+named sets
+----------
+ModelConfig_GlobalObservables:(prop_binHToTB_bin0_In,prop_binHToTB_bin1_In,prop_binHToTB_bin2_In,prop_binHToTB_bin3_In,prop_binHToTB_bin4_In,prop_binHToTB_bin5_In,prop_binHToTB_bin6_In,prop_binHToTB_bin7_In,prop_binHToTB_bin8_In,prop_binHToTB_bin9_In,prop_binHToTB_bin10_In,prop_binHToTB_bin11_In,prop_binHToTB_bin12_In,prop_binHToTB_bin13_In,prop_binHToTB_bin14_In,prop_binHToTB_bin15_In,prop_binHToTB_bin16_In,prop_binHToTB_bin17_In,prop_binHToTB_bin18_In,prop_binHToTB_bin19_In,prop_binHToTB_bin20_In,prop_binHToTB_bin21_In,prop_binHToTB_bin22_In,prop_binHToTB_bin23_tEWttX_In,prop_binHToTB_bin23_FakeB_In)
+ModelConfig_NuisParams:(prop_binHToTB_bin0,prop_binHToTB_bin1,prop_binHToTB_bin2,prop_binHToTB_bin3,prop_binHToTB_bin4,prop_binHToTB_bin5,prop_binHToTB_bin6,prop_binHToTB_bin7,prop_binHToTB_bin8,prop_binHToTB_bin9,prop_binHToTB_bin10,prop_binHToTB_bin11,prop_binHToTB_bin12,prop_binHToTB_bin13,prop_binHToTB_bin14,prop_binHToTB_bin15,prop_binHToTB_bin16,prop_binHToTB_bin17,prop_binHToTB_bin18,prop_binHToTB_bin19,prop_binHToTB_bin20,prop_binHToTB_bin21,prop_binHToTB_bin22,prop_binHToTB_bin23_tEWttX,prop_binHToTB_bin23_FakeB)
+ModelConfig_Observables:(CMS_th1x,CMS_channel)
+ModelConfig_POI:(r)
+ModelConfig_bonly_GlobalObservables:(prop_binHToTB_bin0_In,prop_binHToTB_bin1_In,prop_binHToTB_bin2_In,prop_binHToTB_bin3_In,prop_binHToTB_bin4_In,prop_binHToTB_bin5_In,prop_binHToTB_bin6_In,prop_binHToTB_bin7_In,prop_binHToTB_bin8_In,prop_binHToTB_bin9_In,prop_binHToTB_bin10_In,prop_binHToTB_bin11_In,prop_binHToTB_bin12_In,prop_binHToTB_bin13_In,prop_binHToTB_bin14_In,prop_binHToTB_bin15_In,prop_binHToTB_bin16_In,prop_binHToTB_bin17_In,prop_binHToTB_bin18_In,prop_binHToTB_bin19_In,prop_binHToTB_bin20_In,prop_binHToTB_bin21_In,prop_binHToTB_bin22_In,prop_binHToTB_bin23_tEWttX_In,prop_binHToTB_bin23_FakeB_In)
+ModelConfig_bonly_NuisParams:(prop_binHToTB_bin0,prop_binHToTB_bin1,prop_binHToTB_bin2,prop_binHToTB_bin3,prop_binHToTB_bin4,prop_binHToTB_bin5,prop_binHToTB_bin6,prop_binHToTB_bin7,prop_binHToTB_bin8,prop_binHToTB_bin9,prop_binHToTB_bin10,prop_binHToTB_bin11,prop_binHToTB_bin12,prop_binHToTB_bin13,prop_binHToTB_bin14,prop_binHToTB_bin15,prop_binHToTB_bin16,prop_binHToTB_bin17,prop_binHToTB_bin18,prop_binHToTB_bin19,prop_binHToTB_bin20,prop_binHToTB_bin21,prop_binHToTB_bin22,prop_binHToTB_bin23_tEWttX,prop_binHToTB_bin23_FakeB)
+ModelConfig_bonly_Observables:(CMS_th1x,CMS_channel)
+ModelConfig_bonly_POI:(r)
+POI:(r)
+group_autoMCStats:(prop_binHToTB_bin0,prop_binHToTB_bin1,prop_binHToTB_bin2,prop_binHToTB_bin3,prop_binHToTB_bin4,prop_binHToTB_bin5,prop_binHToTB_bin6,prop_binHToTB_bin7,prop_binHToTB_bin8,prop_binHToTB_bin9,prop_binHToTB_bin10,prop_binHToTB_bin11,prop_binHToTB_bin12,prop_binHToTB_bin13,prop_binHToTB_bin14,prop_binHToTB_bin15,prop_binHToTB_bin16,prop_binHToTB_bin17,prop_binHToTB_bin18,prop_binHToTB_bin19,prop_binHToTB_bin20,prop_binHToTB_bin21,prop_binHToTB_bin22,prop_binHToTB_bin23_tEWttX,prop_binHToTB_bin23_FakeB)
+observables:(CMS_th1x,CMS_channel)
+
+generic objects
+---------------
+RooStats::ModelConfig::ModelConfig
+RooStats::ModelConfig::ModelConfig_bonly
+RooArgSet::discreteParams
+
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing RooUniform::prior
+Saving snapshot 'clean'
+Saved snapshot 'clean'
+  ToyMCSampleOpt  -- Generating Asimov with histogram for pdf pdf_binHToTB_obsOnly: in 24 x-bins 
+SimNLL created with 1 channels, 0 generic constraints, 25 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+Minuit2Minimizer: Minimize with max-calls 1500 convergence for edm < 1 strategy 0
+Minuit2Minimizer::Minuit  - Changing default options
+             StorageLevel :               0
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -0.0377555039192057212
+Edm   = 6.23725806175724453e-05
+Nfcn  = 30
+prop_binHToTB_bin23_FakeB	  = 0.000504138	 +/-  0.029004	(limited)
+prop_binHToTB_bin23_tEWttX	  = 5.87339e-10	 +/-  0.996553	(limited)
+r	  = 0.0092208	 +/-  1.0337	(limited)
+Fit to asimov dataset:
+
+  RooFitResult: minimized FCN value: -0.0377555, estimated distance to minimum: 6.23726e-05
+                covariance matrix quality: Approximation only, not accurate
+                Status : MINIMIZE=0 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+                   ONE    1.0000e+00
+  n_exp_binHToTB_proc_FakeB    1.0000e+00
+  n_exp_binHToTB_proc_TT    1.0000e+00
+  n_exp_binHToTB_proc_tEWttX    1.0000e+00
+    prop_binHToTB_bin0   -4.4991e-08
+  prop_binHToTB_bin0_In    0.0000e+00
+    prop_binHToTB_bin1   -2.0462e-04
+   prop_binHToTB_bin10   -1.5966e-03
+  prop_binHToTB_bin10_In    0.0000e+00
+   prop_binHToTB_bin11   -1.5513e-03
+  prop_binHToTB_bin11_In    0.0000e+00
+   prop_binHToTB_bin12   -1.6986e-03
+  prop_binHToTB_bin12_In    0.0000e+00
+   prop_binHToTB_bin13   -1.9867e-03
+  prop_binHToTB_bin13_In    0.0000e+00
+   prop_binHToTB_bin14   -1.9095e-03
+  prop_binHToTB_bin14_In    0.0000e+00
+   prop_binHToTB_bin15   -1.9989e-03
+  prop_binHToTB_bin15_In    0.0000e+00
+   prop_binHToTB_bin16   -2.9521e-03
+  prop_binHToTB_bin16_In    0.0000e+00
+   prop_binHToTB_bin17   -3.1551e-03
+  prop_binHToTB_bin17_In    0.0000e+00
+   prop_binHToTB_bin18   -3.3789e-03
+  prop_binHToTB_bin18_In    0.0000e+00
+   prop_binHToTB_bin19   -3.4813e-03
+  prop_binHToTB_bin19_In    0.0000e+00
+  prop_binHToTB_bin1_In    0.0000e+00
+    prop_binHToTB_bin2   -3.6469e-04
+   prop_binHToTB_bin20   -2.4067e-03
+  prop_binHToTB_bin20_In    0.0000e+00
+   prop_binHToTB_bin21   -1.0019e-03
+  prop_binHToTB_bin21_In    0.0000e+00
+   prop_binHToTB_bin22   -1.2901e-08
+  prop_binHToTB_bin22_In    0.0000e+00
+  prop_binHToTB_bin23_FakeB_In    0.0000e+00
+  prop_binHToTB_bin23_tEWttX_In    0.0000e+00
+  prop_binHToTB_bin2_In    0.0000e+00
+    prop_binHToTB_bin3   -4.7648e-04
+  prop_binHToTB_bin3_In    0.0000e+00
+    prop_binHToTB_bin4   -6.5255e-04
+  prop_binHToTB_bin4_In    0.0000e+00
+    prop_binHToTB_bin5   -7.9451e-04
+  prop_binHToTB_bin5_In    0.0000e+00
+    prop_binHToTB_bin6   -1.0878e-03
+  prop_binHToTB_bin6_In    0.0000e+00
+    prop_binHToTB_bin7   -9.4583e-04
+  prop_binHToTB_bin7_In    0.0000e+00
+    prop_binHToTB_bin8   -9.5596e-04
+  prop_binHToTB_bin8_In    0.0000e+00
+    prop_binHToTB_bin9   -1.1690e-03
+  prop_binHToTB_bin9_In    0.0000e+00
+
+    Floating Parameter  InitialValue    FinalValue +/-  Error     GblCorr.
+  --------------------  ------------  --------------------------  --------
+  prop_binHToTB_bin23_FakeB    0.0000e+00    5.0414e-04 +/-  2.90e-02  <none>
+  prop_binHToTB_bin23_tEWttX    0.0000e+00    5.8734e-10 +/-  9.97e-01  <none>
+                     r    2.0000e-01    9.2208e-03 +/-  1.03e+00  <none>
+
+Will search for NLL crossing by stepping.
+Minuit2Minimizer: Minimize with max-calls 1000 convergence for edm < 1 strategy 0
+Minuit2Minimizer::Minuit  - Changing default options
+             StorageLevel :               0
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -0.00013596845181812188
+Edm   = 1.1524847929280555e-05
+Nfcn  = 17
+prop_binHToTB_bin23_FakeB	  = -1.89986e-05	 +/-  0.0343917	(limited)
+prop_binHToTB_bin23_tEWttX	  = -1.60537e-05	 +/-  0.996602	(limited)
+At r = 1.000000:	delta(nll) = 0.94091
+Minuit2Minimizer: Minimize with max-calls 1000 convergence for edm < 1 strategy 0
+Minuit2Minimizer::Minuit  - Changing default options
+             StorageLevel :               0
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -5.91483520682151959e-07
+Edm   = 6.19499804366370103e-11
+Nfcn  = 15
+prop_binHToTB_bin23_FakeB	  = 5.72531e-08	 +/-  0.0158927	(limited)
+prop_binHToTB_bin23_tEWttX	  = 1.07312e-05	 +/-  0.996346	(limited)
+At r = 1.500000:	delta(nll) = 2.10289
+Minuit2Minimizer: Minimize with max-calls 1000 convergence for edm < 1 strategy 0
+Minuit2Minimizer::Minuit  - Changing default options
+             StorageLevel :               0
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = 0
+Edm   = 3.62310653903088544e-10
+Nfcn  = 17
+prop_binHToTB_bin23_FakeB	  = 5.72531e-08	 +/-  0.0181503	(limited)
+prop_binHToTB_bin23_tEWttX	  = 1.07312e-05	 +/-  0.996554	(limited)
+At r = 1.250000:	delta(nll) = 1.46547
+Minuit2Minimizer: Minimize with max-calls 1000 convergence for edm < 1 strategy 0
+Minuit2Minimizer::Minuit  - Changing default options
+             StorageLevel :               0
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = 0
+Edm   = 6.09714646740592394e-10
+Nfcn  = 17
+prop_binHToTB_bin23_FakeB	  = 5.72531e-08	 +/-  0.0181375	(limited)
+prop_binHToTB_bin23_tEWttX	  = 1.07312e-05	 +/-  0.996561	(limited)
+At r = 1.500000:	delta(nll) = 2.10289
+Minuit2Minimizer: Minimize with max-calls 1000 convergence for edm < 1 strategy 0
+Minuit2Minimizer::Minuit  - Changing default options
+             StorageLevel :               0
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = 0
+Edm   = 6.08431329742385834e-10
+Nfcn  = 17
+prop_binHToTB_bin23_FakeB	  = 5.72531e-08	 +/-  0.0181376	(limited)
+prop_binHToTB_bin23_tEWttX	  = 1.07312e-05	 +/-  0.996567	(limited)
+At r = 1.375000:	delta(nll) = 1.77018
+Minuit2Minimizer: Minimize with max-calls 1000 convergence for edm < 1 strategy 0
+Minuit2Minimizer::Minuit  - Changing default options
+             StorageLevel :               0
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = 0
+Edm   = 6.08091192466342025e-10
+Nfcn  = 17
+prop_binHToTB_bin23_FakeB	  = 5.72531e-08	 +/-  0.0181376	(limited)
+prop_binHToTB_bin23_tEWttX	  = 1.07312e-05	 +/-  0.996563	(limited)
+At r = 1.500000:	delta(nll) = 2.10289
+Minuit2Minimizer: Minimize with max-calls 1000 convergence for edm < 1 strategy 0
+Minuit2Minimizer::Minuit  - Changing default options
+             StorageLevel :               0
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = 0
+Edm   = 6.08325596944742492e-10
+Nfcn  = 17
+prop_binHToTB_bin23_FakeB	  = 5.72531e-08	 +/-  0.0181377	(limited)
+prop_binHToTB_bin23_tEWttX	  = 1.07312e-05	 +/-  0.996568	(limited)
+At r = 1.437500:	delta(nll) = 1.93305
+Median for expected limits: 1.4375
+Sigma  for expected limits: 0.733432
+Will search for NLL crossing by bisection
+Minuit2Minimizer: Minimize with max-calls 1000 convergence for edm < 1 strategy 0
+Minuit2Minimizer::Minuit  - Changing default options
+             StorageLevel :               0
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = 0
+Edm   = 6.10750042948559799e-10
+Nfcn  = 17
+prop_binHToTB_bin23_FakeB	  = 5.72531e-08	 +/-  0.0181373	(limited)
+prop_binHToTB_bin23_tEWttX	  = 1.07312e-05	 +/-  0.996556	(limited)
+At r = 0.718750:	delta(nll) = 0.48761
+Minuit2Minimizer: Minimize with max-calls 1000 convergence for edm < 1 strategy 0
+Minuit2Minimizer::Minuit  - Changing default options
+             StorageLevel :               0
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = 0
+Edm   = 6.09486659466904472e-10
+Nfcn  = 17
+prop_binHToTB_bin23_FakeB	  = 5.72531e-08	 +/-  0.0181374	(limited)
+prop_binHToTB_bin23_tEWttX	  = 1.07312e-05	 +/-  0.996554	(limited)
+At r = 1.078125:	delta(nll) = 1.09262
+Minuit2Minimizer: Minimize with max-calls 1000 convergence for edm < 1 strategy 0
+Minuit2Minimizer::Minuit  - Changing default options
+             StorageLevel :               0
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = 0
+Edm   = 6.10213804122941118e-10
+Nfcn  = 20
+prop_binHToTB_bin23_FakeB	  = 5.72531e-08	 +/-  0.0181373	(limited)
+prop_binHToTB_bin23_tEWttX	  = 1.07312e-05	 +/-  0.996554	(limited)
+At r = 0.898438:	delta(nll) = 0.76041
+Minuit2Minimizer: Minimize with max-calls 1000 convergence for edm < 1 strategy 0
+Minuit2Minimizer::Minuit  - Changing default options
+             StorageLevel :               0
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = 0
+Edm   = 6.10581460735836572e-10
+Nfcn  = 17
+prop_binHToTB_bin23_FakeB	  = 5.72531e-08	 +/-  0.0181373	(limited)
+prop_binHToTB_bin23_tEWttX	  = 1.07312e-05	 +/-  0.996557	(limited)
+At r = 0.808594:	delta(nll) = 0.61655
+Minuit2Minimizer: Minimize with max-calls 1000 convergence for edm < 1 strategy 0
+Minuit2Minimizer::Minuit  - Changing default options
+             StorageLevel :               0
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = 0
+Edm   = 6.10721467248548994e-10
+Nfcn  = 17
+prop_binHToTB_bin23_FakeB	  = 5.72531e-08	 +/-  0.0181373	(limited)
+prop_binHToTB_bin23_tEWttX	  = 1.07312e-05	 +/-  0.996564	(limited)
+At r = 0.763672:	delta(nll) = 0.55022
+Will search for NLL crossing by bisection
+Minuit2Minimizer: Minimize with max-calls 1000 convergence for edm < 1 strategy 0
+Minuit2Minimizer::Minuit  - Changing default options
+             StorageLevel :               0
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = 0
+Edm   = 6.09591104642706905e-10
+Nfcn  = 20
+prop_binHToTB_bin23_FakeB	  = 5.72531e-08	 +/-  0.0181375	(limited)
+prop_binHToTB_bin23_tEWttX	  = 1.07312e-05	 +/-  0.996561	(limited)
+At r = 1.100586:	delta(nll) = 1.13829
+Minuit2Minimizer: Minimize with max-calls 1000 convergence for edm < 1 strategy 0
+Minuit2Minimizer::Minuit  - Changing default options
+             StorageLevel :               0
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = 0
+Edm   = 6.10024616169903989e-10
+Nfcn  = 20
+prop_binHToTB_bin23_FakeB	  = 5.72531e-08	 +/-  0.0181375	(limited)
+prop_binHToTB_bin23_tEWttX	  = 1.07312e-05	 +/-  0.996561	(limited)
+At r = 0.932129:	delta(nll) = 0.81819
+Minuit2Minimizer: Minimize with max-calls 1000 convergence for edm < 1 strategy 0
+Minuit2Minimizer::Minuit  - Changing default options
+             StorageLevel :               0
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = 0
+Edm   = 6.09806375900481914e-10
+Nfcn  = 17
+prop_binHToTB_bin23_FakeB	  = 5.72531e-08	 +/-  0.0181374	(limited)
+prop_binHToTB_bin23_tEWttX	  = 1.07312e-05	 +/-  0.996566	(limited)
+At r = 1.016357:	delta(nll) = 0.97175
+Will search for NLL crossing by bisection
+Minuit2Minimizer: Minimize with max-calls 1000 convergence for edm < 1 strategy 0
+Minuit2Minimizer::Minuit  - Changing default options
+             StorageLevel :               0
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = 0
+Edm   = 6.05636982959727586e-10
+Nfcn  = 17
+prop_binHToTB_bin23_FakeB	  = 5.72531e-08	 +/-  0.0181377	(limited)
+prop_binHToTB_bin23_tEWttX	  = 1.07312e-05	 +/-  0.996569	(limited)
+At r = 2.170932:	delta(nll) = 4.35775
+Minuit2Minimizer: Minimize with max-calls 1000 convergence for edm < 1 strategy 0
+Minuit2Minimizer::Minuit  - Changing default options
+             StorageLevel :               0
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = 0
+Edm   = 6.06926127715667656e-10
+Nfcn  = 17
+prop_binHToTB_bin23_FakeB	  = 5.72531e-08	 +/-  0.0181376	(limited)
+prop_binHToTB_bin23_tEWttX	  = 1.07312e-05	 +/-  0.99656	(limited)
+At r = 1.804216:	delta(nll) = 3.02829
+Minuit2Minimizer: Minimize with max-calls 1000 convergence for edm < 1 strategy 0
+Minuit2Minimizer::Minuit  - Changing default options
+             StorageLevel :               0
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = 0
+Edm   = 6.06349380949148403e-10
+Nfcn  = 17
+prop_binHToTB_bin23_FakeB	  = 5.72531e-08	 +/-  0.0181375	(limited)
+prop_binHToTB_bin23_tEWttX	  = 1.07312e-05	 +/-  0.996555	(limited)
+At r = 1.987574:	delta(nll) = 3.66413
+Will search for NLL crossing by bisection
+Minuit2Minimizer: Minimize with max-calls 1000 convergence for edm < 1 strategy 0
+Minuit2Minimizer::Minuit  - Changing default options
+             StorageLevel :               0
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = 0
+Edm   = 6.01774305097020871e-10
+Nfcn  = 17
+prop_binHToTB_bin23_FakeB	  = 5.72531e-08	 +/-  0.018138	(limited)
+prop_binHToTB_bin23_tEWttX	  = 1.07312e-05	 +/-  0.996554	(limited)
+At r = 3.179401:	delta(nll) = 9.16679
+Minuit2Minimizer: Minimize with max-calls 1000 convergence for edm < 1 strategy 0
+Minuit2Minimizer::Minuit  - Changing default options
+             StorageLevel :               0
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = 0
+Edm   = 6.04114738112282456e-10
+Nfcn  = 17
+prop_binHToTB_bin23_FakeB	  = 5.72531e-08	 +/-  0.0181377	(limited)
+prop_binHToTB_bin23_tEWttX	  = 1.07312e-05	 +/-  0.996554	(limited)
+At r = 2.583487:	delta(nll) = 6.12529
+Minuit2Minimizer: Minimize with max-calls 1000 convergence for edm < 1 strategy 0
+Minuit2Minimizer::Minuit  - Changing default options
+             StorageLevel :               0
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = 0
+Edm   = 6.02893994298639954e-10
+Nfcn  = 20
+prop_binHToTB_bin23_FakeB	  = 5.72531e-08	 +/-  0.0181379	(limited)
+prop_binHToTB_bin23_tEWttX	  = 1.07312e-05	 +/-  0.996559	(limited)
+At r = 2.881444:	delta(nll) = 7.57548
+Minuit2Minimizer: Minimize with max-calls 1000 convergence for edm < 1 strategy 0
+Minuit2Minimizer::Minuit  - Changing default options
+             StorageLevel :               0
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = 0
+Edm   = 6.03559464480260839e-10
+Nfcn  = 20
+prop_binHToTB_bin23_FakeB	  = 5.72531e-08	 +/-  0.0181378	(limited)
+prop_binHToTB_bin23_tEWttX	  = 1.07312e-05	 +/-  0.996561	(limited)
+At r = 2.732466:	delta(nll) = 6.83249
+Minuit2Minimizer: Minimize with max-calls 1000 convergence for edm < 1 strategy 0
+Minuit2Minimizer::Minuit  - Changing default options
+             StorageLevel :               0
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = 0
+Edm   = 6.03743784589917283e-10
+Nfcn  = 17
+prop_binHToTB_bin23_FakeB	  = 5.72531e-08	 +/-  0.0181377	(limited)
+prop_binHToTB_bin23_tEWttX	  = 1.07312e-05	 +/-  0.99656	(limited)
+At r = 2.657976:	delta(nll) = 6.47438
+Minuit2Minimizer: Minimize with max-calls 1000 convergence for edm < 1 strategy 0
+Minuit2Minimizer::Minuit  - Changing default options
+             StorageLevel :               0
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = 0
+Edm   = 6.03814488273416757e-10
+Nfcn  = 20
+prop_binHToTB_bin23_FakeB	  = 5.72531e-08	 +/-  0.0181379	(limited)
+prop_binHToTB_bin23_tEWttX	  = 1.07312e-05	 +/-  0.99656	(limited)
+At r = 2.695221:	delta(nll) = 6.65231
+Minuit2Minimizer: Minimize with max-calls 1000 convergence for edm < 1 strategy 0
+Minuit2Minimizer::Minuit  - Changing default options
+             StorageLevel :               0
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = 0
+Edm   = 6.03646379637966603e-10
+Nfcn  = 17
+prop_binHToTB_bin23_FakeB	  = 5.72531e-08	 +/-  0.0181379	(limited)
+prop_binHToTB_bin23_tEWttX	  = 1.07312e-05	 +/-  0.996564	(limited)
+At r = 2.676599:	delta(nll) = 6.56307
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 0.7637
+Expected 16.0%: r < 1.0164
+Expected 50.0%: r < 1.4375
+Expected 84.0%: r < 1.9876
+Expected 97.5%: r < 2.6766
+
+Done in 0.00 min (cpu), 0.00 min (real)
+Printing Message Summary From ... combine_logger.out
+----------------------------------------------
+Messages of type INFO : 139
+Messages of type DEBUG : 0
+Messages of type ERROR : 0
+----------------------------------------------
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 23 -- Parameters after fit for asimov dataset
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_channel = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- CMS_th1x = 23.5 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- ONE = 1 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- n_exp_binHToTB_proc_FakeB = 1 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- n_exp_binHToTB_proc_TT = 1 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- n_exp_binHToTB_proc_tEWttX = 1 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin0 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin0_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin1 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin10 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin10_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin11 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin11_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin12 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin12_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin13 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin13_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin14 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin14_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin15 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin15_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin16 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin16_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin17 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin17_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin18 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin18_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin19 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin19_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin1_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin2 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin20 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin20_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin21 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin21_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin22 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin22_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin23_FakeB = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin23_FakeB_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin23_tEWttX = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin23_tEWttX_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin2_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin3 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin3_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin4 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin4_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin5 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin5_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin6 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin6_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin7 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin7_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin8 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin8_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin9 = 0 
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- prop_binHToTB_bin9_In = 0 (constant)
+INFO: (function: asimovDatasetNominal) AsimovUtils.cc: 27 -- r = 0 (constant)
+INFO: (function: generateAsimov) ToyMCSamplerOpt.cc: 139 -- Using internal logic for binned/unbinned Asimov dataset generation
+INFO: (function: generateWithHisto) ToyMCSamplerOpt.cc: 214 -- Generating asimov with histogram for pdf pdf_binHToTB_obsOnly: in 24 x-bins
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: runLimitExpected) AsymptoticLimits.cc: 436 -- Median for expected limits = 1.4375 (Sigma for expected limits = 0.733432)
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 188 -- Minimisation configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=1
+INFO: (function: improveOnce) CascadeMinimizer.cc: 211 -- Minimisation finished with status=0
+INFO: (function: improveOnce) CascadeMinimizer.cc: 216 -- Minimization success! status=0

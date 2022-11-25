@@ -4,20 +4,20 @@
 \beamer@subsectionintoc {1}{2}{production $\&$ decay}{3}{0}{1}
 \beamer@subsectionintoc {1}{3}{final state}{4}{0}{1}
 \beamer@subsectionintoc {1}{4}{topology}{5}{0}{1}
-\beamer@sectionintoc {2}{Previous results}{6}{0}{2}
-\beamer@subsectionintoc {2}{1}{review}{6}{0}{2}
-\beamer@sectionintoc {3}{This work}{9}{0}{3}
-\beamer@subsectionintoc {3}{1}{strategy}{9}{0}{3}
-\beamer@sectionintoc {5}{Strategy}{11}{0}{4}
-\beamer@sectionintoc {6}{Top tagging}{12}{0}{5}
-\beamer@sectionintoc {7}{Background}{13}{0}{6}
-\beamer@subsectionintoc {7}{1}{Validation}{14}{0}{6}
-\beamer@sectionintoc {8}{Signal extraction}{15}{0}{7}
-\beamer@subsectionintoc {8}{1}{Parameterized DNN}{16}{0}{7}
-\beamer@sectionintoc {9}{Signal region}{17}{0}{8}
-\beamer@subsectionintoc {9}{1}{Limits}{18}{0}{8}
-\beamer@sectionintoc {11}{Strategy}{20}{0}{9}
-\beamer@sectionintoc {12}{Top tagging}{21}{0}{10}
-\beamer@sectionintoc {13}{Background}{22}{0}{11}
-\beamer@sectionintoc {15}{Summary}{24}{0}{12}
-\beamer@sectionintoc {16}{Future work}{25}{0}{13}
+\beamer@sectionintoc {3}{Previous results}{7}{0}{2}
+\beamer@subsectionintoc {3}{1}{review}{7}{0}{2}
+\beamer@sectionintoc {4}{This work}{10}{0}{3}
+\beamer@subsectionintoc {4}{1}{strategy}{10}{0}{3}
+\beamer@sectionintoc {6}{Strategy}{12}{0}{4}
+\beamer@sectionintoc {7}{Top tagging}{13}{0}{5}
+\beamer@sectionintoc {8}{Background}{14}{0}{6}
+\beamer@subsectionintoc {8}{1}{Validation}{15}{0}{6}
+\beamer@sectionintoc {9}{Signal extraction}{16}{0}{7}
+\beamer@subsectionintoc {9}{1}{Parameterized DNN}{17}{0}{7}
+\beamer@sectionintoc {10}{Signal region}{18}{0}{8}
+\beamer@subsectionintoc {10}{1}{Limits}{19}{0}{8}
+\beamer@sectionintoc {12}{Strategy}{21}{0}{9}
+\beamer@sectionintoc {13}{Top tagging}{22}{0}{10}
+\beamer@sectionintoc {14}{Background}{23}{0}{11}
+\beamer@sectionintoc {16}{Summary}{25}{0}{12}
+\beamer@sectionintoc {17}{Future work}{26}{0}{13}

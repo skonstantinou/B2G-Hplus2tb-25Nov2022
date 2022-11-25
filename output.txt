@@ -381,6 +381,9 @@ y) (./talk.aux
 LaTeX Warning: Label `sec: ' multiply defined.
 
 
+LaTeX Warning: Label `sec: ' multiply defined.
+
+
 LaTeX Warning: Label `sec:Strategy' multiply defined.
 
 
@@ -456,128 +459,150 @@ figures/tikz/pdf/HPlus4FS_HToTB_FH.pdf>]
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmr.fd) [5 <./figures/tikz/p
 df/h2tb_ResolvedTop.pdf> <./figures/tikz/pdf/h2tb_BoostedW.pdf> <./figures/tikz
 /pdf/h2tb_BoostedTop.pdf> <./figures/tikz/pdf/h2tb_Boostedhiggs.pdf> <./figures
-/tikz/pdf/h2tb_BoostedhiggsLargePt.pdf>]
-Overfull \vbox (3.46295pt too high) detected at line 231
-[6 <./figures/CMS-HIG-18-015/Figure_003-a.pdf> <./figures/CMS-HIG-18-015/Figure
-_005-b.pdf>] [7 <./figures/tikz/pdf/h2tb_HIG-18-015_t0b_2bjets.pdf> <./figures/
+/tikz/pdf/h2tb_BoostedhiggsLargePt.pdf>] [6]
+Overfull \vbox (3.46295pt too high) detected at line 238
+[7 <./figures/CMS-HIG-18-015/Figure_003-a.pdf> <./figures/CMS-HIG-18-015/Figure
+_005-b.pdf>] [8 <./figures/tikz/pdf/h2tb_HIG-18-015_t0b_2bjets.pdf> <./figures/
 tikz/pdf/h2tb_HIG-18-015_t1b_2bjets.pdf> <./figures/tikz/pdf/h2tb_HIG-18-015_Wb
 b_2bjets.pdf> <./figures/tikz/pdf/h2tb_HIG-18-015_Wbj_1bjets.pdf> <./figures/CM
 S-HIG-18-015/Figure_005-a.pdf>]
-Overfull \vbox (3.58801pt too high) detected at line 356
-[8 <./figures/limit_assoc_HIG18015.pdf, page is rotated 90 degrees> <./figures/
+Overfull \vbox (3.58801pt too high) detected at line 368
+[9 <./figures/limit_assoc_HIG18015.pdf, page is rotated 90 degrees> <./figures/
 CMS-HIG-18-015/Boosted_Figure-aux_001-b.pdf, page is rotated 90 degrees>]
 
-LaTeX Warning: Command \& invalid in math mode on input line 416.
+LaTeX Warning: Command \& invalid in math mode on input line 428.
 
-[9] [10] [11 <./figures/tikz/pdf/HPlus4FS_HToTB_ResolvedTop_InvMass.pdf>]
-Overfull \hbox (5.10146pt too wide) detected at line 562
+[10]pdfTeX warning (ext4): destination with the same identifier (name{sec:\040}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.436 \end{frame}
+                  [11] [12 <./figures/tikz/pdf/HPlus4FS_HToTB_ResolvedTop_InvMa
+ss.pdf>]
+Overfull \hbox (5.10146pt too wide) detected at line 574
 [][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][] 
 
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 562.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 574.
 
 
-Overfull \vbox (6.79628pt too high) detected at line 562
-[12 <./figures/top-training/top_matched.pdf> <./figures/top-training/top_unmatc
+Overfull \vbox (6.79628pt too high) detected at line 574
+[13 <./figures/top-training/top_matched.pdf> <./figures/top-training/top_unmatc
 hed1b.pdf> <./figures/CMS-HIG-21-010_Figure_003.pdf, page is rotated 90 degrees
 > <./figures/topTagging/trijetMass_3WPs.pdf, page is rotated 90 degrees>]
-(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd) [13 <./figures/qcdS
-idebands.pdf>]
-Overfull \hbox (7.51291pt too wide) in paragraph at lines 681--681
+(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd)
+
+pdfTeX warning: pdflatex (file ./figures/ABCD_v2.pdf): PDF inclusion: found PDF
+ version <1.7>, but at most version <1.6> allowed
+
+Overfull \hbox (6.26538pt too wide) detected at line 652
+[][][] [][][][][][][][][] [][][][][][][] 
+
+Overfull \vbox (7.17302pt too high) detected at line 652
+[14 <./figures/qcdSidebands.pdf> <./figures/ABCD_v2.pdf>]
+Overfull \hbox (7.51291pt too wide) in paragraph at lines 699--699
 [][]  
 
-Overfull \hbox (3.27315pt too wide) detected at line 681
+Overfull \hbox (3.27315pt too wide) detected at line 699
 [][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][] 
 
-Overfull \vbox (5.12724pt too high) detected at line 681
-[14 <./figures/QCDDataDriven_SR_1T_TopMass50to260_PtBins175_15Nov2022/DataDrive
+Overfull \vbox (5.12724pt too high) detected at line 699
+[15 <./figures/QCDDataDriven_SR_1T_TopMass50to260_PtBins175_15Nov2022/DataDrive
 nPlots/TFsFromSR/HPlusMass.pdf> <./figures/QCDDataDriven_VRQCD_1T_TopMass50to23
 0_PtBins175_15Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass.pdf> <./figures/QCDDa
 taDriven_VRTT_1T_TopMass50to260_PtBins175_15Nov2022/DataDrivenPlots/TFsFromSR/H
-PlusMass.pdf> <./figures/QCDDataDriven_SR_2T_TopMass50to260_PtBins100to300_17No
-v2022/DataDrivenPlots/TFsFromSR/HPlusMass.pdf> <./figures/QCDDataDriven_VRQCD_2
-T_TopMass50to260_PtBins100to300_15Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass.p
-df> <./figures/QCDDataDriven_VRTT_2T_TopMass50to260_PtBins100to300_15Nov2022/Da
-taDrivenPlots/TFsFromSR/HPlusMass.pdf>]
-Overfull \vbox (7.56535pt too high) detected at line 744
-[15 <./figures/parameterizedDNN.png>] [16 <./figures/ROC.pdf, page is rotated 9
+PlusMass_v1.pdf> <./figures/QCDDataDriven_SR_2T_TopMass50to260_PtBins100to300_1
+7Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass.pdf> <./figures/QCDDataDriven_VRQC
+D_2T_TopMass50to260_PtBins100to300_15Nov2022/DataDrivenPlots/TFsFromSR/HPlusMas
+s.pdf> <./figures/QCDDataDriven_VRTT_2T_TopMass50to260_PtBins100to300_15Nov2022
+/DataDrivenPlots/TFsFromSR/HPlusMass_v1.pdf>]
+Overfull \vbox (7.56535pt too high) detected at line 762
+[16 <./figures/parameterizedDNN.png>] [17 <./figures/ROC.pdf, page is rotated 9
 0 degrees>]
-Overfull \hbox (7.51291pt too wide) in paragraph at lines 811--811
+Overfull \hbox (7.51291pt too wide) in paragraph at lines 829--829
 [][]  
 
-Overfull \hbox (3.27315pt too wide) detected at line 811
+Overfull \hbox (3.27315pt too wide) detected at line 829
 [][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][] 
 
-Overfull \vbox (5.94637pt too high) detected at line 811
-[17 <./figures/datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_
-OptNominal_FakeBFromDataDriven_m200to3000_3B1T_Created20221110_112420/controlPl
+Overfull \vbox (5.94637pt too high) detected at line 829
+[18 <./figures/datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_
+OptNominal_FakeBFromDataDriven_m200to3000_3B1T_Created20221124_113841/controlPl
 ots/DataDrivenCtrlPlot_M300_MVAOutput_M300_AfterSelections.pdf> <./figures/data
 cards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFro
-mDataDriven_m200to3000_3B1T_Created20221110_112420/controlPlots/DataDrivenCtrlP
+mDataDriven_m200to3000_3B1T_Created20221124_113841/controlPlots/DataDrivenCtrlP
 lot_M600_MVAOutput_M600_AfterSelections.pdf> <./figures/datacards_HToTB_UL2018_
 13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_m200to3
-000_3B1T_Created20221110_112420/controlPlots/DataDrivenCtrlPlot_M1250_MVAOutput
+000_3B1T_Created20221124_113841/controlPlots/DataDrivenCtrlPlot_M1250_MVAOutput
 _M1250_AfterSelections.pdf> <./figures/datacards_HToTB_UL2018_13TeV_HToTB_EraRu
 n2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_m200to3000_3B2T_Created2
-0221110_112420/controlPlots/DataDrivenCtrlPlot_M220_MVAOutput_M220_AfterSelecti
+0221124_120305/controlPlots/DataDrivenCtrlPlot_M220_MVAOutput_M220_AfterSelecti
 ons.pdf> <./figures/datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to
-3000_OptNominal_FakeBFromDataDriven_m200to3000_3B2T_Created20221110_112420/cont
+3000_OptNominal_FakeBFromDataDriven_m200to3000_3B2T_Created20221124_120305/cont
 rolPlots/DataDrivenCtrlPlot_M600_MVAOutput_M600_AfterSelections.pdf> <./figures
 /datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_Fak
-eBFromDataDriven_m200to3000_3B2T_Created20221110_112420/controlPlots/DataDriven
-CtrlPlot_M1250_MVAOutput_M1250_AfterSelections.pdf>] [18 <./figures/limitsBr_lo
-gY_1T.pdf, page is rotated 90 degrees> <./figures/limitsBr_logY_2T.pdf, page is
- rotated 90 degrees> <./figures/limitsBr_logY.pdf, page is rotated 90 degrees>]
-pdfTeX warning (ext4): destination with the same identifier (name{sec:\040}) ha
-s been already used, duplicate ignored
+eBFromDataDriven_m200to3000_3B2T_Created20221124_120305/controlPlots/DataDriven
+CtrlPlot_M1250_MVAOutput_M1250_AfterSelections.pdf>] [19 <./figures/Combined_24
+Nov2022_Created24Nov2022/datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search
+350to3000_OptNominal_FakeBFromDataDriven_m200to3000_3B1T_Created20221124_113841
+/limitsBr_logY.pdf, page is rotated 90 degrees> <./figures/Combined_24Nov2022_C
+reated24Nov2022/datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000
+_OptNominal_FakeBFromDataDriven_m200to3000_3B2T_Created20221124_120305/limitsBr
+_logY.pdf, page is rotated 90 degrees> <./figures/Combined_24Nov2022_Created24N
+ov2022/datacards_multicategory_Combined_24Nov2022_Created24Nov2022/limitsBr_log
+Y.pdf, page is rotated 90 degrees>]pdfTeX warning (ext4): destination with the 
+same identifier (name{sec:\040}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.840 \end{frame}
-                  [19]pdfTeX warning (ext4): destination with the same identifi
+l.865 \end{frame}
+                  [20]pdfTeX warning (ext4): destination with the same identifi
 er (name{sec:Strategy}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.917 }
+l.944 }
        
-Overfull \hbox (5.10703pt too wide) detected at line 917
+Overfull \hbox (5.10703pt too wide) detected at line 944
 [][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][] 
 
 
-Overfull \vbox (13.45494pt too high) detected at line 917
-[20 <./figures/boostedSR1.png> <./figures/boostedSR2.png> <./figures/tikz/pdf/H
+Overfull \vbox (1.4928pt too high) detected at line 944
+[21 <./figures/boostedSR1.png> <./figures/boostedSR2.png> <./figures/tikz/pdf/H
 Plus4FS_HToTB_BoostedTop_InvMass.pdf>]pdfTeX warning (ext4): destination with t
 he same identifier (name{sec:Top\040tagging}) has been already used, duplicate 
 ignored
 <to be read again> 
                    \relax 
-l.960 }
-        [21 <./figures/DDT_particleNet_TvsQCD_0sigma.pdf, page is rotated 90 de
-grees> <./figures/DDT_particleNet_TvsQCD_5sigma.pdf, page is rotated 90 degrees
->]pdfTeX warning (ext4): destination with the same identifier (name{sec:Backgro
-und}) has been already used, duplicate ignored
+l.995 }
+        [22 <./figures/DDT_particleNet_TvsQCD_0sigma.pdf> <./figures/DDT_partic
+leNet_TvsQCD_5sigma.pdf>]pdfTeX warning (ext4): destination with the same ident
+ifier (name{sec:Background}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.991 }
-        [22 <./figures/fatjet_softdropMass_BeforeDDT.png> <./figures/fatjet_sof
-tdropMass.png> <./figures/HPlusMass_Selections.png>]pdfTeX warning (ext4): dest
+l.1037 }
+        
+Overfull \vbox (6.59387pt too high) detected at line 1037
+[23 <./figures/TvsQCD-mediumWP.png> <./figures/fatjet_softdropMass.png> <./figu
+res/HPlusMass_Selections_v1.png>]pdfTeX warning (ext4): destination with the sa
+me identifier (name{sec:\040}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1045 \end{frame}
+                   [24] [25] [26]) (./tex/Backup.texpdfTeX warning (ext4): dest
 ination with the same identifier (name{sec:\040}) has been already used, duplic
 ate ignored
 <to be read again> 
                    \relax 
-l.999 \end{frame}
-                  [23] [24] [25]) (./tex/Backup.texpdfTeX warning (ext4): desti
-nation with the same identifier (name{sec:\040}) has been already used, duplica
-te ignored
-<to be read again> 
-                   \relax 
 l.16 \end{frame}
-                 [26]) (./talk.aux)
+                 [27]) (./talk.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  )
 (see the transcript file for additional information)pdfTeX warning (dest): name
-{NAVIGATION26} has been referenced but does not exist, replaced by a fixed one
+{NAVIGATION27} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{NAVIGATION26} has been referenced but does not exis
+t, replaced by a fixed one
 
 pdfTeX warning (dest): name{NAVIGATION25} has been referenced but does not exis
 t, replaced by a fixed one
@@ -597,13 +622,13 @@ t, replaced by a fixed one
 pdfTeX warning (dest): name{NAVIGATION20} has been referenced but does not exis
 t, replaced by a fixed one
 
-pdfTeX warning (dest): name{NAVIGATION19} has been referenced but does not exis
+pdfTeX warning (dest): name{NAVIGATION18} has been referenced but does not exis
 t, replaced by a fixed one
 
-pdfTeX warning (dest): name{NAVIGATION17} has been referenced but does not exis
+pdfTeX warning (dest): name{NAVIGATION16} has been referenced but does not exis
 t, replaced by a fixed one
 
-pdfTeX warning (dest): name{NAVIGATION15} has been referenced but does not exis
+pdfTeX warning (dest): name{NAVIGATION14} has been referenced but does not exis
 t, replaced by a fixed one
 
 pdfTeX warning (dest): name{NAVIGATION13} has been referenced but does not exis
@@ -618,7 +643,7 @@ t, replaced by a fixed one
 pdfTeX warning (dest): name{NAVIGATION10} has been referenced but does not exis
 t, replaced by a fixed one
 
-pdfTeX warning (dest): name{NAVIGATION9} has been referenced but does not exist
+pdfTeX warning (dest): name{NAVIGATION7} has been referenced but does not exist
 , replaced by a fixed one
 
 pdfTeX warning (dest): name{NAVIGATION6} has been referenced but does not exist
@@ -672,5 +697,5 @@ ist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2019/texmf-dist/fonts/
 type1/public/lm/lmtt8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/publi
 c/amsfonts/symbols/msam10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/u
 rw/zapfding/uzdr.pfb>
-Output written on talk.pdf (26 pages, 2936834 bytes).
+Output written on talk.pdf (27 pages, 3459944 bytes).
 Transcript written on talk.log.

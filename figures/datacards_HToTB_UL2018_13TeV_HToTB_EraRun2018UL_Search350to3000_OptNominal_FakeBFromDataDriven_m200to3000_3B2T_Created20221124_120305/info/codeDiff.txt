@@ -1,0 +1,35 @@
+diff --git a/NtupleAnalysis/src/LimitCalc/work/datacards/datacard_HToTBWithParametrisedDNN_3B1T_2017.py b/NtupleAnalysis/src/LimitCalc/work/datacards/datacard_HToTBWithParametrisedDNN_3B1T_2017.py
+index fac9c14..c4a07f4 100644
+--- a/NtupleAnalysis/src/LimitCalc/work/datacards/datacard_HToTBWithParametrisedDNN_3B1T_2017.py
++++ b/NtupleAnalysis/src/LimitCalc/work/datacards/datacard_HToTBWithParametrisedDNN_3B1T_2017.py
+@@ -99,10 +99,10 @@ def PrintNuisancesTable():
+ #================================================================================================  
+ OptionTest                             = False
+ OptionYear                             = "2018"  # options: "2016", "2017", "2018"
+-OptionCategory                         = "3B1T"  # options: "3B1T", "3B2T"
++OptionCategory                         = ""  # options: "3B1T", "3B2T"
+ OptionFinalState                       = "HToTB" 
+ OptionChannelLabel                     = "HToTB"
+-OptionMassShape                        = "h3B1T_MVAOutput_M%s_AfterSelections"
++OptionMassShape                        = "h_MVAOutput_M%s_AfterSelections"
+ OptionParametrised                     = True
+ OptionPlotNamePrefix                   = None
+ OptionDoControlPlots                   = True
+diff --git a/NtupleAnalysis/src/LimitCalc/work/datacards/datacard_HToTBWithParametrisedDNN_3B2T_2017.py b/NtupleAnalysis/src/LimitCalc/work/datacards/datacard_HToTBWithParametrisedDNN_3B2T_2017.py
+index dba6042..bfb405a 100644
+--- a/NtupleAnalysis/src/LimitCalc/work/datacards/datacard_HToTBWithParametrisedDNN_3B2T_2017.py
++++ b/NtupleAnalysis/src/LimitCalc/work/datacards/datacard_HToTBWithParametrisedDNN_3B2T_2017.py
+@@ -99,10 +99,10 @@ def PrintNuisancesTable():
+ #================================================================================================  
+ OptionTest                             = False
+ OptionYear                             = "2018"  # options: "2016", "2017", "2018"
+-OptionCategory                         = "3B2T"  # options: "3B1T", "3B2T"
++OptionCategory                         = ""  # options: "3B1T", "3B2T"
+ OptionFinalState                       = "HToTB" 
+ OptionChannelLabel                     = "HToTB"
+-OptionMassShape                        = "h3B2T_MVAOutput_M%s_AfterSelections"
++OptionMassShape                        = "h_MVAOutput_M%s_AfterSelections"
+ OptionParametrised                     = True
+ OptionPlotNamePrefix                   = None
+ OptionDoControlPlots                   = True
+

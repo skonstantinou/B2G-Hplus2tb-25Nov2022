@@ -1,0 +1,31 @@
+Will use binning variable CMS_th1x with 24 bins
+Will use category 'CMS_channel' to identify the 1 channels
+Creating pdfs for individual modes (1): .    1done.
+Importing combined pdf model_s
+Importing combined pdf model_b
+Setting variable 'MH' in workspace to the higgs mass 700
+Error in <ROOT::Math::Fitter::SetFCN>: FCN function has zero parameters 
+Error in <ROOT::Math::Fitter::SetFCN>: FCN function has zero parameters 
+Error in <ROOT::Math::Fitter::SetFCN>: FCN function has zero parameters 
+Error in <ROOT::Math::Fitter::SetFCN>: FCN function has zero parameters 
+Error in <ROOT::Math::Fitter::SetFCN>: FCN function has zero parameters 
+Error in <ROOT::Math::Fitter::SetFCN>: FCN function has zero parameters 
+Error in <ROOT::Math::Fitter::SetFCN>: FCN function has zero parameters 
+Error in <ROOT::Math::Fitter::SetFCN>: FCN function has zero parameters 
+Error in <ROOT::Math::Fitter::SetFCN>: FCN function has zero parameters 
+Error in <ROOT::Math::Fitter::SetFCN>: FCN function has zero parameters 
+Error in <ROOT::Math::Fitter::SetFCN>: FCN function has zero parameters 
+Error in <ROOT::Math::Fitter::SetFCN>: FCN function has zero parameters 
+Error in <ROOT::Math::Fitter::SetFCN>: FCN function has zero parameters 
+Error in <ROOT::Math::Fitter::SetFCN>: FCN function has zero parameters 
+Error in <ROOT::Math::Fitter::SetFCN>: FCN function has zero parameters 
+Error in <ROOT::Math::Fitter::SetFCN>: FCN function has zero parameters 
+Error in <ROOT::Math::Fitter::SetFCN>: FCN function has zero parameters 
+Error in <ROOT::Math::Fitter::SetFCN>: FCN function has zero parameters 
+Error in <ROOT::Math::Fitter::SetFCN>: FCN function has zero parameters 
+Error in <ROOT::Math::Fitter::SetFCN>: FCN function has zero parameters 
+Error in <ROOT::Math::Fitter::SetFCN>: FCN function has zero parameters 
+Error in <ROOT::Math::Fitter::SetFCN>: FCN function has zero parameters 
+Error in <ROOT::Math::Fitter::SetFCN>: FCN function has zero parameters 
+Error in <ROOT::Math::Fitter::SetFCN>: FCN function has zero parameters 
+Error in <ROOT::Math::Fitter::SetFCN>: FCN function has zero parameters 

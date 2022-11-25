@@ -1,0 +1,19 @@
+Will use binning variable CMS_th1x with 21 bins
+Will use category 'CMS_channel' to identify the 1 channels
+Creating pdfs for individual modes (1): .    1done.
+Importing combined pdf model_s
+Importing combined pdf model_b
+Setting variable 'MH' in workspace to the higgs mass 350
+Info in <Minuit2>: VariableMetricBuilder: no improvement in line search
+Info in <Minuit2>: VariableMetricBuilder: no improvement in line search
+Info in <Minuit2>: VariableMetricBuilder: no improvement in line search
+Info in <Minuit2>: DavidonErrorUpdator: delgam < 0 : first derivatives increasing along search line
+Info in <Minuit2>: MnGlobalCorrelationCoeff: inversion of matrix fails.
+Info in <Minuit2>: VariableMetricBuilder: no improvement in line search
+Info in <Minuit2>: VariableMetricBuilder: no improvement in line search
+Info in <Minuit2>: DavidonErrorUpdator: delgam < 0 : first derivatives increasing along search line
+Info in <Minuit2>: MnGlobalCorrelationCoeff: inversion of matrix fails.
+Info in <Minuit2>: VariableMetricBuilder: no improvement in line search
+Info in <Minuit2>: VariableMetricBuilder: no improvement in line search
+Info in <Minuit2>: DavidonErrorUpdator: delgam < 0 : first derivatives increasing along search line
+Info in <Minuit2>: MnGlobalCorrelationCoeff: inversion of matrix fails.

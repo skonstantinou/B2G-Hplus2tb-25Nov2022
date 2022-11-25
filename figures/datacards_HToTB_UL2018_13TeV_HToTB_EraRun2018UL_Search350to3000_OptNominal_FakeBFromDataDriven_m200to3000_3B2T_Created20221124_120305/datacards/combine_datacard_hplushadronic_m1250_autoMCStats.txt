@@ -1,0 +1,22 @@
+Description: Combine datacard (auto generated) mass=1250, luminosity=59817.406866 1/pb, HToTB_UL2018_13TeV/EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH1250to1250_StatOnly
+Date: Thu Nov 24 12:11:14 2022
+-----------------------------------------------------------
+imax     1     number of channels
+jmax     *     number of backgrounds
+kmax     *     number of parameters
+-----------------------------------------------------------
+shapes * * combine_histograms_hplushadronic_m1250.root $PROCESS $PROCESS_$SYSTEMATIC
+-----------------------------------------------------------
+bin            HToTB
+observation    -1
+-----------------------------------------------------------
+bin                    HToTB      HToTB    HToTB    HToTB  
+process                Hp1250     FakeB    TT       tEWttX 
+process                0          1        2        4      
+-----------------------------------------------------------
+rate                   554.871814 7249.406 7683.582 593.927
+-----------------------------------------------------------
+-----------------------------------------------------------
+
+
+* autoMCStats 0

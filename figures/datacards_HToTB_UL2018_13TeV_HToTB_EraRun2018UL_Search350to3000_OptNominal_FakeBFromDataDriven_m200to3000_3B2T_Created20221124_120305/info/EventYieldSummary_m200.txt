@@ -1,0 +1,10 @@
+*** Event yield summary ***
+Description: Combine datacard (auto generated) mass=200, luminosity=59817.406866 1/pb, HToTB_UL2018_13TeV/EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_mH200to200_StatOnly
+Date: Thu Nov 24 12:03:48 2022
+
+Number of events
+Signal, mH+=200 GeV, sigma x Br=1 pb:     68 +-      2 (stat.) +-      0 (syst.)
+Backgrounds:
+                           Multijets:   7250 +-    132 (stat.) +-      0 (syst.)
+                            Observed: 15460
+

@@ -196,6 +196,13 @@ This analysis searches for a heavy \PHpm
       }
 }
 
+\MySection{ }
+\begin{frame}[noframenumbering]{}
+  \begin{center}
+    \huge \textbf{HIG-18-015}
+  \end{center}
+\end{frame}
+
 \MySection{Previous results}
 \MySubSection{review}
 \Slide{t}{
@@ -275,9 +282,14 @@ This analysis searches for a heavy \PHpm
 
   \begin{itemize}
     \small
-  \item Boosted $t$/$W$ identification: Based on \mSD[],
-    \subjettiness[]{N}, $N_{b \ \text{subjets}}$
-  \item \PHpm mass reconstruction ($m_{bt}$): $t$ + leading \pT b jet
+  \item Boosted $t$/$W$ identification:
+    \begin{itemize}
+      \setlength{\itemindent}{1mm}
+      \footnotesize
+    \item Based on \mSD[], \subjettiness[]{N}, $N_{b
+      \ \text{subjets}}$
+    \end{itemize}
+  %\item \PHpm mass reconstruction ($m_{bt}$): $t$ + leading \pT b jet
   \item Further categorization according to:
     \begin{itemize}
       \setlength{\itemindent}{1mm}
@@ -310,11 +322,11 @@ This analysis searches for a heavy \PHpm
       }
       {
         
-        \vspace{-2.7cm}
+        \vspace{-3cm}
         \oneFigColumns{CMS-HIG-18-015/Figure_005-a.pdf}{}{0.57}
       }
 
-      \vspace{-0.1cm}
+      \vspace{+0.1cm}
       
       \begin{itemize}
         \small
@@ -558,7 +570,7 @@ This analysis searches for a heavy \PHpm
 
       %\PlaceText{73mm}{65mm}{\scriptsize{\textcolor{kBlue}{loose}}}
       %\PlaceText{67mm}{72mm}{\tiny{\textbf{Loose WP}}}
-      \PlaceText{67mm}{65mm}{\boxed{\tiny{\textbf{Loose WP}}}}
+      \PlaceText{67mm}{63mm}{\boxed{\tiny{\textbf{Loose WP}}}}
 }
   
 \MySection{Background}
@@ -626,10 +638,16 @@ This analysis searches for a heavy \PHpm
         \end{itemize}        
       }
       {
-
-        \vspace{-1.6cm}
-        
-        \oneFigColumns{qcdSidebands.pdf}{Sidebands}{1.0}
+        \vspace{-3.5cm}
+        \oneFigColumns{qcdSidebands.pdf}{}{0.75}
+        \vspace{-.55cm}
+        \begin{columns}[T]
+          \begin{column}{0.05\textwidth}\end{column}
+          \begin{column}{0.99\textwidth}
+            \oneFigColumns{ABCD_v2}{}{0.88}
+          \end{column}
+          \end{columns}
+        %\oneFigColumns{qcdSidebands.pdf}{Sidebands}{1.0}
       }
 }
 
@@ -664,7 +682,7 @@ This analysis searches for a heavy \PHpm
       \threeFigColumnsCustomSize
           {QCDDataDriven_SR_1T_TopMass50to260_PtBins175_15Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass.pdf}{SR}
           {QCDDataDriven_VRQCD_1T_TopMass50to230_PtBins175_15Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass.pdf}{$VR_{QCD}$}
-          {QCDDataDriven_VRTT_1T_TopMass50to260_PtBins175_15Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass.pdf}{$VR_{\ttbar}$}
+          {QCDDataDriven_VRTT_1T_TopMass50to260_PtBins175_15Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass_v1.pdf}{$VR_{\ttbar}$}
           {0.76}
 
           \vspace{-0.55cm}
@@ -672,7 +690,7 @@ This analysis searches for a heavy \PHpm
       \threeFigColumnsCustomSize      
           {QCDDataDriven_SR_2T_TopMass50to260_PtBins100to300_17Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass.pdf}{}
           {QCDDataDriven_VRQCD_2T_TopMass50to260_PtBins100to300_15Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass.pdf}{}
-          {QCDDataDriven_VRTT_2T_TopMass50to260_PtBins100to300_15Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass.pdf}{}
+          {QCDDataDriven_VRTT_2T_TopMass50to260_PtBins100to300_15Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass_v1.pdf}{}
           {0.76}
     \end{column}
   \end{columns}
@@ -792,17 +810,17 @@ This analysis searches for a heavy \PHpm
       \vspace{-0.1cm}
         
   \threeFigColumnsCustomSize
-      {datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_m200to3000_3B1T_Created20221110_112420/controlPlots/DataDrivenCtrlPlot_M300_MVAOutput_M300_AfterSelections.pdf}{DNN($m_{H^{\pm}}$ = 300 GeV)}
-      {datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_m200to3000_3B1T_Created20221110_112420/controlPlots/DataDrivenCtrlPlot_M600_MVAOutput_M600_AfterSelections.pdf}{DNN($m_{H^{\pm}}$ = 600 GeV)}
-      {datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_m200to3000_3B1T_Created20221110_112420/controlPlots/DataDrivenCtrlPlot_M1250_MVAOutput_M1250_AfterSelections.pdf}{DNN($m_{H^{\pm}}$ = 1250 GeV)}
+      {datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_m200to3000_3B1T_Created20221124_113841/controlPlots/DataDrivenCtrlPlot_M300_MVAOutput_M300_AfterSelections.pdf}{DNN($m_{H^{\pm}}$ = 300 GeV)}
+      {datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_m200to3000_3B1T_Created20221124_113841/controlPlots/DataDrivenCtrlPlot_M600_MVAOutput_M600_AfterSelections.pdf}{DNN($m_{H^{\pm}}$ = 600 GeV)}
+      {datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_m200to3000_3B1T_Created20221124_113841/controlPlots/DataDrivenCtrlPlot_M1250_MVAOutput_M1250_AfterSelections.pdf}{DNN($m_{H^{\pm}}$ = 1250 GeV)}
       {0.9}
 
       \vspace{-0.3cm}
       
       \threeFigColumnsCustomSize
-      {datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_m200to3000_3B2T_Created20221110_112420/controlPlots/DataDrivenCtrlPlot_M220_MVAOutput_M220_AfterSelections.pdf}{}
-      {datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_m200to3000_3B2T_Created20221110_112420/controlPlots/DataDrivenCtrlPlot_M600_MVAOutput_M600_AfterSelections.pdf}{}
-      {datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_m200to3000_3B2T_Created20221110_112420/controlPlots/DataDrivenCtrlPlot_M1250_MVAOutput_M1250_AfterSelections.pdf}{}
+      {datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_m200to3000_3B2T_Created20221124_120305/controlPlots/DataDrivenCtrlPlot_M220_MVAOutput_M220_AfterSelections.pdf}{}
+      {datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_m200to3000_3B2T_Created20221124_120305/controlPlots/DataDrivenCtrlPlot_M600_MVAOutput_M600_AfterSelections.pdf}{}
+      {datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_m200to3000_3B2T_Created20221124_120305/controlPlots/DataDrivenCtrlPlot_M1250_MVAOutput_M1250_AfterSelections.pdf}{}
       {0.9}
 
     \end{column}
@@ -814,21 +832,28 @@ This analysis searches for a heavy \PHpm
 \MySubSection{Limits}
 \Slide{t}{
 
-  Expected limits on $\sigma_{\mathrm{H}^{\pm}t(b)}\times\mathcal{B}(\mathrm{H}^{\pm} \to \mathrm{tb})$
+  \vspace{0.2cm}
+  Expected limits on
+  $\sigma_{\mathrm{H}^{\pm}t(b)}\times\mathcal{B}(\mathrm{H}^{\pm} \to
+  \mathrm{tb})$     \tikz{\normalsize \hspace{0.3cm} \overlaynode<indianred,{oxfordblue,rotate=2}>at(0,3)[draw]{ Preliminary};}
  
   \threeFigColumnsCustomSize
-      {limitsBr_logY_1T.pdf}{$\mathrm{1M1L_{t}}$}
-      {limitsBr_logY_2T.pdf}{$\mathrm{2M_{t}}$}
-      {limitsBr_logY.pdf}{Combined}
-      {1.0}
+  {Combined_24Nov2022_Created24Nov2022/datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_m200to3000_3B1T_Created20221124_113841/limitsBr_logY.pdf}{$\mathrm{1M1L_{t}}$}
+  {Combined_24Nov2022_Created24Nov2022/datacards_HToTB_UL2018_13TeV_HToTB_EraRun2018UL_Search350to3000_OptNominal_FakeBFromDataDriven_m200to3000_3B2T_Created20221124_120305/limitsBr_logY.pdf}{$\mathrm{2M_{t}}$}
+  {Combined_24Nov2022_Created24Nov2022/datacards_multicategory_Combined_24Nov2022_Created24Nov2022/limitsBr_logY.pdf}{Combined}
+  {1.0}
+  %{limitsBr_logY_1T.pdf}{$\mathrm{1M1L_{t}}$}  
+  %{limitsBr_logY_2T.pdf}{$\mathrm{2M_{t}}$}
+  %{limitsBr_logY.pdf}{Combined}
+  %{1.0}
 
       \vspace{0.5cm}
       
       \begin{itemize}
         \small
       \item Statistical uncertainties only
-      \item Sensitivity comes to a plateau for $m_{H^{\pm}}$ > 1000 GeV
-      \item Results improved by a factor of 2 wrt 2016 data analysis \FixmeTag
+      \item Sensitivity comes to a plateau for $m_{H^{\pm}}$ > 1250 GeV
+      \item Results improved by a factor of 2 wrt 2016 data analysis
       \end{itemize}
 }
 
@@ -887,13 +912,15 @@ This analysis searches for a heavy \PHpm
         \hline
         \cellcolor[gray]{.9}Trigger & \cellcolor[gray]{.9}Trigger & \cellcolor[gray]{.9}\begin{tabular}{@{}c@{}} $H_{T}$ + multijet + 1 or 2 b jets\\  $H_{T}$ + AK8 jet + trim mass $ \ \ $ \end{tabular}\\
         $\ell$ veto & $\ell$ veto & same as resolved\\
-        \cellcolor[gray]{.9}$=$ 1 $t^{bst}$ &\cellcolor[gray]{.9}$=$ 2 $t^{bst}$ &  \cellcolor[gray]{.9}\pT > 400 GeV, $|\eta|$ < 2.4, \texttt{ParticleNet\_TvsQCD} Medium WP\\
+        \cellcolor[gray]{.9}$=$ 1 $t^{bst}$ &\cellcolor[gray]{.9}$=$ 2
+        $t^{bst}$ &  \cellcolor[gray]{.9}\pT > 400 GeV, $|\eta|$ <
+        2.4, \texttt{ParticleNet\_TvsQCD} Medium WP (5$\%$ misID rate)\\
         $\ge$ 4 jets & $\ge$ 2 jets & \pT > 40 GeV, $|\eta|$ < 2.4, tight ID, $H_{T}$ > 500 GeV\\
         \cellcolor[gray]{.9}$\ge$ 2 b jets & \cellcolor[gray]{.9}$\ge$ 1 b jets & \cellcolor[gray]{.9}DeepJet Medium WP \\
-        $\le$ 2 $t^{res}$ & $\ge$ 0 $t^{res}$ & custom DNN loose, $130 < m_{\mathrm{t^{res}}} < 210~$GeV\\
+        $\le$ 2 $t^{res}$ & \textcolor{white}{$\ge$ 0 $t^{res}$} & custom DNN loose, $130 < m_{\mathrm{t^{res}}} < 210~$GeV\\
         %\cellcolor[gray]{.9}Kinematic requirements & \cellcolor[gray]{.9}Kinematic requirements & \cellcolor[gray]{.9}\begin{tabular}{@{}c@{}}$\Delta R$($t^{bst}$, $b^{ldg}$) > 1.0\\ $\max$($m_{bb}$) > 200 GeV \end{tabular}\\         
-        \cellcolor[gray]{.9}$\Delta R$($t^{bst}$, $b^{ldg}$) > 1.2 & \cellcolor[gray]{.9}$\Delta R$($t^{bst}$, $b^{ldg}$) > 0.0 & \cellcolor[gray]{.9}\\
-        $\max$($m_{bb}$) > 200 GeV & $\max$($m_{bb}$) > 0 GeV & \\
+        \cellcolor[gray]{.9}$\Delta R$($t^{bst}$, $b^{ldg}$) > 1.2 & \cellcolor[gray]{.9}\textcolor{gray!20}{$\Delta R$($t^{bst}$, $b^{ldg}$) > 0.0} & \cellcolor[gray]{.9}\\
+        $\max$($m_{bb}$) > 200 GeV & \textcolor{white}{$\max$($m_{bb}$) > 0 GeV} & \\
         \hline
       \end{tabular}
     }
@@ -907,7 +934,7 @@ This analysis searches for a heavy \PHpm
         $\ \ $ \textbf{Invariant \PHpm~mass reconstruction}:
         \begin{itemize}
           \normalsize
-        \item[] \textcolor{kOrange}{\mHpmReco = $t^{bst}_{p_{T,1}}$ + b$^{p_{T,1}}$}
+        \item[] \textcolor{kOrange}{\mHpmReco = $t^{bst}_{p_{T,1}}$ + b$_{p_{T,1}}$}
         \end{itemize}
       }
       {
@@ -919,21 +946,29 @@ This analysis searches for a heavy \PHpm
 \MySection{Top tagging}
 \Slide{t}{
 
-  Boosted top jets $t^{bst}$ are identified using the \texttt{ParticleNet\_TvsQCD} discriminant \newline
+  %Boosted top jets $t^{bst}$ are identified using the \texttt{ParticleNet\_TvsQCD} discriminant \newline
+  Boosted top jets $t^{bst}$ identification with \texttt{ParticleNet\_TvsQCD}  
 
-  \vspace{-0.3cm}
+  \vspace{0.1cm}
   
   \small
   \textbf{Designed decorrelated tagger (DDT)}
 
   \vspace{0.1cm}
+  
   \begin{itemize}
     \footnotesize
   \item \textcolor{black}{A 3D map of the \underline{tagger's score for a fixed
     mID rate} vs \pT and $\rho = \ln(m_{SD}^{2}/p_{T}^{2})$}
+    \item[]
   \end{itemize}
 
+  \tikz{\normalsize \hspace{5cm}
+    \overlaynode<indianred,{oxfordblue,rotate=2}>at(0,3)[draw]{
+      Preliminary};}
 
+  \vspace{-0.75cm}
+  
   \twoFigColumns
       {DDT_particleNet_TvsQCD_0sigma.pdf}{before smearing}
       {DDT_particleNet_TvsQCD_5sigma.pdf}{5$\sigma$ Gaussian smear}
@@ -944,8 +979,8 @@ This analysis searches for a heavy \PHpm
       \begin{itemize}
         \footnotesize
       \item Calculated with simulation QCD multijet events
-      \item For each (\pT, $\rho$) bin: estimate the WP that corresponds to  $\%y$  mID rate: $X({y\%})$
-      \item Transformed score: $X(DDT)$ = $X$ - $X(y\%)$ \PtRhoTag %$\rightarrow$ \textcolor{kGreen}{\pT, $\rho$ dependent}
+      \item For each (\pT, $\rho$) bin: estimate the WP that corresponds to  5$\%$  mID rate: $X({5\%})$
+      \item Transformed score: $X(DDT)$ = $X_{raw}$ - $X(5\%)$ \PtRhoTag %$\rightarrow$ \textcolor{kGreen}{\pT, $\rho$ dependent}
       %\item[] $X(DDT)$ = $X$ - $X(y\%)$
       \item Selection requirment $X(DDT)$ > 0
       \end{itemize}                
@@ -960,6 +995,7 @@ This analysis searches for a heavy \PHpm
 }
 
 \MySection{Background}
+
 \Slide{t}{
 
 
@@ -975,19 +1011,29 @@ This analysis searches for a heavy \PHpm
   \item other (minor)
   \end{itemize}
   
-  \vspace{0.1cm}
+  \vspace{0.25cm}
   
   \begin{itemize}
     \small
   \item 2D (\mSD[t], \mHpmReco) templates derived from MC simulation
   \item Signal extraction: Signal, background simultaneous fit of (\mSD[t], \mHpmReco) 
+  \item[]
   \end{itemize}
 
+  \tikz{\normalsize \hspace{5cm}
+    \overlaynode<indianred,{oxfordblue,rotate=2}>at(0,3)[draw]{Preliminary};}
+
+  \vspace{-0.35cm}
+  
   \threeFigColumnsCustomSize
-      {fatjet_softdropMass_BeforeDDT.png}{\mSD[t] Before TvsQCD}
-      {fatjet_softdropMass.png}{\mSD[t] After TvsQCD}
-      {HPlusMass_Selections.png}{\mHpmReco}
+  %{fatjet_softdropMass_BeforeDDT.png}{\mSD[t] Before TvsQCD}
+      {TvsQCD-mediumWP.png}{\mSD[t]}
+      {fatjet_softdropMass.png}{\mSD[t]}
+      {HPlusMass_Selections_v1.png}{\mHpmReco}
       {1.0}
+
+      \PlaceText{60mm}{71mm}{\tiny{\textbf{TVsQCD MD mistag 5$\%$}}}
+      \PlaceText{21mm}{70mm}{\tiny{\textbf{TVsQCD mistag 5$\%$}}}
 }
 
 %\MySection{Resolved}
@@ -1013,25 +1059,22 @@ This analysis searches for a heavy \PHpm
 
   \begin{itemize}
     \small
-  \item Three search topologies containing resolved and/or boosted tops
+  %\item Three search topologies containing resolved and/or boosted tops
   \item Resolved Analysis:    
     \begin{itemize}
       \footnotesize
     \item Top tagging: custom mass-decorrelated DNN (almost published!)
     \item Event categorization based on the number of medium tagged $t^{res}$
-    \item QCD background measurement shows good agreement in validation region
-    \item Mass parameterized event-based tagger used as a final discriminant
-    \item First expected limits with 2018 data with statistical uncertainties only
+    \item Very good data-driven QCD background prediction
+    \item Mass parameterized DNN score used as a signal discriminant
+    \item Preliminary expected limits using 2018 data with statistical uncertainties only
     \end{itemize}
   \item Boosted Analysis:
     \begin{itemize}
       \footnotesize
     \item boosted top indentification with \texttt{ParticleNet} (mva-based)
-    \item Study new category with 1 boosted and 1 resolved top
-    \item Designed decorrelated t-tagger to eliminate the mass sculpting effect
-    \item Event categorization based on the number of $t^{bst}$
-    \item First results show improved signal sensitivity and
-      significance \FixmeTag
+    \item New category with 1 boosted and 1 resolved top
+    \item Designed decorrelated top tagger to eliminate mass sculpting effects
     \end{itemize}
   \end{itemize}
 }
@@ -1048,21 +1091,21 @@ This analysis searches for a heavy \PHpm
     \begin{itemize}
       \footnotesize
     \item Incorporate the systematic uncertainties\ProgressTag
-    \item Final touches on the event-based tagger\ProgressTag
+    \item Final touches on the parameterized DNN\ProgressTag
     \end{itemize}
   \item Boosted Analysis:
     \begin{itemize}
       \footnotesize
-    \item \texttt{ParticleNet} W/t re-calibration: Work in progress (L.Paizanos)
-    \item Study the boosted W-jet category
-    \item Categorization based on the top tagging rate and $N_{bjets}^{extra}$
-    \item Extract SD mass templates for QCD and \ttbar (t, W, non-matched)
-    \item Background data driven method \ProgressTag
-    \item Produce first limits with simultaneous 2D-fit in (\mSD[t], \mHpmReco) plane
-    \item Investigate using the particleNet regressed mass
+    \item \texttt{ParticleNet} W/t re-calibration (L.Paizanos)\ProgressTag
+    \item Study the merged-W category\ProgressTag
+    \item Categorization based on the top tagging rate and $N_{bjets}^{extra}$\ProgressTag
+    \item Extract QCD and \ttbar templates for the fit\ProgressTag
+    \item Produce first limits with simultaneous 2D-fit in (\mSD[j], \mHpmReco) plane
+    \item Address systematic uncertainties
+      %\item Investigate using the particleNet regressed mass
     \end{itemize}
   \item Finalize and release documentation      
-  \item Extend the analysis with entire Run II
+  \item Complete the analysis with entire Run II (target Moriond23)
   \end{itemize}
 
   %\vspace{1.5cm}
