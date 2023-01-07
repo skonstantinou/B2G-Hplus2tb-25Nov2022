@@ -20,6 +20,284 @@
 \backupbegin
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 
+\MySection{Previous results}
+\MySubSection{review}
+\Slide{t}{
+
+  
+  \hspace{4.0cm} \textcolor{kDarkGreen}{\textbf{Resolved}}   \RectangleText{\href{https://cms.cern.ch/iCMS/analysisadmin/cadilines?line=HIG-18-015}{\Large CADI: HIG-18-015}}%(UCY, HIP)
+
+  \vspace{0.1cm}
+
+  %\CustomiseLineSpacing{1.1}  
+  \begin{itemize}
+    \small
+  \item Resolved t ($t^{res}$) identification: custom top tagger (BDT)
+  \item Selected events contain $\ge$ 7 jets, $\ge$ 3 b-tagged, 2 $t^{res}$
+  \item \PHpm mass reconstruction ($m_{bt}$): leading \pT $t^{res}$ +
+    leading \pT b jet
+  \item Main background:
+    \begin{itemize}
+      \footnotesize
+    \item Misid. B: From data using CRs (ABCD method)
+    \item Genuine B: from simulation
+    \end{itemize}
+  \item $m_{bt}$ is used to extract the signal in the presence of the SM background.
+  \end{itemize}
+
+  \vspace{-0.2cm}
+  
+  \twoFigColumns
+      {CMS-HIG-18-015/Figure_003-a.pdf}{$t^{res}$ efficiency}
+      %{topEffic_Resolved_HIG18015}{$t^{res}$ efficiency}
+      {CMS-HIG-18-015/Figure_005-b.pdf}{$m_{bt}$ Post-fit}
+      {0.55}
+}
+
+\Slide{t}{
+
+  \hspace{4.0cm} \textcolor{kBlue}{\textbf{Boosted}}   \RectangleText{\href{https://cms.cern.ch/iCMS/analysisadmin/cadilines?line=HIG-18-015}{\Large CADI: HIG-18-015}}%(MIT, BUAP)  
+
+  \vspace{0.05cm}  
+
+  \begin{itemize}
+    \small
+  \item Events are split in four main categories
+  \end{itemize}
+
+  \vspace{-0.4cm}
+  
+  \begin{columns}[T]
+      \begin{column}{0.145\textwidth}
+        \begin{tcolorbox}[transparentStyle,
+            title=\tColorBoxTitle{\vspace{-0.15cm} t0b}]
+          \oneFig{tikz/pdf/h2tb_HIG-18-015_t0b_2bjets}{1.0}
+        \end{tcolorbox}
+      \end{column}
+      \begin{column}{0.145\textwidth}
+        \begin{tcolorbox}[transparentStyle,
+            title=\tColorBoxTitle{\vspace{-0.15cm} t1b}]
+        \oneFig{tikz/pdf/h2tb_HIG-18-015_t1b_2bjets}{1.0}
+        \end{tcolorbox}
+      \end{column}
+      \begin{column}{0.145\textwidth}
+        \begin{tcolorbox}[transparentStyle,  opacitytext=1.0,
+            title=\tColorBoxTitle{\vspace{-0.15cm} Wbb}]
+        \oneFig{tikz/pdf/h2tb_HIG-18-015_Wbb_2bjets}{1.0}
+        \end{tcolorbox}
+      \end{column}
+       \begin{column}{0.145\textwidth}
+         \begin{tcolorbox}[transparentStyle,
+             title=\tColorBoxTitle{\vspace{-0.15cm} Wbj}]
+         \oneFig{tikz/pdf/h2tb_HIG-18-015_Wbj_1bjets.pdf}{1.0}
+          \end{tcolorbox}
+      \end{column}
+  \end{columns}
+
+  \vspace{-0.2cm}
+  %\oneFigColumns{boosted_categories.png}{}{0.85}
+
+  \begin{itemize}
+    \small
+  \item Boosted $t$/$W$ identification:
+    \begin{itemize}
+      \setlength{\itemindent}{1mm}
+      \footnotesize
+    \item Based on \mSD[], \subjettiness[]{N}, $N_{b
+      \ \text{subjets}}$
+    \end{itemize}
+  %\item \PHpm mass reconstruction ($m_{bt}$): $t$ + leading \pT b jet
+  \item Further categorization according to:
+    \begin{itemize}
+      \setlength{\itemindent}{1mm}
+      \footnotesize
+    \item $N_{b}$ $\in [=1, =2, \geq 3]$
+    \item $N_{j}^{extra}$ $\in [< 3, \geq 3]$
+    \item \mHpmReco $\in [\text{below}, \text{in}, \text{above}]$ of FWHM of signal
+    %\item Number of bjets (=1, =2, $\ge$3)
+    %\item Number of jets not used in \PHpm (<3, $\ge$ 3)
+    %\item Below, in and above the $m_{bt}$ window
+    \end{itemize}
+  \end{itemize}
+
+  %\vspace{-0.1cm}
+
+  \twoColumns
+      {
+        \begin{itemize}
+          \small
+        \item Main background
+          \begin{itemize}
+            \footnotesize
+          \item[QCD]: from data using CRs (inverted
+            \subjettiness[]{N}), sidebands with \mHpmReco
+            $\in [\text{below},\text{above}]$)
+          \item[\ttbar]: from sim., normalized in CR with 1
+            $\ell$
+          \end{itemize}
+        \end{itemize}
+      }
+      {
+        
+        \vspace{-3cm}
+        \oneFigColumns{CMS-HIG-18-015/Figure_005-a.pdf}{}{0.57}
+      }
+
+      \vspace{+0.1cm}
+      
+      \begin{itemize}
+        \small
+        \item $H_{T}$ is used to extract the signal from SM background inside the $m_{bt}$ window.
+      \end{itemize}
+}
+
+\Slide{t}{
+
+  Upper limits on $\sigma_{\mathrm{H}^{\pm}t(b)}\times\mathcal{B}(\mathrm{H}^{\pm} \to \mathrm{tb})$
+
+  \vspace{-0.5cm}
+  
+  \twoFigColumns
+      {limit_assoc_HIG18015}{}
+      {CMS-HIG-18-015/Boosted_Figure-aux_001-b.pdf}{}
+      {0.9}
+
+  \vspace{0.4cm}
+      
+  \twoColumns
+      {
+        \begin{itemize}
+          \footnotesize
+        \item Resolved and Boosted overlayed limits
+        \item No excess above the estimated background
+        \item Interpretation in hMSSM:
+          max. \tanb = 0.88 excluded for \mHpm~=~0.20-0.55~TeV
+        \end{itemize}
+      }
+      {        
+        \begin{itemize}
+          \footnotesize
+        \item Boosted analysis categories
+        \item Most sensitive category is $t1b$
+        \item Least sensitive category is $Wbj$
+        \end{itemize}
+      }
+}
+
+
+\MySection{Background}
+\MySubSection{ABCD correlation}
+\Slide{t}{
+
+  \textbf{Correlation of the variables that define the ABCD method}
+
+  \begin{itemize}
+    \small
+  \item $t^{res}_{H^{\pm}}$ mva in m($t^{res}_{assoc}$) regions
+  \end{itemize}
+
+  \tikz{\hspace{5.5cm}\overlaynode<indianred,{oxfordblue,rotate=3}>at(0,5)[draw]{$1M1L_{t^{res}}$};}
+  \vspace{-0.8cm}
+  \twoFigColumns
+      {QCDDataDriven_1T_SystVar_firstResults_27Dec2022/TopMVA_OnAndOff_Data.pdf}{QCD (Data)}
+      {QCDDataDriven_1T_SystVar_firstResults_27Dec2022/TopMVA_OnAndOff_TT.pdf}{\ttbar}
+      {0.73}
+      
+  \begin{itemize}
+    \small
+  \item No correlation between \textbf{\textcolor{kGreen}{SR}} and \textbf{\textcolor{kCyan}{SB}}
+  \item Syst unc account for differences related to the SB selection
+  \end{itemize}
+}
+
+\MySection{Systematic Uncertainties}
+\MySubSection{QCD measurement}
+\Slide{t}{
+
+  Estimated QCD background affected by:
+
+  \begin{enumerate}
+    \small
+  \item Sideband definition: $t^{res}_{assoc}$ mass
+  \item Sideband definition: $t^{res}_{H^{\pm}}$ MVA
+  \item Subtracted background
+  \item Binning of the $t^{res}_{assoc}$ \pT
+  \end{enumerate}
+
+  \tikz{\hspace{5.5cm}\overlaynode<indianred,{oxfordblue,rotate=3}>at(0,5)[draw]{$1M1L_{t^{res}}$};}
+  \vspace{-0.8cm}  
+      \twoFigColumns
+          {QCDVariations/1T/MVAOutputM800_TopMass.pdf}{$t^{res}_{assoc}$ mass}
+          {QCDVariations/1T/MVAOutputM800_TopMVA.pdf}{$t^{res}_{H^{\pm}}$ MVA}
+          {0.7}
+}
+
+\MySubSection{QCD measurement}
+\Slide{t}{
+
+  Estimated QCD background affected by:
+
+  \begin{enumerate}
+    \small
+  \item Sideband definition: $t^{res}_{assoc}$ mass
+  \item Sideband definition: $t^{res}_{H^{\pm}}$ MVA
+  \item Subtracted background
+  \item Binning of the $t^{res}_{assoc}$ \pT
+  \end{enumerate}
+
+  \tikz{\hspace{5.5cm}\overlaynode<indianred,{oxfordblue,rotate=3}>at(0,5)[draw]{$1M1L_{t^{res}}$};}
+  \vspace{-0.8cm}  
+  \twoFigColumns
+      {QCDVariations/1T/MVAOutputM800_BkgSubtraction.pdf}{Subtracted bkg}
+      {QCDVariations/1T/MVAOutputM800_TFBin.pdf}{$t^{res}_{assoc}$ \pT binning}
+      {0.7}      
+}
+
+
+\Slide{t}{
+
+  \textbf{Fitted ratio to quantify the variation}
+
+  \begin{itemize}
+    \small
+  \item Flat variation
+  \item For each source:
+    \begin{itemize}
+      \small
+    \item Fitting the DNN score for each mass hypothesis (17 distributions)
+    \item Final value: distribution that gives the minimum $\chi^{2}$
+    \item The maximum variation is applied
+    \end{itemize}
+  \item All sources measured independently
+  \end{itemize}
+
+  %\begin{columns}[T]
+  %  \begin{column}{0.5\textwidth}
+  %    \twoFigColumns
+  %        {QCDVariations/1T/Fit/TopMass/QCD-MVAOutputM800-OptInvertedTopMassVarEdges}{}
+  %        {QCDVariations/1T/Fit/TopMVA/QCD-MVAOutputM800-OptInvertedTopMVAVarVLoose.png}{}
+  %        {1.0}
+  %  \end{column}
+  %  \begin{column}{0.5\textwidth}
+  %    \twoFigColumns
+  %        {QCDVariations/1T/Fit/BkgSubtraction/QCD-MVAOutputM800-BkgSubtraction_Plus.png}{}
+  %        {QCDVariations/1T/Fit/TFBin/QCD-MVAOutputM800-TF_unbinned.png}{}
+   %       {1.0}      
+  %  \end{column}
+  %\end{columns}
+
+  \vspace{0.1cm}
+  
+  \tikz{\hspace{5.5cm}\overlaynode<indianred,{oxfordblue,rotate=3}>at(0,5)[draw]{$1M1L_{t^{res}}$};}
+  \vspace{-0.35cm}  
+  \threeFigColumnsCustomSize
+      {QCDVariations/1T/Fit/TopMass/QCD-MVAOutputM800-OptInvertedTopMassVarEdges}{$t^{res}_{assoc}$ mass}
+      {QCDVariations/1T/Fit/BkgSubtraction/QCD-MVAOutputM800-BkgSubtraction_Plus.png}{Subtracted
+      bkg}
+      {QCDVariations/1T/Fit/TFBin/QCD-MVAOutputM800-TF_unbinned.png}{$t^{res}_{assoc}$ \pT binning}
+      {1.0}
+}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                                                                                                                                  
 \backupend
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                                                                                                                                  

@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>2T</title>
+<style>
+body {
+    font-family: Arial;
+}
+
+a {text-decoration:none}
+
+h4 {
+    margin: 0.3em 0em 0.0em 0em;
+}
+
+.plot-element {
+    text-align: center;
+    border-width:1px;
+    border-style:solid;
+    border-color: rgb(210,210,210);
+    margin:4px;
+    font-size:14px;
+}
+ 
+img {
+    margin:0px;
+    max-width:400px;
+    height:auto;
+    /*width:400px;*/
+}
+
+.gallery {
+    max-width: 100%
+}
+ 
+.isotope-item {
+    z-index: 2;
+}
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    transition-property: height, width;
+}
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    transition-property: transform, opacity;
+}
+
+input[type="text"] {
+  font-size: 20px;
+}
+
+/* ---- button ---- */
+.button {
+  display: inline-block;
+  padding: 0.5em 1.0em;
+  background: #EEE;
+  border: none;
+  border-radius: 7px;
+  background-image: linear-gradient( to bottom, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.2) );
+  color: #222;
+  font-family: sans-serif;
+  font-size: 16px;
+  /*text-shadow: 0 1px white;*/
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #8CF;
+  /*text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);*/
+  color: #222;
+}
+
+.button:active,
+.button.is-checked {
+  background-color: #28F;
+}
+
+.button.is-checked {
+  color: white;
+  /*text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);*/
+}
+
+.button:active {
+  box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+/* ---- button-group ---- */
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.button-group .button {
+  float: left;
+  border-radius: 0;
+  margin-left: 0;
+  margin-right: 1px;
+}
+
+.button-group .button:first-child { border-radius: 0.5em 0 0 0.5em; }
+.button-group .button:last-child { border-radius: 0 0.5em 0.5em 0; }
+</style>
+<script src="https://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.css" type="text/css" media="screen"/>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js"></script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+<script type="text/javascript">
+  var thisHash = window.location.hash;
+  $(document).ready(function() {
+    $(".fancybox").fancybox({
+      openEffect  : 'none',
+      closeEffect : 'none',
+      padding : 0,
+      prevEffect    : 'none',
+      nextEffect    : 'none',
+      beforeShow: function() {
+          var id = this.element.attr("id")
+          if (id) {
+              if(history.replaceState) {
+                  history.replaceState(null, null, "#"+id);
+              }
+              else {
+                  window.location.hash = id;
+              }
+          }
+      },
+      beforeClose: function() {
+          if(history.replaceState) {
+              history.replaceState(null, null, "#");
+          }
+          else {
+              window.location.hash = "";
+          }
+      }
+        // closeBtn    : false,
+      // helpers   : {
+      //   title : { type : 'inside' }
+      // }
+    });
+    if (thisHash) {
+      document.getElementById(thisHash.replace('#','')).click();
+    }
+  });
+</script>
+</head>
+<body><a name="top"></a>
+
+<p><strong>Current directory:</strong> /var/www/html/pub/skonst04/public_html/QCDVariations/2T | <strong>Navigation:</strong>  <a href="../index.html">[Up]</a> <a href="Fit/index.html">Fit</a></p>
+ 
+<p><a href="download_all.php">Download all files</a></p>
+
+<hr>
+
+<div class="filters">
+
+</div>
+
+<p><input type="text" class="quicksearch" placeholder="Regex Search" /></p>
+
+<div class="gallery">
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM1000_BkgSubtraction.png</p>
+      <a href="MVAOutputM1000_BkgSubtraction.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM1000_BkgSubtraction.png" id="MVAOutputM1000_BkgSubtraction.png">
+      <img src="MVAOutputM1000_BkgSubtraction.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM1000_BkgSubtraction.C">[.C]</a> 
+	<a href="MVAOutputM1000_BkgSubtraction.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM1000_TFBin.png</p>
+      <a href="MVAOutputM1000_TFBin.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM1000_TFBin.png" id="MVAOutputM1000_TFBin.png">
+      <img src="MVAOutputM1000_TFBin.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM1000_TFBin.C">[.C]</a> 
+	<a href="MVAOutputM1000_TFBin.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM1000_TopMVA.png</p>
+      <a href="MVAOutputM1000_TopMVA.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM1000_TopMVA.png" id="MVAOutputM1000_TopMVA.png">
+      <img src="MVAOutputM1000_TopMVA.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM1000_TopMVA.C">[.C]</a> 
+	<a href="MVAOutputM1000_TopMVA.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM1000_TopMass.png</p>
+      <a href="MVAOutputM1000_TopMass.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM1000_TopMass.png" id="MVAOutputM1000_TopMass.png">
+      <img src="MVAOutputM1000_TopMass.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM1000_TopMass.C">[.C]</a> 
+	<a href="MVAOutputM1000_TopMass.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM1250_BkgSubtraction.png</p>
+      <a href="MVAOutputM1250_BkgSubtraction.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM1250_BkgSubtraction.png" id="MVAOutputM1250_BkgSubtraction.png">
+      <img src="MVAOutputM1250_BkgSubtraction.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM1250_BkgSubtraction.C">[.C]</a> 
+	<a href="MVAOutputM1250_BkgSubtraction.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM1250_TFBin.png</p>
+      <a href="MVAOutputM1250_TFBin.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM1250_TFBin.png" id="MVAOutputM1250_TFBin.png">
+      <img src="MVAOutputM1250_TFBin.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM1250_TFBin.C">[.C]</a> 
+	<a href="MVAOutputM1250_TFBin.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM1250_TopMVA.png</p>
+      <a href="MVAOutputM1250_TopMVA.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM1250_TopMVA.png" id="MVAOutputM1250_TopMVA.png">
+      <img src="MVAOutputM1250_TopMVA.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM1250_TopMVA.C">[.C]</a> 
+	<a href="MVAOutputM1250_TopMVA.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM1250_TopMass.png</p>
+      <a href="MVAOutputM1250_TopMass.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM1250_TopMass.png" id="MVAOutputM1250_TopMass.png">
+      <img src="MVAOutputM1250_TopMass.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM1250_TopMass.C">[.C]</a> 
+	<a href="MVAOutputM1250_TopMass.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM1500_BkgSubtraction.png</p>
+      <a href="MVAOutputM1500_BkgSubtraction.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM1500_BkgSubtraction.png" id="MVAOutputM1500_BkgSubtraction.png">
+      <img src="MVAOutputM1500_BkgSubtraction.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM1500_BkgSubtraction.C">[.C]</a> 
+	<a href="MVAOutputM1500_BkgSubtraction.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM1500_TFBin.png</p>
+      <a href="MVAOutputM1500_TFBin.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM1500_TFBin.png" id="MVAOutputM1500_TFBin.png">
+      <img src="MVAOutputM1500_TFBin.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM1500_TFBin.C">[.C]</a> 
+	<a href="MVAOutputM1500_TFBin.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM1500_TopMVA.png</p>
+      <a href="MVAOutputM1500_TopMVA.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM1500_TopMVA.png" id="MVAOutputM1500_TopMVA.png">
+      <img src="MVAOutputM1500_TopMVA.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM1500_TopMVA.C">[.C]</a> 
+	<a href="MVAOutputM1500_TopMVA.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM1500_TopMass.png</p>
+      <a href="MVAOutputM1500_TopMass.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM1500_TopMass.png" id="MVAOutputM1500_TopMass.png">
+      <img src="MVAOutputM1500_TopMass.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM1500_TopMass.C">[.C]</a> 
+	<a href="MVAOutputM1500_TopMass.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM1750_BkgSubtraction.png</p>
+      <a href="MVAOutputM1750_BkgSubtraction.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM1750_BkgSubtraction.png" id="MVAOutputM1750_BkgSubtraction.png">
+      <img src="MVAOutputM1750_BkgSubtraction.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM1750_BkgSubtraction.C">[.C]</a> 
+	<a href="MVAOutputM1750_BkgSubtraction.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM1750_TFBin.png</p>
+      <a href="MVAOutputM1750_TFBin.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM1750_TFBin.png" id="MVAOutputM1750_TFBin.png">
+      <img src="MVAOutputM1750_TFBin.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM1750_TFBin.C">[.C]</a> 
+	<a href="MVAOutputM1750_TFBin.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM1750_TopMVA.png</p>
+      <a href="MVAOutputM1750_TopMVA.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM1750_TopMVA.png" id="MVAOutputM1750_TopMVA.png">
+      <img src="MVAOutputM1750_TopMVA.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM1750_TopMVA.C">[.C]</a> 
+	<a href="MVAOutputM1750_TopMVA.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM1750_TopMass.png</p>
+      <a href="MVAOutputM1750_TopMass.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM1750_TopMass.png" id="MVAOutputM1750_TopMass.png">
+      <img src="MVAOutputM1750_TopMass.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM1750_TopMass.C">[.C]</a> 
+	<a href="MVAOutputM1750_TopMass.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM2000_BkgSubtraction.png</p>
+      <a href="MVAOutputM2000_BkgSubtraction.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM2000_BkgSubtraction.png" id="MVAOutputM2000_BkgSubtraction.png">
+      <img src="MVAOutputM2000_BkgSubtraction.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM2000_BkgSubtraction.C">[.C]</a> 
+	<a href="MVAOutputM2000_BkgSubtraction.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM2000_TFBin.png</p>
+      <a href="MVAOutputM2000_TFBin.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM2000_TFBin.png" id="MVAOutputM2000_TFBin.png">
+      <img src="MVAOutputM2000_TFBin.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM2000_TFBin.C">[.C]</a> 
+	<a href="MVAOutputM2000_TFBin.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM2000_TopMVA.png</p>
+      <a href="MVAOutputM2000_TopMVA.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM2000_TopMVA.png" id="MVAOutputM2000_TopMVA.png">
+      <img src="MVAOutputM2000_TopMVA.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM2000_TopMVA.C">[.C]</a> 
+	<a href="MVAOutputM2000_TopMVA.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM2000_TopMass.png</p>
+      <a href="MVAOutputM2000_TopMass.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM2000_TopMass.png" id="MVAOutputM2000_TopMass.png">
+      <img src="MVAOutputM2000_TopMass.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM2000_TopMass.C">[.C]</a> 
+	<a href="MVAOutputM2000_TopMass.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM200_BkgSubtraction.png</p>
+      <a href="MVAOutputM200_BkgSubtraction.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM200_BkgSubtraction.png" id="MVAOutputM200_BkgSubtraction.png">
+      <img src="MVAOutputM200_BkgSubtraction.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM200_BkgSubtraction.C">[.C]</a> 
+	<a href="MVAOutputM200_BkgSubtraction.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM200_TFBin.png</p>
+      <a href="MVAOutputM200_TFBin.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM200_TFBin.png" id="MVAOutputM200_TFBin.png">
+      <img src="MVAOutputM200_TFBin.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM200_TFBin.C">[.C]</a> 
+	<a href="MVAOutputM200_TFBin.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM200_TopMVA.png</p>
+      <a href="MVAOutputM200_TopMVA.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM200_TopMVA.png" id="MVAOutputM200_TopMVA.png">
+      <img src="MVAOutputM200_TopMVA.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM200_TopMVA.C">[.C]</a> 
+	<a href="MVAOutputM200_TopMVA.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM200_TopMass.png</p>
+      <a href="MVAOutputM200_TopMass.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM200_TopMass.png" id="MVAOutputM200_TopMass.png">
+      <img src="MVAOutputM200_TopMass.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM200_TopMass.C">[.C]</a> 
+	<a href="MVAOutputM200_TopMass.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM220_BkgSubtraction.png</p>
+      <a href="MVAOutputM220_BkgSubtraction.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM220_BkgSubtraction.png" id="MVAOutputM220_BkgSubtraction.png">
+      <img src="MVAOutputM220_BkgSubtraction.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM220_BkgSubtraction.C">[.C]</a> 
+	<a href="MVAOutputM220_BkgSubtraction.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM220_TFBin.png</p>
+      <a href="MVAOutputM220_TFBin.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM220_TFBin.png" id="MVAOutputM220_TFBin.png">
+      <img src="MVAOutputM220_TFBin.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM220_TFBin.C">[.C]</a> 
+	<a href="MVAOutputM220_TFBin.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM220_TopMVA.png</p>
+      <a href="MVAOutputM220_TopMVA.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM220_TopMVA.png" id="MVAOutputM220_TopMVA.png">
+      <img src="MVAOutputM220_TopMVA.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM220_TopMVA.C">[.C]</a> 
+	<a href="MVAOutputM220_TopMVA.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM220_TopMass.png</p>
+      <a href="MVAOutputM220_TopMass.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM220_TopMass.png" id="MVAOutputM220_TopMass.png">
+      <img src="MVAOutputM220_TopMass.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM220_TopMass.C">[.C]</a> 
+	<a href="MVAOutputM220_TopMass.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM2500_BkgSubtraction.png</p>
+      <a href="MVAOutputM2500_BkgSubtraction.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM2500_BkgSubtraction.png" id="MVAOutputM2500_BkgSubtraction.png">
+      <img src="MVAOutputM2500_BkgSubtraction.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM2500_BkgSubtraction.C">[.C]</a> 
+	<a href="MVAOutputM2500_BkgSubtraction.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM2500_TFBin.png</p>
+      <a href="MVAOutputM2500_TFBin.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM2500_TFBin.png" id="MVAOutputM2500_TFBin.png">
+      <img src="MVAOutputM2500_TFBin.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM2500_TFBin.C">[.C]</a> 
+	<a href="MVAOutputM2500_TFBin.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM2500_TopMVA.png</p>
+      <a href="MVAOutputM2500_TopMVA.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM2500_TopMVA.png" id="MVAOutputM2500_TopMVA.png">
+      <img src="MVAOutputM2500_TopMVA.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM2500_TopMVA.C">[.C]</a> 
+	<a href="MVAOutputM2500_TopMVA.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM2500_TopMass.png</p>
+      <a href="MVAOutputM2500_TopMass.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM2500_TopMass.png" id="MVAOutputM2500_TopMass.png">
+      <img src="MVAOutputM2500_TopMass.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM2500_TopMass.C">[.C]</a> 
+	<a href="MVAOutputM2500_TopMass.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM250_BkgSubtraction.png</p>
+      <a href="MVAOutputM250_BkgSubtraction.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM250_BkgSubtraction.png" id="MVAOutputM250_BkgSubtraction.png">
+      <img src="MVAOutputM250_BkgSubtraction.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM250_BkgSubtraction.C">[.C]</a> 
+	<a href="MVAOutputM250_BkgSubtraction.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM250_TFBin.png</p>
+      <a href="MVAOutputM250_TFBin.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM250_TFBin.png" id="MVAOutputM250_TFBin.png">
+      <img src="MVAOutputM250_TFBin.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM250_TFBin.C">[.C]</a> 
+	<a href="MVAOutputM250_TFBin.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM250_TopMVA.png</p>
+      <a href="MVAOutputM250_TopMVA.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM250_TopMVA.png" id="MVAOutputM250_TopMVA.png">
+      <img src="MVAOutputM250_TopMVA.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM250_TopMVA.C">[.C]</a> 
+	<a href="MVAOutputM250_TopMVA.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM250_TopMass.png</p>
+      <a href="MVAOutputM250_TopMass.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM250_TopMass.png" id="MVAOutputM250_TopMass.png">
+      <img src="MVAOutputM250_TopMass.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM250_TopMass.C">[.C]</a> 
+	<a href="MVAOutputM250_TopMass.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM3000_BkgSubtraction.png</p>
+      <a href="MVAOutputM3000_BkgSubtraction.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM3000_BkgSubtraction.png" id="MVAOutputM3000_BkgSubtraction.png">
+      <img src="MVAOutputM3000_BkgSubtraction.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM3000_BkgSubtraction.C">[.C]</a> 
+	<a href="MVAOutputM3000_BkgSubtraction.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM3000_TFBin.png</p>
+      <a href="MVAOutputM3000_TFBin.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM3000_TFBin.png" id="MVAOutputM3000_TFBin.png">
+      <img src="MVAOutputM3000_TFBin.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM3000_TFBin.C">[.C]</a> 
+	<a href="MVAOutputM3000_TFBin.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM3000_TopMVA.png</p>
+      <a href="MVAOutputM3000_TopMVA.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM3000_TopMVA.png" id="MVAOutputM3000_TopMVA.png">
+      <img src="MVAOutputM3000_TopMVA.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM3000_TopMVA.C">[.C]</a> 
+	<a href="MVAOutputM3000_TopMVA.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM3000_TopMass.png</p>
+      <a href="MVAOutputM3000_TopMass.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM3000_TopMass.png" id="MVAOutputM3000_TopMass.png">
+      <img src="MVAOutputM3000_TopMass.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM3000_TopMass.C">[.C]</a> 
+	<a href="MVAOutputM3000_TopMass.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM300_BkgSubtraction.png</p>
+      <a href="MVAOutputM300_BkgSubtraction.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM300_BkgSubtraction.png" id="MVAOutputM300_BkgSubtraction.png">
+      <img src="MVAOutputM300_BkgSubtraction.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM300_BkgSubtraction.C">[.C]</a> 
+	<a href="MVAOutputM300_BkgSubtraction.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM300_TFBin.png</p>
+      <a href="MVAOutputM300_TFBin.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM300_TFBin.png" id="MVAOutputM300_TFBin.png">
+      <img src="MVAOutputM300_TFBin.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM300_TFBin.C">[.C]</a> 
+	<a href="MVAOutputM300_TFBin.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM300_TopMVA.png</p>
+      <a href="MVAOutputM300_TopMVA.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM300_TopMVA.png" id="MVAOutputM300_TopMVA.png">
+      <img src="MVAOutputM300_TopMVA.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM300_TopMVA.C">[.C]</a> 
+	<a href="MVAOutputM300_TopMVA.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM300_TopMass.png</p>
+      <a href="MVAOutputM300_TopMass.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM300_TopMass.png" id="MVAOutputM300_TopMass.png">
+      <img src="MVAOutputM300_TopMass.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM300_TopMass.C">[.C]</a> 
+	<a href="MVAOutputM300_TopMass.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM350_BkgSubtraction.png</p>
+      <a href="MVAOutputM350_BkgSubtraction.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM350_BkgSubtraction.png" id="MVAOutputM350_BkgSubtraction.png">
+      <img src="MVAOutputM350_BkgSubtraction.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM350_BkgSubtraction.C">[.C]</a> 
+	<a href="MVAOutputM350_BkgSubtraction.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM350_TFBin.png</p>
+      <a href="MVAOutputM350_TFBin.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM350_TFBin.png" id="MVAOutputM350_TFBin.png">
+      <img src="MVAOutputM350_TFBin.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM350_TFBin.C">[.C]</a> 
+	<a href="MVAOutputM350_TFBin.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM350_TopMVA.png</p>
+      <a href="MVAOutputM350_TopMVA.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM350_TopMVA.png" id="MVAOutputM350_TopMVA.png">
+      <img src="MVAOutputM350_TopMVA.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM350_TopMVA.C">[.C]</a> 
+	<a href="MVAOutputM350_TopMVA.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM350_TopMass.png</p>
+      <a href="MVAOutputM350_TopMass.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM350_TopMass.png" id="MVAOutputM350_TopMass.png">
+      <img src="MVAOutputM350_TopMass.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM350_TopMass.C">[.C]</a> 
+	<a href="MVAOutputM350_TopMass.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM400_BkgSubtraction.png</p>
+      <a href="MVAOutputM400_BkgSubtraction.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM400_BkgSubtraction.png" id="MVAOutputM400_BkgSubtraction.png">
+      <img src="MVAOutputM400_BkgSubtraction.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM400_BkgSubtraction.C">[.C]</a> 
+	<a href="MVAOutputM400_BkgSubtraction.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM400_TFBin.png</p>
+      <a href="MVAOutputM400_TFBin.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM400_TFBin.png" id="MVAOutputM400_TFBin.png">
+      <img src="MVAOutputM400_TFBin.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM400_TFBin.C">[.C]</a> 
+	<a href="MVAOutputM400_TFBin.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM400_TopMVA.png</p>
+      <a href="MVAOutputM400_TopMVA.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM400_TopMVA.png" id="MVAOutputM400_TopMVA.png">
+      <img src="MVAOutputM400_TopMVA.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM400_TopMVA.C">[.C]</a> 
+	<a href="MVAOutputM400_TopMVA.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM400_TopMass.png</p>
+      <a href="MVAOutputM400_TopMass.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM400_TopMass.png" id="MVAOutputM400_TopMass.png">
+      <img src="MVAOutputM400_TopMass.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM400_TopMass.C">[.C]</a> 
+	<a href="MVAOutputM400_TopMass.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM500_BkgSubtraction.png</p>
+      <a href="MVAOutputM500_BkgSubtraction.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM500_BkgSubtraction.png" id="MVAOutputM500_BkgSubtraction.png">
+      <img src="MVAOutputM500_BkgSubtraction.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM500_BkgSubtraction.C">[.C]</a> 
+	<a href="MVAOutputM500_BkgSubtraction.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM500_TFBin.png</p>
+      <a href="MVAOutputM500_TFBin.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM500_TFBin.png" id="MVAOutputM500_TFBin.png">
+      <img src="MVAOutputM500_TFBin.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM500_TFBin.C">[.C]</a> 
+	<a href="MVAOutputM500_TFBin.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM500_TopMVA.png</p>
+      <a href="MVAOutputM500_TopMVA.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM500_TopMVA.png" id="MVAOutputM500_TopMVA.png">
+      <img src="MVAOutputM500_TopMVA.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM500_TopMVA.C">[.C]</a> 
+	<a href="MVAOutputM500_TopMVA.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM500_TopMass.png</p>
+      <a href="MVAOutputM500_TopMass.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM500_TopMass.png" id="MVAOutputM500_TopMass.png">
+      <img src="MVAOutputM500_TopMass.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM500_TopMass.C">[.C]</a> 
+	<a href="MVAOutputM500_TopMass.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM600_BkgSubtraction.png</p>
+      <a href="MVAOutputM600_BkgSubtraction.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM600_BkgSubtraction.png" id="MVAOutputM600_BkgSubtraction.png">
+      <img src="MVAOutputM600_BkgSubtraction.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM600_BkgSubtraction.C">[.C]</a> 
+	<a href="MVAOutputM600_BkgSubtraction.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM600_TFBin.png</p>
+      <a href="MVAOutputM600_TFBin.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM600_TFBin.png" id="MVAOutputM600_TFBin.png">
+      <img src="MVAOutputM600_TFBin.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM600_TFBin.C">[.C]</a> 
+	<a href="MVAOutputM600_TFBin.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM600_TopMVA.png</p>
+      <a href="MVAOutputM600_TopMVA.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM600_TopMVA.png" id="MVAOutputM600_TopMVA.png">
+      <img src="MVAOutputM600_TopMVA.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM600_TopMVA.C">[.C]</a> 
+	<a href="MVAOutputM600_TopMVA.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM600_TopMass.png</p>
+      <a href="MVAOutputM600_TopMass.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM600_TopMass.png" id="MVAOutputM600_TopMass.png">
+      <img src="MVAOutputM600_TopMass.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM600_TopMass.C">[.C]</a> 
+	<a href="MVAOutputM600_TopMass.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM700_BkgSubtraction.png</p>
+      <a href="MVAOutputM700_BkgSubtraction.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM700_BkgSubtraction.png" id="MVAOutputM700_BkgSubtraction.png">
+      <img src="MVAOutputM700_BkgSubtraction.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM700_BkgSubtraction.C">[.C]</a> 
+	<a href="MVAOutputM700_BkgSubtraction.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM700_TFBin.png</p>
+      <a href="MVAOutputM700_TFBin.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM700_TFBin.png" id="MVAOutputM700_TFBin.png">
+      <img src="MVAOutputM700_TFBin.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM700_TFBin.C">[.C]</a> 
+	<a href="MVAOutputM700_TFBin.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM700_TopMVA.png</p>
+      <a href="MVAOutputM700_TopMVA.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM700_TopMVA.png" id="MVAOutputM700_TopMVA.png">
+      <img src="MVAOutputM700_TopMVA.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM700_TopMVA.C">[.C]</a> 
+	<a href="MVAOutputM700_TopMVA.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM700_TopMass.png</p>
+      <a href="MVAOutputM700_TopMass.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM700_TopMass.png" id="MVAOutputM700_TopMass.png">
+      <img src="MVAOutputM700_TopMass.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM700_TopMass.C">[.C]</a> 
+	<a href="MVAOutputM700_TopMass.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM800_BkgSubtraction.png</p>
+      <a href="MVAOutputM800_BkgSubtraction.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM800_BkgSubtraction.png" id="MVAOutputM800_BkgSubtraction.png">
+      <img src="MVAOutputM800_BkgSubtraction.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM800_BkgSubtraction.C">[.C]</a> 
+	<a href="MVAOutputM800_BkgSubtraction.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM800_TFBin.png</p>
+      <a href="MVAOutputM800_TFBin.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM800_TFBin.png" id="MVAOutputM800_TFBin.png">
+      <img src="MVAOutputM800_TFBin.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM800_TFBin.C">[.C]</a> 
+	<a href="MVAOutputM800_TFBin.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM800_TopMVA.png</p>
+      <a href="MVAOutputM800_TopMVA.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM800_TopMVA.png" id="MVAOutputM800_TopMVA.png">
+      <img src="MVAOutputM800_TopMVA.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM800_TopMVA.C">[.C]</a> 
+	<a href="MVAOutputM800_TopMVA.pdf">[.pdf]</a></p>
+  </div>
+
+  <div class="plot-element">
+      <p class="file-title" style="font-size: 100%;">MVAOutputM800_TopMass.png</p>
+      <a href="MVAOutputM800_TopMass.png" class="fancybox" data-fancybox-group="gallery" title="MVAOutputM800_TopMass.png" id="MVAOutputM800_TopMass.png">
+      <img src="MVAOutputM800_TopMass.png" alt="image">
+      </a>
+	<p>Other formats: 
+	<a href="MVAOutputM800_TopMass.C">[.C]</a> 
+	<a href="MVAOutputM800_TopMass.pdf">[.pdf]</a></p>
+  </div>
+
+</div>
+
+
+
+<script type="text/javascript">
+ $(window).load(function(){
+
+     var qsRegex;
+     var buttonFilter;
+     var $container = $('.gallery');
+
+     $container.isotope({
+          filter: function() {
+            var $this = $(this);
+            var searchResult = qsRegex ? $this.find('.file-title').text().match( qsRegex ) : true;
+            var buttonResult = buttonFilter ? $this.is( buttonFilter ) : true;
+            var result = searchResult && buttonResult;
+            if(result == true) {
+              $this.find(".fancybox").attr("data-fancybox-group", "gallery");
+            } else { 
+              $this.find(".fancybox").attr("data-fancybox-group", "notgallery");
+            }
+            return result;
+          },
+          resizable: false
+     });
+  
+     // store filter for each group
+     var filters = {};
+
+     $('.filters').on( 'click', '.button', function() {
+       var $this = $(this);
+       // get group key
+       var $buttonGroup = $this.parents('.button-group');
+       var filterGroup = $buttonGroup.attr('data-filter-group');
+       // set filter for group
+       filters[ filterGroup ] = $this.attr('data-filter');
+       // combine filters
+       buttonFilter = concatValues( filters );
+       // set filter for Isotope
+       $container.isotope();
+     });
+
+
+     // change is-checked class on buttons
+     $('.button-group').each( function( i, buttonGroup ) {
+       var $buttonGroup = $( buttonGroup );
+       $buttonGroup.on( 'click', 'button', function() {
+         $buttonGroup.find('.is-checked').removeClass('is-checked');
+         $( this ).addClass('is-checked');
+       });
+     });
+
+     // use value of search field to filter
+     var $quicksearch = $('.quicksearch').keyup( debounce( function() {
+       qsRegex = new RegExp( $quicksearch.val(), 'gi' );
+       $container.isotope();
+     }, 200 ) );
+
+     function debounce( fn, threshold ) {
+       var timeout;
+       return function debounced() {
+         if ( timeout ) {
+           clearTimeout( timeout );
+         }
+         function delayed() {
+           fn();
+           timeout = null;
+         }
+         timeout = setTimeout( delayed, threshold || 100 );
+       }
+     }
+
+     // flatten object by concatting values
+     function concatValues( obj ) {
+       var value = '';
+       for ( var prop in obj ) {
+         value += obj[ prop ];
+       }
+       return value;
+     }
+
+     // Trigger an update with the mathjax has loaded
+     MathJax.Hub.Register.StartupHook("End",function () { $container.isotope('layout'); });
+
+     // $container.imagesLoaded().progress( function() {
+     //   $container.isotope('layout');
+     // });
+
+ });
+</script>
+
+
+</body>
+</html> 

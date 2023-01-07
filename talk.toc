@@ -1,23 +1,30 @@
 \babel@toc {english}{}
 \beamer@sectionintoc {1}{Introduction}{2}{0}{1}
-\beamer@subsectionintoc {1}{1}{extended Higgs sector}{2}{0}{1}
-\beamer@subsectionintoc {1}{2}{production $\&$ decay}{3}{0}{1}
-\beamer@subsectionintoc {1}{3}{final state}{4}{0}{1}
-\beamer@subsectionintoc {1}{4}{topology}{5}{0}{1}
-\beamer@sectionintoc {3}{Previous results}{7}{0}{2}
-\beamer@subsectionintoc {3}{1}{review}{7}{0}{2}
-\beamer@sectionintoc {4}{This work}{10}{0}{3}
-\beamer@subsectionintoc {4}{1}{strategy}{10}{0}{3}
-\beamer@sectionintoc {6}{Strategy}{12}{0}{4}
-\beamer@sectionintoc {7}{Top tagging}{13}{0}{5}
-\beamer@sectionintoc {8}{Background}{14}{0}{6}
-\beamer@subsectionintoc {8}{1}{Validation}{15}{0}{6}
-\beamer@sectionintoc {9}{Signal extraction}{16}{0}{7}
-\beamer@subsectionintoc {9}{1}{Parameterized DNN}{17}{0}{7}
-\beamer@sectionintoc {10}{Signal region}{18}{0}{8}
-\beamer@subsectionintoc {10}{1}{Limits}{19}{0}{8}
-\beamer@sectionintoc {12}{Strategy}{21}{0}{9}
-\beamer@sectionintoc {13}{Top tagging}{22}{0}{10}
-\beamer@sectionintoc {14}{Background}{23}{0}{11}
-\beamer@sectionintoc {16}{Summary}{25}{0}{12}
-\beamer@sectionintoc {17}{Future work}{26}{0}{13}
+\beamer@subsectionintoc {1}{1}{production $\&$ decay}{2}{0}{1}
+\beamer@subsectionintoc {1}{2}{final state}{3}{0}{1}
+\beamer@sectionintoc {2}{strategy}{4}{0}{2}
+\beamer@sectionintoc {3}{Trigger}{5}{0}{3}
+\beamer@sectionintoc {5}{Strategy}{7}{0}{4}
+\beamer@sectionintoc {6}{Top tagging}{8}{0}{5}
+\beamer@sectionintoc {7}{Background}{9}{0}{6}
+\beamer@subsectionintoc {7}{1}{ABCD correlation}{10}{0}{6}
+\beamer@subsectionintoc {7}{2}{Validation}{11}{0}{6}
+\beamer@sectionintoc {8}{Signal extraction}{12}{0}{7}
+\beamer@subsectionintoc {8}{1}{Parameterized DNN}{13}{0}{7}
+\beamer@sectionintoc {9}{Systematic Uncertainties}{14}{0}{8}
+\beamer@subsectionintoc {9}{1}{QCD measurement}{15}{0}{8}
+\beamer@subsectionintoc {9}{2}{QCD measurement}{16}{0}{8}
+\beamer@sectionintoc {10}{Signal region}{18}{0}{9}
+\beamer@subsectionintoc {10}{1}{Limits}{19}{0}{9}
+\beamer@sectionintoc {12}{Strategy}{21}{0}{10}
+\beamer@sectionintoc {13}{Jet tagging}{22}{0}{11}
+\beamer@sectionintoc {14}{Background}{24}{0}{12}
+\beamer@sectionintoc {16}{Summary}{26}{0}{13}
+\beamer@sectionintoc {17}{Future work}{27}{0}{14}
+\beamer@sectionintoc {20}{Previous results}{29}{0}{15}
+\beamer@subsectionintoc {20}{1}{review}{29}{0}{15}
+\beamer@sectionintoc {21}{Background}{32}{0}{16}
+\beamer@subsectionintoc {21}{1}{ABCD correlation}{32}{0}{16}
+\beamer@sectionintoc {22}{Systematic Uncertainties}{33}{0}{17}
+\beamer@subsectionintoc {22}{1}{QCD measurement}{33}{0}{17}
+\beamer@subsectionintoc {22}{2}{QCD measurement}{34}{0}{17}

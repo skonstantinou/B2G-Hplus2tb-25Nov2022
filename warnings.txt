@@ -1,41 +1,44 @@
 Package etex Warning: Extended allocation already in use.
 LaTeX Warning: Label `sec: ' multiply defined.
-LaTeX Warning: Label `sec: ' multiply defined.
 LaTeX Warning: Label `sec:Strategy' multiply defined.
-LaTeX Warning: Label `sec:Top tagging' multiply defined.
 LaTeX Warning: Label `sec:Background' multiply defined.
 LaTeX Warning: Label `sec: ' multiply defined.
 LaTeX Warning: Label `sec: ' multiply defined.
+LaTeX Warning: Label `sec:Background' multiply defined.
+LaTeX Warning: Label `sec:Systematic Uncertainties' multiply defined.
 Package hyperref Warning: Option `pdfauthor' has already been used,
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-LaTeX Warning: Command \& invalid in math mode on input line 74.
-LaTeX Warning: Command \& invalid in math mode on input line 428.
-[10]pdfTeX warning (ext4): destination with the same identifier (name{sec:\040}
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 574.
+LaTeX Warning: Command \& invalid in math mode on input line 43.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 436.
 pdfTeX warning: pdflatex (file ./figures/ABCD_v2.pdf): PDF inclusion: found PDF
 Y.pdf, page is rotated 90 degrees>]pdfTeX warning (ext4): destination with the 
                   [20]pdfTeX warning (ext4): destination with the same identifi
-Plus4FS_HToTB_BoostedTop_InvMass.pdf>]pdfTeX warning (ext4): destination with t
-leNet_TvsQCD_5sigma.pdf>]pdfTeX warning (ext4): destination with the same ident
+LaTeX Warning: Command \& invalid in math mode on input line 1031.
+0sigma.pdf> <./figures/DDT_particleNet_TvsQCD_5sigma.pdf>]pdfTeX warning (ext4)
 res/HPlusMass_Selections_v1.png>]pdfTeX warning (ext4): destination with the sa
-                   [24] [25] [26]) (./tex/Backup.texpdfTeX warning (ext4): dest
+                   [25] [26] [27]) (./tex/Backup.texpdfTeX warning (ext4): dest
+X warning (ext4): destination with the same identifier (name{sec:Background}) h
+pMVA_OnAndOff_TT.pdf>]pdfTeX warning (ext4): destination with the same identifi
 LaTeX Warning: There were multiply-defined labels.
 (see the transcript file for additional information)pdfTeX warning (dest): name
+pdfTeX warning (dest): name{NAVIGATION32} has been referenced but does not exis
+pdfTeX warning (dest): name{NAVIGATION29} has been referenced but does not exis
+pdfTeX warning (dest): name{NAVIGATION28} has been referenced but does not exis
+pdfTeX warning (dest): name{NAVIGATION27} has been referenced but does not exis
 pdfTeX warning (dest): name{NAVIGATION26} has been referenced but does not exis
 pdfTeX warning (dest): name{NAVIGATION25} has been referenced but does not exis
 pdfTeX warning (dest): name{NAVIGATION24} has been referenced but does not exis
-pdfTeX warning (dest): name{NAVIGATION23} has been referenced but does not exis
 pdfTeX warning (dest): name{NAVIGATION22} has been referenced but does not exis
 pdfTeX warning (dest): name{NAVIGATION21} has been referenced but does not exis
 pdfTeX warning (dest): name{NAVIGATION20} has been referenced but does not exis
 pdfTeX warning (dest): name{NAVIGATION18} has been referenced but does not exis
-pdfTeX warning (dest): name{NAVIGATION16} has been referenced but does not exis
 pdfTeX warning (dest): name{NAVIGATION14} has been referenced but does not exis
-pdfTeX warning (dest): name{NAVIGATION13} has been referenced but does not exis
 pdfTeX warning (dest): name{NAVIGATION12} has been referenced but does not exis
-pdfTeX warning (dest): name{NAVIGATION11} has been referenced but does not exis
-pdfTeX warning (dest): name{NAVIGATION10} has been referenced but does not exis
+pdfTeX warning (dest): name{NAVIGATION9} has been referenced but does not exist
+pdfTeX warning (dest): name{NAVIGATION8} has been referenced but does not exist
 pdfTeX warning (dest): name{NAVIGATION7} has been referenced but does not exist
 pdfTeX warning (dest): name{NAVIGATION6} has been referenced but does not exist
+pdfTeX warning (dest): name{NAVIGATION5} has been referenced but does not exist
+pdfTeX warning (dest): name{NAVIGATION4} has been referenced but does not exist
 pdfTeX warning (dest): name{NAVIGATION2} has been referenced but does not exist
