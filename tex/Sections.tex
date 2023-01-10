@@ -187,59 +187,6 @@ Three mass categories are commonly defined in \PHpm\ searches:
       }
 }
 
-\iftrue
-\MySection{Trigger}
-\Slide{t}{
-
-  \small
-  \textcolor{kDarkGreen}{Signal events} are collected by the \textbf{OR} of:
-
-  \vspace{0.1cm}
-  
-    \begin{center}
-      \resizebox{0.81\linewidth}{!}{%https://tex.stackexchange.com/questions/38177/including-large-tables-in-a-beamer-frame
-        \begin{tabular}{ll}
-          \texttt{HLT\_PFHT380\_SixPFJet32\_DoublePFBTagCSV\_2p2} & \texttt{HLT\_PFHT1050}\\
-          \texttt{HLT\_PFHT380\_SixPFJet32\_DoublePFBTagDeepCSV\_2p2} & \texttt{HLT\_AK8PFJet500}\\
-          \texttt{HLT\_PFHT400\_SixPFJet32\_DoublePFBTagDeepCSV\_2p94} & \texttt{HLT\_AK8PFJet400\_TrimMass30}\\
-          \texttt{HLT\_PFHT430\_SixPFJet40\_PFBTagCSV\_1p5} & \texttt{HLT\_AK8PFHT800\_TrimMass50}\\
-          \texttt{HLT\_PFHT430\_SixPFJet40\_PFBTagDeepCSV\_1p5} & \\
-          \texttt{HLT\_PFHT450\_SixPFJet36\_PFBTagDeepCSV\_1p59} & \\
-          %\texttt{HLT\_PFHT1050}\\
-          %\texttt{HLT\_AK8PFJet500}\\
-          %\texttt{HLT\_AK8PFJet400\_TrimMass30}\\
-          %\texttt{HLT\_AK8PFHT800\_TrimMass50}\\          
-      \end{tabular}}
-    \end{center}
-
-  \vspace{+0.2cm}
-
-  \begin{itemize}
-    \small
-  \item Trigger efficiency is measured in events with 1$\mu$, $\ge$7
-    jets,  $\ge$ 3 bjets
-    \begin{itemize}
-      \footnotesize
-    \item \textcolor{kBlue}{Reference trigger} is \texttt{HLT\_IsoMu24}
-    \end{itemize}
-  \item 2D Scale factors are calculated to correct simulation (\HT vs
-    \pT$_{6 \ jet}$)
-  \end{itemize}
-
-  \vspace{-0.1cm}
-  
-  \threeFigColumns
-      {Eff3B_Ht_12BTag_AK8OR_PFHT1050}{Eff vs \HT}
-      {Eff3B_pt6_12BTag_AK8OR_PFHT1050}{Eff vs $p_{T,6}$}
-      {TriggerSF_Category3B_ForTrgComb_12BTag_AK8OR_PFHT1050}{2D SF}
-
-      \vspace{-0.75cm}
-      \threeColumns
-          {}{}{\begin{itemize}\footnotesize \item Syst unc applied in SF measurement \end{itemize}}
-          
-}
-\fi
-
 %\MySection{Resolved}
 \MySection{ }
 \begin{frame}[noframenumbering]{}
@@ -306,6 +253,57 @@ Three mass categories are commonly defined in \PHpm\ searches:
   \end{column}
   \begin{column}{0.02\textwidth}\end{column}
 \end{columns}
+}
+
+\MySection{Trigger}
+\Slide{t}{
+
+  \small
+  \textcolor{kDarkGreen}{Signal events} are collected by the \textbf{OR} of:
+
+  \vspace{0.1cm}
+  
+    \begin{center}
+      \resizebox{0.81\linewidth}{!}{%https://tex.stackexchange.com/questions/38177/including-large-tables-in-a-beamer-frame
+        \begin{tabular}{ll}
+          \texttt{HLT\_PFHT380\_SixPFJet32\_DoublePFBTagCSV\_2p2} & \texttt{HLT\_PFHT1050}\\
+          \texttt{HLT\_PFHT380\_SixPFJet32\_DoublePFBTagDeepCSV\_2p2} & \texttt{HLT\_AK8PFJet500}\\
+          \texttt{HLT\_PFHT400\_SixPFJet32\_DoublePFBTagDeepCSV\_2p94} & \texttt{HLT\_AK8PFJet400\_TrimMass30}\\
+          \texttt{HLT\_PFHT430\_SixPFJet40\_PFBTagCSV\_1p5} & \texttt{HLT\_AK8PFHT800\_TrimMass50}\\
+          \texttt{HLT\_PFHT430\_SixPFJet40\_PFBTagDeepCSV\_1p5} & \\
+          \texttt{HLT\_PFHT450\_SixPFJet36\_PFBTagDeepCSV\_1p59} & \\
+          %\texttt{HLT\_PFHT1050}\\
+          %\texttt{HLT\_AK8PFJet500}\\
+          %\texttt{HLT\_AK8PFJet400\_TrimMass30}\\
+          %\texttt{HLT\_AK8PFHT800\_TrimMass50}\\          
+      \end{tabular}}
+    \end{center}
+
+  \vspace{+0.2cm}
+
+  \begin{itemize}
+    \small
+  \item Trigger efficiency is measured in events with 1$\mu$, $\ge$7
+    jets,  $\ge$ 3 bjets
+    \begin{itemize}
+      \footnotesize
+    \item \textcolor{kBlue}{Reference trigger} is \texttt{HLT\_IsoMu24}
+    \end{itemize}
+  \item 2D Scale factors are calculated to correct simulation (\HT vs
+    \pT$_{6 \ jet}$)
+  \end{itemize}
+
+  \vspace{-0.1cm}
+  
+  \threeFigColumns
+      {Eff3B_Ht_12BTag_AK8OR_PFHT1050}{Eff vs \HT}
+      {Eff3B_pt6_12BTag_AK8OR_PFHT1050}{Eff vs $p_{T,6}$}
+      {TriggerSF_Category3B_ForTrgComb_12BTag_AK8OR_PFHT1050}{2D SF}
+
+      \vspace{-0.75cm}
+      \threeColumns
+          {}{}{\begin{itemize}\footnotesize \item Syst unc applied in SF measurement \end{itemize}}
+          
 }
 
 \MySection{Top tagging}
@@ -439,8 +437,9 @@ Three mass categories are commonly defined in \PHpm\ searches:
           \small
           %\item $\mathrm{N_{QCD} = N_{Data} - N_{EWK}}$
         \item N$\mathrm{_{QCD}}$ = N$\mathrm{_{Data}}$ - N$_{t\bar{t}}$ - N$_{t, tt+X,EW}$
-          \vspace{0.1cm}
+          %\vspace{0.1cm}
         \item Performed in bins of the $t^{res}_{assoc}$ \pT
+        \item Validated in regions with == 2 b jets
         \end{itemize}
       }
       {
@@ -481,54 +480,9 @@ Three mass categories are commonly defined in \PHpm\ searches:
   \end{itemize}
 }
 
-\MySubSection{Validation}
-\Slide{t}{
-
-  \normalsize
-  \textbf{Two validation regions (VRs) for each SR}
-
-  \begin{itemize}    
-    \footnotesize
-  \item \ttbar enriched: $ \ \ \ \ ==$ 2 b jets, $m_{t^{res}_{H^{\pm}}} \in$ [155, 195] GeV, $\Delta R_{min}(bb)$ > 1.2
-  \item  QCD enriched: $==$ 2 b jets, $m_{t^{res}_{H^{\pm}}} \notin$ [155, 195] GeV, $\Delta R_{min}(bb)$ < 1.0
-  \end{itemize}
-
-  \begin{columns}[T]
-    \begin{column}{0.01\textwidth}
-    \end{column}
-    \begin{column}{0.099\textwidth}
-
-      \vspace{1.25cm}
-      \tikz{\overlaynode<indianred,{oxfordblue,rotate=3}>at(0,5)[draw]{$1M1L_{t^{res}}$};}
-
-      \vspace{2.75cm}
-      \tikz{\hspace{0.3cm}\overlaynode<indianred,{oxfordblue,rotate=3}>at(0,5)[draw]{$2M_{t^{res}}$};}
-
-    \end{column}
-    \begin{column}{0.9\textwidth}
-
-      \vspace{-0.1cm}
-      
-      \threeFigColumnsCustomSize
-          {QCDDataDriven_SR_1T_TopMass50to260_PtBins175_15Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass.pdf}{SR}
-          {QCDDataDriven_VRQCD_1T_TopMass50to230_PtBins175_15Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass.pdf}{$VR_{QCD}$}
-          {QCDDataDriven_VRTT_1T_TopMass50to260_PtBins175_15Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass_v1.pdf}{$VR_{\ttbar}$}
-          {0.76}
-
-          \vspace{-0.55cm}
-          
-      \threeFigColumnsCustomSize      
-          {QCDDataDriven_SR_2T_TopMass50to260_PtBins100to300_17Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass.pdf}{}
-          {QCDDataDriven_VRQCD_2T_TopMass50to260_PtBins100to300_15Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass.pdf}{}
-          {QCDDataDriven_VRTT_2T_TopMass50to260_PtBins100to300_15Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass_v1.pdf}{}
-          {0.76}
-    \end{column}
-  \end{columns}
-
-      %\PlaceText{17mm}{65mm}{\boxed{\tiny{\textbf{Loose WP}}}}
-}
-
 \MySection{Signal extraction}
+
+\iftrue
 \Slide{t}{
 
   A parameterized DNN is developed to extract signal from SM background
@@ -573,9 +527,9 @@ Three mass categories are commonly defined in \PHpm\ searches:
     \vspace{0.05cm}
     
     \oneFigColumns{parameterizedDNN.png}{\textbf{Parameterized DNN}}{1.0}
-
+    
     \vspace{0.3cm}
-
+    
     \begin{itemize}
       \footnotesize
     \item \textcolor{red}{True mass} is the \textcolor{red}{$\theta$} parameter
@@ -618,6 +572,54 @@ Three mass categories are commonly defined in \PHpm\ searches:
         \textcolor{red}{ADD HERE THE OVERTRAINING TEST FOR 2 MASSES}
       }      
 }
+\fi
+
+\iffalse
+\Slide{t}{
+
+  A parameterized DNN is developed to extract signal from SM background
+  \begin{itemize}
+    \small
+  \item \textcolor{blue}{Signal}: $H^{\pm} \rightarrow$ tb for different mass hypotheses
+  \item \textcolor{red}{Background}: \ttbar $\rightarrow$ SR,
+    Combinatorial $\rightarrow$ CR$^{(off\texttt{-}m,t)}$ \TTMCTag
+  \end{itemize}
+
+  \begin{columns}[T]
+    \begin{column}{0.5\textwidth}
+      \vspace{0.05cm}
+      
+      \oneFigColumns{parameterizedDNN.png}{\textbf{Parameterized DNN}}{1.0}
+
+      \vspace{0.3cm}
+
+      \begin{itemize}
+        \footnotesize
+      \item \textcolor{red}{True mass} is the \textcolor{red}{$\theta$} parameter
+      \item In background events, the true mass is randomly assigned to the same values used for signal
+      \item Training (test) is done using 2017 (2018) data %\OrthogonalityTag
+      \end{itemize}
+
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \small
+      %Parameterized DNN trained with 6 \mHpm hypotheses
+      Parameterized DNN is trained using 6 different mass hypotheses.
+      \begin{itemize}
+        \scriptsize
+      \item Training masses = [220, 350, 600, 1000, 1500, 2500] GeV \SolidLineTag
+      \item Performance compared to DNNs with fixed \mHpm \DashedLineTag
+        %\item Comparable results!
+      \end{itemize}
+
+      \oneFigColumns{ROC}{ROC}{0.9}
+      
+    \end{column}
+  \end{columns}
+}
+\fi
+
+
 
 \MySection{Systematic Uncertainties}
 \Slide{t}{
@@ -831,7 +833,7 @@ Three mass categories are commonly defined in \PHpm\ searches:
         \hline
         \textbf{SR1} & \textbf{SR2} & \\
         \hline
-        \cellcolor[gray]{.9}Trigger & \cellcolor[gray]{.9}Trigger & \cellcolor[gray]{.9}\\%& \cellcolor[gray]{.9}\begin{tabular}{@{}c@{}} $H_{T}$ + multijet + 1 or 2 b jets\\  $H_{T}$ + AK8 jet + trim mass $ \ \ $ \end{tabular}\\
+        \cellcolor[gray]{.9}Trigger & \cellcolor[gray]{.9}Trigger & \cellcolor[gray]{.9}same as resolved\\%& \cellcolor[gray]{.9}\begin{tabular}{@{}c@{}} $H_{T}$ + multijet + 1 or 2 b jets\\  $H_{T}$ + AK8 jet + trim mass $ \ \ $ \end{tabular}\\
         $\ell$ veto & $\ell$ veto & same as resolved\\
         \cellcolor[gray]{.9}$=$ 1 $t^{bst}$ &\cellcolor[gray]{.9}$=$ 2
         $t^{bst}$ &  \cellcolor[gray]{.9}\pT > 400 GeV, $|\eta|$ <
@@ -901,8 +903,8 @@ Three mass categories are commonly defined in \PHpm\ searches:
 
     \begin{columns}[T]
       \begin{column}{0.5\textwidth}
-        \oneFigColumns{SF_PNet_TvsQCD_Pass.png}{Pass, TvsQCD, 2018, misID=1$\%$}{0.82}
-        \PlaceText{15mm}{55mm}{\tiny{\textcolor{red}{300~<~\pT~<~400\GeV}}}        
+        \oneFigColumns{SF_PNet_TvsQCD_Pass.png}{Pass, TvsQCD, 2018, misID=1$\%$}{0.81}
+        \PlaceText{16mm}{55mm}{\tiny{\textcolor{red}{300~<~\pT~<~400\GeV}}}        
       \end{column}
       \begin{column}{0.5\textwidth}
 
@@ -914,9 +916,9 @@ Three mass categories are commonly defined in \PHpm\ searches:
           i = top, W, non-matched
         \item SF$_{i}$ free parameters, $\epsilon_{MC,i}$ contant
         \item Number of pass/fail events from each jet-type category in data determined by the SF$_{i}$ ($\epsilon_{Data,i}$ = $\frac{P_{i}}{P_{i}+F_{i}}$)
-          \vspace{0.3cm}
-        \item Scale factors expressed vs jet \pT
-        \item Presentation in \href{https://indico.cern.ch/event/1221195/contributions/5141581/attachments/2556595/4405807/Top_W_Calibration_Talk.pdf}{\textcolor{\MySectionColour}{JME}}
+          \vspace{0.5cm}
+        %\item Scale factors expressed vs jet \pT
+        \item Presentation in \href{https://indico.cern.ch/event/1221195/contributions/5141581/attachments/2556595/4405807/Top_W_Calibration_Talk.pdf}{\textcolor{kBlue}{JME}}
         \end{itemize}
       \end{column}
     \end{columns}
@@ -1045,7 +1047,8 @@ Three mass categories are commonly defined in \PHpm\ searches:
   \item Boosted Analysis:
     \begin{itemize}
       \footnotesize
-    \item boosted top indentification with \texttt{ParticleNet} (mva-based)
+    \item Boosted jet-flavour indentification with  \texttt{ParticleNet}% (mva-based)
+    \item \texttt{ParticleNet} W/t re-calibration
     \item New category with 1 boosted and 1 resolved top
     \item Designed decorrelated top tagger to eliminate mass sculpting effects
     \end{itemize}
@@ -1069,7 +1072,6 @@ Three mass categories are commonly defined in \PHpm\ searches:
   \item Boosted Analysis:
     \begin{itemize}
       \footnotesize
-    \item \texttt{ParticleNet} W/t re-calibration (L.Paizanos)\ProgressTag
     \item Study the merged-W category\ProgressTag
     \item Categorization based on the top tagging rate and $N_{bjets}^{extra}$\ProgressTag
     \item Extract QCD and \ttbar templates for the fit\ProgressTag

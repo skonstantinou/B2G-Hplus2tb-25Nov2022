@@ -210,6 +210,52 @@
   \end{itemize}
 }
 
+\MySubSection{Validation}
+\Slide{t}{
+
+  \normalsize
+  \textbf{Two validation regions (VRs) for each SR}
+
+  \begin{itemize}    
+    \footnotesize
+  \item \ttbar enriched: $ \ \ \ \ ==$ 2 b jets, $m_{t^{res}_{H^{\pm}}} \in$ [155, 195] GeV, $\Delta R_{min}(bb)$ > 1.2
+  \item  QCD enriched: $==$ 2 b jets, $m_{t^{res}_{H^{\pm}}} \notin$ [155, 195] GeV, $\Delta R_{min}(bb)$ < 1.0
+  \end{itemize}
+
+  \begin{columns}[T]
+    \begin{column}{0.01\textwidth}
+    \end{column}
+    \begin{column}{0.099\textwidth}
+
+      \vspace{1.25cm}
+      \tikz{\overlaynode<indianred,{oxfordblue,rotate=3}>at(0,5)[draw]{$1M1L_{t^{res}}$};}
+
+      \vspace{2.75cm}
+      \tikz{\hspace{0.3cm}\overlaynode<indianred,{oxfordblue,rotate=3}>at(0,5)[draw]{$2M_{t^{res}}$};}
+
+    \end{column}
+    \begin{column}{0.9\textwidth}
+
+      \vspace{-0.1cm}
+      
+      \threeFigColumnsCustomSize
+          {QCDDataDriven_SR_1T_TopMass50to260_PtBins175_15Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass.pdf}{SR}
+          {QCDDataDriven_VRQCD_1T_TopMass50to230_PtBins175_15Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass.pdf}{$VR_{QCD}$}
+          {QCDDataDriven_VRTT_1T_TopMass50to260_PtBins175_15Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass_v1.pdf}{$VR_{\ttbar}$}
+          {0.76}
+
+          \vspace{-0.55cm}
+          
+      \threeFigColumnsCustomSize      
+          {QCDDataDriven_SR_2T_TopMass50to260_PtBins100to300_17Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass.pdf}{}
+          {QCDDataDriven_VRQCD_2T_TopMass50to260_PtBins100to300_15Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass.pdf}{}
+          {QCDDataDriven_VRTT_2T_TopMass50to260_PtBins100to300_15Nov2022/DataDrivenPlots/TFsFromSR/HPlusMass_v1.pdf}{}
+          {0.76}
+    \end{column}
+  \end{columns}
+
+}
+
 \MySection{Systematic Uncertainties}
 \MySubSection{QCD measurement}
 \Slide{t}{
